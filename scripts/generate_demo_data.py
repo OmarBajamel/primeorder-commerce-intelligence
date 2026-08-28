@@ -134,9 +134,10 @@ def write_csv(path: Path, rows: Iterable[Dict[str, Any]], fieldnames: List[str])
         writer.writerows(rows)
 
 
-def write_json(path: Path, value: Any) -> None:
+def write_json(path: Path, value: Any, *, compact: bool = False) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    serialized = json.dumps(value, ensure_ascii=False, separators=(",", ":")) if compact else json.dumps(value, indent=2, ensure_ascii=False)
+    path.write_text(serialized + "\n", encoding="utf-8")
 
 
 def round2(value: float) -> float:
@@ -854,7 +855,9 @@ def main() -> None:
     api = build_api(data)
     for name, payload in api.items():
         write_json(output / "api" / f"{name}.json", payload)
-    write_json(args.dashboard_output.resolve(), build_dashboard(data, api))
+    # The browser payload is intentionally compact: GitHub Pages serves it compressed,
+    # and avoiding formatting whitespace reduces download and JSON-parse overhead.
+    write_json(args.dashboard_output.resolve(), build_dashboard(data, api), compact=True)
     evidence = connector_evidence()
     write_json(ROOT / "artifacts" / "evidence" / "connector-status.json", evidence)
     payload_hashes = {}

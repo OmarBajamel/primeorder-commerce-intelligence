@@ -49,7 +49,11 @@ export const sum = (records: PerformanceRecord[], key: keyof Pick<PerformanceRec
 
 export function groupRecords(records: PerformanceRecord[], key: keyof Pick<PerformanceRecord, "date" | "device" | "channel" | "category" | "product">) {
   const grouped = new Map<string, PerformanceRecord[]>();
-  records.forEach((row) => grouped.set(row[key], [...(grouped.get(row[key]) ?? []), row]));
+  records.forEach((row) => {
+    const existing = grouped.get(row[key]);
+    if (existing) existing.push(row);
+    else grouped.set(row[key], [row]);
+  });
   return [...grouped].map(([name, rows]) => ({ name, rows, sessions: sum(rows, "sessions"), activeUserDays: sum(rows, "activeUserDays"), trackedPurchases: sum(rows, "trackedPurchases"), orders: sum(rows, "orders"), units: sum(rows, "units"), revenue: sum(rows, "revenue"), refunds: sum(rows, "refunds") }));
 }
 

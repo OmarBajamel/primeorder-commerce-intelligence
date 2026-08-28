@@ -1,7 +1,9 @@
 import { createReadStream, existsSync, statSync } from "node:fs";
 import { createServer } from "node:http";
 import { extname, resolve, sep } from "node:path";
+import { pipeline } from "node:stream";
 import { fileURLToPath } from "node:url";
+import { createGzip } from "node:zlib";
 
 const root = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const out = resolve(root, "apps", "web", "out");
@@ -34,8 +36,17 @@ const server = createServer((request, response) => {
     response.writeHead(404).end("Not found");
     return;
   }
-  response.writeHead(200, { "content-type": `${types[extname(target)] || "application/octet-stream"}; charset=utf-8`, "cache-control": "no-store" });
-  createReadStream(target).pipe(response);
+  const extension = extname(target);
+  const compressible = [".css", ".html", ".js", ".json", ".svg", ".txt"].includes(extension);
+  const acceptsGzip = /\bgzip\b/.test(request.headers["accept-encoding"] || "");
+  const headers = {
+    "content-type": `${types[extension] || "application/octet-stream"}; charset=utf-8`,
+    "cache-control": extension === ".html" ? "no-store" : "public, max-age=3600",
+    ...(compressible && acceptsGzip ? { "content-encoding": "gzip", vary: "Accept-Encoding" } : {}),
+  };
+  response.writeHead(200, headers);
+  if (compressible && acceptsGzip) pipeline(createReadStream(target), createGzip({ level: 9 }), response, () => {});
+  else createReadStream(target).pipe(response);
 });
 
 server.listen(port, "127.0.0.1", () => console.log(`Static export mounted at http://127.0.0.1:${port}${basePath}/`));
