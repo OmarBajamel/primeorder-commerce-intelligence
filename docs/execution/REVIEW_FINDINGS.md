@@ -2,104 +2,67 @@
 
 ## Review policy
 
-This register records architecture, analytics, security/privacy, frontend/UX and documentation/career review. It is an evidence ledger, not a substitute for fixing defects. Critical/high findings block public release unless the condition is removed; an external limitation may remain only when it does not create an unsafe or misleading artifact and is explicitly documented.
-
-### Severity
+This register records architecture, analytics, connector/security, frontend and documentation review. It distinguishes implemented evidence from recommendations and external limitations. Critical/high findings block public release until verified; accepted limitations must remain visible and must not be presented as passed behavior.
 
 | Severity | Meaning | Release rule |
 |---|---|---|
-| Critical | Secret/private-data exposure, mutation risk, public/live boundary break, exploitable code path or materially false release evidence | Block immediately |
-| High | Material KPI/privacy/security/accessibility/functional error likely to mislead or harm | Block until resolved and verified |
-| Medium | Significant limitation or inconsistency with bounded impact/workaround | Fix when feasible; owner/rationale required if deferred |
-| Low | Minor maintainability/copy/polish issue | May defer with owner |
+| Critical | Public/private boundary break, secret/PII exposure, mutation risk or materially false release evidence | Block immediately |
+| High | Material KPI, privacy, security, accessibility or functional error likely to mislead | Block until resolved and verified |
+| Medium | Significant bounded limitation or inconsistency | Fix or document owner/rationale |
+| Low | Minor maintainability or presentation issue | May defer |
 
-### Status
+Statuses are `OPEN`, `IN_PROGRESS`, `RESOLVED_AWAITING_VERIFICATION`, `VERIFIED` and `ACCEPTED_LIMITATION`.
 
-`OPEN`, `IN_PROGRESS`, `RESOLVED_AWAITING_VERIFICATION`, `VERIFIED`, or `ACCEPTED_LIMITATION`. Only identified rerun/review evidence can set `VERIFIED`.
+## Findings register
 
-## Current findings
+| ID | Track | Severity | Status | Finding and evidence | Resolution / remaining action |
+|---|---|---|---|---|---|
+| `AN-001` | KPI semantics | High | `VERIFIED` | Earlier gross/net/AOV/margin definitions diverged. | Gross is pre-discount/pre-refund; net subtracts discount/refund; AOV uses net/completed orders; margin uses net minus synthetic cost. Revenue and reconciliation tests pass. |
+| `AN-002` | Grain/source | High | `VERIFIED` | Independent review found GA4-defined funnel/acquisition measures sourced from commerce aggregates and users summed as if period-distinct. | Funnel/acquisition now source GA4 models; spend sources a separate Ads seed; UI/API label the additive measure `active_user_days`. Source/grain tests pass. |
+| `AN-003` | Product behavior | High | `VERIFIED` | Product sessions/funnel measures were allocated from commerce order groups, creating unsupported product conversion denominators. | A separate `ga4_product_daily` fixture and staging model now provide declared product-behavior grain; totals reconcile to GA4, and generator/dbt regression tests pass. |
+| `AN-004` | Customer lifecycle | High | `VERIFIED` | Recurrent synthetic customers could appear in both `new` and `returning`, while UI copy claimed first-purchase classification. | Generator now assigns immutable first-purchase date/type per customer and fails on drift. Customer stability tests pass. |
+| `AN-005` | Payment KPI | Medium | `VERIFIED` | Payment refund-rate denominator differed from the canonical gross-revenue formula. | Mart denominator is now gross item revenue and semantic regression coverage passes. |
+| `AN-006` | Quality/reconciliation | Medium | `VERIFIED` | API/dbt check IDs, completeness grains and consent presentation diverged; global tolerance was 15% while daily policy was 10%. | Quality computation and IDs are aligned; UI consumes generated consent evidence; global tolerance is 10%; exact anomaly-count and cross-runtime tests pass. |
+| `DT-001` | Determinism | High | `VERIFIED` | The manifest previously captured a stale recursive `metadata.json` hash. | Metadata is excluded from the first payload scan, written once, then hashed into the manifest. Current manifest has zero mismatches and a dedicated regression test. |
+| `CO-001` | Salla connector | High | `VERIFIED` | Live Salla aggregate rows could return `CONNECTED` without operation-specific required fields. | Each allow-listed operation now has required aggregate-field groups; malformed live projection is rejected and tested. |
+| `CO-002` | Connector status | Medium | `VERIFIED` | File imports were conflated with `FIXTURE_MODE`, and Salla fallback evidence did not fully match implementation. | `FILE_MODE` is distinct and tested; generated connector evidence matches current fixture/import behavior. |
+| `CO-003` | Connector controls | Medium | `VERIFIED` | Typed metadata, bounded retries and safe projection required proof. | Six source-specific models, typed result metadata, transient-only retries and unknown-field stripping pass the 26-test Python suite. Public statuses remain `FIXTURE_MODE`; fresh-clone live statuses remain unauthenticated. |
+| `ME-001` | Measurement | Medium | `VERIFIED` | Initial fixture/event tests did not fully cover the requested commerce sequence and exact anomaly behavior. | All eleven requested event names and parameter/consent coverage fields are present; exact expected anomaly counts are asserted in dbt/generator tests. Live storefront coverage remains unobserved. |
+| `SEC-001` | Security/privacy | High | `VERIFIED` | Public artifacts required evidence against secrets, PII, private paths and error-payload leakage. | Release evidence reports no findings; API log regression excludes injected private markers; screenshot manifest records eight privacy-review passes. |
+| `AR-001` | Containers | Medium | `ACCEPTED_LIMITATION` | Compose files validate, but the local Docker Desktop Linux engine is unavailable, so image build/runtime health were not executed locally. | Keep runtime status unverified. CI is designed for build/up/health/web/down smoke; record success only after an observed workflow run. |
+| `PERF-001` | Performance | Medium | `ACCEPTED_LIMITATION` | Lighthouse mobile performance is 46 despite 100 accessibility/best-practices/SEO; audit reports about 428 KiB transfer, 4.46 s TBT and CLS 0.353. | Reduce payload/client work/layout shift and rerun the same mobile profile. Do not summarize current performance as uniformly green. |
+| `PRIV-001` | Consent audit | Medium | `ACCEPTED_LIMITATION` | Passive storefront evidence could not observe a complete consent default/update journey or prove legal compliance. | Preserve `NOT_OBSERVABLE`; require authorized runtime/staging validation and controller/legal review. Portfolio implementation is not legal advice. |
 
-| ID | Track | Severity | Status | Finding and evidence | Required resolution | Owner |
-|---|---|---|---|---|---|---|
-| `AN-001` | Analytics | High | `RESOLVED_AWAITING_VERIFICATION` | Initial generator used ambiguous post-discount gross semantics. The generator/marts/API now define gross pre-discount/pre-refund and net as gross minus discount and refund. | Re-run deterministic, semantic reconciliation, API and dbt tests on the final commit; inspect UI/tooltips/catalog alignment. | Analytics |
-| `AN-002` | Analytics | High | `RESOLVED_AWAITING_VERIFICATION` | Initial AOV used gross/purchases. The generator, API and executive mart now use net revenue/completed purchases. | Re-run formula regression/API/dbt tests on the final commit and inspect presentation. | Analytics |
-| `AN-003` | Analytics | Medium | `RESOLVED_AWAITING_VERIFICATION` | Initial product/category margin omitted refunds. `int_orders_enriched` now allocates refund proportionally to after-discount item value; product/category margin uses net revenue minus cost. | Re-run order/item/category reconciliation and margin tests on the final commit. | Analytics |
-| `ME-001` | Measurement | Medium | `RESOLVED_AWAITING_VERIFICATION` | Initial fixture covered five events. It now contains all eleven target event names and coverage fields for transaction ID, currency, value, items, item ID/name/category, price, quantity, promotion and consent. | Re-run event coverage/accepted-value/parameter tests on the final commit; retain clear fixture-versus-live wording. | Measurement/Analytics |
-| `ME-002` | Measurement/privacy | Medium | `ACCEPTED_LIMITATION` | Passive audit observed GTM references but no inline data layer/consent default/update or visible consent text on two pages. Evidence explicitly cannot prove absence or compliance. | Keep conclusion `NOT_OBSERVABLE`; an authorized privacy-approved runtime/staging audit and controller/legal review are required for a live conclusion. | Measurement/Privacy |
-| `CO-001` | Connectors/docs | Medium | `RESOLVED_AWAITING_VERIFICATION` | Execution-state active tools and cloned-application statuses describe different environments/capabilities. | Connector documentation now presents both axes and exact capability scope. Verify dashboard wording against the final artifact. | Connectors/Docs |
-| `CO-002` | Connectors | Medium | `VERIFIED` | Source-specific Pydantic models validate dates, enums, non-negative measures and bounded rates before allow-listed projection; the normalized model forbids extras. | Malformed metric and unknown-field projection tests pass in the 22-test Python suite. | Connectors |
-| `CO-003` | Connectors | Medium | `VERIFIED` | `ConnectorResult` now carries schema version, timezone, report range, currency and evidence reference; injected live reads implement bounded exponential retry for transient errors only. | Metadata and deterministic three-attempt/0.25–0.5 second retry tests pass. | Connectors |
-| `SEC-001` | Security | Medium | `VERIFIED` | FastAPI unexpected-error logging now records only request ID and route, without exception text or traceback. | Log-capture privacy regression proves an injected upstream marker is absent from response and logs. | API/Security |
-| `AR-001` | Architecture/operations | High | `RESOLVED_AWAITING_VERIFICATION` | Initial Compose referenced a missing API Dockerfile. `services/api/Dockerfile` and `.dockerignore` are now present. | Run Compose build, API health/readiness, web smoke check and cleanup on the release candidate. | Architecture/API |
+## Final verification snapshot
 
-## Review pass template
+| Pass | Result | Evidence |
+|---|---|---|
+| Architecture and source/grain review | `VERIFIED` with container limitation | Static/public-private boundaries reviewed; independent high findings remediated; Compose syntax passes |
+| Analytics | `VERIFIED` | 28 models + 78 data tests + 11 seeds = 117/117 successful dbt nodes |
+| Python/API/connectors/generator | `VERIFIED` | 26 tests passed |
+| Frontend unit/type safety | `VERIFIED` | 10 unit tests passed; TypeScript check passed |
+| Browser behavior | `VERIFIED` | 11 E2E checks passed across nine routes and interaction/mobile workflows |
+| Accessibility | `VERIFIED` | 6 checks passed; no serious/critical axe finding in tested routes |
+| Static export | `VERIFIED` | 1 scenario passed across all nine direct-navigation routes under base path |
+| Public release/privacy scan | `VERIFIED` | Release checker `PASS`; eight screenshot privacy reviews `PASS` |
+| Lighthouse | `ACCEPTED_LIMITATION` | Desktop 85/100/100/100; mobile 46/100/100/100 |
+| Local Compose runtime | `NOT_RUN` | Docker engine unavailable; CI smoke designed, not yet evidenced here |
 
-Complete each pass against the release candidate SHA. Add findings above, then record the pass result below.
+## Resolution evidence
 
-### Architecture
-
-- [ ] Public static and local-private boundaries match built code/network behavior.
-- [ ] Contracts are aligned across generator, connectors, dbt, API and frontend.
-- [ ] GitHub Pages base-path/direct-navigation behavior is verified.
-- [ ] Complexity, failure states and maintainability reviewed.
-
-### Analytics
-
-- [ ] Every mart has one declared/tested grain.
-- [ ] KPI formulas match SQL/API/UI and machine-readable catalog.
-- [ ] Source precedence, filters, currency/timezone/refund scope are explicit.
-- [ ] Fact joins and allocation avoid double counting.
-- [ ] Expected anomalies are detected; unexpected failures are not hidden.
-
-### Security and privacy
-
-- [ ] Secrets/PII/private paths/history/bundle/release archives scanned.
-- [ ] Connectors are read-only and least-scope; no silent fallback.
-- [ ] Logs/errors/screenshots/evidence contain no protected data.
-- [ ] Dependency/action/license review complete.
-- [ ] Consent conclusions are scoped and evidence-based.
-
-### Frontend and UX
-
-- [ ] All main routes desktop/tablet/mobile in EN and AR.
-- [ ] Correct `lang`/RTL, logical layout, readable charts/tables.
-- [ ] Keyboard/focus/labels/contrast/axe review.
-- [ ] Loading, empty, unsupported, unauthenticated and error states are distinct.
-- [ ] Recruiter can understand problem, evidence and synthetic disclaimer quickly.
-
-### Documentation and career
-
-- [ ] Claims and counts match final evidence.
-- [ ] Implemented work is separated from recommendations.
-- [ ] No unmeasured business impact claim.
-- [ ] German wording is natural and role-relevant.
-- [ ] Final repository/demo/release/commit/workflow links are exact and verified.
-
-## Pass results
-
-| Pass | Reviewer | Candidate SHA | Result | Critical | High | Medium | Low | Evidence / date |
-|---|---|---|---|---:|---:|---:|---:|---|
-| Architecture | Technical documentation review | not yet final | `RESOLVED_AWAITING_VERIFICATION` | 0 | 0 | 0 | 0 | Dockerfile/config now present; runtime verification pending, 2026-08-28 |
-| Analytics | Technical documentation review | not yet final | `RESOLVED_AWAITING_VERIFICATION` | 0 | 0 | 0 | 0 | Code inspection; track reports passing pytest/dbt runs, final counts/rerun pending, 2026-08-28 |
-| Security/privacy/connectors | Technical documentation review | not yet final | `RESOLVED_AWAITING_FINAL_REVIEW` | 0 | 0 | 1 | 0 | Connector schema/metadata/retry and safe logging fixes verified locally; passive-audit limitation accepted, 2026-08-28 |
-| Frontend/UX |  |  | `NOT_RUN` |  |  |  |  |  |
-| Documentation/career |  |  | `NOT_RUN` |  |  |  |  |  |
-
-## Resolution log
-
-| Finding | Change/decision | Verification command/evidence | Reviewer | Date |
-|---|---|---|---|---|
-| `AN-001` | Gross/net/discount contract aligned across generator/marts/API | Track-reported pytest/dbt pass; exact final count/rerun pending | Technical documentation review | 2026-08-28 |
-| `AN-002` | AOV aligned to net revenue/completed purchases | Track-reported semantic/API/dbt tests; final rerun pending | Technical documentation review | 2026-08-28 |
-| `AN-003` | Proportional item refund allocation and margin semantics added | Track-reported reconciliation/dbt tests; final rerun pending | Technical documentation review | 2026-08-28 |
-| `ME-001` | Eleven-event fixture and ten parameter/consent coverage fields added | `assert_event_spec_coverage.sql`; track-reported dbt pass; final rerun pending | Technical documentation review | 2026-08-28 |
-| `AR-001` | API Dockerfile and Docker build context exclusions added | Static file review passed; Compose runtime verification pending | Technical documentation review | 2026-08-28 |
-| `CO-002` | Added connector-specific Pydantic models and safe normalized projection | Python connector malformed-metric/unknown-field tests pass | Main release verification | 2026-08-28 |
-| `CO-003` | Added metadata envelope and bounded transient retry/backoff | Python connector metadata and retry tests pass | Main release verification | 2026-08-28 |
-| `SEC-001` | Removed exception payload/traceback logging and added privacy regression | `pnpm test:api` (22 passed after final rerun) | Main release verification | 2026-08-28 |
+- Current dbt `manifest.json` records 28 models and 78 tests; `run_results.json` records 117 passing/successful nodes.
+- The current public manifest verifies every declared file hash with zero mismatch.
+- Connector status evidence contains six entries, all `FIXTURE_MODE`, with no payloads persisted.
+- Browser test definitions expand to eleven E2E and six accessibility checks; the last Playwright result is passed.
+- Screenshot evidence contains eight hashed, privacy-reviewed `public-demo` captures.
+- Lighthouse artifacts record the desktop/mobile score sets and payload/performance limitations above.
+- `docker compose config --quiet` passes; `docker info` fails because the local Docker Desktop Linux engine socket is unavailable.
 
 ## Release decision
 
-- Candidate SHA: `not yet recorded`
-- Decision: **PENDING — no open critical/high finding in this documentation review; final runtime and multi-track verification is not yet recorded**
-- Decision owner/date: pending
+- Candidate SHA: not final; working tree under review
+- Critical findings: 0 open
+- High findings: 0 open
+- Decision: **CONDITIONAL**
+- Conditions: successful final clean-clone/CI run, exact public-link verification, and continued disclosure of the local container and mobile-performance limitations
+- Commercial claim status: no measured revenue, conversion, traffic, SEO or cost-saving uplift claimed

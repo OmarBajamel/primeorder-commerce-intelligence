@@ -1,0 +1,21 @@
+PROJECT TITLE
+PrimeOrder Commerce Intelligence - End-to-End Commerce Analytics & Measurement Engineering
+
+ENGLISH ONE-LINE SUMMARY
+Built a privacy-separated, bilingual commerce intelligence platform spanning synthetic data generation, six read-only connector contracts, dbt/DuckDB modeling, FastAPI, and a nine-route Next.js dashboard.
+
+ENGLISH BULLETS
+- Established defensible KPI ownership across commerce, GA4, ads, search, merchant diagnostics, and behavioral analytics, with explicit reconciliation and data-quality warnings.
+- Implemented 28 dbt models, 78 data tests, an 11-event measurement specification, an accessible EN/AR RTL dashboard, filters, comparison, CSV export, and a read-only API.
+- Verified 117 dbt nodes, 26 Python tests, 10 frontend tests, 17 browser/accessibility checks, static hosting, dependency audits, and privacy-reviewed release evidence.
+
+DEUTSCHE KURZFASSUNG
+Entwicklung einer datenschutzorientierten, zweisprachigen Commerce-Intelligence-Plattform mit synthetischer Datengenerierung, sechs Read-only-Connectoren, dbt/DuckDB, FastAPI und einem Next.js-Dashboard mit neun Bereichen.
+
+DEUTSCHE BULLETS
+- Nachvollziehbare KPI-Verantwortung für Commerce, GA4, Ads, Suche, Merchant-Diagnostik und Verhaltensanalyse definiert sowie Abweichungen und Datenqualitätsrisiken transparent gemacht.
+- 28 dbt-Modelle, 78 Datentests, eine Spezifikation mit 11 E-Commerce-Events, ein barrierearmes EN/AR-RTL-Dashboard, Filter, Vergleich, CSV-Export und eine Read-only-API umgesetzt.
+- 117 dbt-Knoten, 26 Python-Tests, 10 Frontend-Tests, 17 Browser-/Accessibility-Prüfungen, Static Hosting, Dependency-Audits und datenschutzgeprüfte Release-Evidenz verifiziert.
+
+Live Demo | https://omarbajamel.github.io/primeorder-commerce-intelligence/
+GitHub | https://github.com/OmarBajamel/primeorder-commerce-intelligence

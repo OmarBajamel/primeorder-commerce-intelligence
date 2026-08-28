@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-08-28T20:10:00+02:00",
+  "release_candidate": "v1.0.0",
+  "data_mode": "public-demo",
+  "results": {
+    "lint": { "status": "PASS" },
+    "typescript": { "status": "PASS" },
+    "frontend_unit": { "status": "PASS", "files": 4, "tests": 10 },
+    "python_api_connectors_generator": { "status": "PASS", "tests": 26 },
+    "dbt": {
+      "status": "PASS",
+      "nodes": 117,
+      "models": 28,
+      "data_tests": 78,
+      "seeds": 11,
+      "warn": 0,
+      "error": 0
+    },
+    "browser_e2e": { "status": "PASS", "tests": 11 },
+    "accessibility": { "status": "PASS", "tests": 6 },
+    "static_export": { "status": "PASS", "tests": 1, "routes": 9 },
+    "dependency_audits": {
+      "status": "PASS",
+      "pnpm_high_or_critical": 0,
+      "pip_known_vulnerabilities": 0,
+      "pip_broken_requirements": 0
+    },
+    "compose_config": { "status": "PASS" },
+    "local_container_runtime": {
+      "status": "NOT_RUN",
+      "reason": "Docker Desktop Linux engine was unavailable locally; CI container smoke is the release authority."
+    },
+    "release_scan": { "status": "PASS" },
+    "screenshot_privacy_review": { "status": "PASS", "screenshots": 8 },
+    "lighthouse_desktop": {
+      "performance": 85,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    },
+    "lighthouse_mobile": {
+      "performance": 46,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    }
+  },
+  "claims_boundary": "All public data and screenshots are synthetic. Verification demonstrates implementation quality, not commercial uplift."
+}
