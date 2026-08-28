@@ -1,0 +1,13 @@
+{
+  "mode": "public-demo",
+  "tracked_file_count": 231,
+  "required_files_missing": [],
+  "secret_pii_findings": [],
+  "git_history_findings": [],
+  "release_archive_findings": [],
+  "archive_scan_scope": "member names plus text-like members up to 5 MB; binary visual artifacts require separate render review",
+  "private_paths_tracked": [],
+  "screenshot_manifest_present": true,
+  "status": "PASS",
+  "failures": []
+}
