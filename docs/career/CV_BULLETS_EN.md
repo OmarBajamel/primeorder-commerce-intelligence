@@ -1,6 +1,6 @@
 # CV bullets - English
 
-**One-line summary**  
+**One-line summary**
 Built a privacy-separated, bilingual commerce intelligence platform spanning synthetic data generation, six read-only connector contracts, dbt/DuckDB modeling, FastAPI, and a nine-route Next.js dashboard.
 
 **Three bullets**

@@ -1,6 +1,6 @@
 # CV-Bullets - Deutsch
 
-**Einzeilige Zusammenfassung**  
+**Einzeilige Zusammenfassung**
 Entwicklung einer datenschutzorientierten, zweisprachigen Commerce-Intelligence-Plattform mit synthetischer Datengenerierung, sechs Read-only-Connectoren, dbt/DuckDB, FastAPI und einem Next.js-Dashboard mit neun Bereichen.
 
 **Drei Bullets**

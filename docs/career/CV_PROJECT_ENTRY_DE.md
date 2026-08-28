@@ -8,7 +8,7 @@ Entwicklung eines datenschutzorientierten Commerce-Intelligence-Systems für ein
 - Responsives Dashboard mit neun Bereichen in Englisch und Arabisch/RTL umgesetzt, gestützt auf 28 dbt-Modelle und 78 Datentests sowie zugängliche Diagramme, Filter, Vergleich und CSV-Export.
 - 117 dbt-Knoten, 26 Python-Tests, 10 Frontend-Unit-Tests, 17 Browser-/Accessibility-Prüfungen, einen Static-Export-Test, Dependency-Audits und einen datenschutzsicheren Release-Prozess verifiziert.
 
-**Live-Demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/  
+**Live-Demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/
 **GitHub:** https://github.com/OmarBajamel/primeorder-commerce-intelligence
 
 Alle öffentlichen Daten sind synthetisch. Es wird kein kommerzieller Uplift behauptet.

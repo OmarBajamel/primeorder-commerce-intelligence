@@ -20,5 +20,5 @@ Entwicklung einer datenschutzorientierten, zweisprachigen Commerce-Intelligence-
 - 28 dbt-Modelle, 78 Datentests, eine Spezifikation mit 11 E-Commerce-Events, ein barrierearmes EN/AR-RTL-Dashboard, Filter, Vergleich, CSV-Export und eine Read-only-API umgesetzt.
 - 117 dbt-Knoten, 26 Python-Tests, 10 Frontend-Tests, 17 Browser-/Accessibility-Prüfungen, Static Hosting, Dependency-Audits und datenschutzgeprüfte Release-Evidenz verifiziert.
 
-**Live Demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/  
+**Live Demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/
 **GitHub:** https://github.com/OmarBajamel/primeorder-commerce-intelligence

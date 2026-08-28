@@ -8,7 +8,7 @@ Built a privacy-separated commerce intelligence system for a Saudi digital-produ
 - Delivered a nine-route English/Arabic RTL dashboard backed by 28 dbt models and 78 data tests, with accessible charts, filters, comparison, CSV export, and a read-only analytics API.
 - Verified 117 dbt nodes, 26 Python tests, 10 frontend unit tests, 17 browser/accessibility checks, one static-export test, dependency audits, and a privacy-safe public release workflow.
 
-**Live Demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/  
+**Live Demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/
 **GitHub:** https://github.com/OmarBajamel/primeorder-commerce-intelligence
 
 All public data is synthetic. No commercial uplift is claimed.

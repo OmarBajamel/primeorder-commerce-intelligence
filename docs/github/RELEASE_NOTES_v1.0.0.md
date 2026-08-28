@@ -4,7 +4,7 @@
 
 Version 1.0.0 is the first portfolio release of an evidence-first commerce measurement system for PrimeOrder’s Saudi digital-commerce context. It combines commercial KPIs, GA4 funnel behavior, product and acquisition analysis, SEO/Merchant reporting, privacy-safe customer segments, source reconciliation, and an evidence-linked action backlog.
 
-**Live demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/  
+**Live demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/
 **Repository:** https://github.com/OmarBajamel/primeorder-commerce-intelligence
 
 ## What ships
