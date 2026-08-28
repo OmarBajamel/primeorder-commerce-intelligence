@@ -37,13 +37,14 @@ class Period(StrictModel):
 class TimeSeriesPoint(StrictModel):
     date: date
     sessions: float = Field(ge=0)
-    purchases: float = Field(ge=0)
+    tracked_purchases: float = Field(ge=0)
+    completed_orders: float = Field(ge=0)
     net_revenue_sar: float
 
 
 class SummaryTotals(StrictModel):
-    sessions: float; users: float; product_views: float; add_to_carts: float
-    begin_checkouts: float; purchases: float; units_sold: float
+    sessions: float; active_user_days: float; product_views: float; add_to_carts: float
+    begin_checkouts: float; tracked_purchases: float; completed_orders: float; units_sold: float
     gross_revenue_sar: float; discount_sar: float; refund_sar: float
     net_revenue_sar: float; cost_sar: float; ad_spend_sar: float
     average_order_value_sar: float; purchase_conversion_rate: float
@@ -81,7 +82,7 @@ class ProductsResponse(StrictModel):
 
 class AcquisitionPerformance(StrictModel):
     channel: str; source: str; medium: str; campaign: str
-    sessions: int; purchases: int; net_revenue_sar: float
+    sessions: int; active_user_days: int; tracked_purchases: int; purchase_revenue_sar: float
     ad_spend_sar: float; conversion_rate: float; roas: Optional[float]
 
 
@@ -103,7 +104,7 @@ class SEOResponse(StrictModel):
 
 class CustomerSegment(StrictModel):
     customer_type: Literal["new", "returning"]
-    sessions: int; purchases: int; net_revenue_sar: float; revenue_share: float
+    customers: int; completed_orders: int; net_revenue_sar: float; revenue_share: float
 
 
 class CustomersResponse(StrictModel):
@@ -138,7 +139,7 @@ class InsightsResponse(StrictModel):
     items: List[Insight]
 
 
-ConnectorState = Literal["CONNECTED", "READY_NOT_AUTHENTICATED", "FIXTURE_MODE", "UNAVAILABLE", "FAILED_WITH_EVIDENCE"]
+ConnectorState = Literal["CONNECTED", "READY_NOT_AUTHENTICATED", "FIXTURE_MODE", "FILE_MODE", "UNAVAILABLE", "FAILED_WITH_EVIDENCE"]
 
 
 class ConnectorReportRange(StrictModel):

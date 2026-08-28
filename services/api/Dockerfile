@@ -6,17 +6,15 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /workspace
 
-COPY requirements.txt ./requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+COPY services/api/requirements.lock ./services/api/requirements.lock
+RUN pip install --no-cache-dir --require-hashes -r services/api/requirements.lock
 
 COPY packages ./packages
 COPY services ./services
-COPY scripts ./scripts
-COPY data ./data
-COPY analytics ./analytics
-COPY apps/web/public ./apps/web/public
+COPY data/public-demo ./data/public-demo
 
-RUN python scripts/generate_demo_data.py
+RUN useradd --create-home --uid 10001 appuser && chown -R appuser:appuser /workspace
+USER appuser
 
 EXPOSE 8000
-CMD ["uvicorn", "services.api.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "services.api.app.main:app", "--host", "0.0.0.0", "--port", "8000", "--no-access-log"]

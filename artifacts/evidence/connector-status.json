@@ -11,6 +11,7 @@
       "live_status": "READY_NOT_AUTHENTICATED",
       "read_only": true,
       "fallback_formats": [
+        "csv",
         "json"
       ],
       "fixture_fresh_through": "2025-12-31",

@@ -41,10 +41,12 @@ The current fixed-seed implementation materializes these CSV schemas. All moneta
 | Seed/source | Physical grain | Key fields/measures |
 |---|---|---|
 | `products` | one row per invented product (12 rows) | `product_id`, EN/AR names, category, brand, list price, unit cost, active flag |
-| `commerce_daily` | date × generated acquisition segment/device/city/payment/customer type (1,095 rows) | sessions, users, four funnel counts, purchases, units, gross revenue, discount, refund, net revenue, reliable synthetic cost, ad spend |
-| `orders` | one invented order (9,075 rows) | order/tracking/customer demo keys, date, acquisition/device/city/payment/coupon/customer type/status, gross/discount/refund/net revenue |
+| `commerce_daily` | date × generated acquisition segment/device/city/payment (1,095 rows) | completed purchases, units, gross revenue, discount, refund, net revenue and reliable synthetic cost; no behavior or ad spend |
+| `orders` | one invented order (9,075 rows) | order/tracking/customer demo keys, derived first-purchase date and stable lifecycle type, acquisition/device/city/payment/coupon/status, gross/discount/refund/net revenue |
 | `order_items` | one invented order item line (9,075 rows) | order/date/product, quantity, pre-discount item revenue, cost, discount |
 | `ga4_daily` | date × acquisition segment/device (1,095 rows) | sessions/users/funnel/purchases, purchase revenue, consent-state coverage |
+| `ga4_product_daily` | date × acquisition segment/device × primary product (13,140 rows) | sessions, active user-days, funnel reaches and tracked purchases generated from an exogenous preference profile independent of order shares |
+| `google_ads_daily` | date × paid acquisition campaign (364 rows) | clicks, conversions, conversion value and ad spend |
 | `events` | date × source × device × eleven event names (12,045 rows) | event count plus coverage for transaction ID, currency, value, items, item ID/name/category, price, quantity, promotion and consent state |
 | `search_console` | date × query × page × country × device (708 rows) | clicks, impressions, CTR, average position, branded flag |
 | `merchant_diagnostics` | weekly snapshot × product (636 rows) | destination, status, issue code, affected items |
@@ -124,11 +126,11 @@ Grain: one row per connector and observation time/version. Contains supported ca
 
 ## Facts
 
-Likewise, the names below describe fact concepts. The current public implementation materializes nine source-shaped staging models, four intermediate models and the twelve named marts rather than separate `fct_*` physical models for every concept.
+Likewise, the names below describe fact concepts. The current public implementation materializes eleven source-shaped staging models, five intermediate models and the twelve named marts rather than separate `fct_*` physical models for every concept.
 
 ### `fct_sessions`
 
-Implemented GA4 fixture grain: date × channel/source/medium/campaign × device. Measures include `sessions`, `users`, funnel counts, purchases, purchase revenue and consent-state coverage. The broader target may include `new_users` and `engaged_sessions` when available. GA4 privacy thresholding or sampling metadata must accompany affected live extracts.
+Implemented GA4 fixture grain: date × channel/source/medium/campaign × device. Measures include `sessions`, daily active users, funnel counts, tracked purchases, purchase revenue and consent-state coverage. Aggregated marts rename summed daily active users to `active_user_days`; they never claim a distinct period user total. The product-scoped companion fixture uses a mutually exclusive primary-product allocation independent of commerce order shares. GA4 privacy thresholding or sampling metadata must accompany affected live extracts.
 
 ### `fct_events`
 
@@ -178,12 +180,12 @@ Grain: reporting date × metric × comparison dimensions. Stores merchant value,
 
 | Mart | Declared grain | Primary measures | Join/usage cautions |
 |---|---|---|---|
-| `mart_executive_daily` | date | orders, gross/net revenue, refunds, sessions, users, conversion | Cross-source measures stay labelled; do not sum ratios. |
+| `mart_executive_daily` | date | completed orders, gross/net revenue, refunds, GA4 sessions, active user-days, tracked purchases and conversion | Cross-source measures stay labelled; do not sum ratios or call user-days distinct users. |
 | `mart_funnel_daily` | date × device × channel/source | distinct sessions per funnel step and step rates | Pre-aggregate before joining to orders. |
 | `mart_product_performance` | product | units, pre-discount revenue, discount, allocated refund, net revenue, reliable synthetic margin | Unknown product is explicit; current public mart is full-period. |
 | `mart_category_performance` | category | units, pre-discount revenue, discount, allocated refund, net revenue/share, reliable synthetic margin | Current public mart is full-period; category share uses the same scope. |
-| `mart_acquisition_performance` | channel × source × medium | users, sessions, purchases, net revenue, spend, conversion, ROAS | Current public mart is full-period synthetic; live attribution/source must be labelled. |
-| `mart_campaign_performance` | campaign × channel | sessions, purchases, attributed revenue, spend, CPA/ROAS | Current public mart is full-period synthetic; do not mix incompatible live attribution scopes. |
+| `mart_acquisition_performance` | channel × source × medium | active user-days, GA4 sessions/tracked purchases/purchase revenue, Ads spend, conversion and ROAS | `active_user_days` is additive and not a distinct-user claim; GA4 and Ads scopes must align. |
+| `mart_campaign_performance` | campaign × channel | GA4 sessions/tracked purchases/purchase revenue, Ads spend, CPA/ROAS | Current public mart is full-period synthetic; do not mix incompatible live attribution scopes. |
 | `mart_search_performance` | query × page × branded flag | clicks, impressions, CTR, weighted position, fresh-through date | Current public mart rolls up country/device/date; GSC detail may not reconcile to property totals. |
 | `mart_customer_mix` | customer type | anonymous synthetic customers, orders, net revenue, orders/customer, revenue share | Public pseudonyms are invented; live identity requires a separate privacy decision. |
 | `mart_payment_performance` | payment method | orders, revenue, refunds, refund rate, AOV | Current public mart is full-period; no payment credentials. |

@@ -15,7 +15,7 @@
       "priority": 2,
       "area": "funnel",
       "title": "Investigate checkout abandonment",
-      "evidence": "36.9% synthetic checkout-to-purchase abandonment",
+      "evidence": "32.5% synthetic GA4 checkout-to-purchase abandonment",
       "confidence": "medium",
       "recommended_action": "Segment checkout friction by device and payment method, then test one change."
     },

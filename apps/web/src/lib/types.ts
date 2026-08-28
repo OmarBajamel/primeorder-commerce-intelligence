@@ -3,13 +3,13 @@ export type LocalizedText = { en: string; ar: string };
 
 export interface PerformanceRecord {
   date: string; device: string; channel: string; category: string; product: string;
-  sessions: number; users: number; viewItem: number; addToCart: number; beginCheckout: number;
-  orders: number; units: number; revenue: number; refunds: number;
+  sessions: number; activeUserDays: number; viewItem: number; addToCart: number; beginCheckout: number;
+  trackedPurchases: number; orders: number; units: number; revenue: number; refunds: number;
 }
 
 export interface ConnectorStatus {
   id: string; name: string;
-  status: "FIXTURE_MODE" | "CONNECTED" | "READY_NOT_AUTHENTICATED" | "UNAVAILABLE" | "FAILED_WITH_EVIDENCE";
+  status: "FIXTURE_MODE" | "FILE_MODE" | "CONNECTED" | "READY_NOT_AUTHENTICATED" | "UNAVAILABLE" | "FAILED_WITH_EVIDENCE";
   freshness: string; records: number;
 }
 
@@ -34,8 +34,8 @@ export interface DashboardData {
   records: PerformanceRecord[];
   seo: {
     queries: Array<{ query: LocalizedText; type: "Branded" | "Non-branded"; clicks: number; impressions: number; ctr: number; position: number }>;
-    landingPages: Array<{ page: string; clicks: number; sessions: number; orders: number; revenue: number }>;
-    merchantDiagnostics: Array<{ issue: LocalizedText; affected: number; severity: "Low" | "Medium" | "High"; status: string }>;
+    landingPages: Array<{ page: string; clicks: number; impressions: number; ctr: number }>;
+    merchantDiagnostics: Array<{ issue: LocalizedText; affectedItemSnapshots: number; severity: "Low" | "Medium" | "High"; status: string }>;
   };
   customers: {
     segments: Array<{ segment: LocalizedText; customers: number; orders: number; revenue: number; share: number }>;
@@ -43,7 +43,7 @@ export interface DashboardData {
     valueDistribution: Array<{ band: string; customers: number }>;
   };
   quality: {
-    healthScore: number; connectors: ConnectorStatus[]; rules: QualityRule[];
+    healthScore: number; consentStateCoverage: number; connectors: ConnectorStatus[]; rules: QualityRule[];
     reconciliation: { sallaOrders: number; ga4Orders: number; orderVariance: number; sallaRevenue: number; ga4Revenue: number; revenueVariance: number };
   };
   insights: Insight[];

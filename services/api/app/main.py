@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import time
 import uuid
 from datetime import date
@@ -35,6 +36,7 @@ from services.api.app.repository import PublicDemoRepository
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
 logger = logging.getLogger("primeorder.api")
 repository = PublicDemoRepository()
+SAFE_REQUEST_ID = re.compile(r"^[A-Za-z0-9._-]{1,64}$")
 
 app = FastAPI(
     title="PrimeOrder Commerce Intelligence API",
@@ -51,7 +53,8 @@ def _error(status_code: int, code: str, message: str, request_id: str) -> JSONRe
 
 @app.middleware("http")
 async def request_context(request: Request, call_next):
-    request_id = request.headers.get("x-request-id", str(uuid.uuid4()))[:64]
+    supplied_request_id = request.headers.get("x-request-id", "")
+    request_id = supplied_request_id if SAFE_REQUEST_ID.fullmatch(supplied_request_id) else str(uuid.uuid4())
     request.state.request_id = request_id
     started = time.perf_counter()
     try:
@@ -109,22 +112,30 @@ def summary(date_from: Optional[date] = None, date_to: Optional[date] = None) ->
         raise HTTPException(status_code=400, detail="date_from must not be after date_to")
     if date_from or date_to:
         result.timeseries = [point for point in result.timeseries if (not date_from or point.date >= date_from) and (not date_to or point.date <= date_to)]
-        rows = repository.commerce_period(date_from, date_to)
-        if not rows:
+        commerce_rows = repository.fixture_period("commerce_daily", date_from, date_to)
+        ga4_rows = repository.fixture_period("ga4_daily", date_from, date_to)
+        ads_rows = repository.fixture_period("google_ads_daily", date_from, date_to)
+        if not commerce_rows or not ga4_rows:
             raise HTTPException(status_code=404, detail="No analytics data exists for the requested period")
-        measure_names = [
-            "sessions", "users", "product_views", "add_to_carts", "begin_checkouts", "purchases",
-            "units_sold", "gross_revenue_sar", "discount_sar", "refund_sar", "net_revenue_sar",
-            "cost_sar", "ad_spend_sar",
-        ]
-        totals = {name: sum(float(row[name]) for row in rows) for name in measure_names}
+        commerce_names = ["purchases", "units_sold", "gross_revenue_sar", "discount_sar", "refund_sar", "net_revenue_sar", "cost_sar"]
+        ga4_names = ["sessions", "users", "product_views", "add_to_carts", "begin_checkouts", "purchases"]
+        commerce_totals = {name: sum(float(row[name]) for row in commerce_rows) for name in commerce_names}
+        ga4_totals = {name: sum(float(row[name]) for row in ga4_rows) for name in ga4_names}
+        totals = {
+            "sessions": ga4_totals["sessions"], "active_user_days": ga4_totals["users"],
+            "product_views": ga4_totals["product_views"], "add_to_carts": ga4_totals["add_to_carts"],
+            "begin_checkouts": ga4_totals["begin_checkouts"], "tracked_purchases": ga4_totals["purchases"],
+            "completed_orders": commerce_totals["purchases"],
+            **{name: commerce_totals[name] for name in commerce_names if name != "purchases"},
+            "ad_spend_sar": sum(float(row["ad_spend_sar"]) for row in ads_rows),
+        }
         totals.update({
-            "average_order_value_sar": round(totals["net_revenue_sar"] / totals["purchases"], 2),
-            "purchase_conversion_rate": round(totals["purchases"] / totals["sessions"], 6),
+            "average_order_value_sar": round(totals["net_revenue_sar"] / totals["completed_orders"], 2),
+            "purchase_conversion_rate": round(totals["tracked_purchases"] / totals["sessions"], 6),
             "refund_rate": round(totals["refund_sar"] / totals["gross_revenue_sar"], 6),
             "gross_margin_sar": round(totals["net_revenue_sar"] - totals["cost_sar"], 2),
         })
-        selected_dates = sorted(date.fromisoformat(row["date"]) for row in rows)
+        selected_dates = sorted(date.fromisoformat(row["date"]) for row in commerce_rows)
         result.totals = SummaryTotals.model_validate(totals)
         result.period = Period(start=selected_dates[0], end=selected_dates[-1], days=(selected_dates[-1] - selected_dates[0]).days + 1)
     return result

@@ -3,38 +3,38 @@
   "steps": [
     {
       "step": "sessions",
-      "count": 139766,
+      "count": 136437,
       "step_conversion_rate": 1.0,
       "overall_conversion_rate": 1.0,
       "abandonment_rate": 0.0
     },
     {
       "step": "product_views",
-      "count": 102363,
-      "step_conversion_rate": 0.732388,
-      "overall_conversion_rate": 0.732388,
-      "abandonment_rate": 0.267612
+      "count": 98752,
+      "step_conversion_rate": 0.723792,
+      "overall_conversion_rate": 0.723792,
+      "abandonment_rate": 0.276208
     },
     {
       "step": "add_to_carts",
-      "count": 24086,
-      "step_conversion_rate": 0.2353,
-      "overall_conversion_rate": 0.172331,
-      "abandonment_rate": 0.7647
+      "count": 22690,
+      "step_conversion_rate": 0.229767,
+      "overall_conversion_rate": 0.166304,
+      "abandonment_rate": 0.770233
     },
     {
       "step": "begin_checkouts",
-      "count": 14382,
-      "step_conversion_rate": 0.59711,
-      "overall_conversion_rate": 0.102901,
-      "abandonment_rate": 0.40289
+      "count": 13207,
+      "step_conversion_rate": 0.582063,
+      "overall_conversion_rate": 0.096799,
+      "abandonment_rate": 0.417937
     },
     {
-      "step": "purchases",
-      "count": 9075,
-      "step_conversion_rate": 0.630997,
-      "overall_conversion_rate": 0.06493,
-      "abandonment_rate": 0.369003
+      "step": "tracked_purchases",
+      "count": 8914,
+      "step_conversion_rate": 0.674945,
+      "overall_conversion_rate": 0.065334,
+      "abandonment_rate": 0.325055
     }
   ]
 }

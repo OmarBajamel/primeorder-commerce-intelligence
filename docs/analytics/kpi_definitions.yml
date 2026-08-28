@@ -265,15 +265,24 @@ definitions:
     availability: AVAILABLE_PUBLIC_DEMO
     owner: Digital Analytics
     caveat: Flag negative results caused by coverage/order anomalies; do not clamp.
-  - id: acquisition.users
-    label: Users
-    formula: source_reported_distinct_users
+  - id: acquisition.active_user_days
+    label: Active user-days
+    formula: sum(source_reported_daily_active_users)
     source_priority: [ga4]
-    grain: period_acquisition_device
-    filters: [selected_reporting_scope]
+    grain: date_acquisition_device
+    filters: [additive_daily_export_grain]
     availability: AVAILABLE_PUBLIC_DEMO
     owner: Growth Analytics
-    caveat: Live users are non-additive and subject to identity and thresholding.
+    caveat: This is additive activity volume, not a distinct period-user count.
+  - id: acquisition.users
+    label: Distinct users
+    formula: source_reported_distinct_users
+    source_priority: [ga4]
+    grain: selected_period_acquisition_dimensions
+    filters: [period_scoped_source_report]
+    availability: NOT_VERIFIED
+    owner: Growth Analytics
+    caveat: Never derive this KPI by summing daily active-user rows; a period-scoped source report with identity and thresholding metadata is required.
   - id: acquisition.sessions
     label: Sessions
     formula: sum(source_reported_sessions)

@@ -26,7 +26,8 @@ flowchart LR
   reviewer -->|HTTPS, no credentials| pages
   pages -->|same-origin static files| publicjson
   analyst -->|localhost| api
-  api -->|filtered typed queries| warehouse
+  api -->|filtered typed reads| publicjson
+  fixtures -->|validated KPI export| publicjson
   fixtures -->|schema-validated ingest| warehouse
   ext -->|authorized aggregate reads| bridge
   bridge -->|ignored private files| warehouse
@@ -41,10 +42,10 @@ Implementation snapshot: the current FastAPI repository serves and filters gener
 | Container | Responsibility | Inputs | Outputs | Security boundary |
 |---|---|---|---|---|
 | Next.js web application | Accessible EN/AR dashboard, static routes, filters, charts, tables, method notes | Precomputed public JSON | Static HTML, CSS, JavaScript, assets | Public; synthetic data only |
-| FastAPI service | Health/readiness and typed filtered analytics endpoints | dbt marts | JSON responses and OpenAPI | Local machine; no direct public deployment |
+| FastAPI service | Health/readiness and typed filtered public-demo analytics endpoints | Generated public JSON/CSV | JSON responses and OpenAPI | Local machine; no direct public deployment |
 | Connector layer | Normalize fixture, import, and optional live-read paths; validate schemas and expose freshness/status | Vendor reports, MCP reads, CSV/JSON, deterministic fixtures | Normalized records plus metadata | Credentialed boundary for live reads |
 | Python data generator | Produce repeatable Saudi digital-commerce demo activity and documented anomalies | Fixed seed and generator version | Synthetic source files | Public and reproducible |
-| DuckDB/dbt analytics | Stage, conform, reconcile, test, and aggregate | Normalized source files | Dimensions, facts, marts, tests, lineage | Local build; only selected public marts exported |
+| DuckDB/dbt analytics | Independently stage, conform, reconcile, test, and aggregate the same generated seeds | Normalized source files | Dimensions, facts, marts, tests, lineage evidence | Local validation/reference warehouse; not the runtime source for the shipped API/dashboard |
 | Release tooling | Verify mode, tracked paths, secrets/PII, assets, and evidence | Repository and build outputs | Pass/fail evidence and public artifacts | Publication gate |
 
 ## Public-demo data flow
@@ -54,23 +55,23 @@ flowchart TD
   seed[Fixed seed + generator version]
   generator[Python synthetic-data generator]
   raw[Public fixture records]
-  validate[Connector schema validation]
+  validate[Schema + KPI contract validation]
   staging[dbt staging models\nrename, cast, normalize]
   intermediate[dbt intermediate models\nconform, deduplicate, reconcile]
   marts[dbt marts\nKPI-ready grains]
-  export[Static JSON export\npublic contract]
+  export[Validated static JSON export\npublic contract]
   next[Next.js static build]
   pages[GitHub Pages]
   evidence[Tests, hashes, screenshot manifest]
 
-  seed --> generator --> raw --> validate --> staging --> intermediate --> marts
-  marts --> export --> next --> pages
+  seed --> generator --> raw --> validate --> export --> next --> pages
+  raw --> staging --> intermediate --> marts
   raw --> evidence
   marts --> evidence
   next --> evidence
 ```
 
-Reproducibility is defined by identical generator inputs producing byte-stable logical records. Generated timestamps that form part of the dataset must be deterministic; execution timestamps belong only in build evidence.
+The public JSON/API path and dbt warehouse intentionally share deterministic source fixtures and KPI definitions but are separate consumers. Python/API semantic regression tests plus dbt business tests keep their outputs aligned; dbt is not misrepresented as a runtime dependency of GitHub Pages. Reproducibility is defined by identical generator inputs producing byte-stable logical records. Generated timestamps that form part of the dataset must be deterministic; execution timestamps belong only in build evidence.
 
 ## Live-private data flow
 

@@ -7,8 +7,10 @@ describe("public dashboard data", () => {
   it("accepts the generated v1 contract and reconciles canonical order totals", () => {
     const result = normalizeDashboardData(generatedDashboard);
     expect(result.meta.seed).toBe(20250301);
-    expect(result.records).toHaveLength(8745);
+    expect(result.records.length).toBeGreaterThanOrEqual(365 * 3 * 12);
     expect(sum(result.records, "orders")).toBe(9075);
+    expect(sum(result.records, "sessions")).toBeGreaterThan(sum(result.records, "trackedPurchases"));
+    expect(new Set(result.records.map((row) => [row.date, row.device, row.channel, row.product].join("|"))).size).toBe(result.records.length);
   });
 
   it("rejects a live-private payload and retains the safe public fallback", () => {

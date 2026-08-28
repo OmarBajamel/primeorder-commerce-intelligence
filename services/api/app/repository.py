@@ -40,17 +40,19 @@ class PublicDemoRepository:
     def validated(self, name: str, model: Type[ModelT]) -> ModelT:
         return model.model_validate(self.read(name))
 
-    @lru_cache(maxsize=1)
-    def commerce_rows(self) -> List[Dict[str, str]]:
-        path = self.data_dir.parent / "commerce_daily.csv"
+    @lru_cache(maxsize=8)
+    def fixture_rows(self, name: str) -> List[Dict[str, str]]:
+        if name not in {"commerce_daily", "ga4_daily", "google_ads_daily"}:
+            raise ValueError("Fixture is not exposed through the API repository")
+        path = self.data_dir.parent / f"{name}.csv"
         if not path.is_file():
-            raise FileNotFoundError("Generated commerce fixture is unavailable")
+            raise FileNotFoundError(f"Generated {name} fixture is unavailable")
         with path.open("r", encoding="utf-8-sig", newline="") as handle:
             return list(csv.DictReader(handle))
 
-    def commerce_period(self, date_from: Optional[date], date_to: Optional[date]) -> List[Dict[str, str]]:
+    def fixture_period(self, name: str, date_from: Optional[date], date_to: Optional[date]) -> List[Dict[str, str]]:
         return [
-            row for row in self.commerce_rows()
+            row for row in self.fixture_rows(name)
             if (not date_from or date.fromisoformat(row["date"]) >= date_from)
             and (not date_to or date.fromisoformat(row["date"]) <= date_to)
         ]

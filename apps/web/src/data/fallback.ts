@@ -27,7 +27,7 @@ const records: PerformanceRecord[] = dates.flatMap((date, week) =>
       date, product: product.id, category: product.category,
       channel: channels[(week + index * 2) % channels.length],
       device: devices[(week * 2 + index) % devices.length],
-      sessions, users: Math.round(sessions * 0.81), viewItem, addToCart, beginCheckout, orders,
+      sessions, activeUserDays: Math.round(sessions * 0.81), viewItem, addToCart, beginCheckout, trackedPurchases: orders, orders,
       units: orders + ((week + index) % 5 === 0 ? Math.ceil(orders * 0.12) : 0),
       revenue: orders * product.price,
       refunds: (week + index) % 7 === 0 ? Math.round(orders * product.price * 0.08) : 0,
@@ -50,15 +50,15 @@ export const fallbackData: DashboardData = {
       { query: { en: "gaming pass 12 months", ar: "بطاقة ألعاب 12 شهر" }, type: "Non-branded", clicks: 348, impressions: 7720, ctr: 4.51, position: 9.8 },
     ],
     landingPages: [
-      { page: "/products/office-pro", clicks: 1450, sessions: 1628, orders: 138, revenue: 44022 },
-      { page: "/collections/subscriptions", clicks: 1022, sessions: 1201, orders: 92, revenue: 21148 },
-      { page: "/products/security-plus", clicks: 734, sessions: 856, orders: 69, revenue: 13041 },
-      { page: "/collections/gaming", clicks: 612, sessions: 728, orders: 51, revenue: 11169 },
+      { page: "/products/office-pro", clicks: 1450, impressions: 24170, ctr: 6.0 },
+      { page: "/collections/subscriptions", clicks: 1022, impressions: 18720, ctr: 5.46 },
+      { page: "/products/security-plus", clicks: 734, impressions: 15430, ctr: 4.76 },
+      { page: "/collections/gaming", clicks: 612, impressions: 12840, ctr: 4.77 },
     ],
     merchantDiagnostics: [
-      { issue: { en: "Missing optional product identifier", ar: "معرّف منتج اختياري مفقود" }, affected: 3, severity: "Medium", status: "Open" },
-      { issue: { en: "Image crawl pending", ar: "انتظار زحف الصور" }, affected: 2, severity: "Low", status: "Monitoring" },
-      { issue: { en: "Price mismatch", ar: "عدم تطابق السعر" }, affected: 0, severity: "High", status: "Clear" },
+      { issue: { en: "Missing optional product identifier", ar: "معرّف منتج اختياري مفقود" }, affectedItemSnapshots: 3, severity: "Medium", status: "Open" },
+      { issue: { en: "Image crawl pending", ar: "انتظار زحف الصور" }, affectedItemSnapshots: 2, severity: "Low", status: "Monitoring" },
+      { issue: { en: "Price mismatch", ar: "عدم تطابق السعر" }, affectedItemSnapshots: 0, severity: "High", status: "Clear" },
     ],
   },
   customers: {
@@ -78,6 +78,7 @@ export const fallbackData: DashboardData = {
   },
   quality: {
     healthScore: 84,
+    consentStateCoverage: 91.4,
     connectors: [
       { id: "salla", name: "PrimeOrder / Salla", status: "FIXTURE_MODE", freshness: "2026-01-05T07:45:00Z", records: 9075 },
       { id: "ga4", name: "Google Analytics 4", status: "FIXTURE_MODE", freshness: "2026-01-05T06:30:00Z", records: 43720 },

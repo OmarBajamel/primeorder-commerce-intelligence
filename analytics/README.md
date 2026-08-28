@@ -1,7 +1,7 @@
 # PrimeOrder analytics warehouse
 
-The DuckDB/dbt project loads fixed-seed public fixtures and builds 9 staging
-views, 4 intermediate views, and 12 decision-oriented marts. Commerce revenue
+The DuckDB/dbt project loads fixed-seed public fixtures and builds 11 staging
+views, 5 intermediate views, and 12 decision-oriented marts. Commerce revenue
 uses Salla-like synthetic orders as source priority; GA4-like data is used for
 behavioral funnel comparison and reconciliation. Documented anomalies are
 expected rows in `mart_data_quality`, while structural, date, relationship,

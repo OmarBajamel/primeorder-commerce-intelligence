@@ -19,6 +19,7 @@ class ConnectorStatus(str, Enum):
     CONNECTED = "CONNECTED"
     READY_NOT_AUTHENTICATED = "READY_NOT_AUTHENTICATED"
     FIXTURE_MODE = "FIXTURE_MODE"
+    FILE_MODE = "FILE_MODE"
     UNAVAILABLE = "UNAVAILABLE"
     FAILED_WITH_EVIDENCE = "FAILED_WITH_EVIDENCE"
 
@@ -124,8 +125,10 @@ class BaseConnector(ABC):
         return bool(self.credential_env) and all(bool(os.getenv(name)) for name in self.credential_env)
 
     def status(self, mode: ConnectorMode = ConnectorMode.FIXTURE) -> ConnectorStatus:
-        if mode in {ConnectorMode.FIXTURE, ConnectorMode.FILE}:
+        if mode == ConnectorMode.FIXTURE:
             return ConnectorStatus.FIXTURE_MODE
+        if mode == ConnectorMode.FILE:
+            return ConnectorStatus.FILE_MODE
         return ConnectorStatus.CONNECTED if self.authenticated else ConnectorStatus.READY_NOT_AUTHENTICATED
 
     def validate_records(self, records: Iterable[Dict[str, Any]]) -> List[ConnectorRecord]:

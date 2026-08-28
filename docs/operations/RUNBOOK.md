@@ -9,10 +9,10 @@ Run, verify, diagnose and clean up the deterministic `public-demo` locally. Live
 - Git
 - Node.js compatible with Next.js 16 (Node 20.9+; Node 22 is the project development baseline)
 - Corepack/pnpm `11.15.1`
-- Python 3.9 as referenced by repository scripts
+- Python 3.11+ (Python 3.12 is the CI/development baseline)
 - Optional: Docker Compose and a Chromium installation for Playwright
 
-Commands below run from the repository root. On Windows, repository scripts use `py -3.9`; on macOS/Linux use the provided `.sh` scripts or an activated Python 3.9 environment.
+Commands below run from the repository root. The cross-platform Python wrapper checks `PYTHON_EXECUTABLE`, a bundled Codex runtime when present, the Windows launcher, `python3`, then `python`. It fails with a clear message if no usable interpreter exists.
 
 ## First run
 
@@ -73,7 +73,7 @@ Do not treat those expected invariants as a pass until the command and determini
 pnpm analytics:build
 ```
 
-This runs dbt with `analytics/` as project and profile directory. The implemented graph contains 9 seeds, 9 staging models, 4 intermediate models and 12 marts; test counts are recorded from the final manifest/run in the test report because semantic tests can change during review. dbt builds an embedded DuckDB target and validates schema/business tests. Generated `analytics/target/`, `analytics/logs/` and local database output are build artifacts, not public source inputs.
+This runs dbt with `analytics/` as project and profile directory. The implemented graph contains 11 seeds, 11 staging models, 5 intermediate models and 12 marts; test counts are recorded from the final manifest/run in the test report because semantic tests can change during review. dbt builds an embedded DuckDB target and validates schema/business tests. Generated `analytics/target/`, `analytics/logs/` and local database output are build artifacts, not public source inputs.
 
 Important marts:
 

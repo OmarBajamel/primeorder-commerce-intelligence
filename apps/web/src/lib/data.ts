@@ -44,16 +44,16 @@ export function filterRecords(records: PerformanceRecord[], filters: Filters) {
     (filters.product === "all" || row.product === filters.product));
 }
 
-export const sum = (records: PerformanceRecord[], key: keyof Pick<PerformanceRecord, "sessions" | "users" | "viewItem" | "addToCart" | "beginCheckout" | "orders" | "units" | "revenue" | "refunds">) =>
+export const sum = (records: PerformanceRecord[], key: keyof Pick<PerformanceRecord, "sessions" | "activeUserDays" | "viewItem" | "addToCart" | "beginCheckout" | "trackedPurchases" | "orders" | "units" | "revenue" | "refunds">) =>
   records.reduce((total, row) => total + row[key], 0);
 
 export function groupRecords(records: PerformanceRecord[], key: keyof Pick<PerformanceRecord, "date" | "device" | "channel" | "category" | "product">) {
   const grouped = new Map<string, PerformanceRecord[]>();
   records.forEach((row) => grouped.set(row[key], [...(grouped.get(row[key]) ?? []), row]));
-  return [...grouped].map(([name, rows]) => ({ name, rows, sessions: sum(rows, "sessions"), users: sum(rows, "users"), orders: sum(rows, "orders"), units: sum(rows, "units"), revenue: sum(rows, "revenue"), refunds: sum(rows, "refunds") }));
+  return [...grouped].map(([name, rows]) => ({ name, rows, sessions: sum(rows, "sessions"), activeUserDays: sum(rows, "activeUserDays"), trackedPurchases: sum(rows, "trackedPurchases"), orders: sum(rows, "orders"), units: sum(rows, "units"), revenue: sum(rows, "revenue"), refunds: sum(rows, "refunds") }));
 }
 
 export function recordsToCsv(records: PerformanceRecord[]) {
-  const keys: Array<keyof PerformanceRecord> = ["date", "device", "channel", "category", "product", "sessions", "users", "viewItem", "addToCart", "beginCheckout", "orders", "units", "revenue", "refunds"];
+  const keys: Array<keyof PerformanceRecord> = ["date", "device", "channel", "category", "product", "sessions", "activeUserDays", "viewItem", "addToCart", "beginCheckout", "trackedPurchases", "orders", "units", "revenue", "refunds"];
   return [keys.join(","), ...records.map((row) => keys.map((key) => JSON.stringify(row[key])).join(","))].join("\n");
 }

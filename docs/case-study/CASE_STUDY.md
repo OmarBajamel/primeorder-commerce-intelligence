@@ -31,15 +31,15 @@ Commerce, behavioral, acquisition, search, merchant and UX data answer different
 
 ### Separate delivery paths
 
-The public path generates synthetic CSV/JSON, builds/tests dbt models, exports precomputed API-shaped JSON and statically exports Next.js. The live-private path accepts authorized read-only aggregate reports into ignored local storage and can expose filtered marts through FastAPI on loopback. There is intentionally no live-to-public data path.
+The public path generates synthetic CSV/JSON, independently builds/tests dbt models, exports validated API-shaped JSON from the deterministic generator and statically exports Next.js. The shipped FastAPI and dashboard read those generated public contracts; dbt is a parallel validation/reference warehouse rather than their runtime source. The governed live-private target accepts authorized read-only aggregate reports into ignored local storage. There is intentionally no live-to-public data path.
 
 ### Embedded analytical stack
 
 DuckDB makes the warehouse portable; dbt provides staged contracts, model grains, tests and lineage without requiring a shared database server. The current graph contains:
 
 - 9 generated seeds;
-- 9 staging models;
-- 4 intermediate models;
+- 11 staging models;
+- 5 intermediate models;
 - 12 marts.
 
 ### Status as data

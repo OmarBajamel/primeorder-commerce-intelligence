@@ -17,7 +17,9 @@ type ManifestEntry = {
   commit_sha: string;
   capture_time: string;
   sha256: string;
-  privacy_review: "PASS";
+  privacy_review: "PENDING" | "PASS";
+  privacy_reviewed_by: string | null;
+  privacy_reviewed_at: string | null;
   intended_use: string;
   alt_text: string;
 };
@@ -42,11 +44,15 @@ test("capture deterministic portfolio evidence", async ({ page }) => {
   for (const [name, route, width, height, language, intendedUse, altText] of cases) {
     await page.setViewportSize({ width, height });
     await page.goto(route);
-    await expect(page.getByText("Preparing trusted metrics...")).toBeHidden({ timeout: 15_000 });
-    if (language === "ar") {
-      await page.getByRole("button", { name: "ع" }).click();
-      await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
-    }
+    await expect(page.locator("footer").filter({ hasText: "Schema v1.0" })).toBeVisible({ timeout: 15_000 });
+    await page.getByRole("button", { name: language === "ar" ? "ع" : "EN", exact: true }).click();
+    await expect(page.locator("html")).toHaveAttribute("lang", language);
+    await expect(page.locator("html")).toHaveAttribute("dir", language === "ar" ? "rtl" : "ltr");
+    await expect(page.locator("main .page-view")).toBeVisible();
+    await expect(page.getByText("Synthetic portfolio demo data — no real customer or revenue information").first()).toBeVisible();
+    const renderedText = await page.locator("body").innerText();
+    expect(renderedText).not.toMatch(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i);
+    expect(renderedText).not.toMatch(/(?:\+?966[\s-]?5\d{8}|05\d{8})/);
     const target = resolve(screenshotDir, name);
     await page.screenshot({ path: target, fullPage: false, animations: "disabled" });
     const bytes = await readFile(target);
@@ -59,7 +65,9 @@ test("capture deterministic portfolio evidence", async ({ page }) => {
       commit_sha: commit,
       capture_time: new Date().toISOString(),
       sha256: createHash("sha256").update(bytes).digest("hex"),
-      privacy_review: "PASS",
+      privacy_review: "PENDING",
+      privacy_reviewed_by: null,
+      privacy_reviewed_at: null,
       intended_use: intendedUse,
       alt_text: altText,
     });

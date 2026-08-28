@@ -2,8 +2,8 @@ with executive as (
     select
         sum(net_revenue_sar) as net_revenue_sar,
         sum(gross_margin_sar) as gross_margin_sar,
-        sum(net_revenue_sar) / nullif(sum(purchases), 0) as calculated_aov,
-        sum(average_order_value_sar * purchases) / nullif(sum(purchases), 0) as published_weighted_aov
+        sum(net_revenue_sar) / nullif(sum(completed_orders), 0) as calculated_aov,
+        sum(average_order_value_sar * completed_orders) / nullif(sum(completed_orders), 0) as published_weighted_aov
     from {{ ref('mart_executive_daily') }}
 ), products as (
     select sum(revenue_sar) as net_revenue_sar, sum(gross_margin_sar) as gross_margin_sar

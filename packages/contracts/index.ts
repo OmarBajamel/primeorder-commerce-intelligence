@@ -2,14 +2,15 @@ export type ConnectorStatus =
   | "CONNECTED"
   | "READY_NOT_AUTHENTICATED"
   | "FIXTURE_MODE"
+  | "FILE_MODE"
   | "UNAVAILABLE"
   | "FAILED_WITH_EVIDENCE";
 
 export interface Period { start: string; end: string; days: number }
-export interface TimeSeriesPoint { date: string; sessions: number; purchases: number; net_revenue_sar: number }
+export interface TimeSeriesPoint { date: string; sessions: number; tracked_purchases: number; completed_orders: number; net_revenue_sar: number }
 export interface SummaryTotals {
-  sessions: number; users: number; product_views: number; add_to_carts: number;
-  begin_checkouts: number; purchases: number; units_sold: number;
+  sessions: number; active_user_days: number; product_views: number; add_to_carts: number;
+  begin_checkouts: number; tracked_purchases: number; completed_orders: number; units_sold: number;
   gross_revenue_sar: number; discount_sar: number; refund_sar: number;
   net_revenue_sar: number; cost_sar: number; ad_spend_sar: number;
   average_order_value_sar: number; purchase_conversion_rate: number;
@@ -31,7 +32,7 @@ export interface ProductPerformance {
 }
 export interface AcquisitionPerformance {
   channel: string; source: string; medium: string; campaign: string;
-  sessions: number; purchases: number; net_revenue_sar: number;
+  sessions: number; active_user_days: number; tracked_purchases: number; purchase_revenue_sar: number;
   ad_spend_sar: number; conversion_rate: number; roas: number | null;
 }
 export interface SearchPerformance {
@@ -39,7 +40,7 @@ export interface SearchPerformance {
   impressions: number; ctr: number; average_position: number;
 }
 export interface CustomerSegment {
-  customer_type: "new" | "returning"; sessions: number; purchases: number;
+  customer_type: "new" | "returning"; customers: number; completed_orders: number;
   net_revenue_sar: number; revenue_share: number;
 }
 export interface QualityCheck {

@@ -53,7 +53,9 @@ def test_csv_and_json_import_paths_validate_schema(tmp_path):
     csv_path = tmp_path / "ga4.csv"
     row = ga4_row()
     csv_path.write_text(",".join(row) + "\n" + ",".join(str(value) for value in row.values()) + "\n", encoding="utf-8")
-    assert connector.extract(ConnectorMode.FILE, csv_path).record_count == 1
+    imported = connector.extract(ConnectorMode.FILE, csv_path)
+    assert imported.record_count == 1
+    assert imported.status == ConnectorStatus.FILE_MODE
     json_path = tmp_path / "ga4.json"
     json_path.write_text(json.dumps({"records": [ga4_row("2025-01-02")]}), encoding="utf-8")
     assert connector.extract(ConnectorMode.FILE, json_path).fresh_through.isoformat() == "2025-01-02"
@@ -117,3 +119,9 @@ def test_salla_mcp_allow_list_and_projection_never_expose_identifiers():
     assert "SYNTHETIC_EMAIL_TOKEN" not in payload
     with pytest.raises(ValueError, match="read-only allow-list"):
         connector.extract_live_aggregate("create_order")
+
+
+def test_salla_live_operation_rejects_empty_or_wrong_aggregate_shape():
+    connector = SallaMCPConnector(executor=lambda operation, params: [{"date": "2025-01-01"}])
+    with pytest.raises(ValueError, match="missing required aggregate fields"):
+        connector.extract_live_aggregate("get_order_aggregates")

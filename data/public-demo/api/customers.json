@@ -3,17 +3,17 @@
   "segments": [
     {
       "customer_type": "new",
-      "sessions": 105222,
-      "purchases": 6853,
-      "net_revenue_sar": 1562746.5,
-      "revenue_share": 0.75616
+      "customers": 1875,
+      "completed_orders": 6816,
+      "net_revenue_sar": 1587899.9,
+      "revenue_share": 0.768331
     },
     {
       "customer_type": "returning",
-      "sessions": 34544,
-      "purchases": 2222,
-      "net_revenue_sar": 503939.8,
-      "revenue_share": 0.24384
+      "customers": 625,
+      "completed_orders": 2259,
+      "net_revenue_sar": 478786.4,
+      "revenue_share": 0.231669
     }
   ]
 }

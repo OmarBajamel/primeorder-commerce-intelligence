@@ -74,3 +74,11 @@ def test_unexpected_errors_do_not_log_exception_payload(monkeypatch, caplog):
     assert marker not in response.text
     assert marker not in caplog.text
     assert "request_failed request_id=privacy-log-test path=/summary" in caplog.text
+
+
+def test_untrusted_request_id_is_not_reflected_in_logs(caplog):
+    marker = "security@example.invalid\nFORGED"
+    response = client.get("/health", headers={"x-request-id": marker})
+    assert response.status_code == 200
+    assert marker not in caplog.text
+    assert "security@example.invalid" not in response.headers["x-request-id"]

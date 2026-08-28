@@ -7,12 +7,13 @@
     "days": 365
   },
   "totals": {
-    "sessions": 139766.0,
-    "users": 113289.0,
-    "product_views": 102363.0,
-    "add_to_carts": 24086.0,
-    "begin_checkouts": 14382.0,
-    "purchases": 9075.0,
+    "sessions": 136437.0,
+    "active_user_days": 110490.0,
+    "product_views": 98752.0,
+    "add_to_carts": 22690.0,
+    "begin_checkouts": 13207.0,
+    "tracked_purchases": 8914.0,
+    "completed_orders": 9075.0,
     "units_sold": 9805.0,
     "gross_revenue_sar": 2192615.0,
     "discount_sar": 50181.7,
@@ -21,2200 +22,2565 @@
     "cost_sar": 684537.0,
     "ad_spend_sar": 50235.94,
     "average_order_value_sar": 227.73,
-    "purchase_conversion_rate": 0.06493,
+    "purchase_conversion_rate": 0.065334,
     "refund_rate": 0.034546,
     "gross_margin_sar": 1382149.3
   },
   "timeseries": [
     {
       "date": "2025-01-01",
-      "sessions": 425.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6393.9
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6393.9,
+      "sessions": 416.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-01-02",
-      "sessions": 346.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 3780.3
+      "completed_orders": 18.0,
+      "net_revenue_sar": 3780.3,
+      "sessions": 337.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-01-03",
-      "sessions": 303.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4247.5
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4247.5,
+      "sessions": 295.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-01-04",
-      "sessions": 379.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 6450.3
+      "completed_orders": 23.0,
+      "net_revenue_sar": 6450.3,
+      "sessions": 370.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-01-05",
-      "sessions": 360.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5994.1
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5994.1,
+      "sessions": 351.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-01-06",
-      "sessions": 394.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 6914.9
+      "completed_orders": 31.0,
+      "net_revenue_sar": 6914.9,
+      "sessions": 385.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-01-07",
-      "sessions": 314.0,
-      "purchases": 15.0,
-      "net_revenue_sar": 3499.2
+      "completed_orders": 15.0,
+      "net_revenue_sar": 3499.2,
+      "sessions": 306.0,
+      "tracked_purchases": 15.0
     },
     {
       "date": "2025-01-08",
-      "sessions": 459.0,
-      "purchases": 35.0,
-      "net_revenue_sar": 7908.6
+      "completed_orders": 35.0,
+      "net_revenue_sar": 7908.6,
+      "sessions": 447.0,
+      "tracked_purchases": 34.0
     },
     {
       "date": "2025-01-09",
-      "sessions": 337.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 6103.3
+      "completed_orders": 26.0,
+      "net_revenue_sar": 6103.3,
+      "sessions": 330.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-01-10",
-      "sessions": 349.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5486.2
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5486.2,
+      "sessions": 340.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-01-11",
-      "sessions": 308.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 5028.0
+      "completed_orders": 21.0,
+      "net_revenue_sar": 5028.0,
+      "sessions": 300.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-01-12",
-      "sessions": 329.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4472.5
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4472.5,
+      "sessions": 321.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-01-13",
-      "sessions": 365.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 6094.0
+      "completed_orders": 27.0,
+      "net_revenue_sar": 6094.0,
+      "sessions": 356.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-01-14",
-      "sessions": 453.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5519.4
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5519.4,
+      "sessions": 442.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-01-15",
-      "sessions": 443.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 6122.7
+      "completed_orders": 27.0,
+      "net_revenue_sar": 6122.7,
+      "sessions": 432.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-01-16",
-      "sessions": 433.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6303.5
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6303.5,
+      "sessions": 422.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-01-17",
-      "sessions": 388.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4040.2
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4040.2,
+      "sessions": 379.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-01-18",
-      "sessions": 356.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6155.0
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6155.0,
+      "sessions": 347.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-01-19",
-      "sessions": 325.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5503.8
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5503.8,
+      "sessions": 317.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-01-20",
-      "sessions": 309.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4935.7
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4935.7,
+      "sessions": 301.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-01-21",
-      "sessions": 412.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4355.4
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4355.4,
+      "sessions": 403.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-01-22",
-      "sessions": 303.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 4324.5
+      "completed_orders": 17.0,
+      "net_revenue_sar": 4324.5,
+      "sessions": 296.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-01-23",
-      "sessions": 464.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5426.7
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5426.7,
+      "sessions": 454.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-01-24",
-      "sessions": 374.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5467.3
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5467.3,
+      "sessions": 365.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-01-25",
-      "sessions": 372.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5820.2
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5820.2,
+      "sessions": 363.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-01-26",
-      "sessions": 389.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5375.5
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5375.5,
+      "sessions": 380.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-01-27",
-      "sessions": 337.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 4718.7
+      "completed_orders": 23.0,
+      "net_revenue_sar": 4718.7,
+      "sessions": 329.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-01-28",
-      "sessions": 310.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4360.3
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4360.3,
+      "sessions": 303.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-01-29",
-      "sessions": 364.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4222.5
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4222.5,
+      "sessions": 356.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-01-30",
-      "sessions": 359.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 5812.7
+      "completed_orders": 20.0,
+      "net_revenue_sar": 5812.7,
+      "sessions": 351.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-01-31",
-      "sessions": 376.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 5052.6
+      "completed_orders": 21.0,
+      "net_revenue_sar": 5052.6,
+      "sessions": 367.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-02-01",
-      "sessions": 395.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5951.0
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5951.0,
+      "sessions": 385.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-02-02",
-      "sessions": 427.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 7563.8
+      "completed_orders": 33.0,
+      "net_revenue_sar": 7563.8,
+      "sessions": 417.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-02-03",
-      "sessions": 295.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3348.5
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3348.5,
+      "sessions": 288.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-02-04",
-      "sessions": 404.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6247.8
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6247.8,
+      "sessions": 395.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-02-05",
-      "sessions": 434.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5593.7
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5593.7,
+      "sessions": 423.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-02-06",
-      "sessions": 442.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6645.5
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6645.5,
+      "sessions": 432.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-02-07",
-      "sessions": 347.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5346.7
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5346.7,
+      "sessions": 339.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-02-08",
-      "sessions": 330.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3455.5
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3455.5,
+      "sessions": 322.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-02-09",
-      "sessions": 314.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4011.4
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4011.4,
+      "sessions": 307.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-02-10",
-      "sessions": 369.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6386.7
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6386.7,
+      "sessions": 361.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-02-11",
-      "sessions": 361.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 5023.3
+      "completed_orders": 21.0,
+      "net_revenue_sar": 5023.3,
+      "sessions": 353.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-02-12",
-      "sessions": 390.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4793.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4793.4,
+      "sessions": 381.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-02-13",
-      "sessions": 405.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5987.5
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5987.5,
+      "sessions": 395.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-02-14",
-      "sessions": 348.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 3822.5
+      "completed_orders": 19.0,
+      "net_revenue_sar": 3822.5,
+      "sessions": 340.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-02-15",
-      "sessions": 323.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4935.3
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4935.3,
+      "sessions": 315.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-02-16",
-      "sessions": 368.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4446.7
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4446.7,
+      "sessions": 359.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-02-17",
-      "sessions": 384.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5527.2
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5527.2,
+      "sessions": 375.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-02-18",
-      "sessions": 305.0,
-      "purchases": 15.0,
-      "net_revenue_sar": 3650.6
+      "completed_orders": 15.0,
+      "net_revenue_sar": 3650.6,
+      "sessions": 298.0,
+      "tracked_purchases": 15.0
     },
     {
       "date": "2025-02-19",
-      "sessions": 295.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5249.7
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5249.7,
+      "sessions": 288.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-02-20",
-      "sessions": 343.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5347.7
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5347.7,
+      "sessions": 335.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-02-21",
-      "sessions": 318.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5448.2
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5448.2,
+      "sessions": 310.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-02-22",
-      "sessions": 345.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4618.6
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4618.6,
+      "sessions": 336.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-02-23",
-      "sessions": 354.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4946.4
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4946.4,
+      "sessions": 346.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-02-24",
-      "sessions": 376.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 4521.3
+      "completed_orders": 24.0,
+      "net_revenue_sar": 4521.3,
+      "sessions": 367.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-02-25",
-      "sessions": 365.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5734.5
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5734.5,
+      "sessions": 357.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-02-26",
-      "sessions": 378.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5227.9
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5227.9,
+      "sessions": 370.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-02-27",
-      "sessions": 432.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 7016.9
+      "completed_orders": 27.0,
+      "net_revenue_sar": 7016.9,
+      "sessions": 422.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-02-28",
-      "sessions": 348.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5377.4
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5377.4,
+      "sessions": 340.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-03-01",
-      "sessions": 478.0,
-      "purchases": 38.0,
-      "net_revenue_sar": 8317.4
+      "completed_orders": 38.0,
+      "net_revenue_sar": 8317.4,
+      "sessions": 467.0,
+      "tracked_purchases": 37.0
     },
     {
       "date": "2025-03-02",
-      "sessions": 488.0,
-      "purchases": 34.0,
-      "net_revenue_sar": 7847.6
+      "completed_orders": 34.0,
+      "net_revenue_sar": 7847.6,
+      "sessions": 477.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-03-03",
-      "sessions": 348.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4517.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4517.4,
+      "sessions": 340.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-03-04",
-      "sessions": 531.0,
-      "purchases": 35.0,
-      "net_revenue_sar": 7774.1
+      "completed_orders": 35.0,
+      "net_revenue_sar": 7774.1,
+      "sessions": 519.0,
+      "tracked_purchases": 34.0
     },
     {
       "date": "2025-03-05",
-      "sessions": 429.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6968.6
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6968.6,
+      "sessions": 419.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-03-06",
-      "sessions": 493.0,
-      "purchases": 38.0,
-      "net_revenue_sar": 8751.0
+      "completed_orders": 38.0,
+      "net_revenue_sar": 8751.0,
+      "sessions": 482.0,
+      "tracked_purchases": 36.0
     },
     {
       "date": "2025-03-07",
-      "sessions": 450.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5355.5
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5355.5,
+      "sessions": 439.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-03-08",
-      "sessions": 522.0,
-      "purchases": 38.0,
-      "net_revenue_sar": 8809.7
+      "completed_orders": 38.0,
+      "net_revenue_sar": 8809.7,
+      "sessions": 510.0,
+      "tracked_purchases": 36.0
     },
     {
       "date": "2025-03-09",
-      "sessions": 496.0,
-      "purchases": 44.0,
-      "net_revenue_sar": 9197.1
+      "completed_orders": 44.0,
+      "net_revenue_sar": 9197.1,
+      "sessions": 484.0,
+      "tracked_purchases": 43.0
     },
     {
       "date": "2025-03-10",
-      "sessions": 414.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5611.0
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5611.0,
+      "sessions": 405.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-03-11",
-      "sessions": 395.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 6337.8
+      "completed_orders": 30.0,
+      "net_revenue_sar": 6337.8,
+      "sessions": 386.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-03-12",
-      "sessions": 439.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 6458.4
+      "completed_orders": 25.0,
+      "net_revenue_sar": 6458.4,
+      "sessions": 429.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-03-13",
-      "sessions": 655.0,
-      "purchases": 40.0,
-      "net_revenue_sar": 8385.4
+      "completed_orders": 40.0,
+      "net_revenue_sar": 8385.4,
+      "sessions": 641.0,
+      "tracked_purchases": 39.0
     },
     {
       "date": "2025-03-14",
-      "sessions": 600.0,
-      "purchases": 47.0,
-      "net_revenue_sar": 11323.5
+      "completed_orders": 47.0,
+      "net_revenue_sar": 11323.5,
+      "sessions": 587.0,
+      "tracked_purchases": 45.0
     },
     {
       "date": "2025-03-15",
-      "sessions": 483.0,
-      "purchases": 37.0,
-      "net_revenue_sar": 8696.8
+      "completed_orders": 37.0,
+      "net_revenue_sar": 8696.8,
+      "sessions": 471.0,
+      "tracked_purchases": 35.0
     },
     {
       "date": "2025-03-16",
-      "sessions": 539.0,
-      "purchases": 34.0,
-      "net_revenue_sar": 7247.9
+      "completed_orders": 34.0,
+      "net_revenue_sar": 7247.9,
+      "sessions": 526.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-03-17",
-      "sessions": 402.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5964.0
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5964.0,
+      "sessions": 392.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-03-18",
-      "sessions": 409.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5885.0
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5885.0,
+      "sessions": 399.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-03-19",
-      "sessions": 426.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6801.6
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6801.6,
+      "sessions": 416.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-03-20",
-      "sessions": 341.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 6345.5
+      "completed_orders": 25.0,
+      "net_revenue_sar": 6345.5,
+      "sessions": 332.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-03-21",
-      "sessions": 532.0,
-      "purchases": 35.0,
-      "net_revenue_sar": 7621.9
+      "completed_orders": 35.0,
+      "net_revenue_sar": 7621.9,
+      "sessions": 520.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-03-22",
-      "sessions": 499.0,
-      "purchases": 37.0,
-      "net_revenue_sar": 8116.7
+      "completed_orders": 37.0,
+      "net_revenue_sar": 8116.7,
+      "sessions": 487.0,
+      "tracked_purchases": 36.0
     },
     {
       "date": "2025-03-23",
-      "sessions": 438.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 6274.7
+      "completed_orders": 27.0,
+      "net_revenue_sar": 6274.7,
+      "sessions": 428.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-03-24",
-      "sessions": 525.0,
-      "purchases": 36.0,
-      "net_revenue_sar": 8985.5
+      "completed_orders": 36.0,
+      "net_revenue_sar": 8985.5,
+      "sessions": 513.0,
+      "tracked_purchases": 34.0
     },
     {
       "date": "2025-03-25",
-      "sessions": 531.0,
-      "purchases": 39.0,
-      "net_revenue_sar": 8489.9
+      "completed_orders": 39.0,
+      "net_revenue_sar": 8489.9,
+      "sessions": 519.0,
+      "tracked_purchases": 38.0
     },
     {
       "date": "2025-03-26",
-      "sessions": 462.0,
-      "purchases": 35.0,
-      "net_revenue_sar": 6990.7
+      "completed_orders": 35.0,
+      "net_revenue_sar": 6990.7,
+      "sessions": 451.0,
+      "tracked_purchases": 34.0
     },
     {
       "date": "2025-03-27",
-      "sessions": 465.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5816.7
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5816.7,
+      "sessions": 454.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-03-28",
-      "sessions": 432.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 7083.7
+      "completed_orders": 33.0,
+      "net_revenue_sar": 7083.7,
+      "sessions": 421.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-03-29",
-      "sessions": 533.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 8022.6
+      "completed_orders": 33.0,
+      "net_revenue_sar": 8022.6,
+      "sessions": 521.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-03-30",
-      "sessions": 385.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 7424.9
+      "completed_orders": 32.0,
+      "net_revenue_sar": 7424.9,
+      "sessions": 376.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-03-31",
-      "sessions": 370.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5418.1
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5418.1,
+      "sessions": 361.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-04-01",
-      "sessions": 387.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 6924.1
+      "completed_orders": 31.0,
+      "net_revenue_sar": 6924.1,
+      "sessions": 377.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-04-02",
-      "sessions": 267.0,
-      "purchases": 14.0,
-      "net_revenue_sar": 3403.6
+      "completed_orders": 14.0,
+      "net_revenue_sar": 3403.6,
+      "sessions": 260.0,
+      "tracked_purchases": 14.0
     },
     {
       "date": "2025-04-03",
-      "sessions": 437.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5320.4
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5320.4,
+      "sessions": 427.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-04-04",
-      "sessions": 437.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5739.8
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5739.8,
+      "sessions": 427.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-04-05",
-      "sessions": 362.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5873.0
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5873.0,
+      "sessions": 353.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-04-06",
-      "sessions": 327.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 3839.8
+      "completed_orders": 18.0,
+      "net_revenue_sar": 3839.8,
+      "sessions": 319.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-04-07",
-      "sessions": 346.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4841.5
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4841.5,
+      "sessions": 337.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-04-08",
-      "sessions": 445.0,
-      "purchases": 34.0,
-      "net_revenue_sar": 8034.8
+      "completed_orders": 34.0,
+      "net_revenue_sar": 8034.8,
+      "sessions": 435.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-04-09",
-      "sessions": 324.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 3978.3
+      "completed_orders": 20.0,
+      "net_revenue_sar": 3978.3,
+      "sessions": 316.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-04-10",
-      "sessions": 365.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5720.6
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5720.6,
+      "sessions": 356.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-04-11",
-      "sessions": 393.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5587.4
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5587.4,
+      "sessions": 383.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-04-12",
-      "sessions": 292.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3107.5
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3107.5,
+      "sessions": 285.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-04-13",
-      "sessions": 337.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4126.3
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4126.3,
+      "sessions": 329.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-04-14",
-      "sessions": 403.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 6750.6
+      "completed_orders": 31.0,
+      "net_revenue_sar": 6750.6,
+      "sessions": 393.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-04-15",
-      "sessions": 317.0,
-      "purchases": 15.0,
-      "net_revenue_sar": 3092.7
+      "completed_orders": 15.0,
+      "net_revenue_sar": 3092.7,
+      "sessions": 309.0,
+      "tracked_purchases": 15.0
     },
     {
       "date": "2025-04-16",
-      "sessions": 342.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3925.5
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3925.5,
+      "sessions": 334.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-04-17",
-      "sessions": 423.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5201.4
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5201.4,
+      "sessions": 413.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-04-18",
-      "sessions": 399.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 4857.3
+      "completed_orders": 24.0,
+      "net_revenue_sar": 4857.3,
+      "sessions": 389.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-04-19",
-      "sessions": 317.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4137.3
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4137.3,
+      "sessions": 310.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-04-20",
-      "sessions": 440.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 6277.7
+      "completed_orders": 27.0,
+      "net_revenue_sar": 6277.7,
+      "sessions": 430.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-04-21",
-      "sessions": 417.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 4852.5
+      "completed_orders": 24.0,
+      "net_revenue_sar": 4852.5,
+      "sessions": 408.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-04-22",
-      "sessions": 310.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4550.9
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4550.9,
+      "sessions": 303.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-04-23",
-      "sessions": 437.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5879.4
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5879.4,
+      "sessions": 427.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-04-24",
-      "sessions": 476.0,
-      "purchases": 37.0,
-      "net_revenue_sar": 8219.9
+      "completed_orders": 37.0,
+      "net_revenue_sar": 8219.9,
+      "sessions": 464.0,
+      "tracked_purchases": 36.0
     },
     {
       "date": "2025-04-25",
-      "sessions": 462.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 7656.3
+      "completed_orders": 33.0,
+      "net_revenue_sar": 7656.3,
+      "sessions": 452.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-04-26",
-      "sessions": 304.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3758.3
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3758.3,
+      "sessions": 297.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-04-27",
-      "sessions": 283.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4202.0
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4202.0,
+      "sessions": 275.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-04-28",
-      "sessions": 293.0,
-      "purchases": 14.0,
-      "net_revenue_sar": 3113.2
+      "completed_orders": 14.0,
+      "net_revenue_sar": 3113.2,
+      "sessions": 286.0,
+      "tracked_purchases": 14.0
     },
     {
       "date": "2025-04-29",
-      "sessions": 254.0,
-      "purchases": 14.0,
-      "net_revenue_sar": 2895.2
+      "completed_orders": 14.0,
+      "net_revenue_sar": 2895.2,
+      "sessions": 248.0,
+      "tracked_purchases": 14.0
     },
     {
       "date": "2025-04-30",
-      "sessions": 366.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5277.6
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5277.6,
+      "sessions": 357.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-05-01",
-      "sessions": 406.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5560.7
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5560.7,
+      "sessions": 396.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-05-02",
-      "sessions": 298.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4977.7
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4977.7,
+      "sessions": 291.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-05-03",
-      "sessions": 411.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5725.6
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5725.6,
+      "sessions": 402.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-05-04",
-      "sessions": 374.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5535.5
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5535.5,
+      "sessions": 365.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-05-05",
-      "sessions": 298.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3492.4
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3492.4,
+      "sessions": 291.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-05-06",
-      "sessions": 325.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 5140.0
+      "completed_orders": 19.0,
+      "net_revenue_sar": 5140.0,
+      "sessions": 317.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-05-07",
-      "sessions": 307.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4331.6
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4331.6,
+      "sessions": 299.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-05-08",
-      "sessions": 305.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 4358.3
+      "completed_orders": 18.0,
+      "net_revenue_sar": 4358.3,
+      "sessions": 297.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-05-09",
-      "sessions": 333.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 5320.0
+      "completed_orders": 21.0,
+      "net_revenue_sar": 5320.0,
+      "sessions": 324.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-05-10",
-      "sessions": 316.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 4748.5
+      "completed_orders": 18.0,
+      "net_revenue_sar": 4748.5,
+      "sessions": 309.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-05-11",
-      "sessions": 333.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5085.3
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5085.3,
+      "sessions": 326.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-05-12",
-      "sessions": 407.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 6296.4
+      "completed_orders": 27.0,
+      "net_revenue_sar": 6296.4,
+      "sessions": 397.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-05-13",
-      "sessions": 371.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5841.4
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5841.4,
+      "sessions": 363.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-05-14",
-      "sessions": 409.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5299.7
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5299.7,
+      "sessions": 399.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-05-15",
-      "sessions": 342.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5114.6
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5114.6,
+      "sessions": 333.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-05-16",
-      "sessions": 454.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 8523.6
+      "completed_orders": 32.0,
+      "net_revenue_sar": 8523.6,
+      "sessions": 443.0,
+      "tracked_purchases": 31.0
     },
     {
       "date": "2025-05-17",
-      "sessions": 358.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5259.4
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5259.4,
+      "sessions": 349.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-05-18",
-      "sessions": 403.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5513.5
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5513.5,
+      "sessions": 394.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-05-19",
-      "sessions": 348.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6023.7
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6023.7,
+      "sessions": 339.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-05-20",
-      "sessions": 376.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4294.3
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4294.3,
+      "sessions": 367.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-05-21",
-      "sessions": 299.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 4048.2
+      "completed_orders": 17.0,
+      "net_revenue_sar": 4048.2,
+      "sessions": 292.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-05-22",
-      "sessions": 357.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4527.1
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4527.1,
+      "sessions": 348.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-05-23",
-      "sessions": 350.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4440.7
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4440.7,
+      "sessions": 342.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-05-24",
-      "sessions": 332.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3636.1
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3636.1,
+      "sessions": 324.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-05-25",
-      "sessions": 383.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4414.5
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4414.5,
+      "sessions": 374.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-05-26",
-      "sessions": 369.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5332.4
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5332.4,
+      "sessions": 360.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-05-27",
-      "sessions": 475.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 6155.7
+      "completed_orders": 30.0,
+      "net_revenue_sar": 6155.7,
+      "sessions": 464.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-05-28",
-      "sessions": 339.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5679.4
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5679.4,
+      "sessions": 331.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-05-29",
-      "sessions": 377.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4275.4
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4275.4,
+      "sessions": 368.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-05-30",
-      "sessions": 420.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 7087.3
+      "completed_orders": 30.0,
+      "net_revenue_sar": 7087.3,
+      "sessions": 410.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-05-31",
-      "sessions": 372.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 4995.0
+      "completed_orders": 23.0,
+      "net_revenue_sar": 4995.0,
+      "sessions": 364.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-06-01",
-      "sessions": 427.0,
-      "purchases": 35.0,
-      "net_revenue_sar": 8446.5
+      "completed_orders": 35.0,
+      "net_revenue_sar": 8446.5,
+      "sessions": 417.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-06-02",
-      "sessions": 389.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5637.3
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5637.3,
+      "sessions": 380.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-06-03",
-      "sessions": 406.0,
-      "purchases": 36.0,
-      "net_revenue_sar": 7781.2
+      "completed_orders": 36.0,
+      "net_revenue_sar": 7781.2,
+      "sessions": 396.0,
+      "tracked_purchases": 35.0
     },
     {
       "date": "2025-06-04",
-      "sessions": 328.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 6705.8
+      "completed_orders": 27.0,
+      "net_revenue_sar": 6705.8,
+      "sessions": 320.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-06-05",
-      "sessions": 476.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 7718.8
+      "completed_orders": 31.0,
+      "net_revenue_sar": 7718.8,
+      "sessions": 465.0,
+      "tracked_purchases": 31.0
     },
     {
       "date": "2025-06-06",
-      "sessions": 305.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 4036.6
+      "completed_orders": 18.0,
+      "net_revenue_sar": 4036.6,
+      "sessions": 298.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-06-07",
-      "sessions": 384.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6117.7
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6117.7,
+      "sessions": 375.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-06-08",
-      "sessions": 283.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3937.3
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3937.3,
+      "sessions": 276.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-06-09",
-      "sessions": 314.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3996.3
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3996.3,
+      "sessions": 306.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-06-10",
-      "sessions": 349.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4288.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4288.4,
+      "sessions": 341.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-06-11",
-      "sessions": 283.0,
-      "purchases": 14.0,
-      "net_revenue_sar": 2738.1
+      "completed_orders": 14.0,
+      "net_revenue_sar": 2738.1,
+      "sessions": 276.0,
+      "tracked_purchases": 14.0
     },
     {
       "date": "2025-06-12",
-      "sessions": 340.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6807.6
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6807.6,
+      "sessions": 332.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-06-13",
-      "sessions": 516.0,
-      "purchases": 39.0,
-      "net_revenue_sar": 9323.3
+      "completed_orders": 39.0,
+      "net_revenue_sar": 9323.3,
+      "sessions": 504.0,
+      "tracked_purchases": 38.0
     },
     {
       "date": "2025-06-14",
-      "sessions": 384.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 6073.1
+      "completed_orders": 26.0,
+      "net_revenue_sar": 6073.1,
+      "sessions": 375.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-06-15",
-      "sessions": 418.0,
-      "purchases": 34.0,
-      "net_revenue_sar": 8380.9
+      "completed_orders": 34.0,
+      "net_revenue_sar": 8380.9,
+      "sessions": 409.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-06-16",
-      "sessions": 298.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3598.3
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3598.3,
+      "sessions": 290.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-06-17",
-      "sessions": 322.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4498.7
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4498.7,
+      "sessions": 314.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-06-18",
-      "sessions": 367.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5747.5
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5747.5,
+      "sessions": 359.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-06-19",
-      "sessions": 348.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4437.8
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4437.8,
+      "sessions": 340.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-06-20",
-      "sessions": 461.0,
-      "purchases": 36.0,
-      "net_revenue_sar": 7018.9
+      "completed_orders": 36.0,
+      "net_revenue_sar": 7018.9,
+      "sessions": 450.0,
+      "tracked_purchases": 34.0
     },
     {
       "date": "2025-06-21",
-      "sessions": 330.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4905.5
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4905.5,
+      "sessions": 322.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-06-22",
-      "sessions": 324.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4758.4
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4758.4,
+      "sessions": 316.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-06-23",
-      "sessions": 395.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5325.9
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5325.9,
+      "sessions": 386.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-06-24",
-      "sessions": 361.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5212.5
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5212.5,
+      "sessions": 353.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-06-25",
-      "sessions": 389.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 7011.9
+      "completed_orders": 33.0,
+      "net_revenue_sar": 7011.9,
+      "sessions": 380.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-06-26",
-      "sessions": 332.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 4258.6
+      "completed_orders": 18.0,
+      "net_revenue_sar": 4258.6,
+      "sessions": 324.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-06-27",
-      "sessions": 350.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 4043.2
+      "completed_orders": 17.0,
+      "net_revenue_sar": 4043.2,
+      "sessions": 342.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-06-28",
-      "sessions": 396.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 6288.9
+      "completed_orders": 25.0,
+      "net_revenue_sar": 6288.9,
+      "sessions": 387.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-06-29",
-      "sessions": 363.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 5077.4
+      "completed_orders": 20.0,
+      "net_revenue_sar": 5077.4,
+      "sessions": 354.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-06-30",
-      "sessions": 348.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 6440.4
+      "completed_orders": 26.0,
+      "net_revenue_sar": 6440.4,
+      "sessions": 340.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-07-01",
-      "sessions": 445.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 6026.9
+      "completed_orders": 25.0,
+      "net_revenue_sar": 6026.9,
+      "sessions": 435.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-07-02",
-      "sessions": 385.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6425.3
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6425.3,
+      "sessions": 375.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-07-03",
-      "sessions": 398.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5301.2
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5301.2,
+      "sessions": 389.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-07-04",
-      "sessions": 457.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 6393.6
+      "completed_orders": 30.0,
+      "net_revenue_sar": 6393.6,
+      "sessions": 446.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-07-05",
-      "sessions": 419.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 6914.6
+      "completed_orders": 30.0,
+      "net_revenue_sar": 6914.6,
+      "sessions": 409.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-07-06",
-      "sessions": 294.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 4478.6
+      "completed_orders": 16.0,
+      "net_revenue_sar": 4478.6,
+      "sessions": 287.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-07-07",
-      "sessions": 448.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 6675.4
+      "completed_orders": 32.0,
+      "net_revenue_sar": 6675.4,
+      "sessions": 438.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-07-08",
-      "sessions": 283.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4457.4
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4457.4,
+      "sessions": 277.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-07-09",
-      "sessions": 338.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5434.2
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5434.2,
+      "sessions": 330.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-07-10",
-      "sessions": 315.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 4261.1
+      "completed_orders": 17.0,
+      "net_revenue_sar": 4261.1,
+      "sessions": 307.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-07-11",
-      "sessions": 385.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5180.3
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5180.3,
+      "sessions": 376.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-07-12",
-      "sessions": 344.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 6586.7
+      "completed_orders": 26.0,
+      "net_revenue_sar": 6586.7,
+      "sessions": 335.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-07-13",
-      "sessions": 373.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4929.2
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4929.2,
+      "sessions": 363.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-07-14",
-      "sessions": 361.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4799.3
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4799.3,
+      "sessions": 352.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-07-15",
-      "sessions": 294.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4928.3
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4928.3,
+      "sessions": 287.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-07-16",
-      "sessions": 335.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 4934.2
+      "completed_orders": 23.0,
+      "net_revenue_sar": 4934.2,
+      "sessions": 327.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-07-17",
-      "sessions": 454.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5926.6
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5926.6,
+      "sessions": 443.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-07-18",
-      "sessions": 421.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 7477.4
+      "completed_orders": 30.0,
+      "net_revenue_sar": 7477.4,
+      "sessions": 411.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-07-19",
-      "sessions": 325.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4582.5
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4582.5,
+      "sessions": 317.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-07-20",
-      "sessions": 332.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4747.5
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4747.5,
+      "sessions": 323.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-07-21",
-      "sessions": 330.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4774.4
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4774.4,
+      "sessions": 322.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-07-22",
-      "sessions": 409.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6498.9
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6498.9,
+      "sessions": 399.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-07-23",
-      "sessions": 460.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 4987.8
+      "completed_orders": 24.0,
+      "net_revenue_sar": 4987.8,
+      "sessions": 449.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-07-24",
-      "sessions": 363.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5857.1
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5857.1,
+      "sessions": 354.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-07-25",
-      "sessions": 416.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 6048.0
+      "completed_orders": 26.0,
+      "net_revenue_sar": 6048.0,
+      "sessions": 406.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-07-26",
-      "sessions": 413.0,
-      "purchases": 34.0,
-      "net_revenue_sar": 7519.7
+      "completed_orders": 34.0,
+      "net_revenue_sar": 7519.7,
+      "sessions": 403.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-07-27",
-      "sessions": 360.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5368.2
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5368.2,
+      "sessions": 351.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-07-28",
-      "sessions": 387.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6771.1
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6771.1,
+      "sessions": 378.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-07-29",
-      "sessions": 350.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 3929.3
+      "completed_orders": 21.0,
+      "net_revenue_sar": 3929.3,
+      "sessions": 341.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-07-30",
-      "sessions": 403.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 7660.6
+      "completed_orders": 31.0,
+      "net_revenue_sar": 7660.6,
+      "sessions": 393.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-07-31",
-      "sessions": 447.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 8012.7
+      "completed_orders": 33.0,
+      "net_revenue_sar": 8012.7,
+      "sessions": 437.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-08-01",
-      "sessions": 425.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 7162.6
+      "completed_orders": 31.0,
+      "net_revenue_sar": 7162.6,
+      "sessions": 415.0,
+      "tracked_purchases": 31.0
     },
     {
       "date": "2025-08-02",
-      "sessions": 420.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 6760.6
+      "completed_orders": 31.0,
+      "net_revenue_sar": 6760.6,
+      "sessions": 410.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-08-03",
-      "sessions": 413.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4795.7
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4795.7,
+      "sessions": 403.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-08-04",
-      "sessions": 326.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5505.8
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5505.8,
+      "sessions": 318.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-08-05",
-      "sessions": 340.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 6236.4
+      "completed_orders": 25.0,
+      "net_revenue_sar": 6236.4,
+      "sessions": 331.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-08-06",
-      "sessions": 421.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 6129.4
+      "completed_orders": 24.0,
+      "net_revenue_sar": 6129.4,
+      "sessions": 411.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-08-07",
-      "sessions": 366.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3900.3
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3900.3,
+      "sessions": 357.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-08-08",
-      "sessions": 425.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 7350.7
+      "completed_orders": 32.0,
+      "net_revenue_sar": 7350.7,
+      "sessions": 415.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-08-09",
-      "sessions": 476.0,
-      "purchases": 34.0,
-      "net_revenue_sar": 7506.7
+      "completed_orders": 34.0,
+      "net_revenue_sar": 7506.7,
+      "sessions": 465.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-08-10",
-      "sessions": 543.0,
-      "purchases": 37.0,
-      "net_revenue_sar": 8286.8
+      "completed_orders": 37.0,
+      "net_revenue_sar": 8286.8,
+      "sessions": 531.0,
+      "tracked_purchases": 36.0
     },
     {
       "date": "2025-08-11",
-      "sessions": 458.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 7284.9
+      "completed_orders": 33.0,
+      "net_revenue_sar": 7284.9,
+      "sessions": 447.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-08-12",
-      "sessions": 517.0,
-      "purchases": 35.0,
-      "net_revenue_sar": 7801.2
+      "completed_orders": 35.0,
+      "net_revenue_sar": 7801.2,
+      "sessions": 505.0,
+      "tracked_purchases": 34.0
     },
     {
       "date": "2025-08-13",
-      "sessions": 417.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 6639.5
+      "completed_orders": 30.0,
+      "net_revenue_sar": 6639.5,
+      "sessions": 407.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-08-14",
-      "sessions": 477.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6626.4
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6626.4,
+      "sessions": 466.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-08-15",
-      "sessions": 339.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 4475.2
+      "completed_orders": 18.0,
+      "net_revenue_sar": 4475.2,
+      "sessions": 330.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-08-16",
-      "sessions": 316.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5069.5
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5069.5,
+      "sessions": 308.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-08-17",
-      "sessions": 374.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4956.5
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4956.5,
+      "sessions": 365.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-08-18",
-      "sessions": 434.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 7765.2
+      "completed_orders": 30.0,
+      "net_revenue_sar": 7765.2,
+      "sessions": 424.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-08-19",
-      "sessions": 419.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 6674.2
+      "completed_orders": 30.0,
+      "net_revenue_sar": 6674.2,
+      "sessions": 410.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-08-20",
-      "sessions": 503.0,
-      "purchases": 37.0,
-      "net_revenue_sar": 8264.7
+      "completed_orders": 37.0,
+      "net_revenue_sar": 8264.7,
+      "sessions": 492.0,
+      "tracked_purchases": 36.0
     },
     {
       "date": "2025-08-21",
-      "sessions": 454.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 7139.8
+      "completed_orders": 32.0,
+      "net_revenue_sar": 7139.8,
+      "sessions": 443.0,
+      "tracked_purchases": 31.0
     },
     {
       "date": "2025-08-22",
-      "sessions": 444.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5394.5
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5394.5,
+      "sessions": 433.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-08-23",
-      "sessions": 322.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 4587.4
+      "completed_orders": 18.0,
+      "net_revenue_sar": 4587.4,
+      "sessions": 315.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-08-24",
-      "sessions": 378.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 5262.1
+      "completed_orders": 20.0,
+      "net_revenue_sar": 5262.1,
+      "sessions": 368.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-08-25",
-      "sessions": 385.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5685.9
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5685.9,
+      "sessions": 376.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-08-26",
-      "sessions": 358.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5863.8
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5863.8,
+      "sessions": 350.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-08-27",
-      "sessions": 380.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4127.3
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4127.3,
+      "sessions": 371.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-08-28",
-      "sessions": 435.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6661.5
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6661.5,
+      "sessions": 425.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-08-29",
-      "sessions": 466.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 8376.9
+      "completed_orders": 33.0,
+      "net_revenue_sar": 8376.9,
+      "sessions": 455.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-08-30",
-      "sessions": 418.0,
-      "purchases": 36.0,
-      "net_revenue_sar": 7647.0
+      "completed_orders": 36.0,
+      "net_revenue_sar": 7647.0,
+      "sessions": 408.0,
+      "tracked_purchases": 35.0
     },
     {
       "date": "2025-08-31",
-      "sessions": 435.0,
-      "purchases": 34.0,
-      "net_revenue_sar": 7368.6
+      "completed_orders": 34.0,
+      "net_revenue_sar": 7368.6,
+      "sessions": 425.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-09-01",
-      "sessions": 367.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4915.2
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4915.2,
+      "sessions": 359.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-09-02",
-      "sessions": 387.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 6088.9
+      "completed_orders": 24.0,
+      "net_revenue_sar": 6088.9,
+      "sessions": 377.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-09-03",
-      "sessions": 349.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5620.5
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5620.5,
+      "sessions": 340.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-09-04",
-      "sessions": 485.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 6677.0
+      "completed_orders": 33.0,
+      "net_revenue_sar": 6677.0,
+      "sessions": 474.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-09-05",
-      "sessions": 536.0,
-      "purchases": 37.0,
-      "net_revenue_sar": 7567.0
+      "completed_orders": 37.0,
+      "net_revenue_sar": 7567.0,
+      "sessions": 523.0,
+      "tracked_purchases": 36.0
     },
     {
       "date": "2025-09-06",
-      "sessions": 431.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5323.5
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5323.5,
+      "sessions": 421.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-09-07",
-      "sessions": 416.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5141.9
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5141.9,
+      "sessions": 405.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-09-08",
-      "sessions": 374.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4518.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4518.4,
+      "sessions": 366.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-09-09",
-      "sessions": 322.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3543.2
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3543.2,
+      "sessions": 314.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-09-10",
-      "sessions": 359.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 4678.4
+      "completed_orders": 23.0,
+      "net_revenue_sar": 4678.4,
+      "sessions": 350.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-09-11",
-      "sessions": 434.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 7035.8
+      "completed_orders": 32.0,
+      "net_revenue_sar": 7035.8,
+      "sessions": 424.0,
+      "tracked_purchases": 31.0
     },
     {
       "date": "2025-09-12",
-      "sessions": 526.0,
-      "purchases": 44.0,
-      "net_revenue_sar": 9329.2
+      "completed_orders": 44.0,
+      "net_revenue_sar": 9329.2,
+      "sessions": 514.0,
+      "tracked_purchases": 42.0
     },
     {
       "date": "2025-09-13",
-      "sessions": 331.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4607.4
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4607.4,
+      "sessions": 323.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-09-14",
-      "sessions": 399.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 5921.8
+      "completed_orders": 28.0,
+      "net_revenue_sar": 5921.8,
+      "sessions": 389.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-09-15",
-      "sessions": 325.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3482.1
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3482.1,
+      "sessions": 318.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-09-16",
-      "sessions": 358.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 6268.5
+      "completed_orders": 25.0,
+      "net_revenue_sar": 6268.5,
+      "sessions": 349.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-09-17",
-      "sessions": 335.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3925.2
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3925.2,
+      "sessions": 327.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-09-18",
-      "sessions": 325.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5237.7
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5237.7,
+      "sessions": 317.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-09-19",
-      "sessions": 354.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5637.5
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5637.5,
+      "sessions": 345.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-09-20",
-      "sessions": 427.0,
-      "purchases": 37.0,
-      "net_revenue_sar": 8572.5
+      "completed_orders": 37.0,
+      "net_revenue_sar": 8572.5,
+      "sessions": 416.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-09-21",
-      "sessions": 633.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 7583.7
+      "completed_orders": 33.0,
+      "net_revenue_sar": 7583.7,
+      "sessions": 619.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-09-22",
-      "sessions": 494.0,
-      "purchases": 43.0,
-      "net_revenue_sar": 9964.9
+      "completed_orders": 43.0,
+      "net_revenue_sar": 9964.9,
+      "sessions": 482.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-09-23",
-      "sessions": 449.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 7122.6
+      "completed_orders": 31.0,
+      "net_revenue_sar": 7122.6,
+      "sessions": 438.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-09-24",
-      "sessions": 362.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5009.7
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5009.7,
+      "sessions": 353.0,
+      "tracked_purchases": 15.0
     },
     {
       "date": "2025-09-25",
-      "sessions": 498.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 7104.7
+      "completed_orders": 32.0,
+      "net_revenue_sar": 7104.7,
+      "sessions": 486.0,
+      "tracked_purchases": 31.0
     },
     {
       "date": "2025-09-26",
-      "sessions": 354.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5764.5
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5764.5,
+      "sessions": 345.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-09-27",
-      "sessions": 376.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 4584.5
+      "completed_orders": 18.0,
+      "net_revenue_sar": 4584.5,
+      "sessions": 367.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-09-28",
-      "sessions": 439.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5617.9
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5617.9,
+      "sessions": 428.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-09-29",
-      "sessions": 288.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4644.5
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4644.5,
+      "sessions": 281.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-09-30",
-      "sessions": 389.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 7909.9
+      "completed_orders": 31.0,
+      "net_revenue_sar": 7909.9,
+      "sessions": 379.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-10-01",
-      "sessions": 265.0,
-      "purchases": 13.0,
-      "net_revenue_sar": 2810.6
+      "completed_orders": 13.0,
+      "net_revenue_sar": 2810.6,
+      "sessions": 259.0,
+      "tracked_purchases": 13.0
     },
     {
       "date": "2025-10-02",
-      "sessions": 395.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 7214.0
+      "completed_orders": 32.0,
+      "net_revenue_sar": 7214.0,
+      "sessions": 385.0,
+      "tracked_purchases": 31.0
     },
     {
       "date": "2025-10-03",
-      "sessions": 372.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5674.2
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5674.2,
+      "sessions": 363.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-10-04",
-      "sessions": 379.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 7510.1
+      "completed_orders": 33.0,
+      "net_revenue_sar": 7510.1,
+      "sessions": 370.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-10-05",
-      "sessions": 317.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4602.3
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4602.3,
+      "sessions": 308.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-10-06",
-      "sessions": 392.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 6616.5
+      "completed_orders": 30.0,
+      "net_revenue_sar": 6616.5,
+      "sessions": 383.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-10-07",
-      "sessions": 309.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3360.4
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3360.4,
+      "sessions": 301.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-10-08",
-      "sessions": 328.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4334.2
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4334.2,
+      "sessions": 320.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-10-09",
-      "sessions": 465.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5303.7
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5303.7,
+      "sessions": 454.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-10-10",
-      "sessions": 357.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4979.8
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4979.8,
+      "sessions": 349.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-10-11",
-      "sessions": 319.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4958.5
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4958.5,
+      "sessions": 312.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-10-12",
-      "sessions": 328.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 5671.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 5671.4,
+      "sessions": 320.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-10-13",
-      "sessions": 345.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4501.5
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4501.5,
+      "sessions": 337.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-10-14",
-      "sessions": 355.0,
-      "purchases": 31.0,
-      "net_revenue_sar": 7167.6
+      "completed_orders": 31.0,
+      "net_revenue_sar": 7167.6,
+      "sessions": 346.0,
+      "tracked_purchases": 30.0
     },
     {
       "date": "2025-10-15",
-      "sessions": 298.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 5014.3
+      "completed_orders": 21.0,
+      "net_revenue_sar": 5014.3,
+      "sessions": 290.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-10-16",
-      "sessions": 313.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4846.5
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4846.5,
+      "sessions": 306.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-10-17",
-      "sessions": 486.0,
-      "purchases": 34.0,
-      "net_revenue_sar": 7461.9
+      "completed_orders": 34.0,
+      "net_revenue_sar": 7461.9,
+      "sessions": 475.0,
+      "tracked_purchases": 33.0
     },
     {
       "date": "2025-10-18",
-      "sessions": 317.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4767.7
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4767.7,
+      "sessions": 309.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-10-19",
-      "sessions": 373.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4238.8
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4238.8,
+      "sessions": 365.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-10-20",
-      "sessions": 387.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 5268.8
+      "completed_orders": 21.0,
+      "net_revenue_sar": 5268.8,
+      "sessions": 378.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-10-21",
-      "sessions": 327.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4123.7
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4123.7,
+      "sessions": 318.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-10-22",
-      "sessions": 307.0,
-      "purchases": 15.0,
-      "net_revenue_sar": 3598.5
+      "completed_orders": 15.0,
+      "net_revenue_sar": 3598.5,
+      "sessions": 299.0,
+      "tracked_purchases": 15.0
     },
     {
       "date": "2025-10-23",
-      "sessions": 323.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5941.4
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5941.4,
+      "sessions": 315.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-10-24",
-      "sessions": 489.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6392.6
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6392.6,
+      "sessions": 478.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-10-25",
-      "sessions": 325.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 4112.2
+      "completed_orders": 17.0,
+      "net_revenue_sar": 4112.2,
+      "sessions": 317.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-10-26",
-      "sessions": 383.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5802.8
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5802.8,
+      "sessions": 374.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-10-27",
-      "sessions": 319.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5511.7
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5511.7,
+      "sessions": 311.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-10-28",
-      "sessions": 275.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 4378.5
+      "completed_orders": 17.0,
+      "net_revenue_sar": 4378.5,
+      "sessions": 268.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-10-29",
-      "sessions": 299.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 4249.2
+      "completed_orders": 17.0,
+      "net_revenue_sar": 4249.2,
+      "sessions": 292.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-10-30",
-      "sessions": 345.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 3507.5
+      "completed_orders": 19.0,
+      "net_revenue_sar": 3507.5,
+      "sessions": 337.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-10-31",
-      "sessions": 410.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 6948.0
+      "completed_orders": 30.0,
+      "net_revenue_sar": 6948.0,
+      "sessions": 401.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-11-01",
-      "sessions": 456.0,
-      "purchases": 33.0,
-      "net_revenue_sar": 7483.0
+      "completed_orders": 33.0,
+      "net_revenue_sar": 7483.0,
+      "sessions": 445.0,
+      "tracked_purchases": 32.0
     },
     {
       "date": "2025-11-02",
-      "sessions": 370.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6116.6
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6116.6,
+      "sessions": 361.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-11-03",
-      "sessions": 330.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4948.0
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4948.0,
+      "sessions": 322.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-11-04",
-      "sessions": 242.0,
-      "purchases": 14.0,
-      "net_revenue_sar": 3023.3
+      "completed_orders": 14.0,
+      "net_revenue_sar": 3023.3,
+      "sessions": 236.0,
+      "tracked_purchases": 14.0
     },
     {
       "date": "2025-11-05",
-      "sessions": 326.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3627.5
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3627.5,
+      "sessions": 318.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-11-06",
-      "sessions": 435.0,
-      "purchases": 32.0,
-      "net_revenue_sar": 6685.6
+      "completed_orders": 32.0,
+      "net_revenue_sar": 6685.6,
+      "sessions": 425.0,
+      "tracked_purchases": 31.0
     },
     {
       "date": "2025-11-07",
-      "sessions": 394.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5125.9
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5125.9,
+      "sessions": 385.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-11-08",
-      "sessions": 399.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 5961.6
+      "completed_orders": 26.0,
+      "net_revenue_sar": 5961.6,
+      "sessions": 389.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-11-09",
-      "sessions": 395.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6187.5
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6187.5,
+      "sessions": 385.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-11-10",
-      "sessions": 400.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5113.5
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5113.5,
+      "sessions": 390.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-11-11",
-      "sessions": 354.0,
-      "purchases": 26.0,
-      "net_revenue_sar": 6464.7
+      "completed_orders": 26.0,
+      "net_revenue_sar": 6464.7,
+      "sessions": 346.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-11-12",
-      "sessions": 407.0,
-      "purchases": 30.0,
-      "net_revenue_sar": 7147.6
+      "completed_orders": 30.0,
+      "net_revenue_sar": 7147.6,
+      "sessions": 397.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-11-13",
-      "sessions": 340.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5621.8
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5621.8,
+      "sessions": 332.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-11-14",
-      "sessions": 394.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5570.9
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5570.9,
+      "sessions": 384.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-11-15",
-      "sessions": 388.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4504.4
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4504.4,
+      "sessions": 379.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-11-16",
-      "sessions": 243.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3491.5
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3491.5,
+      "sessions": 237.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-11-17",
-      "sessions": 427.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5534.9
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5534.9,
+      "sessions": 417.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-11-18",
-      "sessions": 398.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 6401.0
+      "completed_orders": 27.0,
+      "net_revenue_sar": 6401.0,
+      "sessions": 388.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-11-19",
-      "sessions": 346.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3995.3
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3995.3,
+      "sessions": 338.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-11-20",
-      "sessions": 328.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4573.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4573.4,
+      "sessions": 320.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-11-21",
-      "sessions": 306.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 4798.4
+      "completed_orders": 18.0,
+      "net_revenue_sar": 4798.4,
+      "sessions": 298.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-11-22",
-      "sessions": 481.0,
-      "purchases": 38.0,
-      "net_revenue_sar": 7945.9
+      "completed_orders": 38.0,
+      "net_revenue_sar": 7945.9,
+      "sessions": 469.0,
+      "tracked_purchases": 37.0
     },
     {
       "date": "2025-11-23",
-      "sessions": 361.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5071.3
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5071.3,
+      "sessions": 353.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-11-24",
-      "sessions": 298.0,
-      "purchases": 20.0,
-      "net_revenue_sar": 4310.8
+      "completed_orders": 20.0,
+      "net_revenue_sar": 4310.8,
+      "sessions": 291.0,
+      "tracked_purchases": 20.0
     },
     {
       "date": "2025-11-25",
-      "sessions": 414.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5832.7
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5832.7,
+      "sessions": 404.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-11-26",
-      "sessions": 304.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3956.3
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3956.3,
+      "sessions": 297.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-11-27",
-      "sessions": 458.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6693.6
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6693.6,
+      "sessions": 447.0,
+      "tracked_purchases": 29.0
     },
     {
       "date": "2025-11-28",
-      "sessions": 439.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5078.5
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5078.5,
+      "sessions": 429.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-11-29",
-      "sessions": 330.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5688.4
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5688.4,
+      "sessions": 322.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-11-30",
-      "sessions": 430.0,
-      "purchases": 24.0,
-      "net_revenue_sar": 5259.5
+      "completed_orders": 24.0,
+      "net_revenue_sar": 5259.5,
+      "sessions": 419.0,
+      "tracked_purchases": 24.0
     },
     {
       "date": "2025-12-01",
-      "sessions": 334.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4717.6
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4717.6,
+      "sessions": 326.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-12-02",
-      "sessions": 362.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4598.6
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4598.6,
+      "sessions": 354.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-12-03",
-      "sessions": 389.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6726.5
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6726.5,
+      "sessions": 379.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-12-04",
-      "sessions": 429.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6504.2
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6504.2,
+      "sessions": 419.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-12-05",
-      "sessions": 460.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 4844.3
+      "completed_orders": 22.0,
+      "net_revenue_sar": 4844.3,
+      "sessions": 450.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-12-06",
-      "sessions": 369.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 6106.5
+      "completed_orders": 23.0,
+      "net_revenue_sar": 6106.5,
+      "sessions": 361.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-12-07",
-      "sessions": 402.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6457.0
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6457.0,
+      "sessions": 393.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-12-08",
-      "sessions": 411.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5142.7
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5142.7,
+      "sessions": 402.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-12-09",
-      "sessions": 326.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 6102.1
+      "completed_orders": 22.0,
+      "net_revenue_sar": 6102.1,
+      "sessions": 318.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-12-10",
-      "sessions": 329.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 4125.3
+      "completed_orders": 17.0,
+      "net_revenue_sar": 4125.3,
+      "sessions": 321.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-12-11",
-      "sessions": 418.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 6775.8
+      "completed_orders": 29.0,
+      "net_revenue_sar": 6775.8,
+      "sessions": 408.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-12-12",
-      "sessions": 342.0,
-      "purchases": 18.0,
-      "net_revenue_sar": 3932.5
+      "completed_orders": 18.0,
+      "net_revenue_sar": 3932.5,
+      "sessions": 333.0,
+      "tracked_purchases": 18.0
     },
     {
       "date": "2025-12-13",
-      "sessions": 334.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5909.6
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5909.6,
+      "sessions": 326.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-12-14",
-      "sessions": 346.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4676.5
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4676.5,
+      "sessions": 338.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-12-15",
-      "sessions": 325.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4325.3
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4325.3,
+      "sessions": 318.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-12-16",
-      "sessions": 389.0,
-      "purchases": 25.0,
-      "net_revenue_sar": 5862.6
+      "completed_orders": 25.0,
+      "net_revenue_sar": 5862.6,
+      "sessions": 380.0,
+      "tracked_purchases": 25.0
     },
     {
       "date": "2025-12-17",
-      "sessions": 328.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4465.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4465.4,
+      "sessions": 321.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-12-18",
-      "sessions": 409.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 5705.5
+      "completed_orders": 23.0,
+      "net_revenue_sar": 5705.5,
+      "sessions": 400.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-12-19",
-      "sessions": 353.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5605.4
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5605.4,
+      "sessions": 344.0,
+      "tracked_purchases": 26.0
     },
     {
       "date": "2025-12-20",
-      "sessions": 471.0,
-      "purchases": 35.0,
-      "net_revenue_sar": 8393.3
+      "completed_orders": 35.0,
+      "net_revenue_sar": 8393.3,
+      "sessions": 459.0,
+      "tracked_purchases": 34.0
     },
     {
       "date": "2025-12-21",
-      "sessions": 357.0,
-      "purchases": 22.0,
-      "net_revenue_sar": 5746.2
+      "completed_orders": 22.0,
+      "net_revenue_sar": 5746.2,
+      "sessions": 349.0,
+      "tracked_purchases": 22.0
     },
     {
       "date": "2025-12-22",
-      "sessions": 366.0,
-      "purchases": 19.0,
-      "net_revenue_sar": 4420.2
+      "completed_orders": 19.0,
+      "net_revenue_sar": 4420.2,
+      "sessions": 357.0,
+      "tracked_purchases": 19.0
     },
     {
       "date": "2025-12-23",
-      "sessions": 276.0,
-      "purchases": 17.0,
-      "net_revenue_sar": 3888.3
+      "completed_orders": 17.0,
+      "net_revenue_sar": 3888.3,
+      "sessions": 269.0,
+      "tracked_purchases": 17.0
     },
     {
       "date": "2025-12-24",
-      "sessions": 360.0,
-      "purchases": 23.0,
-      "net_revenue_sar": 4925.5
+      "completed_orders": 23.0,
+      "net_revenue_sar": 4925.5,
+      "sessions": 351.0,
+      "tracked_purchases": 23.0
     },
     {
       "date": "2025-12-25",
-      "sessions": 406.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6198.7
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6198.7,
+      "sessions": 396.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-12-26",
-      "sessions": 421.0,
-      "purchases": 29.0,
-      "net_revenue_sar": 5820.1
+      "completed_orders": 29.0,
+      "net_revenue_sar": 5820.1,
+      "sessions": 411.0,
+      "tracked_purchases": 28.0
     },
     {
       "date": "2025-12-27",
-      "sessions": 432.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 5044.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 5044.4,
+      "sessions": 422.0,
+      "tracked_purchases": 21.0
     },
     {
       "date": "2025-12-28",
-      "sessions": 263.0,
-      "purchases": 16.0,
-      "net_revenue_sar": 3484.3
+      "completed_orders": 16.0,
+      "net_revenue_sar": 3484.3,
+      "sessions": 257.0,
+      "tracked_purchases": 16.0
     },
     {
       "date": "2025-12-29",
-      "sessions": 384.0,
-      "purchases": 27.0,
-      "net_revenue_sar": 5577.3
+      "completed_orders": 27.0,
+      "net_revenue_sar": 5577.3,
+      "sessions": 374.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-12-30",
-      "sessions": 425.0,
-      "purchases": 28.0,
-      "net_revenue_sar": 6596.5
+      "completed_orders": 28.0,
+      "net_revenue_sar": 6596.5,
+      "sessions": 415.0,
+      "tracked_purchases": 27.0
     },
     {
       "date": "2025-12-31",
-      "sessions": 370.0,
-      "purchases": 21.0,
-      "net_revenue_sar": 4584.4
+      "completed_orders": 21.0,
+      "net_revenue_sar": 4584.4,
+      "sessions": 362.0,
+      "tracked_purchases": 21.0
     }
   ]
 }

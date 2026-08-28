@@ -45,6 +45,9 @@ def test_generator_is_byte_deterministic(tmp_path):
     run_generator(first, tmp_path / "seeds-1")
     run_generator(second, tmp_path / "seeds-2")
     assert directory_hash(first) == directory_hash(second)
+    before = directory_hash(first)
+    run_generator(first, tmp_path / "seeds-1")
+    assert directory_hash(first) == before
 
 
 def test_metadata_documents_365_days_and_all_anomalies(generated):
@@ -74,7 +77,8 @@ def test_api_artifacts_match_public_contract(generated):
     summary = json.loads((generated / "api" / "summary.json").read_text(encoding="utf-8"))
     assert summary["currency"] == "SAR"
     assert len(summary["timeseries"]) == 365
-    assert summary["totals"]["purchases"] > 0
+    assert summary["totals"]["completed_orders"] > 0
+    assert summary["totals"]["tracked_purchases"] > 0
     assert "no real customer or revenue information" in summary["disclosure"]
 
 
@@ -106,3 +110,27 @@ def test_frontend_dashboard_contract_is_generated_from_full_period(generated):
     summary = json.loads((generated / "api" / "summary.json").read_text(encoding="utf-8"))
     dashboard_net = round(sum(row["revenue"] - row["refunds"] for row in dashboard["records"]), 2)
     assert dashboard_net == summary["totals"]["net_revenue_sar"]
+
+
+def test_product_behavior_is_ga4_scoped_and_customer_segments_are_stable(generated):
+    with (generated / "ga4_product_daily.csv").open(encoding="utf-8", newline="") as handle:
+        product_behavior = list(csv.DictReader(handle))
+    with (generated / "ga4_daily.csv").open(encoding="utf-8", newline="") as handle:
+        ga4 = list(csv.DictReader(handle))
+    assert len(product_behavior) == 365 * 3 * 12
+    assert sum(int(row["sessions"]) for row in product_behavior) == sum(int(row["sessions"]) for row in ga4)
+    with (generated / "orders.csv").open(encoding="utf-8", newline="") as handle:
+        orders = list(csv.DictReader(handle))
+    by_customer = {}
+    for order in orders:
+        signature = (order["customer_first_purchase_date"], order["customer_type"])
+        assert by_customer.setdefault(order["anonymous_customer_id"], signature) == signature
+        assert (order["customer_type"] == "returning") == (order["customer_first_purchase_date"] < "2025-01-01")
+
+
+def test_manifest_hashes_every_payload_without_recursive_self_hash(generated):
+    manifest = json.loads((generated / "manifest.json").read_text(encoding="utf-8"))["files"]
+    assert "manifest.json" not in manifest
+    assert manifest["metadata.json"] == hashlib.sha256((generated / "metadata.json").read_bytes()).hexdigest()
+    for relative, expected in manifest.items():
+        assert hashlib.sha256((generated / relative).read_bytes()).hexdigest() == expected

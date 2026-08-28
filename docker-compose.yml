@@ -6,16 +6,14 @@ services:
     environment:
       DATA_MODE: public-demo
     ports:
-      - "8000:8000"
+      - "127.0.0.1:8000:8000"
   web:
-    image: node:22-alpine
-    working_dir: /workspace
-    volumes:
-      - ./:/workspace
-    command: sh -c "corepack enable && pnpm install && pnpm data:generate && pnpm dev:web --hostname 0.0.0.0"
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
     environment:
       DATA_MODE: public-demo
     ports:
-      - "3000:3000"
+      - "127.0.0.1:3000:3000"
     depends_on:
       - api

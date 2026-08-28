@@ -6,11 +6,12 @@
       "source": "partners",
       "medium": "affiliate",
       "campaign": "Partner Network",
-      "sessions": 23368,
-      "purchases": 1472,
-      "net_revenue_sar": 331832.2,
+      "sessions": 22815,
+      "active_user_days": 18424,
+      "tracked_purchases": 1453,
+      "purchase_revenue_sar": 317115.25,
       "ad_spend_sar": 0.0,
-      "conversion_rate": 0.062992,
+      "conversion_rate": 0.063686,
       "roas": null
     },
     {
@@ -18,11 +19,12 @@
       "source": "direct",
       "medium": "none",
       "campaign": "Unassigned",
-      "sessions": 23793,
-      "purchases": 1560,
-      "net_revenue_sar": 358433.6,
+      "sessions": 23226,
+      "active_user_days": 18667,
+      "tracked_purchases": 1522,
+      "purchase_revenue_sar": 341265.66,
       "ad_spend_sar": 0.0,
-      "conversion_rate": 0.065566,
+      "conversion_rate": 0.06553,
       "roas": null
     },
     {
@@ -30,11 +32,12 @@
       "source": "newsletter",
       "medium": "email",
       "campaign": "Lifecycle",
-      "sessions": 22616,
-      "purchases": 1469,
-      "net_revenue_sar": 333080.1,
+      "sessions": 22078,
+      "active_user_days": 17996,
+      "tracked_purchases": 1443,
+      "purchase_revenue_sar": 317697.13,
       "ad_spend_sar": 0.0,
-      "conversion_rate": 0.064954,
+      "conversion_rate": 0.065359,
       "roas": null
     },
     {
@@ -42,11 +45,12 @@
       "source": "google",
       "medium": "organic",
       "campaign": "Always-on SEO",
-      "sessions": 23209,
-      "purchases": 1530,
-      "net_revenue_sar": 346602.7,
+      "sessions": 22658,
+      "active_user_days": 18366,
+      "tracked_purchases": 1504,
+      "purchase_revenue_sar": 331036.12,
       "ad_spend_sar": 0.0,
-      "conversion_rate": 0.065923,
+      "conversion_rate": 0.066378,
       "roas": null
     },
     {
@@ -54,24 +58,26 @@
       "source": "google",
       "medium": "cpc",
       "campaign": "KSA Growth",
-      "sessions": 24032,
-      "purchases": 1587,
-      "net_revenue_sar": 363988.8,
+      "sessions": 23456,
+      "active_user_days": 19074,
+      "tracked_purchases": 1558,
+      "purchase_revenue_sar": 348012.61,
       "ad_spend_sar": 26295.03,
-      "conversion_rate": 0.066037,
-      "roas": 13.8425
+      "conversion_rate": 0.066422,
+      "roas": 13.2349
     },
     {
       "channel": "Paid Social",
       "source": "instagram",
       "medium": "paid_social",
       "campaign": "Creator Offers",
-      "sessions": 22748,
-      "purchases": 1457,
-      "net_revenue_sar": 332748.9,
+      "sessions": 22204,
+      "active_user_days": 17963,
+      "tracked_purchases": 1434,
+      "purchase_revenue_sar": 318181.84,
       "ad_spend_sar": 23940.91,
-      "conversion_rate": 0.06405,
-      "roas": 13.8988
+      "conversion_rate": 0.064583,
+      "roas": 13.2903
     }
   ]
 }

@@ -41,6 +41,16 @@ class SallaMCPConnector(FileFallbackConnector):
         "units_sold", "gross_revenue_sar", "refund_sar", "net_revenue_sar",
         "abandoned_carts", "catalog_item_count",
     })
+    operation_required_fields = {
+        "get_order_aggregates": (("date", "period"), ("completed_orders", "order_count", "purchases"), ("net_revenue_sar", "gross_revenue_sar")),
+        "get_product_performance": (("product_id",), ("units_sold", "completed_orders"), ("net_revenue_sar", "gross_revenue_sar")),
+        "get_payment_aggregates": (("payment_method",), ("completed_orders", "order_count", "purchases")),
+        "get_coupon_aggregates": (("coupon_group",), ("completed_orders", "order_count", "purchases")),
+        "get_device_aggregates": (("device",), ("completed_orders", "order_count", "purchases")),
+        "get_region_aggregates": (("region", "city"), ("completed_orders", "order_count", "purchases")),
+        "get_abandoned_cart_aggregates": (("date", "period"), ("abandoned_carts",)),
+        "get_catalog_facts": (("product_id", "catalog_item_count"),),
+    }
 
     def __init__(self, executor: Optional[Callable[[str, Dict[str, Any]], List[Dict[str, Any]]]] = None):
         self._executor = executor
@@ -64,10 +74,14 @@ class SallaMCPConnector(FileFallbackConnector):
         raw_rows = self.execute_with_retry(lambda: self._executor(operation, dict(parameters or {})))
         if not isinstance(raw_rows, list) or not all(isinstance(row, dict) for row in raw_rows):
             raise ValueError("MCP bridge expects an aggregate record list")
-        projected = [
-            ConnectorRecord.model_validate({key: value for key, value in row.items() if key in self.safe_aggregate_fields})
-            for row in raw_rows
-        ]
+        projected = []
+        for index, row in enumerate(raw_rows, start=1):
+            safe_row = {key: value for key, value in row.items() if key in self.safe_aggregate_fields}
+            missing_groups = [group for group in self.operation_required_fields[operation] if not any(safe_row.get(field) not in (None, "") for field in group)]
+            if missing_groups:
+                choices = ["/".join(group) for group in missing_groups]
+                raise ValueError(f"{self.connector_id} {operation} row {index} missing required aggregate fields: {', '.join(choices)}")
+            projected.append(ConnectorRecord.model_validate(safe_row))
         return ConnectorResult(
             connector_id=self.connector_id,
             status=ConnectorStatus.CONNECTED,

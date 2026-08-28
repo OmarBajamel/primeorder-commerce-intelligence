@@ -1,14 +1,13 @@
 name: Pages
 
 on:
-  push:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
     branches: [main]
-  workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -16,9 +15,15 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push' && github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.head_repository.full_name == github.repository }}
+    permissions:
+      contents: read
+      pages: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
       - uses: pnpm/action-setup@v4
         with:
           version: 11.15.1
@@ -32,16 +37,28 @@ jobs:
       - uses: actions/configure-pages@v5
       - run: pnpm install --frozen-lockfile
       - run: python scripts/generate_demo_data.py
+      - run: pnpm audit --audit-level high
       - run: pnpm --filter web build
         env:
           DATA_MODE: public-demo
           GITHUB_PAGES: 'true'
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:static
+        env:
+          STATIC_BASE_PATH: /${{ github.event.repository.name }}
+      - run: python scripts/release_check.py
+        env:
+          DATA_MODE: public-demo
       - uses: actions/upload-pages-artifact@v3
         with:
           path: apps/web/out
 
   deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -51,4 +68,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

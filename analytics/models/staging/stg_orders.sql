@@ -3,6 +3,7 @@ select
     cast(tracking_transaction_id as varchar) as tracking_transaction_id,
     cast(order_date as date) as order_date,
     cast(anonymous_customer_id as varchar) as anonymous_customer_id,
+    cast(customer_first_purchase_date as date) as customer_first_purchase_date,
     lower(cast(customer_type as varchar)) as customer_type,
     cast(channel as varchar) as channel,
     cast(source as varchar) as source,

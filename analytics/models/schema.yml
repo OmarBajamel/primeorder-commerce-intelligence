@@ -14,7 +14,7 @@ models:
                 values: [Productivity, Education, Design, AI, Security, Cloud]
 
   - name: stg_commerce_daily
-    description: Salla-like commerce aggregates at date, acquisition, device, city, payment, and customer-type grain.
+    description: Salla-like order and revenue aggregates at date, acquisition, device, city, and payment grain; no behavioral measures are carried.
     columns:
       - name: activity_date
         tests: [not_null]
@@ -23,11 +23,6 @@ models:
           - accepted_values:
               arguments:
                 values: [mobile, desktop, tablet]
-      - name: customer_type
-        tests:
-          - accepted_values:
-              arguments:
-                values: [new, returning]
 
   - name: stg_orders
     description: Privacy-safe synthetic orders with anonymous identifiers only.
@@ -39,6 +34,13 @@ models:
         tests: [not_null]
       - name: anonymous_customer_id
         tests: [not_null]
+      - name: customer_first_purchase_date
+        tests: [not_null]
+      - name: customer_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: [new, returning]
       - name: order_status
         tests:
           - accepted_values:
@@ -63,6 +65,29 @@ models:
       - name: activity_date
         tests: [not_null]
       - name: consent_state_coverage
+        tests: [not_null]
+
+  - name: stg_ga4_product_daily
+    description: Product-scoped GA4 behavior allocated from an exogenous preference profile, independent of order shares.
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+      - name: activity_date
+        tests: [not_null]
+
+  - name: stg_google_ads_daily
+    description: Dedicated synthetic Google Ads spend and conversion-value fixture for paid channels.
+    columns:
+      - name: activity_date
+        tests: [not_null]
+      - name: campaign
+        tests: [not_null]
+      - name: ad_spend_sar
         tests: [not_null]
 
   - name: stg_events
@@ -118,7 +143,7 @@ models:
     columns:
       - name: funnel_key
         tests: [not_null, unique]
-      - name: purchases
+      - name: tracked_purchases
         tests: [not_null]
 
   - name: mart_product_performance

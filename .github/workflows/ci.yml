@@ -43,7 +43,7 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install --require-hashes -r requirements.lock
       - run: python scripts/generate_demo_data.py
       - run: python -m pytest services/api/tests connectors/tests scripts/tests -q
 
@@ -56,7 +56,7 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install --require-hashes -r requirements.lock
       - run: python scripts/generate_demo_data.py
       - run: dbt parse --project-dir analytics --profiles-dir analytics
       - run: dbt build --project-dir analytics --profiles-dir analytics
@@ -84,6 +84,11 @@ jobs:
       - run: pnpm test:e2e
         env:
           DATA_MODE: public-demo
+      - run: pnpm --filter web build
+        env:
+          DATA_MODE: public-demo
+          NEXT_PUBLIC_BASE_PATH: /primeorder-commerce-intelligence
+      - run: pnpm test:static
       - run: python scripts/release_check.py
         env:
           DATA_MODE: public-demo
@@ -112,5 +117,24 @@ jobs:
           python-version: '3.12'
       - run: pnpm install --frozen-lockfile
       - run: pnpm audit --audit-level high
-      - run: python -m pip install -r requirements.txt pip-audit
-      - run: python -m pip_audit -r requirements.txt
+      - run: python -m pip install --require-hashes -r requirements.lock
+      - run: python -m pip_audit -r requirements.lock
+
+  container-smoke:
+    name: Container build and smoke
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose config --quiet
+      - run: docker compose build
+      - run: docker compose up --detach
+      - name: Wait for API and web
+        run: |
+          for attempt in {1..30}; do
+            curl --fail --silent http://127.0.0.1:8000/health >/dev/null && curl --fail --silent http://127.0.0.1:3000/ >/dev/null && exit 0
+            sleep 2
+          done
+          docker compose logs
+          exit 1
+      - if: always()
+        run: docker compose down --volumes

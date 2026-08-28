@@ -8,8 +8,8 @@ Start with the narrow symptom below. Preserve privacy: do not paste environment 
 |---|---|---|---|
 | `pnpm` is missing or wrong version | Corepack disabled or package manager mismatch | `node --version`; `corepack --version`; inspect root `packageManager` | Enable Corepack and activate/install pnpm `11.15.1`; rerun bootstrap |
 | Next.js reports unsupported Node | Node below supported range | `node --version` | Use Node 20.9+; project baseline is Node 22 |
-| `py -3.9` not found on Windows | Python launcher/3.9 absent | `py -0p` without exposing unrelated config | Install Python 3.9 or run repository Bash/activated-environment equivalent |
-| Python module import fails | Requirements not installed into invoked interpreter | `py -3.9 -m pip --version`; `py -3.9 -m pip check` | `py -3.9 -m pip install -r requirements.txt` |
+| Python is not found | No usable Python 3 executable was detected | Set `PYTHON_EXECUTABLE` to an approved Python 3.11+ path or install Python | Rerun the cross-platform `node scripts/run_python.mjs --version` probe, then bootstrap |
+| Python module import fails | Requirements not installed into the interpreter selected by the wrapper | `node scripts/run_python.mjs -m pip --version`; `node scripts/run_python.mjs -m pip check` | `node scripts/run_python.mjs -m pip install --require-hashes -r requirements.lock` |
 | `pnpm install --frozen-lockfile` fails | Lockfile missing/stale or wrong pnpm | Inspect Git status and package manager version | Use project pnpm; regenerate lockfile only as an intentional reviewed dependency change |
 
 ## Data generation and analytics
@@ -33,7 +33,7 @@ Start with the narrow symptom below. Preserve privacy: do not paste environment 
 | `/summary` returns 404 | No fixture rows in selected range | Compare to metadata period | Choose `2025-01-01` through `2025-12-31` for demo or regenerate |
 | 422 validation response | Unsupported filter/value/limit | Use `/docs` and contracts | Send accepted enums and limits; do not relax validation casually |
 | Response appears stale after regenerating data | Repository uses process-local caching | Restart the API after regeneration | Stop/start Uvicorn; confirm readiness/mode |
-| Logs contain a stack trace | Unexpected server exception uses `logger.exception` | Treat logs as potentially sensitive and inspect locally | Fix exception; ensure upstream/private values are never embedded; consider sanitized exception logging for live-private mode |
+| Unexpected API error | Sanitized `request_failed` log contains request ID and route only | Use the request ID; keep logs private | Fix the cause without interpolating upstream exception text or payloads |
 
 ## Web and static export
 
@@ -92,4 +92,3 @@ When a problem remains, record:
 - paths to sanitized logs/evidence.
 
 Never include environment dumps, credentials, headers, customer/order identifiers, private values or raw connector payloads.
-

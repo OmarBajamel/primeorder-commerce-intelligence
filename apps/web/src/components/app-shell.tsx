@@ -24,8 +24,8 @@ function ShellContent({ children }: { children: React.ReactNode }) {
   const filteredConnectors = data?.quality.connectors.filter((item) => item.status === "FIXTURE_MODE").length ?? 0;
   return <div className="app-shell">
     <aside className="sidebar">
-      <Link href="/" className="brand" aria-label="PrimeOrder Intelligence home"><span className="brand-mark"><Activity size={20} aria-hidden="true" /></span><span><b>PRIMEORDER</b><small>COMMERCE INTELLIGENCE</small></span></Link>
-      <nav className="nav-list" aria-label="Dashboard navigation">{navigation.map(({ href, label, icon: Icon }) => <Link href={href} key={href} aria-current={currentPath === href ? "page" : undefined} className={currentPath === href ? "active" : ""}><Icon size={17} aria-hidden="true" /><span>{t(label)}</span></Link>)}</nav>
+      <Link href="/" prefetch={false} className="brand" aria-label="PrimeOrder Intelligence home"><span className="brand-mark"><Activity size={20} aria-hidden="true" /></span><span><b>PRIMEORDER</b><small>COMMERCE INTELLIGENCE</small></span></Link>
+      <nav className="nav-list" aria-label="Dashboard navigation">{navigation.map(({ href, label, icon: Icon }) => <Link href={href} prefetch={false} key={href} aria-current={currentPath === href ? "page" : undefined} className={currentPath === href ? "active" : ""}><Icon size={17} aria-hidden="true" /><span>{t(label)}</span></Link>)}</nav>
       <div className="sidebar-status"><span className="pulse" aria-hidden="true" /><div><b>{t("dataStatus")}</b><small>{filteredConnectors} {t("fixture")}</small></div></div>
     </aside>
     <div className="workspace">
