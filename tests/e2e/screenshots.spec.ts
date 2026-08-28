@@ -54,6 +54,9 @@ test("capture deterministic portfolio evidence", async ({ page }) => {
       ? "بيانات تجريبية اصطناعية للملف المهني — لا تحتوي على معلومات حقيقية للعملاء أو الإيرادات"
       : "Synthetic portfolio demo data — no real customer or revenue information";
     await expect(page.getByText(disclosure).first()).toBeVisible();
+    if (width <= 390) {
+      await page.locator("main .page-view").scrollIntoViewIfNeeded();
+    }
     const renderedText = await page.locator("body").innerText();
     expect(renderedText).not.toMatch(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i);
     expect(renderedText).not.toMatch(/(?:\+?966[\s-]?5\d{8}|05\d{8})/);
