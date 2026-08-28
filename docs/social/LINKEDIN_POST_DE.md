@@ -2,7 +2,7 @@
 
 Ich habe PrimeOrder Commerce Intelligence entwickelt, um eine einfache, aber schwer belastbar zu beantwortende Frage zu lösen: Was passiert tatsächlich über Commerce, Akquisition, Produkte, SEO, Kunden und Measurement hinweg?
 
-Entstanden ist ein datenschutzorientiertes Portfolio-System für ein saudisches Digitalprodukte-Umfeld. Es verbindet reproduzierbare synthetische Daten, sechs typisierte Read-only-Connectoren, DuckDB/dbt, FastAPI und ein responsives Next.js-Dashboard mit neun Bereichen in Englisch und Arabisch/RTL.
+Entstanden ist ein datenschutzorientiertes Portfolio-System für ein saudisches Digitalprodukte-Umfeld. Es verbindet reproduzierbare synthetische Daten, sechs typisierte Read-only-Connectoren - darunter ein ausschließlich lesender PrimeOrder/Salla-MCP-Adapter - mit DuckDB/dbt, FastAPI und einem responsiven Next.js-Dashboard mit neun Bereichen in Englisch und Arabisch/RTL.
 
 Die wichtigste Architekturentscheidung: Nicht jede Kennzahl wird künstlich in eine einzige „Source of Truth“ gezwungen. Commerce verantwortet abgeschlossene Bestellungen und Umsatz. GA4 verantwortet Sessions, Funnel-Verhalten und getrackte Käufe. Google Ads, Search Console, Merchant Center und Clarity behalten ihren jeweiligen Diagnosebereich. Abweichungen, Aktualität, Consent-Abdeckung und Event-Vollständigkeit bleiben sichtbar.
 

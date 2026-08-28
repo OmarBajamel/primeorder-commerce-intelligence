@@ -46,3 +46,4 @@ artifacts/release/*.tmp
 artifacts/linkedin/carousel-montage.webp
 artifacts/linkedin/**/*.layout.json
 artifacts/linkedin/*.inspect.ndjson
+assets/linkedin/**/*.layout.json

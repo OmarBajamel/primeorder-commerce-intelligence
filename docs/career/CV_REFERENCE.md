@@ -22,3 +22,9 @@ Entwicklung einer datenschutzorientierten, zweisprachigen Commerce-Intelligence-
 
 **Live Demo:** https://omarbajamel.github.io/primeorder-commerce-intelligence/
 **GitHub:** https://github.com/OmarBajamel/primeorder-commerce-intelligence
+
+**Technology (EN):** Next.js, React, TypeScript, Python, FastAPI, Pydantic, DuckDB, dbt, GA4/GTM measurement design, Playwright, axe-core, Docker Compose, and GitHub Actions.
+
+**Technologien (DE):** Next.js, React, TypeScript, Python, FastAPI, Pydantic, DuckDB, dbt, GA4-/GTM-Measurement-Design, Playwright, axe-core, Docker Compose und GitHub Actions.
+
+**Compact reference:** [Live Demo](https://omarbajamel.github.io/primeorder-commerce-intelligence/) | [GitHub](https://github.com/OmarBajamel/primeorder-commerce-intelligence)
