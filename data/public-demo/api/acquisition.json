@@ -1,0 +1,77 @@
+{
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "items": [
+    {
+      "channel": "Affiliates",
+      "source": "partners",
+      "medium": "affiliate",
+      "campaign": "Partner Network",
+      "sessions": 23368,
+      "purchases": 1472,
+      "net_revenue_sar": 331832.2,
+      "ad_spend_sar": 0.0,
+      "conversion_rate": 0.062992,
+      "roas": null
+    },
+    {
+      "channel": "Direct",
+      "source": "direct",
+      "medium": "none",
+      "campaign": "Unassigned",
+      "sessions": 23793,
+      "purchases": 1560,
+      "net_revenue_sar": 358433.6,
+      "ad_spend_sar": 0.0,
+      "conversion_rate": 0.065566,
+      "roas": null
+    },
+    {
+      "channel": "Email",
+      "source": "newsletter",
+      "medium": "email",
+      "campaign": "Lifecycle",
+      "sessions": 22616,
+      "purchases": 1469,
+      "net_revenue_sar": 333080.1,
+      "ad_spend_sar": 0.0,
+      "conversion_rate": 0.064954,
+      "roas": null
+    },
+    {
+      "channel": "Organic Search",
+      "source": "google",
+      "medium": "organic",
+      "campaign": "Always-on SEO",
+      "sessions": 23209,
+      "purchases": 1530,
+      "net_revenue_sar": 346602.7,
+      "ad_spend_sar": 0.0,
+      "conversion_rate": 0.065923,
+      "roas": null
+    },
+    {
+      "channel": "Paid Search",
+      "source": "google",
+      "medium": "cpc",
+      "campaign": "KSA Growth",
+      "sessions": 24032,
+      "purchases": 1587,
+      "net_revenue_sar": 363988.8,
+      "ad_spend_sar": 26295.03,
+      "conversion_rate": 0.066037,
+      "roas": 13.8425
+    },
+    {
+      "channel": "Paid Social",
+      "source": "instagram",
+      "medium": "paid_social",
+      "campaign": "Creator Offers",
+      "sessions": 22748,
+      "purchases": 1457,
+      "net_revenue_sar": 332748.9,
+      "ad_spend_sar": 23940.91,
+      "conversion_rate": 0.06405,
+      "roas": 13.8988
+    }
+  ]
+}

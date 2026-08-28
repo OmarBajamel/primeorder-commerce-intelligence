@@ -1,0 +1,135 @@
+{
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "items": [
+    {
+      "product_id": "P012",
+      "product_name_en": "Team Cloud Workspace",
+      "product_name_ar": "مساحة عمل سحابية",
+      "category": "Cloud",
+      "brand": "Afaq",
+      "units_sold": 809,
+      "revenue_sar": 274096.5,
+      "gross_margin_sar": 163263.5
+    },
+    {
+      "product_id": "P008",
+      "product_name_en": "AI Research Workspace",
+      "product_name_ar": "مساحة البحث الذكية",
+      "category": "AI",
+      "brand": "Sahab",
+      "units_sold": 800,
+      "revenue_sar": 246157.8,
+      "gross_margin_sar": 149357.8
+    },
+    {
+      "product_id": "P001",
+      "product_name_en": "Office Pro Annual",
+      "product_name_ar": "أوفيس برو السنوي",
+      "category": "Productivity",
+      "brand": "Nimbus",
+      "units_sold": 793,
+      "revenue_sar": 223293.2,
+      "gross_margin_sar": 148751.2
+    },
+    {
+      "product_id": "P010",
+      "product_name_en": "Endpoint Guard Pro",
+      "product_name_ar": "حماية الأجهزة برو",
+      "category": "Security",
+      "brand": "Himaya",
+      "units_sold": 821,
+      "revenue_sar": 216476.1,
+      "gross_margin_sar": 148333.1
+    },
+    {
+      "product_id": "P004",
+      "product_name_en": "STEM Academy Pass",
+      "product_name_ar": "اشتراك أكاديمية ستيم",
+      "category": "Education",
+      "brand": "Madar",
+      "units_sold": 827,
+      "revenue_sar": 195440.1,
+      "gross_margin_sar": 136723.1
+    },
+    {
+      "product_id": "P005",
+      "product_name_en": "Canvas Studio",
+      "product_name_ar": "استوديو كانفس",
+      "category": "Design",
+      "brand": "Rimal",
+      "units_sold": 831,
+      "revenue_sar": 171958.8,
+      "gross_margin_sar": 116281.8
+    },
+    {
+      "product_id": "P011",
+      "product_name_en": "Cloud Backup 2TB",
+      "product_name_ar": "نسخ سحابي ٢ تيرابايت",
+      "category": "Cloud",
+      "brand": "Afaq",
+      "units_sold": 842,
+      "revenue_sar": 158324.4,
+      "gross_margin_sar": 106962.4
+    },
+    {
+      "product_id": "P007",
+      "product_name_en": "AI Writing Assistant",
+      "product_name_ar": "مساعد الكتابة الذكي",
+      "category": "AI",
+      "brand": "Sahab",
+      "units_sold": 826,
+      "revenue_sar": 146758.5,
+      "gross_margin_sar": 101328.5
+    },
+    {
+      "product_id": "P003",
+      "product_name_en": "Arabic Learning Lab",
+      "product_name_ar": "مختبر التعلم العربي",
+      "category": "Education",
+      "brand": "Madar",
+      "units_sold": 808,
+      "revenue_sar": 135180.8,
+      "gross_margin_sar": 95588.8
+    },
+    {
+      "product_id": "P009",
+      "product_name_en": "Secure Vault Family",
+      "product_name_ar": "الخزنة الآمنة للعائلة",
+      "category": "Security",
+      "brand": "Himaya",
+      "units_sold": 821,
+      "revenue_sar": 123050.1,
+      "gross_margin_sar": 87747.1
+    },
+    {
+      "product_id": "P006",
+      "product_name_en": "Creator Asset Cloud",
+      "product_name_ar": "سحابة أصول المبدعين",
+      "category": "Design",
+      "brand": "Rimal",
+      "units_sold": 823,
+      "revenue_sar": 107808.4,
+      "gross_margin_sar": 79003.4
+    },
+    {
+      "product_id": "P002",
+      "product_name_en": "Focus Notes Plus",
+      "product_name_ar": "فوكس نوتس بلس",
+      "category": "Productivity",
+      "brand": "Nimbus",
+      "units_sold": 803,
+      "revenue_sar": 67942.6,
+      "gross_margin_sar": 48670.6
+    },
+    {
+      "product_id": "UNMAPPED-001",
+      "product_name_en": "Unmapped product",
+      "product_name_ar": "منتج غير مطابق",
+      "category": "Unmapped",
+      "brand": "Unknown",
+      "units_sold": 1,
+      "revenue_sar": 199.0,
+      "gross_margin_sar": 138.0
+    }
+  ]
+}

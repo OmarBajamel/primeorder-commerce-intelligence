@@ -1,0 +1,60 @@
+{
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "source_fresh_through": "2025-12-20",
+  "items": [
+    {
+      "query": "primeorder software",
+      "page": "/",
+      "is_branded": true,
+      "clicks": 2928,
+      "impressions": 40288,
+      "ctr": 0.072677,
+      "average_position": 10.82
+    },
+    {
+      "query": "digital subscriptions saudi",
+      "page": "/collections/productivity",
+      "is_branded": false,
+      "clicks": 2692,
+      "impressions": 37543,
+      "ctr": 0.071704,
+      "average_position": 9.79
+    },
+    {
+      "query": "ai tools arabic",
+      "page": "/collections/productivity",
+      "is_branded": false,
+      "clicks": 2534,
+      "impressions": 37561,
+      "ctr": 0.067464,
+      "average_position": 10.46
+    },
+    {
+      "query": "office software ksa",
+      "page": "/",
+      "is_branded": false,
+      "clicks": 2497,
+      "impressions": 37153,
+      "ctr": 0.067209,
+      "average_position": 11.13
+    },
+    {
+      "query": "office software ksa",
+      "page": "/collections/productivity",
+      "is_branded": false,
+      "clicks": 2336,
+      "impressions": 38372,
+      "ctr": 0.060878,
+      "average_position": 11.3
+    },
+    {
+      "query": "ai tools arabic",
+      "page": "/",
+      "is_branded": false,
+      "clicks": 2319,
+      "impressions": 35867,
+      "ctr": 0.064656,
+      "average_position": 10.12
+    }
+  ]
+}

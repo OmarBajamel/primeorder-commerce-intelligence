@@ -1,0 +1,32 @@
+{
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "items": [
+    {
+      "insight_id": "INS-001",
+      "priority": 1,
+      "area": "measurement",
+      "title": "Resolve duplicate transaction tracking",
+      "evidence": "1 duplicate synthetic tracking record detected",
+      "confidence": "high",
+      "recommended_action": "Deduplicate purchase events by transaction_id before attribution."
+    },
+    {
+      "insight_id": "INS-002",
+      "priority": 2,
+      "area": "funnel",
+      "title": "Investigate checkout abandonment",
+      "evidence": "36.9% synthetic checkout-to-purchase abandonment",
+      "confidence": "medium",
+      "recommended_action": "Segment checkout friction by device and payment method, then test one change."
+    },
+    {
+      "insight_id": "INS-003",
+      "priority": 3,
+      "area": "seo",
+      "title": "Refresh Search Console ingestion",
+      "evidence": "Synthetic Search Console source is 11 days stale",
+      "confidence": "high",
+      "recommended_action": "Restore daily extraction and alert when freshness exceeds seven days."
+    }
+  ]
+}

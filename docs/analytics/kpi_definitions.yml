@@ -1,0 +1,375 @@
+version: 1
+catalog_version: 1.0.0
+effective_date: 2026-08-28
+ratio_zero_denominator: null
+percentage_storage: fraction
+definitions:
+  - id: commerce.gross_revenue
+    label: Gross revenue
+    formula: sum(quantity * unit_list_price)
+    source_priority: [commerce]
+    grain: date_and_selected_dimensions
+    filters: [completed_orders]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Merchandise value before discounts and refunds; tax and shipping excluded unless explicitly mapped.
+  - id: commerce.net_revenue
+    label: Net revenue
+    formula: gross_revenue - discount_value - refund_value
+    source_priority: [commerce]
+    grain: date_and_selected_dimensions
+    filters: [completed_orders, valid_refunds]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Net merchandise revenue, not accounting revenue.
+  - id: commerce.completed_orders
+    label: Completed orders
+    formula: count_distinct(deduplicated_commerce_transaction_key)
+    source_priority: [commerce]
+    grain: completion_date_and_selected_dimensions
+    filters: [completed_status, exclude_cancelled_failed_test]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Source status mapping must be versioned.
+  - id: commerce.units_sold
+    label: Units sold
+    formula: sum(quantity)
+    source_priority: [commerce]
+    grain: completion_date_product_category
+    filters: [completed_order_items]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Gross units; refunds are reported separately.
+  - id: commerce.aov
+    label: Average order value
+    formula: net_revenue / completed_orders
+    source_priority: [commerce]
+    grain: date_and_selected_dimensions
+    filters: [completed_orders]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Net-merchandise AOV.
+  - id: commerce.refund_rate_value
+    label: Refund rate
+    formula: refund_value / gross_revenue
+    source_priority: [commerce]
+    grain: reporting_period_and_selected_dimensions
+    filters: [valid_refunds]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Refund-effective-date rate can exceed 100 percent in short windows.
+  - id: commerce.gross_margin
+    label: Gross margin
+    formula: net_revenue - attributable_cost
+    source_priority: [commerce, governed_cost]
+    grain: period_product_category
+    filters: [reliable_cost_only]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Hidden when cost coverage or allocation is not reliable.
+  - id: funnel.product_view_rate
+    label: Product-view rate
+    formula: sessions_with_view_item / sessions
+    source_priority: [ga4]
+    grain: date_device_acquisition
+    filters: [valid_sessions]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Digital Analytics
+    caveat: Consent and blockers affect observed coverage.
+  - id: funnel.add_to_cart_rate
+    label: Add-to-cart rate
+    formula: sessions_with_add_to_cart / sessions_with_view_item
+    source_priority: [ga4]
+    grain: date_device_acquisition
+    filters: [valid_sessions]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Digital Analytics
+    caveat: Session-step metric; not raw event count ratio.
+  - id: funnel.checkout_start_rate
+    label: Checkout-start rate
+    formula: sessions_with_begin_checkout / sessions_with_add_to_cart
+    source_priority: [ga4]
+    grain: date_device_acquisition
+    filters: [valid_sessions]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Digital Analytics
+    caveat: Cross-domain checkout gaps can undercount starts.
+  - id: funnel.purchase_conversion_rate
+    label: Purchase conversion rate
+    formula: sessions_with_valid_purchase / sessions
+    source_priority: [ga4]
+    grain: date_device_acquisition
+    filters: [valid_sessions, deduplicated_purchase]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Digital Analytics
+    caveat: GA4 session conversion, not commerce order rate.
+  - id: acquisition.cpa
+    label: Cost per acquisition
+    formula: reliable_ad_spend / comparable_attributed_acquisitions
+    source_priority: [google_ads]
+    grain: date_campaign
+    filters: [aligned_conversion_scope]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Growth Analytics
+    caveat: Spend and conversion definition must align.
+  - id: acquisition.roas
+    label: Return on ad spend
+    formula: comparable_attributed_revenue / reliable_ad_spend
+    source_priority: [google_ads, reconciled_ga4]
+    grain: date_campaign
+    filters: [aligned_attribution_currency]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Growth Analytics
+    caveat: ROAS is not profit.
+  - id: customer.repeat_purchase_rate
+    label: Repeat-purchase rate
+    formula: customers_with_at_least_2_completed_orders / customers_with_at_least_1_completed_order
+    source_priority: [commerce]
+    grain: cohort_and_observation_window
+    filters: [privacy_reviewed_identity]
+    availability: CONDITIONAL
+    owner: Customer Analytics
+    caveat: Requires safe stable identity and a stated observation window.
+  - id: seo.ctr
+    label: Organic CTR
+    formula: sum(clicks) / sum(impressions)
+    source_priority: [gsc]
+    grain: selected_search_dimensions
+    filters: [organic_search]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: SEO Analytics
+    caveat: Do not average row-level CTR values.
+  - id: seo.average_position
+    label: Average position
+    formula: sum(position * impressions) / sum(impressions)
+    source_priority: [gsc]
+    grain: selected_search_dimensions
+    filters: [organic_search]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: SEO Analytics
+    caveat: Impression-weighted and sensitive to query mix.
+  - id: quality.event_coverage
+    label: Event coverage
+    formula: observed_applicable_event_types / applicable_required_event_types
+    source_priority: [measurement_audit]
+    grain: audit_run_platform_scope
+    filters: [applicable_events]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Digital Analytics
+    caveat: Presence is not correctness.
+  - id: quality.parameter_completeness
+    label: Required-parameter completeness
+    formula: valid_applicable_event_rows / applicable_event_rows
+    source_priority: [measurement_audit]
+    grain: audit_run_event_parameter
+    filters: [applicable_parameter_rules]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Digital Analytics
+    caveat: Some reports cannot expose event parameters.
+  - id: quality.duplicate_transaction_rate
+    label: Duplicate transaction rate
+    formula: duplicate_valid_purchase_rows_beyond_first / valid_purchase_rows
+    source_priority: [ga4, commerce_separately]
+    grain: audit_period_source
+    filters: [purchase_events_with_transaction_id]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Data Quality
+    caveat: Refund references do not constitute duplicate purchases.
+  - id: quality.transaction_variance
+    label: Salla versus GA4 transaction variance
+    formula: (ga4_transactions - commerce_orders) / commerce_orders
+    source_priority: [reconciled]
+    grain: aligned_date_and_dimensions
+    filters: [aligned_timezone_status_scope]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Data Quality
+    caveat: Undefined when commerce orders are zero.
+  - id: quality.revenue_variance
+    label: Salla versus GA4 revenue variance
+    formula: (ga4_purchase_revenue - commerce_comparable_revenue) / commerce_comparable_revenue
+    source_priority: [reconciled]
+    grain: aligned_date_and_dimensions
+    filters: [aligned_timezone_currency_revenue_scope]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Data Quality
+    caveat: Unavailable unless tax, shipping, discount, refund, timezone, and currency scope align.
+  - id: commerce.discount_value
+    label: Discount value
+    formula: sum(allocated_item_discount + allocated_order_discount)
+    source_priority: [commerce]
+    grain: completion_date_product_category_promotion
+    filters: [completed_orders]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Allocations must reconcile; private coupon codes are never public.
+  - id: commerce.refund_value
+    label: Refund value
+    formula: sum(refund_value)
+    source_priority: [commerce]
+    grain: refund_effective_date_and_selected_dimensions
+    filters: [valid_refunds]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Refund-effective date differs from purchase-cohort reporting.
+  - id: commerce.revenue_per_session
+    label: Revenue per session
+    formula: net_revenue / sessions
+    source_priority: [public_conformed_fixture, ga4_live, reconciled]
+    grain: date_acquisition_device
+    filters: [same_measurement_scope]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: A live merchant-revenue/GA4-session variant must be explicitly cross-source.
+  - id: commerce.revenue_per_user
+    label: Revenue per user
+    formula: ga4_purchase_revenue / ga4_users
+    source_priority: [ga4]
+    grain: selected_period
+    filters: [same_ga4_identity_scope]
+    availability: NOT_VERIFIED
+    owner: Digital Analytics
+    caveat: Users are not additive across dimensions or dates.
+  - id: commerce.product_revenue_share
+    label: Product revenue share
+    formula: product_net_revenue / total_net_revenue_same_filter_context
+    source_priority: [commerce]
+    grain: period_product
+    filters: [same_filter_context]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Unknown product remains visible.
+  - id: commerce.category_revenue_share
+    label: Category revenue share
+    formula: category_net_revenue / total_net_revenue_same_filter_context
+    source_priority: [commerce]
+    grain: period_category
+    filters: [same_filter_context]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Category mapping changes can affect history.
+  - id: commerce.margin_rate
+    label: Margin rate
+    formula: gross_margin / net_revenue
+    source_priority: [commerce, governed_cost]
+    grain: period_product_category
+    filters: [reliable_cost_only]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Commerce Analytics
+    caveat: Public cost is reliable synthetic input; live availability is conditional.
+  - id: funnel.step_abandonment_rate
+    label: Step abandonment rate
+    formula: 1 - next_step_sessions / current_step_sessions
+    source_priority: [ga4]
+    grain: date_device_acquisition_named_steps
+    filters: [consecutive_named_steps]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Digital Analytics
+    caveat: Flag negative results caused by coverage/order anomalies; do not clamp.
+  - id: acquisition.users
+    label: Users
+    formula: source_reported_distinct_users
+    source_priority: [ga4]
+    grain: period_acquisition_device
+    filters: [selected_reporting_scope]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Growth Analytics
+    caveat: Live users are non-additive and subject to identity and thresholding.
+  - id: acquisition.sessions
+    label: Sessions
+    formula: sum(source_reported_sessions)
+    source_priority: [ga4]
+    grain: date_acquisition_dimensions
+    filters: [additive_export_grain]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Growth Analytics
+    caveat: Attribution is session-scoped and channel rules must be versioned.
+  - id: acquisition.campaign_revenue
+    label: Campaign revenue
+    formula: sum(attributed_purchase_revenue)
+    source_priority: [ga4, governed_public_fixture]
+    grain: date_campaign
+    filters: [named_attribution_scope]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Growth Analytics
+    caveat: Model, lookback, consent and not-set values affect interpretation.
+  - id: customer.new_share
+    label: New-customer share
+    formula: new_customers / customers_with_known_type
+    source_priority: [commerce]
+    grain: period
+    filters: [known_customer_type]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Customer Analytics
+    caveat: Live use requires safe identity and a documented lookback.
+  - id: customer.returning_share
+    label: Returning-customer share
+    formula: returning_customers / customers_with_known_type
+    source_priority: [commerce]
+    grain: period
+    filters: [known_customer_type]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Customer Analytics
+    caveat: Live use requires safe identity and a documented lookback.
+  - id: customer.retention_rate
+    label: Cohort retention
+    formula: cohort_customers_purchasing_again_in_period_n / original_cohort_customers
+    source_priority: [commerce]
+    grain: acquisition_cohort_period_n
+    filters: [privacy_reviewed_identity, sufficient_observation_window]
+    availability: CONDITIONAL
+    owner: Customer Analytics
+    caveat: Minimum group size and right-censoring rules are required.
+  - id: seo.clicks
+    label: Organic clicks
+    formula: sum(clicks)
+    source_priority: [gsc]
+    grain: selected_search_dimensions
+    filters: [organic_search]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: SEO Analytics
+    caveat: Privacy filtering and row limits can affect detailed totals.
+  - id: seo.impressions
+    label: Organic impressions
+    formula: sum(impressions)
+    source_priority: [gsc]
+    grain: selected_search_dimensions
+    filters: [organic_search]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: SEO Analytics
+    caveat: Privacy filtering and row limits can affect detailed totals.
+  - id: seo.branded_share
+    label: Branded query share
+    formula: branded_clicks_or_impressions / classified_clicks_or_impressions
+    source_priority: [gsc, versioned_classifier]
+    grain: period
+    filters: [classified_queries]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: SEO Analytics
+    caveat: Public rule is synthetic; live query omissions and classifier variants apply.
+  - id: quality.unknown_product_rate
+    label: Unknown-product mapping rate
+    formula: unmatched_item_rows / applicable_item_rows
+    source_priority: [conformed_product_mapping]
+    grain: period_source
+    filters: [applicable_item_rows]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Data Quality
+    caveat: Current public implementation is row-weighted.
+  - id: quality.data_freshness_hours
+    label: Data freshness
+    formula: observation_time - report_through_at
+    source_priority: [connector_metadata]
+    grain: observation_connector
+    filters: [source_specific_sla]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Data Quality
+    caveat: Public Search Console check is displayed in days; source timezone and latency differ.
+  - id: quality.consent_state_coverage
+    label: Consent-state coverage
+    formula: events_with_observable_valid_state / events_where_state_should_be_observable
+    source_priority: [measurement_audit]
+    grain: audit_period_event_context
+    filters: [observable_context]
+    availability: AVAILABLE_PUBLIC_DEMO
+    owner: Digital Analytics
+    caveat: Public defect is synthetic; this is not a legal-compliance score.

@@ -1,0 +1,103 @@
+{
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "checks": [
+    {
+      "check_id": "duplicate_transactions",
+      "status": "warning",
+      "severity": "high",
+      "metric_value": 0.00011,
+      "threshold": 0.0,
+      "affected_rows": 1
+    },
+    {
+      "check_id": "unknown_products",
+      "status": "warning",
+      "severity": "high",
+      "metric_value": 0.00011,
+      "threshold": 0.0,
+      "affected_rows": 1
+    },
+    {
+      "check_id": "event_parameter_completeness",
+      "status": "warning",
+      "severity": "medium",
+      "metric_value": 0.99999,
+      "threshold": 1.0,
+      "affected_rows": 1
+    },
+    {
+      "check_id": "search_freshness_days",
+      "status": "warning",
+      "severity": "medium",
+      "metric_value": 11.0,
+      "threshold": 7.0,
+      "affected_rows": 11
+    },
+    {
+      "check_id": "purchase_reconciliation",
+      "status": "warning",
+      "severity": "medium",
+      "metric_value": 0.354839,
+      "threshold": 0.1,
+      "affected_rows": 5
+    },
+    {
+      "check_id": "consent_state_coverage",
+      "status": "warning",
+      "severity": "low",
+      "metric_value": 0.82,
+      "threshold": 0.95,
+      "affected_rows": 1
+    }
+  ],
+  "documented_anomalies": [
+    {
+      "id": "DQ-001",
+      "kind": "duplicate_transaction_id",
+      "date": "2025-06-15",
+      "severity": "high",
+      "expected_detection": "mart_data_quality duplicate_transaction_rate > 0",
+      "description": "Two synthetic orders share a GA4 tracking transaction ID; order IDs remain unique."
+    },
+    {
+      "id": "DQ-002",
+      "kind": "missing_event_parameters",
+      "date": "2025-05-08",
+      "severity": "medium",
+      "expected_detection": "event parameter completeness below 100 percent",
+      "description": "A purchase aggregate has missing currency and item_id parameters."
+    },
+    {
+      "id": "DQ-003",
+      "kind": "stale_source",
+      "date": "2025-12-21",
+      "severity": "medium",
+      "expected_detection": "Search Console freshness exceeds seven days at dataset end",
+      "description": "Search Console fixtures intentionally stop eleven days before commerce data."
+    },
+    {
+      "id": "DQ-004",
+      "kind": "unmapped_product",
+      "date": "2025-07-11",
+      "severity": "high",
+      "expected_detection": "unknown_product_mapping_rate > 0",
+      "description": "One order item uses synthetic product key UNMAPPED-001."
+    },
+    {
+      "id": "DQ-005",
+      "kind": "tracking_variance",
+      "date": "2025-09-20",
+      "severity": "medium",
+      "expected_detection": "Salla versus GA4 purchase variance exceeds tolerance",
+      "description": "GA4 purchases are intentionally under-reported during a five-day window."
+    },
+    {
+      "id": "DQ-006",
+      "kind": "consent_coverage",
+      "date": "2025-11-03",
+      "severity": "low",
+      "expected_detection": "consent_state_coverage below 95 percent",
+      "description": "Consent state is absent for a small synthetic event cohort."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# Dependencies and builds
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+.pnpm-store/
+
+# Python and analytics
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+analytics/target/
+analytics/logs/
+analytics/.user.yml
+*.duckdb
+*.duckdb.wal
+
+# Private data and credentials
+data/private/**
+!data/private/.gitkeep
+.private/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+
+# Local tooling
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+work/
+tmp/
+
+# Generated release scratch
+artifacts/release/*.tmp

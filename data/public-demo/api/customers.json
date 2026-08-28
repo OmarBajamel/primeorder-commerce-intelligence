@@ -1,0 +1,19 @@
+{
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "segments": [
+    {
+      "customer_type": "new",
+      "sessions": 105222,
+      "purchases": 6853,
+      "net_revenue_sar": 1562746.5,
+      "revenue_share": 0.75616
+    },
+    {
+      "customer_type": "returning",
+      "sessions": 34544,
+      "purchases": 2222,
+      "net_revenue_sar": 503939.8,
+      "revenue_share": 0.24384
+    }
+  ]
+}

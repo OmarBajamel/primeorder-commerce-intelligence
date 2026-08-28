@@ -1,0 +1,1096 @@
+date,channel,source,medium,campaign,device,sessions,users,product_views,add_to_carts,begin_checkouts,purchases,purchase_revenue_sar,consent_state_coverage
+2025-01-01,Organic Search,google,organic,Always-on SEO,mobile,132,108,85,24,16,11,2025.6,0.9842
+2025-01-01,Direct,direct,none,Unassigned,desktop,144,128,101,22,12,7,1674.82,0.9764
+2025-01-01,Email,newsletter,email,Lifecycle,tablet,140,103,110,29,15,10,2437.73,0.9874
+2025-01-02,Paid Search,google,cpc,KSA Growth,desktop,115,96,76,14,7,5,1037.86,0.9751
+2025-01-02,Paid Social,instagram,paid_social,Creator Offers,tablet,115,100,85,17,9,6,1294.18,0.9627
+2025-01-02,Affiliates,partners,affiliate,Partner Network,mobile,107,81,74,20,11,7,1297.06,0.9609
+2025-01-03,Direct,direct,none,Unassigned,tablet,99,71,64,16,10,8,1711.78,0.9724
+2025-01-03,Email,newsletter,email,Lifecycle,mobile,76,61,61,17,9,6,978.53,0.9831
+2025-01-03,Organic Search,google,organic,Always-on SEO,desktop,120,93,78,16,8,6,1387.3,0.971
+2025-01-04,Paid Social,instagram,paid_social,Creator Offers,mobile,145,130,103,21,13,9,2416.42,0.9634
+2025-01-04,Affiliates,partners,affiliate,Partner Network,desktop,106,86,68,18,10,7,1976.74,0.9816
+2025-01-04,Paid Search,google,cpc,KSA Growth,tablet,119,101,91,23,12,7,1799.14,0.97
+2025-01-05,Email,newsletter,email,Lifecycle,desktop,75,61,60,14,8,6,1519.68,0.9773
+2025-01-05,Organic Search,google,organic,Always-on SEO,tablet,128,115,84,22,11,7,1702.18,0.9703
+2025-01-05,Direct,direct,none,Unassigned,mobile,148,119,100,26,14,10,2532.48,0.9842
+2025-01-06,Affiliates,partners,affiliate,Partner Network,tablet,153,134,122,31,17,12,2555.81,0.9682
+2025-01-06,Paid Search,google,cpc,KSA Growth,mobile,97,81,66,18,11,7,1564.99,0.991
+2025-01-06,Paid Social,instagram,paid_social,Creator Offers,desktop,135,109,104,30,16,11,2517.5,0.9673
+2025-01-07,Organic Search,google,organic,Always-on SEO,mobile,101,83,67,14,8,6,1434.34,0.977
+2025-01-07,Direct,direct,none,Unassigned,desktop,118,103,76,14,8,5,1141.54,0.9735
+2025-01-07,Email,newsletter,email,Lifecycle,tablet,87,70,64,13,7,4,783.36,0.9637
+2025-01-08,Paid Search,google,cpc,KSA Growth,desktop,147,131,105,29,18,12,2786.11,0.9708
+2025-01-08,Paid Social,instagram,paid_social,Creator Offers,tablet,149,122,114,31,21,13,2888.83,0.971
+2025-01-08,Affiliates,partners,affiliate,Partner Network,mobile,151,124,106,23,13,9,1917.31,0.989
+2025-01-09,Direct,direct,none,Unassigned,tablet,139,120,97,24,15,10,1971.07,0.9914
+2025-01-09,Email,newsletter,email,Lifecycle,mobile,96,81,74,19,12,10,2549.86,0.9868
+2025-01-09,Organic Search,google,organic,Always-on SEO,desktop,95,83,64,16,8,6,1338.24,0.981
+2025-01-10,Paid Social,instagram,paid_social,Creator Offers,mobile,98,82,70,14,9,6,1347.84,0.9793
+2025-01-10,Affiliates,partners,affiliate,Partner Network,desktop,103,92,83,21,12,8,1610.98,0.962
+2025-01-10,Paid Search,google,cpc,KSA Growth,tablet,139,113,97,22,15,10,2307.94,0.9925
+2025-01-11,Email,newsletter,email,Lifecycle,desktop,109,94,78,20,11,8,1911.36,0.9863
+2025-01-11,Organic Search,google,organic,Always-on SEO,tablet,93,76,72,20,13,9,1959.36,0.9748
+2025-01-11,Direct,direct,none,Unassigned,mobile,98,84,64,12,7,4,956.16,0.9619
+2025-01-12,Affiliates,partners,affiliate,Partner Network,tablet,119,98,97,20,9,6,1498.75,0.971
+2025-01-12,Paid Search,google,cpc,KSA Growth,mobile,97,87,75,18,11,8,1475.71,0.9694
+2025-01-12,Paid Social,instagram,paid_social,Creator Offers,desktop,105,83,84,24,12,7,1319.14,0.9737
+2025-01-13,Organic Search,google,organic,Always-on SEO,mobile,110,94,79,21,14,10,1837.63,0.9881
+2025-01-13,Direct,direct,none,Unassigned,desktop,109,79,76,17,11,8,1841.57,0.9773
+2025-01-13,Email,newsletter,email,Lifecycle,tablet,137,123,93,25,13,9,2171.04,0.9798
+2025-01-14,Paid Search,google,cpc,KSA Growth,desktop,151,112,100,22,11,8,2199.46,0.973
+2025-01-14,Paid Social,instagram,paid_social,Creator Offers,tablet,138,110,93,17,11,7,1491.94,0.9705
+2025-01-14,Affiliates,partners,affiliate,Partner Network,mobile,153,135,102,19,10,8,1607.23,0.9888
+2025-01-15,Direct,direct,none,Unassigned,tablet,163,128,103,24,17,12,3175.1,0.9771
+2025-01-15,Email,newsletter,email,Lifecycle,mobile,164,131,111,23,12,8,1481.38,0.9809
+2025-01-15,Organic Search,google,organic,Always-on SEO,desktop,105,82,69,14,7,6,1221.31,0.9686
+2025-01-16,Paid Social,instagram,paid_social,Creator Offers,mobile,150,134,104,21,10,6,1201.06,0.9875
+2025-01-16,Affiliates,partners,affiliate,Partner Network,desktop,113,81,87,24,15,10,1931.62,0.9879
+2025-01-16,Paid Search,google,cpc,KSA Growth,tablet,159,119,110,30,19,12,2918.69,0.9726
+2025-01-17,Email,newsletter,email,Lifecycle,desktop,147,106,110,22,13,8,1739.52,0.9615
+2025-01-17,Organic Search,google,organic,Always-on SEO,tablet,119,89,76,19,10,7,1226.98,0.9746
+2025-01-17,Direct,direct,none,Unassigned,mobile,113,101,75,13,8,5,912.1,0.9642
+2025-01-18,Affiliates,partners,affiliate,Partner Network,tablet,140,111,107,20,10,8,1270.37,0.9884
+2025-01-18,Paid Search,google,cpc,KSA Growth,mobile,103,87,79,22,14,11,2242.94,0.9653
+2025-01-18,Paid Social,instagram,paid_social,Creator Offers,desktop,104,77,82,22,15,9,2395.49,0.9778
+2025-01-19,Organic Search,google,organic,Always-on SEO,mobile,115,83,92,26,15,9,2069.18,0.9734
+2025-01-19,Direct,direct,none,Unassigned,desktop,95,71,76,18,9,6,1400.83,0.9818
+2025-01-19,Email,newsletter,email,Lifecycle,tablet,107,84,75,16,11,8,1813.63,0.9922
+2025-01-20,Paid Search,google,cpc,KSA Growth,desktop,94,78,64,13,7,5,1066.85,0.9652
+2025-01-20,Paid Social,instagram,paid_social,Creator Offers,tablet,106,92,77,19,10,7,1538.98,0.9632
+2025-01-20,Affiliates,partners,affiliate,Partner Network,mobile,101,81,78,20,12,7,2132.45,0.9776
+2025-01-21,Direct,direct,none,Unassigned,tablet,139,106,101,20,12,7,1286.5,0.9634
+2025-01-21,Email,newsletter,email,Lifecycle,mobile,130,101,96,19,10,7,1584.19,0.9898
+2025-01-21,Organic Search,google,organic,Always-on SEO,desktop,134,112,97,17,10,6,1310.5,0.9821
+2025-01-22,Paid Social,instagram,paid_social,Creator Offers,mobile,84,64,55,10,5,3,803.52,0.9917
+2025-01-22,Affiliates,partners,affiliate,Partner Network,desktop,77,59,50,8,4,3,681.79,0.9632
+2025-01-22,Paid Search,google,cpc,KSA Growth,tablet,135,104,105,26,19,11,2666.21,0.9728
+2025-01-23,Email,newsletter,email,Lifecycle,desktop,179,150,125,23,12,9,1823.23,0.9608
+2025-01-23,Organic Search,google,organic,Always-on SEO,tablet,97,84,78,17,9,7,1181.95,0.9721
+2025-01-23,Direct,direct,none,Unassigned,mobile,178,143,112,24,16,11,2204.45,0.9811
+2025-01-24,Affiliates,partners,affiliate,Partner Network,tablet,79,62,58,12,7,5,1256.74,0.9823
+2025-01-24,Paid Search,google,cpc,KSA Growth,mobile,147,118,105,22,11,7,1739.52,0.9623
+2025-01-24,Paid Social,instagram,paid_social,Creator Offers,desktop,139,103,90,24,15,11,2252.35,0.9807
+2025-01-25,Organic Search,google,organic,Always-on SEO,mobile,92,70,68,19,9,5,1101.5,0.9602
+2025-01-25,Direct,direct,none,Unassigned,desktop,124,112,80,18,10,8,1621.73,0.9939
+2025-01-25,Email,newsletter,email,Lifecycle,tablet,147,131,102,25,18,12,2864.16,0.9842
+2025-01-26,Paid Search,google,cpc,KSA Growth,desktop,150,118,97,25,14,10,2229.22,0.9709
+2025-01-26,Paid Social,instagram,paid_social,Creator Offers,tablet,147,129,97,24,16,11,2010.43,0.9797
+2025-01-26,Affiliates,partners,affiliate,Partner Network,mobile,83,70,58,10,6,5,920.83,0.9728
+2025-01-27,Direct,direct,none,Unassigned,tablet,163,126,119,25,16,12,2474.4,0.9639
+2025-01-27,Email,newsletter,email,Lifecycle,mobile,79,67,64,17,10,6,1098.24,0.9695
+2025-01-27,Organic Search,google,organic,Always-on SEO,desktop,87,69,66,17,9,5,957.31,0.9741
+2025-01-28,Paid Social,instagram,paid_social,Creator Offers,mobile,132,109,98,27,14,9,1750.18,0.981
+2025-01-28,Affiliates,partners,affiliate,Partner Network,desktop,80,66,54,14,8,5,1268.26,0.9729
+2025-01-28,Paid Search,google,cpc,KSA Growth,tablet,91,70,69,14,8,5,1167.46,0.9713
+2025-01-29,Email,newsletter,email,Lifecycle,desktop,94,72,65,17,8,6,1562.02,0.9733
+2025-01-29,Organic Search,google,organic,Always-on SEO,tablet,141,123,96,19,9,7,1150.18,0.9779
+2025-01-29,Direct,direct,none,Unassigned,mobile,121,97,89,24,12,7,1341.41,0.9657
+2025-01-30,Affiliates,partners,affiliate,Partner Network,tablet,81,59,58,14,8,5,1079.04,0.9608
+2025-01-30,Paid Search,google,cpc,KSA Growth,mobile,138,117,97,19,11,9,2421.6,0.979
+2025-01-30,Paid Social,instagram,paid_social,Creator Offers,desktop,132,103,100,18,9,6,2079.55,0.9643
+2025-01-31,Organic Search,google,organic,Always-on SEO,mobile,135,107,106,23,12,10,2521.34,0.9639
+2025-01-31,Direct,direct,none,Unassigned,desktop,149,126,107,22,11,7,1562.98,0.9914
+2025-01-31,Email,newsletter,email,Lifecycle,tablet,83,66,57,13,6,4,766.18,0.9939
+2025-02-01,Paid Search,google,cpc,KSA Growth,desktop,107,84,76,17,11,7,1871.42,0.9657
+2025-02-01,Paid Social,instagram,paid_social,Creator Offers,tablet,119,92,77,17,11,8,1514.98,0.9793
+2025-02-01,Affiliates,partners,affiliate,Partner Network,mobile,159,136,128,32,20,12,2326.56,0.9904
+2025-02-02,Direct,direct,none,Unassigned,tablet,122,97,77,14,6,4,1093.63,0.9889
+2025-02-02,Email,newsletter,email,Lifecycle,mobile,146,129,118,30,17,12,2841.02,0.9945
+2025-02-02,Organic Search,google,organic,Always-on SEO,desktop,149,127,118,31,21,16,3326.59,0.9761
+2025-02-03,Paid Social,instagram,paid_social,Creator Offers,mobile,94,82,66,19,10,6,1080.0,0.9871
+2025-02-03,Affiliates,partners,affiliate,Partner Network,desktop,96,76,65,14,8,5,943.97,0.9877
+2025-02-03,Paid Search,google,cpc,KSA Growth,tablet,98,79,77,18,10,6,1190.59,0.9802
+2025-02-04,Email,newsletter,email,Lifecycle,desktop,140,124,106,29,16,12,2513.38,0.9737
+2025-02-04,Organic Search,google,organic,Always-on SEO,tablet,94,75,63,11,6,4,1188.86,0.9931
+2025-02-04,Direct,direct,none,Unassigned,mobile,161,142,110,25,17,12,2295.65,0.9653
+2025-02-05,Affiliates,partners,affiliate,Partner Network,tablet,155,119,109,19,10,6,1291.2,0.9714
+2025-02-05,Paid Search,google,cpc,KSA Growth,mobile,107,81,82,18,12,8,2004.77,0.9656
+2025-02-05,Paid Social,instagram,paid_social,Creator Offers,desktop,161,140,127,24,16,11,2073.98,0.9644
+2025-02-06,Organic Search,google,organic,Always-on SEO,mobile,148,111,113,29,18,12,3314.3,0.9621
+2025-02-06,Direct,direct,none,Unassigned,desktop,147,112,97,20,10,6,1099.2,0.9919
+2025-02-06,Email,newsletter,email,Lifecycle,tablet,137,104,111,21,13,9,1966.18,0.971
+2025-02-07,Paid Search,google,cpc,KSA Growth,desktop,110,85,89,22,13,8,2045.18,0.9672
+2025-02-07,Paid Social,instagram,paid_social,Creator Offers,tablet,93,78,73,15,10,7,1262.69,0.967
+2025-02-07,Affiliates,partners,affiliate,Partner Network,mobile,136,117,88,22,14,8,1824.96,0.9633
+2025-02-08,Direct,direct,none,Unassigned,tablet,118,89,83,19,11,7,1829.09,0.9767
+2025-02-08,Email,newsletter,email,Lifecycle,mobile,98,82,62,11,6,4,689.38,0.9911
+2025-02-08,Organic Search,google,organic,Always-on SEO,desktop,106,85,73,14,7,5,798.82,0.9643
+2025-02-09,Paid Social,instagram,paid_social,Creator Offers,mobile,96,80,67,15,8,5,1080.0,0.9646
+2025-02-09,Affiliates,partners,affiliate,Partner Network,desktop,130,99,100,21,14,10,1709.09,0.9843
+2025-02-09,Paid Search,google,cpc,KSA Growth,tablet,81,66,57,13,6,4,1061.86,0.991
+2025-02-10,Email,newsletter,email,Lifecycle,desktop,141,117,93,25,13,10,2023.01,0.9901
+2025-02-10,Organic Search,google,organic,Always-on SEO,tablet,127,113,98,24,16,12,2742.82,0.9646
+2025-02-10,Direct,direct,none,Unassigned,mobile,93,83,59,16,9,6,1365.41,0.9823
+2025-02-11,Affiliates,partners,affiliate,Partner Network,tablet,146,113,100,20,12,7,1319.14,0.9879
+2025-02-11,Paid Search,google,cpc,KSA Growth,mobile,121,103,86,16,10,8,1662.72,0.9809
+2025-02-11,Paid Social,instagram,paid_social,Creator Offers,desktop,86,65,64,18,10,6,1840.51,0.9716
+2025-02-12,Organic Search,google,organic,Always-on SEO,mobile,151,121,97,22,12,9,2162.02,0.9766
+2025-02-12,Direct,direct,none,Unassigned,desktop,96,83,74,14,8,5,1148.35,0.9645
+2025-02-12,Email,newsletter,email,Lifecycle,tablet,134,116,87,19,10,7,1291.3,0.9802
+2025-02-13,Paid Search,google,cpc,KSA Growth,desktop,159,142,120,24,15,12,2547.07,0.9923
+2025-02-13,Paid Social,instagram,paid_social,Creator Offers,tablet,126,100,98,18,11,7,1391.14,0.9664
+2025-02-13,Affiliates,partners,affiliate,Partner Network,mobile,110,89,74,14,9,7,1809.79,0.9753
+2025-02-14,Direct,direct,none,Unassigned,tablet,97,82,76,15,8,7,1406.69,0.9622
+2025-02-14,Email,newsletter,email,Lifecycle,mobile,91,77,63,11,5,4,895.78,0.9931
+2025-02-14,Organic Search,google,organic,Always-on SEO,desktop,152,133,106,24,12,8,1367.14,0.9638
+2025-02-15,Paid Social,instagram,paid_social,Creator Offers,mobile,86,77,69,14,7,5,1176.0,0.981
+2025-02-15,Affiliates,partners,affiliate,Partner Network,desktop,109,84,77,20,13,8,1894.27,0.9901
+2025-02-15,Paid Search,google,cpc,KSA Growth,tablet,120,92,86,24,14,8,1667.62,0.9815
+2025-02-16,Email,newsletter,email,Lifecycle,desktop,108,88,70,13,9,5,912.1,0.9662
+2025-02-16,Organic Search,google,organic,Always-on SEO,tablet,130,109,85,18,10,6,1346.21,0.9835
+2025-02-16,Direct,direct,none,Unassigned,mobile,121,98,79,16,10,8,2010.53,0.9707
+2025-02-17,Affiliates,partners,affiliate,Partner Network,tablet,97,76,66,14,8,6,1559.04,0.9874
+2025-02-17,Paid Search,google,cpc,KSA Growth,mobile,160,140,119,33,20,12,2725.63,0.99
+2025-02-17,Paid Social,instagram,paid_social,Creator Offers,desktop,118,87,85,20,10,6,1021.44,0.9726
+2025-02-18,Organic Search,google,organic,Always-on SEO,mobile,85,72,59,12,5,4,1029.31,0.9851
+2025-02-18,Direct,direct,none,Unassigned,desktop,129,101,95,20,9,7,1615.87,0.9699
+2025-02-18,Email,newsletter,email,Lifecycle,tablet,84,68,55,10,5,4,859.39,0.9895
+2025-02-19,Paid Search,google,cpc,KSA Growth,desktop,97,76,77,18,11,8,1807.97,0.9716
+2025-02-19,Paid Social,instagram,paid_social,Creator Offers,tablet,113,98,92,24,16,11,2351.33,0.9898
+2025-02-19,Affiliates,partners,affiliate,Partner Network,mobile,78,65,52,10,5,4,880.42,0.9729
+2025-02-20,Direct,direct,none,Unassigned,tablet,95,78,62,17,10,6,1128.0,0.9606
+2025-02-20,Email,newsletter,email,Lifecycle,mobile,152,132,119,31,18,11,2466.72,0.9896
+2025-02-20,Organic Search,google,organic,Always-on SEO,desktop,88,75,68,20,10,7,1539.07,0.992
+2025-02-21,Paid Social,instagram,paid_social,Creator Offers,mobile,109,81,75,17,11,8,1691.52,0.9675
+2025-02-21,Affiliates,partners,affiliate,Partner Network,desktop,106,90,87,24,15,10,2391.46,0.9721
+2025-02-21,Paid Search,google,cpc,KSA Growth,tablet,95,68,72,13,8,5,1147.3,0.9636
+2025-02-22,Email,newsletter,email,Lifecycle,desktop,77,62,58,12,7,5,1224.1,0.973
+2025-02-22,Organic Search,google,organic,Always-on SEO,tablet,157,137,104,20,11,8,1555.58,0.9639
+2025-02-22,Direct,direct,none,Unassigned,mobile,102,88,75,16,10,8,1654.18,0.9871
+2025-02-23,Affiliates,partners,affiliate,Partner Network,tablet,144,115,92,21,13,8,1472.74,0.9613
+2025-02-23,Paid Search,google,cpc,KSA Growth,mobile,115,98,75,18,11,8,1770.34,0.9876
+2025-02-23,Paid Social,instagram,paid_social,Creator Offers,desktop,87,64,64,18,9,6,1505.47,0.9746
+2025-02-24,Organic Search,google,organic,Always-on SEO,mobile,136,98,97,25,14,9,1319.14,0.9767
+2025-02-24,Direct,direct,none,Unassigned,desktop,121,109,92,17,11,9,1911.46,0.9763
+2025-02-24,Email,newsletter,email,Lifecycle,tablet,110,83,79,15,9,6,1109.86,0.9677
+2025-02-25,Paid Search,google,cpc,KSA Growth,desktop,90,74,70,17,11,7,1609.06,0.9718
+2025-02-25,Paid Social,instagram,paid_social,Creator Offers,tablet,135,114,92,19,10,7,1404.48,0.9819
+2025-02-25,Affiliates,partners,affiliate,Partner Network,mobile,132,114,93,25,15,12,2491.58,0.9924
+2025-02-26,Direct,direct,none,Unassigned,tablet,94,67,75,15,10,7,1386.62,0.986
+2025-02-26,Email,newsletter,email,Lifecycle,mobile,132,110,84,24,12,7,1888.61,0.9651
+2025-02-26,Organic Search,google,organic,Always-on SEO,desktop,144,129,113,21,13,8,1743.55,0.9906
+2025-02-27,Paid Social,instagram,paid_social,Creator Offers,mobile,160,125,128,32,20,15,4443.46,0.981
+2025-02-27,Affiliates,partners,affiliate,Partner Network,desktop,138,99,104,18,11,6,1251.94,0.9929
+2025-02-27,Paid Search,google,cpc,KSA Growth,tablet,124,105,80,14,9,5,1040.83,0.986
+2025-02-28,Email,newsletter,email,Lifecycle,desktop,96,74,72,14,7,5,1175.04,0.9803
+2025-02-28,Organic Search,google,organic,Always-on SEO,tablet,107,92,76,20,12,9,1793.38,0.969
+2025-02-28,Direct,direct,none,Unassigned,mobile,137,100,101,25,14,11,2193.89,0.978
+2025-03-01,Affiliates,partners,affiliate,Partner Network,tablet,212,160,163,33,23,17,3807.55,0.9804
+2025-03-01,Paid Search,google,cpc,KSA Growth,mobile,123,109,98,26,18,11,2266.75,0.9674
+2025-03-01,Paid Social,instagram,paid_social,Creator Offers,desktop,132,98,92,20,14,9,1910.4,0.9822
+2025-03-02,Organic Search,google,organic,Always-on SEO,mobile,167,127,125,33,22,14,3106.66,0.9868
+2025-03-02,Direct,direct,none,Unassigned,desktop,178,137,126,33,22,12,3171.17,0.985
+2025-03-02,Email,newsletter,email,Lifecycle,tablet,132,112,90,17,10,6,1255.87,0.9628
+2025-03-03,Paid Search,google,cpc,KSA Growth,desktop,138,119,89,24,13,8,1860.58,0.9697
+2025-03-03,Paid Social,instagram,paid_social,Creator Offers,tablet,109,91,69,19,12,8,1554.43,0.9924
+2025-03-03,Affiliates,partners,affiliate,Partner Network,mobile,93,82,72,14,7,5,921.7,0.9937
+2025-03-04,Direct,direct,none,Unassigned,tablet,175,127,141,35,24,18,4205.38,0.9764
+2025-03-04,Email,newsletter,email,Lifecycle,mobile,194,167,131,24,15,8,1335.55,0.9639
+2025-03-04,Organic Search,google,organic,Always-on SEO,desktop,150,108,122,22,11,8,1922.21,0.9942
+2025-03-05,Paid Social,instagram,paid_social,Creator Offers,mobile,151,122,102,26,17,10,2546.11,0.9796
+2025-03-05,Affiliates,partners,affiliate,Partner Network,desktop,175,137,126,34,19,12,2737.06,0.9892
+2025-03-05,Paid Search,google,cpc,KSA Growth,tablet,93,80,65,17,11,7,1406.69,0.9903
+2025-03-06,Email,newsletter,email,Lifecycle,desktop,142,112,97,25,17,12,2817.89,0.9928
+2025-03-06,Organic Search,google,organic,Always-on SEO,tablet,233,188,187,45,25,17,4007.52,0.9805
+2025-03-06,Direct,direct,none,Unassigned,mobile,107,85,67,18,11,7,1575.55,0.973
+2025-03-07,Affiliates,partners,affiliate,Partner Network,tablet,116,94,91,16,9,5,840.0,0.9621
+2025-03-07,Paid Search,google,cpc,KSA Growth,mobile,209,174,146,38,21,16,3400.7,0.9639
+2025-03-07,Paid Social,instagram,paid_social,Creator Offers,desktop,114,87,76,16,8,5,900.58,0.9813
+2025-03-08,Organic Search,google,organic,Always-on SEO,mobile,107,86,78,15,10,7,1663.01,0.9705
+2025-03-08,Direct,direct,none,Unassigned,desktop,216,163,151,30,20,13,3006.91,0.9869
+2025-03-08,Email,newsletter,email,Lifecycle,tablet,187,156,129,34,23,16,3787.39,0.9809
+2025-03-09,Paid Search,google,cpc,KSA Growth,desktop,155,119,121,30,17,12,2486.59,0.9665
+2025-03-09,Paid Social,instagram,paid_social,Creator Offers,tablet,200,157,142,40,27,20,4688.93,0.9942
+2025-03-09,Affiliates,partners,affiliate,Partner Network,mobile,129,97,100,24,15,11,1653.7,0.9826
+2025-03-10,Direct,direct,none,Unassigned,tablet,97,77,66,17,8,6,1221.31,0.9833
+2025-03-10,Email,newsletter,email,Lifecycle,mobile,194,152,133,24,15,11,2806.56,0.9722
+2025-03-10,Organic Search,google,organic,Always-on SEO,desktop,114,98,81,22,11,8,1358.69,0.9658
+2025-03-11,Paid Social,instagram,paid_social,Creator Offers,mobile,121,90,93,23,11,8,1752.29,0.9794
+2025-03-11,Affiliates,partners,affiliate,Partner Network,desktop,144,111,111,27,19,14,2757.31,0.9743
+2025-03-11,Paid Search,google,cpc,KSA Growth,tablet,121,95,89,16,10,7,1574.69,0.963
+2025-03-12,Email,newsletter,email,Lifecycle,desktop,140,108,94,18,12,8,1658.98,0.9768
+2025-03-12,Organic Search,google,organic,Always-on SEO,tablet,103,87,68,15,7,5,1203.84,0.9761
+2025-03-12,Direct,direct,none,Unassigned,mobile,186,135,129,29,19,12,3337.25,0.961
+2025-03-13,Affiliates,partners,affiliate,Partner Network,tablet,222,200,141,28,19,12,2179.49,0.9744
+2025-03-13,Paid Search,google,cpc,KSA Growth,mobile,235,186,186,38,23,16,3693.7,0.9756
+2025-03-13,Paid Social,instagram,paid_social,Creator Offers,desktop,184,155,136,24,17,11,2176.8,0.9624
+2025-03-14,Organic Search,google,organic,Always-on SEO,mobile,184,139,150,43,22,16,3387.65,0.9795
+2025-03-14,Direct,direct,none,Unassigned,desktop,168,133,133,27,14,9,1991.23,0.9869
+2025-03-14,Email,newsletter,email,Lifecycle,tablet,235,211,184,49,30,20,5491.68,0.9892
+2025-03-15,Paid Search,google,cpc,KSA Growth,desktop,203,150,133,34,20,14,3615.74,0.9832
+2025-03-15,Paid Social,instagram,paid_social,Creator Offers,tablet,117,95,76,21,13,8,1859.81,0.9736
+2025-03-15,Affiliates,partners,affiliate,Partner Network,mobile,151,132,124,31,21,13,2873.38,0.964
+2025-03-16,Direct,direct,none,Unassigned,tablet,215,182,142,28,19,13,2313.02,0.9796
+2025-03-16,Email,newsletter,email,Lifecycle,mobile,157,117,111,31,18,12,2804.45,0.9843
+2025-03-16,Organic Search,google,organic,Always-on SEO,desktop,154,118,104,18,11,8,1840.51,0.9812
+2025-03-17,Paid Social,instagram,paid_social,Creator Offers,mobile,101,79,71,12,8,5,1080.0,0.9826
+2025-03-17,Affiliates,partners,affiliate,Partner Network,desktop,140,116,109,21,12,9,2342.4,0.9639
+2025-03-17,Paid Search,google,cpc,KSA Growth,tablet,151,133,97,22,11,9,2303.04,0.9618
+2025-03-18,Email,newsletter,email,Lifecycle,desktop,105,80,76,21,12,7,1429.73,0.9881
+2025-03-18,Organic Search,google,organic,Always-on SEO,tablet,144,112,113,27,15,11,2447.52,0.9825
+2025-03-18,Direct,direct,none,Unassigned,mobile,150,128,116,24,13,8,1772.35,0.9858
+2025-03-19,Affiliates,partners,affiliate,Partner Network,tablet,130,95,104,26,14,10,1662.82,0.9923
+2025-03-19,Paid Search,google,cpc,KSA Growth,mobile,147,124,99,26,17,11,2789.95,0.9753
+2025-03-19,Paid Social,instagram,paid_social,Creator Offers,desktop,139,120,93,19,12,8,2076.77,0.9929
+2025-03-20,Organic Search,google,organic,Always-on SEO,mobile,100,77,81,22,12,10,2177.57,0.9922
+2025-03-20,Direct,direct,none,Unassigned,desktop,110,89,72,17,11,7,1925.86,0.9887
+2025-03-20,Email,newsletter,email,Lifecycle,tablet,122,93,97,19,11,8,1988.26,0.9895
+2025-03-21,Paid Search,google,cpc,KSA Growth,desktop,187,158,124,34,20,14,3263.33,0.9904
+2025-03-21,Paid Social,instagram,paid_social,Creator Offers,tablet,126,92,100,19,11,7,1559.42,0.9654
+2025-03-21,Affiliates,partners,affiliate,Partner Network,mobile,207,175,147,41,21,12,2494.27,0.9761
+2025-03-22,Direct,direct,none,Unassigned,tablet,198,147,155,45,25,19,4307.81,0.9632
+2025-03-22,Email,newsletter,email,Lifecycle,mobile,138,102,108,20,10,8,1797.22,0.9647
+2025-03-22,Organic Search,google,organic,Always-on SEO,desktop,151,114,105,20,13,9,1687.01,0.9928
+2025-03-23,Paid Social,instagram,paid_social,Creator Offers,mobile,195,147,151,27,19,11,2401.15,0.9821
+2025-03-23,Affiliates,partners,affiliate,Partner Network,desktop,130,100,101,23,12,9,1672.8,0.9638
+2025-03-23,Paid Search,google,cpc,KSA Growth,tablet,103,88,77,17,9,7,1949.76,0.985
+2025-03-24,Email,newsletter,email,Lifecycle,desktop,204,185,148,32,21,12,3171.07,0.9626
+2025-03-24,Organic Search,google,organic,Always-on SEO,tablet,113,86,87,23,13,10,2467.39,0.9941
+2025-03-24,Direct,direct,none,Unassigned,mobile,196,171,156,27,18,12,2987.62,0.974
+2025-03-25,Affiliates,partners,affiliate,Partner Network,tablet,214,156,166,44,26,18,4084.22,0.9701
+2025-03-25,Paid Search,google,cpc,KSA Growth,mobile,134,106,103,24,16,11,2325.5,0.9792
+2025-03-25,Paid Social,instagram,paid_social,Creator Offers,desktop,171,152,122,23,13,9,1740.58,0.9795
+2025-03-26,Organic Search,google,organic,Always-on SEO,mobile,101,80,81,20,13,9,1763.62,0.9731
+2025-03-26,Direct,direct,none,Unassigned,desktop,204,176,131,34,22,14,2671.01,0.9844
+2025-03-26,Email,newsletter,email,Lifecycle,tablet,146,132,97,25,16,11,2276.45,0.9873
+2025-03-27,Paid Search,google,cpc,KSA Growth,desktop,139,102,92,23,13,8,2001.79,0.9755
+2025-03-27,Paid Social,instagram,paid_social,Creator Offers,tablet,113,82,91,20,11,7,1178.98,0.9622
+2025-03-27,Affiliates,partners,affiliate,Partner Network,mobile,202,160,161,30,17,10,2403.26,0.9628
+2025-03-28,Direct,direct,none,Unassigned,tablet,148,115,121,33,17,13,3266.11,0.9629
+2025-03-28,Email,newsletter,email,Lifecycle,mobile,122,104,83,18,12,8,1449.89,0.9665
+2025-03-28,Organic Search,google,organic,Always-on SEO,desktop,151,128,114,32,18,11,2084.35,0.9675
+2025-03-29,Paid Social,instagram,paid_social,Creator Offers,mobile,194,143,150,32,21,16,3818.11,0.9689
+2025-03-29,Affiliates,partners,affiliate,Partner Network,desktop,123,90,85,17,11,7,2002.75,0.991
+2025-03-29,Paid Search,google,cpc,KSA Growth,tablet,204,170,135,24,14,9,1880.83,0.9839
+2025-03-30,Email,newsletter,email,Lifecycle,desktop,159,144,101,29,19,12,2501.09,0.9863
+2025-03-30,Organic Search,google,organic,Always-on SEO,tablet,125,98,95,21,14,10,2084.35,0.9769
+2025-03-30,Direct,direct,none,Unassigned,mobile,92,67,73,20,13,10,2542.46,0.9652
+2025-03-31,Affiliates,partners,affiliate,Partner Network,tablet,135,117,98,26,16,9,1757.76,0.9899
+2025-03-31,Paid Search,google,cpc,KSA Growth,mobile,112,87,71,13,9,6,1395.84,0.9817
+2025-03-31,Paid Social,instagram,paid_social,Creator Offers,desktop,114,86,86,24,13,10,2047.78,0.9918
+2025-04-01,Organic Search,google,organic,Always-on SEO,mobile,111,91,74,20,13,9,2208.29,0.9847
+2025-04-01,Direct,direct,none,Unassigned,desktop,110,93,85,23,15,9,1864.7,0.9662
+2025-04-01,Email,newsletter,email,Lifecycle,tablet,156,134,127,27,17,12,2574.14,0.9606
+2025-04-02,Paid Search,google,cpc,KSA Growth,desktop,103,75,78,19,10,6,1305.79,0.9654
+2025-04-02,Paid Social,instagram,paid_social,Creator Offers,tablet,75,62,60,13,6,4,730.66,0.9914
+2025-04-02,Affiliates,partners,affiliate,Partner Network,mobile,82,68,64,11,5,4,1231.01,0.9661
+2025-04-03,Direct,direct,none,Unassigned,tablet,173,127,135,24,12,7,1420.9,0.9636
+2025-04-03,Email,newsletter,email,Lifecycle,mobile,80,70,64,13,8,5,1240.42,0.9854
+2025-04-03,Organic Search,google,organic,Always-on SEO,desktop,174,151,140,30,15,11,2446.27,0.9838
+2025-04-04,Paid Social,instagram,paid_social,Creator Offers,mobile,119,99,86,17,11,7,1172.45,0.9743
+2025-04-04,Affiliates,partners,affiliate,Partner Network,desktop,179,150,126,24,17,11,2379.07,0.965
+2025-04-04,Paid Search,google,cpc,KSA Growth,tablet,129,103,90,25,14,9,1958.69,0.9831
+2025-04-05,Email,newsletter,email,Lifecycle,desktop,120,89,92,19,11,9,1929.89,0.9626
+2025-04-05,Organic Search,google,organic,Always-on SEO,tablet,155,112,122,34,21,13,2786.4,0.968
+2025-04-05,Direct,direct,none,Unassigned,mobile,78,58,62,12,7,4,921.79,0.9647
+2025-04-06,Affiliates,partners,affiliate,Partner Network,tablet,90,66,57,12,5,3,903.74,0.9914
+2025-04-06,Paid Search,google,cpc,KSA Growth,mobile,149,114,103,28,17,11,2162.3,0.9945
+2025-04-06,Paid Social,instagram,paid_social,Creator Offers,desktop,80,67,64,14,7,4,620.16,0.9824
+2025-04-07,Organic Search,google,organic,Always-on SEO,mobile,102,74,64,17,8,5,976.42,0.9712
+2025-04-07,Direct,direct,none,Unassigned,desktop,164,145,134,32,17,12,2562.62,0.9927
+2025-04-07,Email,newsletter,email,Lifecycle,tablet,71,58,49,12,8,5,1108.8,0.9949
+2025-04-08,Paid Search,google,cpc,KSA Growth,desktop,129,108,91,19,12,9,2121.7,0.9758
+2025-04-08,Paid Social,instagram,paid_social,Creator Offers,tablet,143,111,105,28,16,10,2021.09,0.9716
+2025-04-08,Affiliates,partners,affiliate,Partner Network,mobile,163,133,120,27,19,14,3570.62,0.9645
+2025-04-09,Direct,direct,none,Unassigned,tablet,75,59,58,11,6,4,908.16,0.9859
+2025-04-09,Email,newsletter,email,Lifecycle,mobile,128,102,87,20,13,8,1158.82,0.9732
+2025-04-09,Organic Search,google,organic,Always-on SEO,desktop,113,95,86,18,11,8,1752.19,0.9879
+2025-04-10,Paid Social,instagram,paid_social,Creator Offers,mobile,140,113,107,21,14,10,2093.76,0.9768
+2025-04-10,Affiliates,partners,affiliate,Partner Network,desktop,116,94,87,21,13,10,2219.62,0.9861
+2025-04-10,Paid Search,google,cpc,KSA Growth,tablet,100,83,68,15,9,7,1178.4,0.9811
+2025-04-11,Email,newsletter,email,Lifecycle,desktop,101,88,71,12,6,5,1216.42,0.974
+2025-04-11,Organic Search,google,organic,Always-on SEO,tablet,162,127,105,25,16,12,2723.81,0.9601
+2025-04-11,Direct,direct,none,Unassigned,mobile,120,101,98,18,12,7,1423.68,0.9846
+2025-04-12,Affiliates,partners,affiliate,Partner Network,tablet,124,96,79,18,12,7,1125.31,0.9601
+2025-04-12,Paid Search,google,cpc,KSA Growth,mobile,84,61,55,13,7,5,962.11,0.9689
+2025-04-12,Paid Social,instagram,paid_social,Creator Offers,desktop,77,60,59,14,7,4,895.78,0.9802
+2025-04-13,Organic Search,google,organic,Always-on SEO,mobile,76,54,61,12,6,4,868.03,0.9736
+2025-04-13,Direct,direct,none,Unassigned,desktop,129,93,81,20,11,6,1347.84,0.9891
+2025-04-13,Email,newsletter,email,Lifecycle,tablet,124,106,94,23,14,9,1745.38,0.9866
+2025-04-14,Paid Search,google,cpc,KSA Growth,desktop,159,144,115,30,19,14,2990.69,0.9723
+2025-04-14,Paid Social,instagram,paid_social,Creator Offers,tablet,85,67,67,15,9,7,1372.9,0.9868
+2025-04-14,Affiliates,partners,affiliate,Partner Network,mobile,149,113,109,27,15,9,2116.99,0.9665
+2025-04-15,Direct,direct,none,Unassigned,tablet,84,71,67,17,9,5,993.6,0.9904
+2025-04-15,Email,newsletter,email,Lifecycle,mobile,76,64,52,9,5,3,662.69,0.9849
+2025-04-15,Organic Search,google,organic,Always-on SEO,desktop,149,111,97,23,11,7,1312.7,0.9702
+2025-04-16,Paid Social,instagram,paid_social,Creator Offers,mobile,101,90,74,18,11,7,1578.34,0.9807
+2025-04-16,Affiliates,partners,affiliate,Partner Network,desktop,97,85,70,12,6,4,996.67,0.9783
+2025-04-16,Paid Search,google,cpc,KSA Growth,tablet,136,103,90,17,8,6,1193.47,0.9693
+2025-04-17,Email,newsletter,email,Lifecycle,desktop,128,111,101,22,13,8,1490.88,0.9827
+2025-04-17,Organic Search,google,organic,Always-on SEO,tablet,107,85,74,14,7,5,1024.42,0.9622
+2025-04-17,Direct,direct,none,Unassigned,mobile,178,128,119,27,17,11,2478.05,0.9703
+2025-04-18,Affiliates,partners,affiliate,Partner Network,tablet,99,72,64,13,6,5,1272.0,0.9649
+2025-04-18,Paid Search,google,cpc,KSA Growth,mobile,121,90,85,20,12,8,1456.42,0.9696
+2025-04-18,Paid Social,instagram,paid_social,Creator Offers,desktop,169,147,113,29,16,11,1934.59,0.9934
+2025-04-19,Organic Search,google,organic,Always-on SEO,mobile,88,77,57,12,7,5,874.66,0.9845
+2025-04-19,Direct,direct,none,Unassigned,desktop,132,104,97,24,12,8,1643.71,0.9681
+2025-04-19,Email,newsletter,email,Lifecycle,tablet,90,74,60,11,7,6,1453.44,0.9882
+2025-04-20,Paid Search,google,cpc,KSA Growth,desktop,146,112,92,26,15,12,2512.7,0.9768
+2025-04-20,Paid Social,instagram,paid_social,Creator Offers,tablet,147,116,96,20,11,7,1557.22,0.9661
+2025-04-20,Affiliates,partners,affiliate,Partner Network,mobile,137,99,88,22,12,8,1956.67,0.988
+2025-04-21,Direct,direct,none,Unassigned,tablet,142,106,103,21,13,10,2075.81,0.9747
+2025-04-21,Email,newsletter,email,Lifecycle,mobile,122,101,89,19,9,6,995.71,0.9897
+2025-04-21,Organic Search,google,organic,Always-on SEO,desktop,144,130,105,23,13,8,1586.88,0.976
+2025-04-22,Paid Social,instagram,paid_social,Creator Offers,mobile,87,76,66,13,6,5,1253.09,0.991
+2025-04-22,Affiliates,partners,affiliate,Partner Network,desktop,75,63,60,10,6,4,733.54,0.9615
+2025-04-22,Paid Search,google,cpc,KSA Growth,tablet,141,121,108,29,17,11,2382.24,0.971
+2025-04-23,Email,newsletter,email,Lifecycle,desktop,124,95,95,17,8,5,1201.15,0.9942
+2025-04-23,Organic Search,google,organic,Always-on SEO,tablet,143,119,107,21,11,8,1910.4,0.9874
+2025-04-23,Direct,direct,none,Unassigned,mobile,160,132,117,24,16,12,2532.67,0.982
+2025-04-24,Affiliates,partners,affiliate,Partner Network,tablet,147,132,95,23,13,10,2219.71,0.963
+2025-04-24,Paid Search,google,cpc,KSA Growth,mobile,158,116,121,31,20,12,2301.31,0.9862
+2025-04-24,Paid Social,instagram,paid_social,Creator Offers,desktop,159,140,129,34,20,14,3370.08,0.9893
+2025-04-25,Organic Search,google,organic,Always-on SEO,mobile,143,103,104,23,15,9,2342.4,0.9738
+2025-04-25,Direct,direct,none,Unassigned,desktop,173,151,137,35,20,16,3716.35,0.9689
+2025-04-25,Email,newsletter,email,Lifecycle,tablet,136,112,107,23,11,7,1291.3,0.9737
+2025-04-26,Paid Search,google,cpc,KSA Growth,desktop,80,57,54,12,7,6,1300.99,0.9639
+2025-04-26,Paid Social,instagram,paid_social,Creator Offers,tablet,88,65,63,12,6,4,754.56,0.9759
+2025-04-26,Affiliates,partners,affiliate,Partner Network,mobile,129,106,100,22,11,7,1552.42,0.9806
+2025-04-27,Direct,direct,none,Unassigned,tablet,71,60,55,12,8,6,1261.44,0.9633
+2025-04-27,Email,newsletter,email,Lifecycle,mobile,101,77,82,23,15,9,2055.36,0.9667
+2025-04-27,Organic Search,google,organic,Always-on SEO,desktop,103,85,82,15,7,4,717.12,0.9901
+2025-04-28,Paid Social,instagram,paid_social,Creator Offers,mobile,87,75,67,14,6,5,1149.22,0.9906
+2025-04-28,Affiliates,partners,affiliate,Partner Network,desktop,89,66,56,11,6,4,759.46,0.9846
+2025-04-28,Paid Search,google,cpc,KSA Growth,tablet,110,95,82,14,7,5,1080.0,0.9757
+2025-04-29,Email,newsletter,email,Lifecycle,desktop,86,63,56,10,5,4,498.34,0.9656
+2025-04-29,Organic Search,google,organic,Always-on SEO,tablet,77,58,60,14,8,5,1037.86,0.9879
+2025-04-29,Direct,direct,none,Unassigned,mobile,85,69,55,10,6,5,1243.2,0.9896
+2025-04-30,Affiliates,partners,affiliate,Partner Network,tablet,163,139,131,31,19,11,2629.82,0.9784
+2025-04-30,Paid Search,google,cpc,KSA Growth,mobile,100,80,76,21,11,7,1528.42,0.9701
+2025-04-30,Paid Social,instagram,paid_social,Creator Offers,desktop,94,79,60,16,7,4,908.26,0.9612
+2025-05-01,Organic Search,google,organic,Always-on SEO,mobile,147,113,115,24,17,11,2300.35,0.9825
+2025-05-01,Direct,direct,none,Unassigned,desktop,134,117,86,15,8,6,892.9,0.9737
+2025-05-01,Email,newsletter,email,Lifecycle,tablet,115,87,94,24,16,10,2145.02,0.9613
+2025-05-02,Paid Search,google,cpc,KSA Growth,desktop,123,101,77,19,11,8,1788.77,0.9769
+2025-05-02,Paid Social,instagram,paid_social,Creator Offers,tablet,78,64,57,13,7,5,1224.1,0.9927
+2025-05-02,Affiliates,partners,affiliate,Partner Network,mobile,90,65,72,17,11,8,1765.73,0.9773
+2025-05-03,Direct,direct,none,Unassigned,tablet,131,117,105,24,17,10,2245.44,0.9833
+2025-05-03,Email,newsletter,email,Lifecycle,mobile,128,108,88,24,13,8,1455.55,0.9784
+2025-05-03,Organic Search,google,organic,Always-on SEO,desktop,143,116,103,22,15,9,1795.58,0.9842
+2025-05-04,Paid Social,instagram,paid_social,Creator Offers,mobile,84,75,56,9,4,3,582.72,0.9915
+2025-05-04,Affiliates,partners,affiliate,Partner Network,desktop,160,145,107,25,16,12,2553.7,0.9914
+2025-05-04,Paid Search,google,cpc,KSA Growth,tablet,121,106,92,24,16,12,2177.66,0.9869
+2025-05-05,Email,newsletter,email,Lifecycle,desktop,79,70,54,11,6,4,1082.02,0.9872
+2025-05-05,Organic Search,google,organic,Always-on SEO,tablet,83,63,58,13,6,4,871.78,0.9842
+2025-05-05,Direct,direct,none,Unassigned,mobile,129,115,84,24,13,8,1398.91,0.9784
+2025-05-06,Affiliates,partners,affiliate,Partner Network,tablet,83,67,66,19,10,6,965.09,0.9862
+2025-05-06,Paid Search,google,cpc,KSA Growth,mobile,153,128,110,24,13,8,2238.91,0.9873
+2025-05-06,Paid Social,instagram,paid_social,Creator Offers,desktop,81,68,64,13,7,5,1730.4,0.9731
+2025-05-07,Organic Search,google,organic,Always-on SEO,mobile,115,84,80,19,10,7,1876.03,0.9697
+2025-05-07,Direct,direct,none,Unassigned,desktop,82,73,58,16,8,5,888.96,0.9919
+2025-05-07,Email,newsletter,email,Lifecycle,tablet,102,86,80,15,10,7,1393.34,0.9628
+2025-05-08,Paid Search,google,cpc,KSA Growth,desktop,87,62,60,12,5,4,888.96,0.9819
+2025-05-08,Paid Social,instagram,paid_social,Creator Offers,tablet,102,84,71,14,9,6,1452.67,0.9771
+2025-05-08,Affiliates,partners,affiliate,Partner Network,mobile,108,87,71,17,11,8,1842.34,0.9936
+2025-05-09,Direct,direct,none,Unassigned,tablet,107,83,71,16,9,6,1227.07,0.9905
+2025-05-09,Email,newsletter,email,Lifecycle,mobile,103,87,68,18,10,7,1560.38,0.9678
+2025-05-09,Organic Search,google,organic,Always-on SEO,desktop,114,82,88,22,13,8,2319.74,0.961
+2025-05-10,Paid Social,instagram,paid_social,Creator Offers,mobile,140,101,104,20,12,9,2366.5,0.971
+2025-05-10,Affiliates,partners,affiliate,Partner Network,desktop,97,82,66,15,7,5,1462.27,0.9833
+2025-05-10,Paid Search,google,cpc,KSA Growth,tablet,72,57,54,11,7,4,729.79,0.9809
+2025-05-11,Email,newsletter,email,Lifecycle,desktop,89,70,66,12,5,4,754.56,0.9752
+2025-05-11,Organic Search,google,organic,Always-on SEO,tablet,142,118,113,29,19,14,3090.43,0.9704
+2025-05-11,Direct,direct,none,Unassigned,mobile,95,80,63,15,8,5,1036.9,0.9638
+2025-05-12,Affiliates,partners,affiliate,Partner Network,tablet,157,123,103,29,19,12,2901.22,0.9626
+2025-05-12,Paid Search,google,cpc,KSA Growth,mobile,121,93,95,24,15,9,1820.26,0.9833
+2025-05-12,Paid Social,instagram,paid_social,Creator Offers,desktop,119,95,80,16,10,6,1323.07,0.9613
+2025-05-13,Organic Search,google,organic,Always-on SEO,mobile,94,83,73,19,9,6,1092.67,0.9696
+2025-05-13,Direct,direct,none,Unassigned,desktop,142,102,94,26,17,12,2551.78,0.9933
+2025-05-13,Email,newsletter,email,Lifecycle,tablet,127,109,103,18,12,9,1963.3,0.977
+2025-05-14,Paid Search,google,cpc,KSA Growth,desktop,160,115,128,28,17,10,1970.98,0.9853
+2025-05-14,Paid Social,instagram,paid_social,Creator Offers,tablet,150,122,99,24,12,7,1851.26,0.9651
+2025-05-14,Affiliates,partners,affiliate,Partner Network,mobile,89,67,62,14,8,5,1265.47,0.9818
+2025-05-15,Direct,direct,none,Unassigned,tablet,124,89,89,22,12,9,1780.13,0.9714
+2025-05-15,Email,newsletter,email,Lifecycle,mobile,107,84,67,15,8,6,979.39,0.9791
+2025-05-15,Organic Search,google,organic,Always-on SEO,desktop,102,84,75,21,14,10,2150.5,0.9897
+2025-05-16,Paid Social,instagram,paid_social,Creator Offers,mobile,170,132,135,39,22,15,3951.65,0.9939
+2025-05-16,Affiliates,partners,affiliate,Partner Network,desktop,169,135,134,31,17,12,3194.02,0.9932
+2025-05-16,Paid Search,google,cpc,KSA Growth,tablet,104,75,70,12,7,4,1036.99,0.9949
+2025-05-17,Email,newsletter,email,Lifecycle,desktop,102,75,78,19,12,7,1500.48,0.9882
+2025-05-17,Organic Search,google,organic,Always-on SEO,tablet,112,93,89,15,9,5,1110.82,0.9883
+2025-05-17,Direct,direct,none,Unassigned,mobile,135,101,106,28,16,11,2437.73,0.9648
+2025-05-18,Affiliates,partners,affiliate,Partner Network,tablet,145,113,112,28,17,10,2159.04,0.9723
+2025-05-18,Paid Search,google,cpc,KSA Growth,mobile,102,85,74,15,7,5,948.67,0.9822
+2025-05-18,Paid Social,instagram,paid_social,Creator Offers,desktop,147,109,114,23,12,9,2185.25,0.9859
+2025-05-19,Organic Search,google,organic,Always-on SEO,mobile,110,82,90,23,15,10,2371.39,0.9675
+2025-05-19,Direct,direct,none,Unassigned,desktop,154,117,98,24,16,12,2493.41,0.9674
+2025-05-19,Email,newsletter,email,Lifecycle,tablet,75,62,51,12,8,6,917.95,0.9906
+2025-05-20,Paid Search,google,cpc,KSA Growth,desktop,124,106,91,18,9,6,1297.15,0.9733
+2025-05-20,Paid Social,instagram,paid_social,Creator Offers,tablet,148,111,97,21,11,8,1672.32,0.973
+2025-05-20,Affiliates,partners,affiliate,Partner Network,mobile,95,71,67,15,8,5,1153.06,0.9742
+2025-05-21,Direct,direct,none,Unassigned,tablet,84,72,57,10,5,4,840.96,0.9948
+2025-05-21,Email,newsletter,email,Lifecycle,mobile,96,85,78,17,9,6,1524.58,0.9602
+2025-05-21,Organic Search,google,organic,Always-on SEO,desktop,112,98,86,20,12,7,1520.74,0.9891
+2025-05-22,Paid Social,instagram,paid_social,Creator Offers,mobile,83,64,59,12,6,4,745.92,0.9657
+2025-05-22,Affiliates,partners,affiliate,Partner Network,desktop,157,123,102,26,14,9,1908.58,0.9658
+2025-05-22,Paid Search,google,cpc,KSA Growth,tablet,108,96,87,23,13,8,1691.52,0.983
+2025-05-23,Email,newsletter,email,Lifecycle,desktop,131,102,85,21,14,10,1959.65,0.985
+2025-05-23,Organic Search,google,organic,Always-on SEO,tablet,97,81,70,14,6,5,1033.06,0.9619
+2025-05-23,Direct,direct,none,Unassigned,mobile,114,92,78,13,8,6,1270.37,0.9859
+2025-05-24,Affiliates,partners,affiliate,Partner Network,tablet,131,95,90,18,8,6,1559.04,0.9609
+2025-05-24,Paid Search,google,cpc,KSA Growth,mobile,90,78,69,20,10,6,1319.04,0.9887
+2025-05-24,Paid Social,instagram,paid_social,Creator Offers,desktop,103,80,68,15,7,5,612.58,0.9831
+2025-05-25,Organic Search,google,organic,Always-on SEO,mobile,156,137,105,21,11,6,1285.54,0.97
+2025-05-25,Direct,direct,none,Unassigned,desktop,73,63,49,11,5,4,1079.04,0.9643
+2025-05-25,Email,newsletter,email,Lifecycle,tablet,145,123,115,25,16,9,1873.34,0.9695
+2025-05-26,Paid Search,google,cpc,KSA Growth,desktop,129,110,97,23,14,10,2217.79,0.975
+2025-05-26,Paid Social,instagram,paid_social,Creator Offers,tablet,118,98,90,18,12,8,1739.52,0.9807
+2025-05-26,Affiliates,partners,affiliate,Partner Network,mobile,113,83,90,16,9,5,1161.79,0.9709
+2025-05-27,Direct,direct,none,Unassigned,tablet,153,113,125,32,19,12,2451.07,0.9652
+2025-05-27,Email,newsletter,email,Lifecycle,mobile,164,135,111,23,12,8,1471.78,0.9772
+2025-05-27,Organic Search,google,organic,Always-on SEO,desktop,147,126,105,23,15,10,1986.62,0.9928
+2025-05-28,Paid Social,instagram,paid_social,Creator Offers,mobile,84,74,67,12,7,5,1371.94,0.9779
+2025-05-28,Affiliates,partners,affiliate,Partner Network,desktop,93,67,69,19,12,10,2187.07,0.974
+2025-05-28,Paid Search,google,cpc,KSA Growth,tablet,154,130,97,23,13,8,1893.22,0.9668
+2025-05-29,Email,newsletter,email,Lifecycle,desktop,120,104,84,14,7,5,1216.42,0.9893
+2025-05-29,Organic Search,google,organic,Always-on SEO,tablet,125,96,86,18,10,7,1261.63,0.9855
+2025-05-29,Direct,direct,none,Unassigned,mobile,123,96,81,18,9,7,1626.34,0.9617
+2025-05-30,Affiliates,partners,affiliate,Partner Network,tablet,136,98,90,25,16,12,2963.62,0.9618
+2025-05-30,Paid Search,google,cpc,KSA Growth,mobile,126,112,98,19,10,6,1064.74,0.9699
+2025-05-30,Paid Social,instagram,paid_social,Creator Offers,desktop,148,108,115,32,19,12,2775.46,0.9884
+2025-05-31,Organic Search,google,organic,Always-on SEO,mobile,134,104,108,25,13,9,1975.1,0.972
+2025-05-31,Direct,direct,none,Unassigned,desktop,95,74,63,14,8,6,1248.38,0.9824
+2025-05-31,Email,newsletter,email,Lifecycle,tablet,135,121,105,22,12,8,1571.71,0.9647
+2025-06-01,Paid Search,google,cpc,KSA Growth,desktop,116,97,84,22,13,9,1789.82,0.977
+2025-06-01,Paid Social,instagram,paid_social,Creator Offers,tablet,154,134,112,27,17,12,3249.7,0.993
+2025-06-01,Affiliates,partners,affiliate,Partner Network,mobile,147,124,95,26,18,12,3069.12,0.9612
+2025-06-02,Direct,direct,none,Unassigned,tablet,121,99,83,18,12,9,2261.86,0.973
+2025-06-02,Email,newsletter,email,Lifecycle,mobile,164,128,111,20,11,7,2184.1,0.9671
+2025-06-02,Organic Search,google,organic,Always-on SEO,desktop,95,72,73,13,8,6,965.86,0.9828
+2025-06-03,Paid Social,instagram,paid_social,Creator Offers,mobile,118,105,86,23,15,11,2547.36,0.966
+2025-06-03,Affiliates,partners,affiliate,Partner Network,desktop,119,88,86,19,10,8,1892.45,0.9671
+2025-06-03,Paid Search,google,cpc,KSA Growth,tablet,159,136,127,36,22,16,3030.14,0.9684
+2025-06-04,Email,newsletter,email,Lifecycle,desktop,109,98,84,20,13,10,2503.87,0.991
+2025-06-04,Organic Search,google,organic,Always-on SEO,tablet,120,90,97,25,16,12,2285.09,0.9638
+2025-06-04,Direct,direct,none,Unassigned,mobile,91,76,68,13,7,5,1648.61,0.9646
+2025-06-05,Affiliates,partners,affiliate,Partner Network,tablet,133,98,104,28,19,11,2789.95,0.9691
+2025-06-05,Paid Search,google,cpc,KSA Growth,mobile,158,138,114,22,11,8,1958.5,0.9923
+2025-06-05,Paid Social,instagram,paid_social,Creator Offers,desktop,174,154,124,31,21,12,2661.6,0.9644
+2025-06-06,Organic Search,google,organic,Always-on SEO,mobile,91,66,70,14,9,5,955.39,0.9729
+2025-06-06,Direct,direct,none,Unassigned,desktop,120,91,84,20,10,8,1829.09,0.983
+2025-06-06,Email,newsletter,email,Lifecycle,tablet,87,71,67,13,7,5,1090.66,0.9746
+2025-06-07,Paid Search,google,cpc,KSA Growth,desktop,164,147,134,27,19,12,2511.65,0.9811
+2025-06-07,Paid Social,instagram,paid_social,Creator Offers,tablet,82,66,64,17,10,7,1439.23,0.9836
+2025-06-07,Affiliates,partners,affiliate,Partner Network,mobile,129,94,88,19,12,9,1922.11,0.9779
+2025-06-08,Direct,direct,none,Unassigned,tablet,86,75,65,15,10,6,1582.18,0.981
+2025-06-08,Email,newsletter,email,Lifecycle,mobile,102,85,67,17,8,5,668.35,0.9776
+2025-06-08,Organic Search,google,organic,Always-on SEO,desktop,88,78,71,20,9,6,1529.28,0.9794
+2025-06-09,Paid Social,instagram,paid_social,Creator Offers,mobile,80,69,56,12,7,5,1080.0,0.9701
+2025-06-09,Affiliates,partners,affiliate,Partner Network,desktop,154,112,110,23,12,8,1952.93,0.9741
+2025-06-09,Paid Search,google,cpc,KSA Growth,tablet,72,56,46,10,5,3,803.52,0.9726
+2025-06-10,Email,newsletter,email,Lifecycle,desktop,103,89,82,16,9,7,1471.78,0.9799
+2025-06-10,Organic Search,google,organic,Always-on SEO,tablet,96,74,76,16,8,5,1099.3,0.9827
+2025-06-10,Direct,direct,none,Unassigned,mobile,142,120,102,26,15,9,1545.79,0.9885
+2025-06-11,Affiliates,partners,affiliate,Partner Network,tablet,121,94,98,20,12,7,1337.28,0.9813
+2025-06-11,Paid Search,google,cpc,KSA Growth,mobile,71,53,57,13,7,4,822.82,0.9686
+2025-06-11,Paid Social,instagram,paid_social,Creator Offers,desktop,84,74,60,11,5,3,468.48,0.9741
+2025-06-12,Organic Search,google,organic,Always-on SEO,mobile,136,114,93,25,16,11,2811.17,0.9685
+2025-06-12,Direct,direct,none,Unassigned,desktop,111,98,86,20,13,10,2243.81,0.9833
+2025-06-12,Email,newsletter,email,Lifecycle,tablet,85,64,63,16,11,7,1480.32,0.9725
+2025-06-13,Paid Search,google,cpc,KSA Growth,desktop,151,121,97,26,14,10,2365.92,0.9873
+2025-06-13,Paid Social,instagram,paid_social,Creator Offers,tablet,175,154,119,27,14,10,2296.51,0.9905
+2025-06-13,Affiliates,partners,affiliate,Partner Network,mobile,178,129,134,38,25,18,4287.94,0.9905
+2025-06-14,Direct,direct,none,Unassigned,tablet,85,65,60,15,8,5,925.82,0.9791
+2025-06-14,Email,newsletter,email,Lifecycle,mobile,130,111,105,19,10,8,1801.06,0.9763
+2025-06-14,Organic Search,google,organic,Always-on SEO,desktop,160,138,130,33,17,12,3103.3,0.9686
+2025-06-15,Paid Social,instagram,paid_social,Creator Offers,mobile,138,114,108,27,19,13,3306.53,0.9629
+2025-06-15,Affiliates,partners,affiliate,Partner Network,desktop,146,108,94,25,17,11,2613.41,0.9645
+2025-06-15,Paid Search,google,cpc,KSA Growth,tablet,125,96,99,27,15,9,2125.73,0.9853
+2025-06-16,Email,newsletter,email,Lifecycle,desktop,115,88,79,18,10,8,1640.74,0.9611
+2025-06-16,Organic Search,google,organic,Always-on SEO,tablet,101,91,70,19,9,5,1217.38,0.9669
+2025-06-16,Direct,direct,none,Unassigned,mobile,74,55,58,9,4,3,596.26,0.9919
+2025-06-17,Affiliates,partners,affiliate,Partner Network,tablet,129,110,89,23,16,12,2468.54,0.9822
+2025-06-17,Paid Search,google,cpc,KSA Growth,mobile,86,65,59,15,8,5,1034.11,0.9835
+2025-06-17,Paid Social,instagram,paid_social,Creator Offers,desktop,99,86,75,15,7,5,816.1,0.9829
+2025-06-18,Organic Search,google,organic,Always-on SEO,mobile,139,107,111,24,13,9,2140.99,0.9867
+2025-06-18,Direct,direct,none,Unassigned,desktop,88,68,62,17,10,8,1655.23,0.9637
+2025-06-18,Email,newsletter,email,Lifecycle,tablet,132,104,92,20,10,7,1721.38,0.9668
+2025-06-19,Paid Search,google,cpc,KSA Growth,desktop,117,99,80,14,8,6,1459.39,0.9759
+2025-06-19,Paid Social,instagram,paid_social,Creator Offers,tablet,89,75,66,18,12,7,1198.27,0.9861
+2025-06-19,Affiliates,partners,affiliate,Partner Network,mobile,134,113,89,24,12,7,1602.62,0.9621
+2025-06-20,Direct,direct,none,Unassigned,tablet,170,148,136,37,21,15,2861.95,0.9646
+2025-06-20,Email,newsletter,email,Lifecycle,mobile,119,88,89,19,11,7,1291.49,0.9793
+2025-06-20,Organic Search,google,organic,Always-on SEO,desktop,161,136,129,36,19,12,2584.7,0.9942
+2025-06-21,Paid Social,instagram,paid_social,Creator Offers,mobile,82,67,62,12,7,4,945.6,0.9927
+2025-06-21,Affiliates,partners,affiliate,Partner Network,desktop,134,120,95,23,14,8,2256.0,0.9904
+2025-06-21,Paid Search,google,cpc,KSA Growth,tablet,106,96,70,20,13,9,1507.68,0.9631
+2025-06-22,Email,newsletter,email,Lifecycle,desktop,153,127,100,20,11,8,1741.54,0.9603
+2025-06-22,Organic Search,google,organic,Always-on SEO,tablet,82,69,56,14,8,6,1399.78,0.981
+2025-06-22,Direct,direct,none,Unassigned,mobile,81,70,63,13,8,6,1426.75,0.9849
+2025-06-23,Affiliates,partners,affiliate,Partner Network,tablet,98,71,66,18,10,6,994.75,0.9911
+2025-06-23,Paid Search,google,cpc,KSA Growth,mobile,128,100,89,24,14,10,2073.98,0.981
+2025-06-23,Paid Social,instagram,paid_social,Creator Offers,desktop,160,145,110,21,11,7,2044.13,0.9885
+2025-06-24,Organic Search,google,organic,Always-on SEO,mobile,85,76,64,11,7,6,1387.39,0.9694
+2025-06-24,Direct,direct,none,Unassigned,desktop,121,104,85,17,11,6,1615.68,0.9645
+2025-06-24,Email,newsletter,email,Lifecycle,tablet,147,122,118,26,15,10,2000.93,0.9694
+2025-06-25,Paid Search,google,cpc,KSA Growth,desktop,112,94,89,17,11,8,1644.58,0.9896
+2025-06-25,Paid Social,instagram,paid_social,Creator Offers,tablet,128,111,94,23,15,11,2105.57,0.972
+2025-06-25,Affiliates,partners,affiliate,Partner Network,mobile,140,101,102,28,19,13,2981.28,0.9665
+2025-06-26,Direct,direct,none,Unassigned,tablet,111,89,74,17,11,7,1509.5,0.9649
+2025-06-26,Email,newsletter,email,Lifecycle,mobile,80,65,59,15,9,6,1527.46,0.9838
+2025-06-26,Organic Search,google,organic,Always-on SEO,desktop,133,108,86,16,8,5,1051.3,0.9816
+2025-06-27,Paid Social,instagram,paid_social,Creator Offers,mobile,93,77,65,12,6,4,1090.56,0.9652
+2025-06-27,Affiliates,partners,affiliate,Partner Network,desktop,103,84,79,17,10,6,1212.48,0.9735
+2025-06-27,Paid Search,google,cpc,KSA Growth,tablet,146,121,118,21,11,7,1578.43,0.9668
+2025-06-28,Email,newsletter,email,Lifecycle,desktop,136,122,106,24,13,9,1842.34,0.9647
+2025-06-28,Organic Search,google,organic,Always-on SEO,tablet,155,126,123,27,19,12,3005.47,0.9668
+2025-06-28,Direct,direct,none,Unassigned,mobile,96,80,61,10,5,4,1189.54,0.9634
+2025-06-29,Affiliates,partners,affiliate,Partner Network,tablet,132,111,85,16,8,6,1690.75,0.98
+2025-06-29,Paid Search,google,cpc,KSA Growth,mobile,109,90,82,15,8,6,1510.08,0.9762
+2025-06-29,Paid Social,instagram,paid_social,Creator Offers,desktop,113,93,91,24,13,8,1673.47,0.995
+2025-06-30,Organic Search,google,organic,Always-on SEO,mobile,132,105,91,24,15,9,2236.9,0.9914
+2025-06-30,Direct,direct,none,Unassigned,desktop,120,93,84,23,14,11,2339.81,0.9852
+2025-06-30,Email,newsletter,email,Lifecycle,tablet,88,69,68,18,11,6,1606.08,0.9693
+2025-07-01,Paid Search,google,cpc,KSA Growth,desktop,136,99,94,20,14,9,2131.68,0.9682
+2025-07-01,Paid Social,instagram,paid_social,Creator Offers,tablet,137,98,99,22,12,8,2009.57,0.984
+2025-07-01,Affiliates,partners,affiliate,Partner Network,mobile,162,144,107,24,14,8,1644.58,0.9615
+2025-07-02,Direct,direct,none,Unassigned,tablet,158,127,119,33,18,13,2723.71,0.9607
+2025-07-02,Email,newsletter,email,Lifecycle,mobile,108,90,87,24,14,9,1915.3,0.9616
+2025-07-02,Organic Search,google,organic,Always-on SEO,desktop,109,86,81,16,8,6,1529.28,0.9886
+2025-07-03,Paid Social,instagram,paid_social,Creator Offers,mobile,98,70,69,13,6,4,932.35,0.9785
+2025-07-03,Affiliates,partners,affiliate,Partner Network,desktop,141,117,109,24,14,9,1877.18,0.966
+2025-07-03,Paid Search,google,cpc,KSA Growth,tablet,150,115,118,22,15,10,2279.62,0.993
+2025-07-04,Email,newsletter,email,Lifecycle,desktop,119,93,97,22,12,8,1558.18,0.9791
+2025-07-04,Organic Search,google,organic,Always-on SEO,tablet,151,131,99,22,11,7,1449.79,0.9705
+2025-07-04,Direct,direct,none,Unassigned,mobile,176,142,125,32,19,14,3129.89,0.98
+2025-07-05,Affiliates,partners,affiliate,Partner Network,tablet,160,142,120,30,15,11,2164.99,0.9872
+2025-07-05,Paid Search,google,cpc,KSA Growth,mobile,120,100,84,21,13,10,2180.26,0.9827
+2025-07-05,Paid Social,instagram,paid_social,Creator Offers,desktop,129,98,102,23,15,9,2292.77,0.9684
+2025-07-06,Organic Search,google,organic,Always-on SEO,mobile,134,119,87,21,12,7,2023.01,0.9674
+2025-07-06,Direct,direct,none,Unassigned,desktop,80,61,60,14,6,4,1323.94,0.9856
+2025-07-06,Email,newsletter,email,Lifecycle,tablet,73,62,52,14,8,5,952.51,0.9876
+2025-07-07,Paid Search,google,cpc,KSA Growth,desktop,128,98,90,24,14,10,2068.99,0.9738
+2025-07-07,Paid Social,instagram,paid_social,Creator Offers,tablet,147,125,101,28,17,12,2561.38,0.9825
+2025-07-07,Affiliates,partners,affiliate,Partner Network,mobile,163,134,123,33,17,10,1778.02,0.9624
+2025-07-08,Direct,direct,none,Unassigned,tablet,88,67,62,15,8,6,1347.17,0.9848
+2025-07-08,Email,newsletter,email,Lifecycle,mobile,95,75,75,19,12,9,1851.94,0.9892
+2025-07-08,Organic Search,google,organic,Always-on SEO,desktop,94,84,68,14,6,5,1080.0,0.9689
+2025-07-09,Paid Social,instagram,paid_social,Creator Offers,mobile,88,64,64,18,11,8,1490.98,0.9882
+2025-07-09,Affiliates,partners,affiliate,Partner Network,desktop,100,88,75,14,7,5,993.6,0.9662
+2025-07-09,Paid Search,google,cpc,KSA Growth,tablet,142,128,100,27,15,11,2732.26,0.969
+2025-07-10,Email,newsletter,email,Lifecycle,desktop,103,76,70,19,10,6,1462.08,0.9621
+2025-07-10,Organic Search,google,organic,Always-on SEO,tablet,87,77,59,11,6,5,1319.04,0.9931
+2025-07-10,Direct,direct,none,Unassigned,mobile,117,85,75,14,9,6,1309.54,0.9607
+2025-07-11,Affiliates,partners,affiliate,Partner Network,tablet,148,124,104,25,15,10,1961.38,0.9691
+2025-07-11,Paid Search,google,cpc,KSA Growth,mobile,147,130,116,22,15,10,2343.55,0.982
+2025-07-11,Paid Social,instagram,paid_social,Creator Offers,desktop,81,60,52,9,4,3,668.16,0.9774
+2025-07-12,Organic Search,google,organic,Always-on SEO,mobile,150,129,115,32,17,12,3272.83,0.9682
+2025-07-12,Direct,direct,none,Unassigned,desktop,77,67,51,13,8,6,1196.35,0.9677
+2025-07-12,Email,newsletter,email,Lifecycle,tablet,108,93,87,18,9,7,1854.05,0.985
+2025-07-13,Paid Search,google,cpc,KSA Growth,desktop,154,112,101,26,13,9,2437.63,0.9824
+2025-07-13,Paid Social,instagram,paid_social,Creator Offers,tablet,104,90,71,15,7,4,956.16,0.987
+2025-07-13,Affiliates,partners,affiliate,Partner Network,mobile,105,78,76,18,9,6,1338.24,0.9667
+2025-07-14,Direct,direct,none,Unassigned,tablet,159,124,102,29,17,10,2103.65,0.9896
+2025-07-14,Email,newsletter,email,Lifecycle,mobile,80,72,59,13,6,4,706.56,0.9764
+2025-07-14,Organic Search,google,organic,Always-on SEO,desktop,113,87,75,20,12,8,1797.12,0.9629
+2025-07-15,Paid Social,instagram,paid_social,Creator Offers,mobile,70,52,51,10,6,4,1115.62,0.9626
+2025-07-15,Affiliates,partners,affiliate,Partner Network,desktop,82,70,66,18,10,7,1740.48,0.9731
+2025-07-15,Paid Search,google,cpc,KSA Growth,tablet,135,119,89,23,15,9,1875.07,0.9914
+2025-07-16,Email,newsletter,email,Lifecycle,desktop,81,69,59,12,6,5,1434.24,0.969
+2025-07-16,Organic Search,google,organic,Always-on SEO,tablet,109,94,71,16,8,6,1128.0,0.978
+2025-07-16,Direct,direct,none,Unassigned,mobile,137,109,96,25,16,12,2174.59,0.9925
+2025-07-17,Affiliates,partners,affiliate,Partner Network,tablet,164,132,112,21,14,8,1452.67,0.9873
+2025-07-17,Paid Search,google,cpc,KSA Growth,mobile,106,86,75,19,12,9,2017.25,0.9606
+2025-07-17,Paid Social,instagram,paid_social,Creator Offers,desktop,173,156,119,24,14,9,2219.62,0.9834
+2025-07-18,Organic Search,google,organic,Always-on SEO,mobile,129,101,99,27,16,12,2812.9,0.9799
+2025-07-18,Direct,direct,none,Unassigned,desktop,168,127,126,34,19,12,3412.9,0.9863
+2025-07-18,Email,newsletter,email,Lifecycle,tablet,114,83,94,17,8,5,952.51,0.9791
+2025-07-19,Paid Search,google,cpc,KSA Growth,desktop,123,92,89,24,15,9,2141.09,0.9898
+2025-07-19,Paid Social,instagram,paid_social,Creator Offers,tablet,115,99,84,17,8,6,1233.7,0.9837
+2025-07-19,Affiliates,partners,affiliate,Partner Network,mobile,79,69,57,15,8,5,1024.42,0.9871
+2025-07-20,Direct,direct,none,Unassigned,tablet,98,82,69,16,11,8,1731.17,0.9945
+2025-07-20,Email,newsletter,email,Lifecycle,mobile,106,82,74,14,7,6,1559.04,0.9733
+2025-07-20,Organic Search,google,organic,Always-on SEO,desktop,119,98,83,19,10,6,1267.39,0.9837
+2025-07-21,Paid Social,instagram,paid_social,Creator Offers,mobile,108,81,82,18,11,6,1504.42,0.9648
+2025-07-21,Affiliates,partners,affiliate,Partner Network,desktop,142,126,106,22,14,9,2017.15,0.9626
+2025-07-21,Paid Search,google,cpc,KSA Growth,tablet,72,62,47,13,6,5,1061.86,0.9867
+2025-07-22,Email,newsletter,email,Lifecycle,desktop,113,92,91,24,17,12,3251.81,0.9622
+2025-07-22,Organic Search,google,organic,Always-on SEO,tablet,132,95,101,23,15,9,1521.98,0.9875
+2025-07-22,Direct,direct,none,Unassigned,mobile,154,119,120,22,11,7,1465.15,0.9755
+2025-07-23,Affiliates,partners,affiliate,Partner Network,tablet,153,128,101,24,14,10,2186.21,0.9686
+2025-07-23,Paid Search,google,cpc,KSA Growth,mobile,162,137,109,24,13,9,1787.81,0.9608
+2025-07-23,Paid Social,instagram,paid_social,Creator Offers,desktop,134,110,87,15,7,5,814.27,0.9655
+2025-07-24,Organic Search,google,organic,Always-on SEO,mobile,151,133,100,21,11,7,1767.36,0.9634
+2025-07-24,Direct,direct,none,Unassigned,desktop,127,108,95,25,14,10,2402.02,0.9822
+2025-07-24,Email,newsletter,email,Lifecycle,tablet,76,68,52,11,7,6,1453.44,0.9686
+2025-07-25,Paid Search,google,cpc,KSA Growth,desktop,128,98,98,18,10,6,1374.91,0.9714
+2025-07-25,Paid Social,instagram,paid_social,Creator Offers,tablet,163,124,114,32,16,12,2628.96,0.9901
+2025-07-25,Affiliates,partners,affiliate,Partner Network,mobile,115,96,80,19,13,8,1802.21,0.9921
+2025-07-26,Direct,direct,none,Unassigned,tablet,132,103,95,22,15,11,2264.74,0.9617
+2025-07-26,Email,newsletter,email,Lifecycle,mobile,150,122,106,29,19,13,2850.62,0.9648
+2025-07-26,Organic Search,google,organic,Always-on SEO,desktop,121,89,93,20,12,9,2103.55,0.9689
+2025-07-27,Paid Social,instagram,paid_social,Creator Offers,mobile,137,99,88,16,8,6,1642.85,0.9878
+2025-07-27,Affiliates,partners,affiliate,Partner Network,desktop,113,102,79,17,9,7,1632.38,0.9791
+2025-07-27,Paid Search,google,cpc,KSA Growth,tablet,101,80,71,20,13,9,1878.24,0.9808
+2025-07-28,Email,newsletter,email,Lifecycle,desktop,151,114,119,32,20,13,3612.67,0.9797
+2025-07-28,Organic Search,google,organic,Always-on SEO,tablet,135,103,89,24,14,10,2009.86,0.9835
+2025-07-28,Direct,direct,none,Unassigned,mobile,92,72,59,15,8,5,877.73,0.9929
+2025-07-29,Affiliates,partners,affiliate,Partner Network,tablet,117,99,92,22,12,7,1003.3,0.9749
+2025-07-29,Paid Search,google,cpc,KSA Growth,mobile,122,106,96,27,16,9,2157.31,0.9748
+2025-07-29,Paid Social,instagram,paid_social,Creator Offers,desktop,102,79,71,13,7,5,611.52,0.9826
+2025-07-30,Organic Search,google,organic,Always-on SEO,mobile,129,99,98,18,11,9,2218.75,0.9621
+2025-07-30,Direct,direct,none,Unassigned,desktop,101,85,67,18,11,8,1749.31,0.9942
+2025-07-30,Email,newsletter,email,Lifecycle,tablet,163,144,129,36,19,13,3386.11,0.993
+2025-07-31,Paid Search,google,cpc,KSA Growth,desktop,170,153,121,31,21,15,4240.9,0.9637
+2025-07-31,Paid Social,instagram,paid_social,Creator Offers,tablet,129,101,97,24,16,11,2227.2,0.9904
+2025-07-31,Affiliates,partners,affiliate,Partner Network,mobile,138,101,93,18,9,6,1224.1,0.9691
+2025-08-01,Direct,direct,none,Unassigned,tablet,159,142,119,32,20,12,2522.11,0.9826
+2025-08-01,Email,newsletter,email,Lifecycle,mobile,159,139,103,24,17,12,2822.59,0.9869
+2025-08-01,Organic Search,google,organic,Always-on SEO,desktop,97,80,66,18,9,7,1531.39,0.9608
+2025-08-02,Paid Social,instagram,paid_social,Creator Offers,mobile,106,94,74,19,11,8,1769.47,0.9697
+2025-08-02,Affiliates,partners,affiliate,Partner Network,desktop,161,135,102,27,19,12,3147.07,0.9696
+2025-08-02,Paid Search,google,cpc,KSA Growth,tablet,143,105,96,26,17,10,1573.63,0.9793
+2025-08-03,Email,newsletter,email,Lifecycle,desktop,137,122,99,25,17,10,2327.23,0.9749
+2025-08-03,Organic Search,google,organic,Always-on SEO,tablet,148,114,109,19,9,6,1354.94,0.9837
+2025-08-03,Direct,direct,none,Unassigned,mobile,118,96,76,13,7,4,921.7,0.9911
+2025-08-04,Affiliates,partners,affiliate,Partner Network,tablet,104,79,66,15,9,6,1497.79,0.9937
+2025-08-04,Paid Search,google,cpc,KSA Growth,mobile,75,54,51,11,5,4,1070.5,0.9929
+2025-08-04,Paid Social,instagram,paid_social,Creator Offers,desktop,139,102,97,25,15,12,2717.28,0.9863
+2025-08-05,Organic Search,google,organic,Always-on SEO,mobile,110,79,87,16,10,8,1464.19,0.9748
+2025-08-05,Direct,direct,none,Unassigned,desktop,118,100,77,20,13,10,2562.24,0.9863
+2025-08-05,Email,newsletter,email,Lifecycle,tablet,103,91,68,18,11,7,1960.51,0.9877
+2025-08-06,Paid Search,google,cpc,KSA Growth,desktop,119,86,81,18,12,9,2253.5,0.9869
+2025-08-06,Paid Social,instagram,paid_social,Creator Offers,tablet,147,123,97,18,9,7,1758.72,0.9894
+2025-08-06,Affiliates,partners,affiliate,Partner Network,mobile,145,118,107,19,13,8,1872.0,0.9893
+2025-08-07,Direct,direct,none,Unassigned,tablet,166,146,107,22,11,7,1887.46,0.985
+2025-08-07,Email,newsletter,email,Lifecycle,mobile,91,75,72,15,8,6,896.64,0.9605
+2025-08-07,Organic Search,google,organic,Always-on SEO,desktop,100,88,65,12,6,4,960.19,0.9726
+2025-08-08,Paid Social,instagram,paid_social,Creator Offers,mobile,156,118,117,27,17,12,2460.77,0.9889
+2025-08-08,Affiliates,partners,affiliate,Partner Network,desktop,113,88,80,14,7,5,1082.02,0.9782
+2025-08-08,Paid Search,google,cpc,KSA Growth,tablet,146,121,112,29,18,13,3513.89,0.9738
+2025-08-09,Email,newsletter,email,Lifecycle,desktop,157,128,109,28,19,12,2719.78,0.9798
+2025-08-09,Organic Search,google,organic,Always-on SEO,tablet,146,122,113,26,14,11,2309.18,0.9685
+2025-08-09,Direct,direct,none,Unassigned,mobile,162,140,130,31,18,10,2177.47,0.9827
+2025-08-10,Affiliates,partners,affiliate,Partner Network,tablet,186,156,117,33,18,11,2115.07,0.9881
+2025-08-10,Paid Search,google,cpc,KSA Growth,mobile,176,154,133,36,18,12,2946.43,0.9783
+2025-08-10,Paid Social,instagram,paid_social,Creator Offers,desktop,169,148,126,36,19,13,2893.82,0.9633
+2025-08-11,Organic Search,google,organic,Always-on SEO,mobile,170,141,111,29,18,12,2716.99,0.9647
+2025-08-11,Direct,direct,none,Unassigned,desktop,162,134,118,25,14,9,2116.22,0.9661
+2025-08-11,Email,newsletter,email,Lifecycle,tablet,115,93,85,24,16,11,2160.29,0.963
+2025-08-12,Paid Search,google,cpc,KSA Growth,desktop,173,138,121,23,12,9,1957.06,0.9847
+2025-08-12,Paid Social,instagram,paid_social,Creator Offers,tablet,179,150,131,37,24,16,3878.88,0.9605
+2025-08-12,Affiliates,partners,affiliate,Partner Network,mobile,153,126,104,27,14,9,1653.22,0.9919
+2025-08-13,Direct,direct,none,Unassigned,tablet,119,96,91,23,15,9,1866.34,0.9841
+2025-08-13,Email,newsletter,email,Lifecycle,mobile,136,118,100,25,14,10,1981.73,0.9918
+2025-08-13,Organic Search,google,organic,Always-on SEO,desktop,152,137,109,29,18,11,2525.86,0.9913
+2025-08-14,Paid Social,instagram,paid_social,Creator Offers,mobile,147,112,116,24,13,8,1691.71,0.9643
+2025-08-14,Affiliates,partners,affiliate,Partner Network,desktop,128,112,83,14,7,5,1029.31,0.969
+2025-08-14,Paid Search,google,cpc,KSA Growth,tablet,191,138,140,38,24,14,3640.32,0.9706
+2025-08-15,Email,newsletter,email,Lifecycle,desktop,113,94,86,21,13,7,1642.56,0.9871
+2025-08-15,Organic Search,google,organic,Always-on SEO,tablet,115,98,80,16,10,7,1712.74,0.97
+2025-08-15,Direct,direct,none,Unassigned,mobile,102,80,72,12,7,4,940.9,0.994
+2025-08-16,Affiliates,partners,affiliate,Partner Network,tablet,110,86,88,21,14,10,2221.63,0.9759
+2025-08-16,Paid Search,google,cpc,KSA Growth,mobile,90,77,64,16,8,5,1347.94,0.9855
+2025-08-16,Paid Social,instagram,paid_social,Creator Offers,desktop,108,98,75,15,10,7,1297.15,0.9738
+2025-08-17,Organic Search,google,organic,Always-on SEO,mobile,140,105,109,21,14,10,1937.76,0.9886
+2025-08-17,Direct,direct,none,Unassigned,desktop,126,98,79,14,8,5,1080.0,0.979
+2025-08-17,Email,newsletter,email,Lifecycle,tablet,99,82,72,21,12,7,1740.48,0.9686
+2025-08-18,Paid Search,google,cpc,KSA Growth,desktop,159,118,112,27,15,11,2635.58,0.96
+2025-08-18,Paid Social,instagram,paid_social,Creator Offers,tablet,92,73,74,17,8,5,1604.54,0.9744
+2025-08-18,Affiliates,partners,affiliate,Partner Network,mobile,173,151,113,31,21,13,3214.46,0.9908
+2025-08-19,Direct,direct,none,Unassigned,tablet,169,145,126,29,19,12,2886.62,0.9806
+2025-08-19,Email,newsletter,email,Lifecycle,mobile,143,102,102,29,19,12,2563.3,0.9746
+2025-08-19,Organic Search,google,organic,Always-on SEO,desktop,98,71,63,14,7,5,957.31,0.9609
+2025-08-20,Paid Social,instagram,paid_social,Creator Offers,mobile,177,139,139,40,21,15,3504.1,0.9684
+2025-08-20,Affiliates,partners,affiliate,Partner Network,desktop,175,136,126,32,17,11,2384.93,0.9897
+2025-08-20,Paid Search,google,cpc,KSA Growth,tablet,140,108,95,23,15,10,2045.09,0.9943
+2025-08-21,Email,newsletter,email,Lifecycle,desktop,93,76,66,12,7,5,1214.5,0.981
+2025-08-21,Organic Search,google,organic,Always-on SEO,tablet,151,137,121,24,12,9,2150.4,0.9689
+2025-08-21,Direct,direct,none,Unassigned,mobile,199,159,148,43,30,17,3489.31,0.9863
+2025-08-22,Affiliates,partners,affiliate,Partner Network,tablet,113,86,87,21,12,10,1916.35,0.9873
+2025-08-22,Paid Search,google,cpc,KSA Growth,mobile,209,156,136,28,15,10,1799.33,0.9823
+2025-08-22,Paid Social,instagram,paid_social,Creator Offers,desktop,111,85,74,16,8,5,1463.04,0.9639
+2025-08-23,Organic Search,google,organic,Always-on SEO,mobile,133,98,104,20,11,7,2058.34,0.9916
+2025-08-23,Direct,direct,none,Unassigned,desktop,84,65,60,16,8,5,1167.46,0.9758
+2025-08-23,Email,newsletter,email,Lifecycle,tablet,98,85,70,14,8,6,1178.11,0.9804
+2025-08-24,Paid Search,google,cpc,KSA Growth,desktop,169,145,111,24,13,9,2461.54,0.9652
+2025-08-24,Paid Social,instagram,paid_social,Creator Offers,tablet,98,77,73,16,8,5,764.16,0.9629
+2025-08-24,Affiliates,partners,affiliate,Partner Network,mobile,101,91,70,19,9,6,1825.92,0.9869
+2025-08-25,Direct,direct,none,Unassigned,tablet,135,100,89,16,11,8,2101.63,0.9612
+2025-08-25,Email,newsletter,email,Lifecycle,mobile,129,113,91,17,9,6,1616.93,0.9918
+2025-08-25,Organic Search,google,organic,Always-on SEO,desktop,112,98,87,20,13,9,1739.9,0.9928
+2025-08-26,Paid Social,instagram,paid_social,Creator Offers,mobile,84,72,56,12,6,5,1261.44,0.9892
+2025-08-26,Affiliates,partners,affiliate,Partner Network,desktop,97,86,64,18,9,6,1219.39,0.9822
+2025-08-26,Paid Search,google,cpc,KSA Growth,tablet,169,133,133,39,22,14,3148.42,0.9842
+2025-08-27,Email,newsletter,email,Lifecycle,desktop,102,80,75,15,8,5,914.98,0.9793
+2025-08-27,Organic Search,google,organic,Always-on SEO,tablet,173,136,116,27,15,10,1900.03,0.9924
+2025-08-27,Direct,direct,none,Unassigned,mobile,96,70,66,14,7,4,1147.2,0.9803
+2025-08-28,Affiliates,partners,affiliate,Partner Network,tablet,168,132,117,28,15,9,2425.63,0.9817
+2025-08-28,Paid Search,google,cpc,KSA Growth,mobile,141,127,110,28,15,10,2094.14,0.9609
+2025-08-28,Paid Social,instagram,paid_social,Creator Offers,desktop,116,102,93,21,13,10,1875.26,0.9777
+2025-08-29,Organic Search,google,organic,Always-on SEO,mobile,105,86,66,19,12,8,1965.22,0.9651
+2025-08-29,Direct,direct,none,Unassigned,desktop,186,149,149,26,17,12,3370.94,0.9935
+2025-08-29,Email,newsletter,email,Lifecycle,tablet,164,127,104,30,18,12,2705.66,0.9721
+2025-08-30,Paid Search,google,cpc,KSA Growth,desktop,152,122,124,30,20,15,3249.02,0.9656
+2025-08-30,Paid Social,instagram,paid_social,Creator Offers,tablet,109,95,83,24,16,9,2043.17,0.9668
+2025-08-30,Affiliates,partners,affiliate,Partner Network,mobile,147,117,114,32,19,11,2048.93,0.9616
+2025-08-31,Direct,direct,none,Unassigned,tablet,129,106,97,25,18,12,2567.14,0.9842
+2025-08-31,Email,newsletter,email,Lifecycle,mobile,105,91,82,21,10,6,1012.9,0.9624
+2025-08-31,Organic Search,google,organic,Always-on SEO,desktop,191,149,150,34,23,15,3493.82,0.9936
+2025-09-01,Paid Social,instagram,paid_social,Creator Offers,mobile,138,108,87,23,11,7,1739.52,0.9782
+2025-09-01,Affiliates,partners,affiliate,Partner Network,desktop,90,77,72,12,6,5,1077.22,0.9671
+2025-09-01,Paid Search,google,cpc,KSA Growth,tablet,131,103,83,24,12,9,1901.86,0.9817
+2025-09-02,Email,newsletter,email,Lifecycle,desktop,101,84,64,11,6,4,1208.74,0.9911
+2025-09-02,Organic Search,google,organic,Always-on SEO,tablet,160,115,127,24,16,12,2852.74,0.9805
+2025-09-02,Direct,direct,none,Unassigned,mobile,116,97,87,18,10,8,1783.87,0.9826
+2025-09-03,Affiliates,partners,affiliate,Partner Network,tablet,90,76,61,13,8,6,979.39,0.9727
+2025-09-03,Paid Search,google,cpc,KSA Growth,mobile,149,112,100,23,14,9,2367.46,0.9601
+2025-09-03,Paid Social,instagram,paid_social,Creator Offers,desktop,101,91,75,21,14,10,2048.83,0.9657
+2025-09-04,Organic Search,google,organic,Always-on SEO,mobile,128,105,83,18,11,8,1457.57,0.9904
+2025-09-04,Direct,direct,none,Unassigned,desktop,164,142,108,28,17,11,2232.48,0.9775
+2025-09-04,Email,newsletter,email,Lifecycle,tablet,182,139,126,36,19,13,2719.87,0.9841
+2025-09-05,Paid Search,google,cpc,KSA Growth,desktop,197,174,129,26,15,9,1570.85,0.9904
+2025-09-05,Paid Social,instagram,paid_social,Creator Offers,tablet,205,161,163,48,28,18,4034.5,0.9605
+2025-09-05,Affiliates,partners,affiliate,Partner Network,mobile,121,99,87,24,14,9,1658.98,0.9823
+2025-09-06,Direct,direct,none,Unassigned,tablet,144,107,95,20,10,6,1248.1,0.9759
+2025-09-06,Email,newsletter,email,Lifecycle,mobile,130,101,88,23,13,8,2042.21,0.9837
+2025-09-06,Organic Search,google,organic,Always-on SEO,desktop,147,110,105,21,12,9,1820.26,0.9731
+2025-09-07,Paid Social,instagram,paid_social,Creator Offers,mobile,103,86,84,23,15,11,2548.42,0.9752
+2025-09-07,Affiliates,partners,affiliate,Partner Network,desktop,151,119,104,18,12,8,1292.35,0.9812
+2025-09-07,Paid Search,google,cpc,KSA Growth,tablet,151,117,104,24,12,7,1095.46,0.9838
+2025-09-08,Email,newsletter,email,Lifecycle,desktop,145,110,96,18,11,9,1888.42,0.976
+2025-09-08,Organic Search,google,organic,Always-on SEO,tablet,97,82,72,17,9,7,1083.94,0.9909
+2025-09-08,Direct,direct,none,Unassigned,mobile,124,91,80,15,8,5,1365.31,0.986
+2025-09-09,Affiliates,partners,affiliate,Partner Network,tablet,89,78,57,14,8,5,1272.0,0.9917
+2025-09-09,Paid Search,google,cpc,KSA Growth,mobile,125,110,85,15,7,6,1310.5,0.9874
+2025-09-09,Paid Social,instagram,paid_social,Creator Offers,desktop,100,77,64,15,8,5,818.98,0.9906
+2025-09-10,Organic Search,google,organic,Always-on SEO,mobile,123,99,96,24,13,9,1524.67,0.9791
+2025-09-10,Direct,direct,none,Unassigned,desktop,107,95,70,12,8,6,1485.31,0.9919
+2025-09-10,Email,newsletter,email,Lifecycle,tablet,120,97,88,20,11,8,1481.28,0.9625
+2025-09-11,Paid Search,google,cpc,KSA Growth,desktop,155,112,124,28,15,11,2184.19,0.9942
+2025-09-11,Paid Social,instagram,paid_social,Creator Offers,tablet,147,113,118,28,19,13,3135.65,0.9927
+2025-09-11,Affiliates,partners,affiliate,Partner Network,mobile,122,98,84,23,13,7,1434.53,0.9784
+2025-09-12,Direct,direct,none,Unassigned,tablet,167,146,134,30,19,14,3430.37,0.9771
+2025-09-12,Email,newsletter,email,Lifecycle,mobile,178,137,126,33,20,16,3296.35,0.9945
+2025-09-12,Organic Search,google,organic,Always-on SEO,desktop,169,148,117,27,16,12,2229.31,0.981
+2025-09-13,Paid Social,instagram,paid_social,Creator Offers,mobile,76,58,51,10,5,3,582.72,0.9855
+2025-09-13,Affiliates,partners,affiliate,Partner Network,desktop,143,122,94,22,13,8,1965.31,0.9673
+2025-09-13,Paid Search,google,cpc,KSA Growth,tablet,104,81,82,24,12,9,1875.07,0.9837
+2025-09-14,Email,newsletter,email,Lifecycle,desktop,152,133,117,33,20,12,2299.3,0.9623
+2025-09-14,Organic Search,google,organic,Always-on SEO,tablet,139,109,110,24,15,10,2154.82,0.9737
+2025-09-14,Direct,direct,none,Unassigned,mobile,98,78,74,14,8,6,1230.82,0.9946
+2025-09-15,Affiliates,partners,affiliate,Partner Network,tablet,143,115,97,18,11,8,1468.9,0.9769
+2025-09-15,Paid Search,google,cpc,KSA Growth,mobile,92,78,66,11,7,4,946.56,0.9878
+2025-09-15,Paid Social,instagram,paid_social,Creator Offers,desktop,83,69,64,14,7,4,927.36,0.9923
+2025-09-16,Organic Search,google,organic,Always-on SEO,mobile,96,72,72,18,10,8,2107.3,0.9641
+2025-09-16,Direct,direct,none,Unassigned,desktop,104,78,70,20,13,9,2314.85,0.9752
+2025-09-16,Email,newsletter,email,Lifecycle,tablet,149,129,106,19,11,8,1595.62,0.9825
+2025-09-17,Paid Search,google,cpc,KSA Growth,desktop,163,145,124,22,13,9,2284.9,0.9652
+2025-09-17,Paid Social,instagram,paid_social,Creator Offers,tablet,79,70,55,11,5,3,621.12,0.964
+2025-09-17,Affiliates,partners,affiliate,Partner Network,mobile,85,66,67,14,8,5,862.18,0.9641
+2025-09-18,Direct,direct,none,Unassigned,tablet,158,122,124,24,17,11,2315.71,0.9703
+2025-09-18,Email,newsletter,email,Lifecycle,mobile,80,64,53,15,8,6,1508.35,0.9892
+2025-09-18,Organic Search,google,organic,Always-on SEO,desktop,79,64,59,12,6,5,1204.13,0.9636
+2025-09-19,Paid Social,instagram,paid_social,Creator Offers,mobile,99,84,68,18,11,8,1452.48,0.9791
+2025-09-19,Affiliates,partners,affiliate,Partner Network,desktop,143,117,99,18,12,9,1948.8,0.986
+2025-09-19,Paid Search,google,cpc,KSA Growth,tablet,103,91,75,19,12,9,2010.72,0.9916
+2025-09-20,Email,newsletter,email,Lifecycle,desktop,148,109,120,33,20,11,2265.83,0.9808
+2025-09-20,Organic Search,google,organic,Always-on SEO,tablet,160,131,129,31,18,9,2152.4,0.9641
+2025-09-20,Direct,direct,none,Unassigned,mobile,108,87,80,18,11,5,1411.07,0.9808
+2025-09-21,Affiliates,partners,affiliate,Partner Network,tablet,212,180,165,39,22,9,2357.63,0.9773
+2025-09-21,Paid Search,google,cpc,KSA Growth,mobile,213,176,149,27,17,7,1583.31,0.989
+2025-09-21,Paid Social,instagram,paid_social,Creator Offers,desktop,194,145,133,25,14,6,1215.98,0.9728
+2025-09-22,Organic Search,google,organic,Always-on SEO,mobile,101,92,81,16,10,5,1002.46,0.9655
+2025-09-22,Direct,direct,none,Unassigned,desktop,223,163,177,48,34,17,4237.28,0.9815
+2025-09-22,Email,newsletter,email,Lifecycle,tablet,158,134,125,27,18,7,1536.39,0.9907
+2025-09-23,Paid Search,google,cpc,KSA Growth,desktop,158,140,103,25,18,8,1857.28,0.9682
+2025-09-23,Paid Social,instagram,paid_social,Creator Offers,tablet,175,138,116,31,19,7,1837.43,0.9605
+2025-09-23,Affiliates,partners,affiliate,Partner Network,mobile,105,80,75,21,12,5,1148.66,0.9619
+2025-09-24,Direct,direct,none,Unassigned,tablet,104,85,84,17,9,5,1226.18,0.993
+2025-09-24,Email,newsletter,email,Lifecycle,mobile,121,97,91,20,13,6,1200.4,0.9936
+2025-09-24,Organic Search,google,organic,Always-on SEO,desktop,128,95,84,15,9,4,980.02,0.9665
+2025-09-25,Paid Social,instagram,paid_social,Creator Offers,mobile,126,109,102,29,16,9,2074.56,0.9812
+2025-09-25,Affiliates,partners,affiliate,Partner Network,desktop,113,102,76,14,7,4,689.47,0.9911
+2025-09-25,Paid Search,google,cpc,KSA Growth,tablet,247,184,185,47,31,18,4056.48,0.9855
+2025-09-26,Email,newsletter,email,Lifecycle,desktop,128,102,97,28,17,11,2181.5,0.9754
+2025-09-26,Organic Search,google,organic,Always-on SEO,tablet,116,102,84,22,13,10,2100.58,0.961
+2025-09-26,Direct,direct,none,Unassigned,mobile,101,74,78,18,10,6,1251.84,0.9891
+2025-09-27,Affiliates,partners,affiliate,Partner Network,tablet,108,87,70,13,7,5,1017.89,0.9791
+2025-09-27,Paid Search,google,cpc,KSA Growth,mobile,118,92,78,18,12,8,1781.86,0.9645
+2025-09-27,Paid Social,instagram,paid_social,Creator Offers,desktop,141,121,89,17,9,5,1601.38,0.9746
+2025-09-28,Organic Search,google,organic,Always-on SEO,mobile,163,130,132,30,18,12,2556.58,0.9766
+2025-09-28,Direct,direct,none,Unassigned,desktop,164,140,117,24,12,9,1904.16,0.9642
+2025-09-28,Email,newsletter,email,Lifecycle,tablet,101,79,80,14,8,5,932.45,0.9608
+2025-09-29,Paid Search,google,cpc,KSA Growth,desktop,84,73,59,13,7,6,1104.1,0.9764
+2025-09-29,Paid Social,instagram,paid_social,Creator Offers,tablet,113,96,78,19,13,8,1645.54,0.9783
+2025-09-29,Affiliates,partners,affiliate,Partner Network,mobile,84,69,59,14,9,7,1709.09,0.9791
+2025-09-30,Direct,direct,none,Unassigned,tablet,112,85,75,18,11,9,2128.42,0.9868
+2025-09-30,Email,newsletter,email,Lifecycle,mobile,105,91,85,21,11,6,1618.85,0.9734
+2025-09-30,Organic Search,google,organic,Always-on SEO,desktop,162,144,123,29,19,15,3846.24,0.9687
+2025-10-01,Paid Social,instagram,paid_social,Creator Offers,mobile,80,57,64,13,6,4,1008.29,0.9671
+2025-10-01,Affiliates,partners,affiliate,Partner Network,desktop,94,71,59,11,7,5,964.9,0.9717
+2025-10-01,Paid Search,google,cpc,KSA Growth,tablet,85,74,65,13,6,4,724.99,0.9786
+2025-10-02,Email,newsletter,email,Lifecycle,desktop,111,85,75,21,13,10,2025.02,0.9947
+2025-10-02,Organic Search,google,organic,Always-on SEO,tablet,173,149,130,32,22,16,3703.1,0.9811
+2025-10-02,Direct,direct,none,Unassigned,mobile,101,78,71,13,8,5,1197.31,0.9856
+2025-10-03,Affiliates,partners,affiliate,Partner Network,tablet,150,125,100,25,16,10,2456.83,0.9718
+2025-10-03,Paid Search,google,cpc,KSA Growth,mobile,98,72,75,17,9,7,1940.16,0.9707
+2025-10-03,Paid Social,instagram,paid_social,Creator Offers,desktop,115,88,72,15,8,5,1050.24,0.9925
+2025-10-04,Organic Search,google,organic,Always-on SEO,mobile,90,76,64,15,7,5,923.81,0.9648
+2025-10-04,Direct,direct,none,Unassigned,desktop,162,118,126,34,20,15,3396.1,0.9922
+2025-10-04,Email,newsletter,email,Lifecycle,tablet,118,88,95,24,16,12,2889.79,0.9681
+2025-10-05,Paid Search,google,cpc,KSA Growth,desktop,100,77,74,19,10,7,1586.88,0.9662
+2025-10-05,Paid Social,instagram,paid_social,Creator Offers,tablet,109,81,89,23,15,9,1942.37,0.9751
+2025-10-05,Affiliates,partners,affiliate,Partner Network,mobile,99,71,74,13,6,4,888.96,0.9736
+2025-10-06,Direct,direct,none,Unassigned,tablet,126,96,102,22,12,8,1662.72,0.9697
+2025-10-06,Email,newsletter,email,Lifecycle,mobile,93,71,67,17,11,8,1263.55,0.9732
+2025-10-06,Organic Search,google,organic,Always-on SEO,desktop,164,134,118,28,18,13,3425.57,0.9861
+2025-10-07,Paid Social,instagram,paid_social,Creator Offers,mobile,103,91,76,18,9,7,1208.93,0.9638
+2025-10-07,Affiliates,partners,affiliate,Partner Network,desktop,123,97,80,14,8,5,1299.84,0.9822
+2025-10-07,Paid Search,google,cpc,KSA Growth,tablet,75,60,51,10,6,4,717.22,0.9609
+2025-10-08,Email,newsletter,email,Lifecycle,desktop,121,100,86,20,12,8,1834.66,0.9813
+2025-10-08,Organic Search,google,organic,Always-on SEO,tablet,102,89,79,15,8,5,921.7,0.9893
+2025-10-08,Direct,direct,none,Unassigned,mobile,97,69,75,21,10,7,1404.48,0.9875
+2025-10-09,Affiliates,partners,affiliate,Partner Network,tablet,179,152,145,27,14,9,1598.69,0.9862
+2025-10-09,Paid Search,google,cpc,KSA Growth,mobile,159,141,120,31,18,12,2236.13,0.9841
+2025-10-09,Paid Social,instagram,paid_social,Creator Offers,desktop,116,86,82,15,7,5,1256.74,0.9718
+2025-10-10,Organic Search,google,organic,Always-on SEO,mobile,146,117,93,20,12,8,1960.61,0.9939
+2025-10-10,Direct,direct,none,Unassigned,desktop,107,92,70,13,6,4,1557.41,0.9768
+2025-10-10,Email,newsletter,email,Lifecycle,tablet,96,78,72,18,9,7,1262.59,0.9934
+2025-10-11,Paid Search,google,cpc,KSA Growth,desktop,137,121,111,24,16,11,2472.38,0.98
+2025-10-11,Paid Social,instagram,paid_social,Creator Offers,tablet,85,67,68,13,8,6,1251.84,0.9909
+2025-10-11,Affiliates,partners,affiliate,Partner Network,mobile,90,76,59,16,9,5,1035.94,0.9726
+2025-10-12,Direct,direct,none,Unassigned,tablet,121,98,96,25,13,8,2046.05,0.9922
+2025-10-12,Email,newsletter,email,Lifecycle,mobile,103,80,78,15,7,6,2113.92,0.9849
+2025-10-12,Organic Search,google,organic,Always-on SEO,desktop,96,76,70,17,9,7,1284.58,0.9856
+2025-10-13,Paid Social,instagram,paid_social,Creator Offers,mobile,72,56,55,13,6,3,612.48,0.9626
+2025-10-13,Affiliates,partners,affiliate,Partner Network,desktop,142,121,110,20,12,9,1879.87,0.9922
+2025-10-13,Paid Search,google,cpc,KSA Growth,tablet,123,104,82,19,11,8,1829.09,0.9732
+2025-10-14,Email,newsletter,email,Lifecycle,desktop,153,112,120,33,21,15,3304.8,0.9763
+2025-10-14,Organic Search,google,organic,Always-on SEO,tablet,79,67,64,13,7,5,1492.9,0.9783
+2025-10-14,Direct,direct,none,Unassigned,mobile,114,87,85,24,17,10,2083.2,0.9858
+2025-10-15,Affiliates,partners,affiliate,Partner Network,tablet,110,83,86,23,12,8,2114.98,0.9942
+2025-10-15,Paid Search,google,cpc,KSA Growth,mobile,79,66,52,14,6,5,1232.74,0.9688
+2025-10-15,Paid Social,instagram,paid_social,Creator Offers,desktop,101,79,77,19,12,8,1466.02,0.9783
+2025-10-16,Organic Search,google,organic,Always-on SEO,mobile,93,77,72,14,8,6,1096.51,0.9927
+2025-10-16,Direct,direct,none,Unassigned,desktop,122,102,96,26,13,8,1651.39,0.9768
+2025-10-16,Email,newsletter,email,Lifecycle,tablet,91,72,71,16,10,7,1904.74,0.9681
+2025-10-17,Paid Search,google,cpc,KSA Growth,desktop,160,124,129,30,21,13,3163.49,0.9649
+2025-10-17,Paid Social,instagram,paid_social,Creator Offers,tablet,175,148,112,28,18,12,2159.33,0.9926
+2025-10-17,Affiliates,partners,affiliate,Partner Network,mobile,140,116,94,18,10,8,1840.61,0.9905
+2025-10-18,Direct,direct,none,Unassigned,tablet,107,94,81,19,10,7,1824.29,0.9626
+2025-10-18,Email,newsletter,email,Lifecycle,mobile,104,77,72,17,11,8,1925.09,0.9767
+2025-10-18,Organic Search,google,organic,Always-on SEO,desktop,98,73,64,14,7,4,827.62,0.9828
+2025-10-19,Paid Social,instagram,paid_social,Creator Offers,mobile,89,66,63,13,7,4,750.82,0.9697
+2025-10-19,Affiliates,partners,affiliate,Partner Network,desktop,143,103,103,23,13,10,2233.34,0.9699
+2025-10-19,Paid Search,google,cpc,KSA Growth,tablet,133,96,106,21,10,6,1085.09,0.9854
+2025-10-20,Email,newsletter,email,Lifecycle,desktop,147,110,96,21,10,6,1243.58,0.9944
+2025-10-20,Organic Search,google,organic,Always-on SEO,tablet,160,115,108,25,16,11,2880.19,0.9695
+2025-10-20,Direct,direct,none,Unassigned,mobile,71,64,57,10,6,4,934.27,0.9666
+2025-10-21,Affiliates,partners,affiliate,Partner Network,tablet,106,91,80,17,8,6,743.23,0.9885
+2025-10-21,Paid Search,google,cpc,KSA Growth,mobile,112,85,84,22,14,8,1741.63,0.992
+2025-10-21,Paid Social,instagram,paid_social,Creator Offers,desktop,100,74,68,17,9,6,1473.89,0.9778
+2025-10-22,Organic Search,google,organic,Always-on SEO,mobile,70,52,46,10,6,4,844.13,0.9692
+2025-10-22,Direct,direct,none,Unassigned,desktop,72,62,53,10,6,4,1013.76,0.9777
+2025-10-22,Email,newsletter,email,Lifecycle,tablet,157,114,104,23,12,7,1596.67,0.9895
+2025-10-23,Paid Search,google,cpc,KSA Growth,desktop,76,65,51,12,7,6,1338.24,0.9759
+2025-10-23,Paid Social,instagram,paid_social,Creator Offers,tablet,126,91,97,19,11,9,1996.03,0.9934
+2025-10-23,Affiliates,partners,affiliate,Partner Network,mobile,113,92,85,23,16,12,2369.47,0.9936
+2025-10-24,Direct,direct,none,Unassigned,tablet,138,117,109,24,14,8,2242.75,0.9818
+2025-10-24,Email,newsletter,email,Lifecycle,mobile,178,132,123,24,15,11,2327.33,0.977
+2025-10-24,Organic Search,google,organic,Always-on SEO,desktop,162,124,113,32,16,10,1566.82,0.9604
+2025-10-25,Paid Social,instagram,paid_social,Creator Offers,mobile,74,65,57,9,5,4,1358.4,0.9903
+2025-10-25,Affiliates,partners,affiliate,Partner Network,desktop,116,90,75,18,8,6,1088.83,0.9656
+2025-10-25,Paid Search,google,cpc,KSA Growth,tablet,127,104,85,17,11,7,1500.48,0.9728
+2025-10-26,Email,newsletter,email,Lifecycle,desktop,129,102,103,22,13,9,2060.74,0.9768
+2025-10-26,Organic Search,google,organic,Always-on SEO,tablet,144,120,108,22,11,8,2218.56,0.9746
+2025-10-26,Direct,direct,none,Unassigned,mobile,101,73,74,13,8,6,1291.39,0.9935
+2025-10-27,Affiliates,partners,affiliate,Partner Network,tablet,81,59,61,10,6,5,1272.0,0.9615
+2025-10-27,Paid Search,google,cpc,KSA Growth,mobile,74,65,52,13,8,6,1284.58,0.9854
+2025-10-27,Paid Social,instagram,paid_social,Creator Offers,desktop,156,130,125,28,18,12,2734.66,0.9765
+2025-10-28,Organic Search,google,organic,Always-on SEO,mobile,71,54,53,10,6,4,993.7,0.9764
+2025-10-28,Direct,direct,none,Unassigned,desktop,99,77,75,21,10,7,1426.85,0.981
+2025-10-28,Email,newsletter,email,Lifecycle,tablet,98,78,67,14,8,6,1782.82,0.9698
+2025-10-29,Paid Search,google,cpc,KSA Growth,desktop,124,106,91,16,9,7,1705.06,0.9873
+2025-10-29,Paid Social,instagram,paid_social,Creator Offers,tablet,91,72,61,16,8,6,1485.22,0.9707
+2025-10-29,Affiliates,partners,affiliate,Partner Network,mobile,77,62,52,13,7,4,888.96,0.9911
+2025-10-30,Direct,direct,none,Unassigned,tablet,135,114,92,19,12,8,1383.74,0.9799
+2025-10-30,Email,newsletter,email,Lifecycle,mobile,81,57,57,15,9,6,1021.44,0.9653
+2025-10-30,Organic Search,google,organic,Always-on SEO,desktop,121,102,88,17,9,5,962.02,0.9608
+2025-10-31,Paid Social,instagram,paid_social,Creator Offers,mobile,146,128,101,21,10,7,1482.43,0.9793
+2025-10-31,Affiliates,partners,affiliate,Partner Network,desktop,84,67,67,18,10,8,1903.97,0.9664
+2025-10-31,Paid Search,google,cpc,KSA Growth,tablet,171,135,134,33,19,14,3283.68,0.9801
+2025-11-01,Email,newsletter,email,Lifecycle,desktop,159,125,105,22,13,9,1750.27,0.9943
+2025-11-01,Organic Search,google,organic,Always-on SEO,tablet,125,96,101,23,13,10,2211.36,0.9682
+2025-11-01,Direct,direct,none,Unassigned,mobile,161,117,130,34,19,13,3222.05,0.9871
+2025-11-02,Affiliates,partners,affiliate,Partner Network,tablet,143,108,95,21,14,10,2308.03,0.9622
+2025-11-02,Paid Search,google,cpc,KSA Growth,mobile,110,80,86,24,16,10,2097.89,0.9632
+2025-11-02,Paid Social,instagram,paid_social,Creator Offers,desktop,108,84,77,18,11,8,1466.02,0.9733
+2025-11-03,Organic Search,google,organic,Always-on SEO,mobile,144,108,111,28,18,12,2848.32,0.82
+2025-11-03,Direct,direct,none,Unassigned,desktop,73,65,54,9,6,5,908.16,0.82
+2025-11-03,Email,newsletter,email,Lifecycle,tablet,105,82,74,13,8,5,993.6,0.82
+2025-11-04,Paid Search,google,cpc,KSA Growth,desktop,71,54,54,13,7,4,527.14,0.985
+2025-11-04,Paid Social,instagram,paid_social,Creator Offers,tablet,72,55,58,16,9,6,1591.87,0.9866
+2025-11-04,Affiliates,partners,affiliate,Partner Network,mobile,93,67,63,11,5,4,783.36,0.9793
+2025-11-05,Direct,direct,none,Unassigned,tablet,107,92,71,16,9,6,905.47,0.9748
+2025-11-05,Email,newsletter,email,Lifecycle,mobile,88,63,61,12,6,4,912.1,0.9881
+2025-11-05,Organic Search,google,organic,Always-on SEO,desktop,123,107,88,20,12,7,1664.83,0.962
+2025-11-06,Paid Social,instagram,paid_social,Creator Offers,mobile,172,140,139,31,16,12,2064.29,0.9629
+2025-11-06,Affiliates,partners,affiliate,Partner Network,desktop,84,66,67,19,10,7,1262.59,0.9751
+2025-11-06,Paid Search,google,cpc,KSA Growth,tablet,169,150,124,35,19,12,3091.3,0.9752
+2025-11-07,Email,newsletter,email,Lifecycle,desktop,97,79,64,12,6,4,892.22,0.9659
+2025-11-07,Organic Search,google,organic,Always-on SEO,tablet,129,106,83,20,11,7,1536.19,0.9712
+2025-11-07,Direct,direct,none,Unassigned,mobile,159,116,105,28,17,12,2492.45,0.971
+2025-11-08,Affiliates,partners,affiliate,Partner Network,tablet,70,62,49,9,4,3,736.32,0.9906
+2025-11-08,Paid Search,google,cpc,KSA Growth,mobile,163,142,124,25,17,12,3078.05,0.9644
+2025-11-08,Paid Social,instagram,paid_social,Creator Offers,desktop,156,127,128,22,12,10,1908.77,0.9881
+2025-11-09,Organic Search,google,organic,Always-on SEO,mobile,109,83,83,20,11,7,1194.82,0.9678
+2025-11-09,Direct,direct,none,Unassigned,desktop,148,126,96,26,14,10,2500.22,0.9916
+2025-11-09,Email,newsletter,email,Lifecycle,tablet,128,113,98,26,16,11,2244.96,0.9656
+2025-11-10,Paid Search,google,cpc,KSA Growth,desktop,100,85,71,14,6,4,749.95,0.9678
+2025-11-10,Paid Social,instagram,paid_social,Creator Offers,tablet,158,117,125,35,19,11,2421.31,0.9772
+2025-11-10,Affiliates,partners,affiliate,Partner Network,mobile,132,107,88,16,10,7,1737.7,0.9844
+2025-11-11,Direct,direct,none,Unassigned,tablet,81,64,57,13,8,6,1241.57,0.9843
+2025-11-11,Email,newsletter,email,Lifecycle,mobile,142,110,97,26,17,11,2220.77,0.9737
+2025-11-11,Organic Search,google,organic,Always-on SEO,desktop,123,106,96,20,12,9,2743.78,0.99
+2025-11-12,Paid Social,instagram,paid_social,Creator Offers,mobile,105,92,80,14,7,5,1066.66,0.983
+2025-11-12,Affiliates,partners,affiliate,Partner Network,desktop,149,122,109,26,15,10,2175.65,0.9736
+2025-11-12,Paid Search,google,cpc,KSA Growth,tablet,143,125,114,33,19,14,3619.39,0.9706
+2025-11-13,Email,newsletter,email,Lifecycle,desktop,108,93,82,16,9,6,1238.78,0.9898
+2025-11-13,Organic Search,google,organic,Always-on SEO,tablet,91,69,68,19,12,8,1777.25,0.995
+2025-11-13,Direct,direct,none,Unassigned,mobile,133,101,107,30,17,10,2380.9,0.9731
+2025-11-14,Affiliates,partners,affiliate,Partner Network,tablet,98,73,74,16,9,7,1275.17,0.9757
+2025-11-14,Paid Search,google,cpc,KSA Growth,mobile,162,122,123,25,16,12,2325.41,0.973
+2025-11-14,Paid Social,instagram,paid_social,Creator Offers,desktop,124,106,81,19,12,8,1747.49,0.9817
+2025-11-15,Organic Search,google,organic,Always-on SEO,mobile,136,98,104,21,12,9,1979.62,0.9634
+2025-11-15,Direct,direct,none,Unassigned,desktop,86,61,67,12,6,4,1254.82,0.9747
+2025-11-15,Email,newsletter,email,Lifecycle,tablet,157,134,106,23,12,7,1089.79,0.9913
+2025-11-16,Paid Search,google,cpc,KSA Growth,desktop,72,59,45,13,8,5,921.7,0.9872
+2025-11-16,Paid Social,instagram,paid_social,Creator Offers,tablet,81,61,60,14,8,5,904.51,0.9923
+2025-11-16,Affiliates,partners,affiliate,Partner Network,mobile,84,73,65,18,12,7,1525.63,0.9943
+2025-11-17,Direct,direct,none,Unassigned,tablet,140,102,96,19,10,7,1118.4,0.9941
+2025-11-17,Email,newsletter,email,Lifecycle,mobile,161,146,117,29,18,13,2954.4,0.9721
+2025-11-17,Organic Search,google,organic,Always-on SEO,desktop,116,93,77,17,9,6,1240.7,0.978
+2025-11-18,Paid Social,instagram,paid_social,Creator Offers,mobile,154,133,103,28,16,12,2721.02,0.974
+2025-11-18,Affiliates,partners,affiliate,Partner Network,desktop,116,90,73,17,9,7,1471.78,0.9826
+2025-11-18,Paid Search,google,cpc,KSA Growth,tablet,118,87,88,21,11,8,1952.16,0.9707
+2025-11-19,Email,newsletter,email,Lifecycle,desktop,89,64,57,13,7,5,1069.44,0.9859
+2025-11-19,Organic Search,google,organic,Always-on SEO,tablet,110,99,84,19,9,6,1242.24,0.9932
+2025-11-19,Direct,direct,none,Unassigned,mobile,139,104,103,19,10,6,1523.81,0.9618
+2025-11-20,Affiliates,partners,affiliate,Partner Network,tablet,102,74,65,16,8,5,1084.9,0.9813
+2025-11-20,Paid Search,google,cpc,KSA Growth,mobile,77,63,55,14,9,6,1404.48,0.9688
+2025-11-20,Paid Social,instagram,paid_social,Creator Offers,desktop,141,115,99,22,13,10,1901.09,0.9778
+2025-11-21,Organic Search,google,organic,Always-on SEO,mobile,101,81,69,15,8,5,1211.62,0.9625
+2025-11-21,Direct,direct,none,Unassigned,desktop,91,72,71,12,6,5,1234.85,0.9612
+2025-11-21,Email,newsletter,email,Lifecycle,tablet,106,92,74,20,10,8,2160.0,0.9895
+2025-11-22,Paid Search,google,cpc,KSA Growth,desktop,151,123,116,24,13,10,1862.59,0.9941
+2025-11-22,Paid Social,instagram,paid_social,Creator Offers,tablet,161,142,125,35,23,17,4204.32,0.981
+2025-11-22,Affiliates,partners,affiliate,Partner Network,mobile,157,128,114,24,13,10,1561.15,0.9874
+2025-11-23,Direct,direct,none,Unassigned,tablet,126,107,99,21,12,7,1357.44,0.9679
+2025-11-23,Email,newsletter,email,Lifecycle,mobile,84,65,65,13,7,5,1212.48,0.9809
+2025-11-23,Organic Search,google,organic,Always-on SEO,desktop,143,129,104,21,14,11,2298.53,0.9791
+2025-11-24,Paid Social,instagram,paid_social,Creator Offers,mobile,75,54,59,16,8,5,1014.05,0.9832
+2025-11-24,Affiliates,partners,affiliate,Partner Network,desktop,123,108,97,22,13,10,2139.36,0.9642
+2025-11-24,Paid Search,google,cpc,KSA Growth,tablet,93,75,66,15,8,5,984.96,0.963
+2025-11-25,Email,newsletter,email,Lifecycle,desktop,134,106,97,24,12,8,1711.87,0.9656
+2025-11-25,Organic Search,google,organic,Always-on SEO,tablet,110,95,86,21,14,10,1888.7,0.9676
+2025-11-25,Direct,direct,none,Unassigned,mobile,160,134,118,24,13,9,1998.82,0.9835
+2025-11-26,Affiliates,partners,affiliate,Partner Network,tablet,93,81,64,12,6,5,1053.31,0.9786
+2025-11-26,Paid Search,google,cpc,KSA Growth,mobile,90,80,67,15,8,5,1127.04,0.9785
+2025-11-26,Paid Social,instagram,paid_social,Creator Offers,desktop,114,89,85,18,12,7,1617.7,0.9864
+2025-11-27,Organic Search,google,organic,Always-on SEO,mobile,178,154,116,23,13,10,2427.84,0.9634
+2025-11-27,Direct,direct,none,Unassigned,desktop,170,146,121,32,17,11,2423.42,0.9609
+2025-11-27,Email,newsletter,email,Lifecycle,tablet,99,72,65,15,10,8,1574.59,0.9614
+2025-11-28,Paid Search,google,cpc,KSA Growth,desktop,120,104,89,16,9,6,1131.94,0.9711
+2025-11-28,Paid Social,instagram,paid_social,Creator Offers,tablet,147,111,103,24,15,9,1821.31,0.9742
+2025-11-28,Affiliates,partners,affiliate,Partner Network,mobile,162,124,102,21,12,9,1922.11,0.9654
+2025-11-29,Direct,direct,none,Unassigned,tablet,87,74,65,13,6,5,1132.9,0.9848
+2025-11-29,Email,newsletter,email,Lifecycle,mobile,71,62,47,12,7,5,1225.15,0.9709
+2025-11-29,Organic Search,google,organic,Always-on SEO,desktop,164,134,113,31,19,12,3102.82,0.9755
+2025-11-30,Paid Social,instagram,paid_social,Creator Offers,mobile,148,113,110,22,11,8,1759.87,0.9603
+2025-11-30,Affiliates,partners,affiliate,Partner Network,desktop,109,96,89,23,12,7,1299.94,0.962
+2025-11-30,Paid Search,google,cpc,KSA Growth,tablet,162,129,122,27,15,9,1989.31,0.9632
+2025-12-01,Email,newsletter,email,Lifecycle,desktop,110,81,88,15,10,7,1397.09,0.9814
+2025-12-01,Organic Search,google,organic,Always-on SEO,tablet,82,62,64,15,9,6,1224.1,0.9741
+2025-12-01,Direct,direct,none,Unassigned,mobile,134,109,103,24,13,9,1907.71,0.9794
+2025-12-02,Affiliates,partners,affiliate,Partner Network,tablet,78,67,63,14,7,4,900.58,0.9849
+2025-12-02,Paid Search,google,cpc,KSA Growth,mobile,144,117,100,25,15,9,1806.91,0.9658
+2025-12-02,Paid Social,instagram,paid_social,Creator Offers,desktop,132,102,94,19,12,9,1707.17,0.9853
+2025-12-03,Organic Search,google,organic,Always-on SEO,mobile,118,97,78,21,13,9,1759.78,0.9832
+2025-12-03,Direct,direct,none,Unassigned,desktop,150,108,119,28,19,13,3588.86,0.9731
+2025-12-03,Email,newsletter,email,Lifecycle,tablet,111,87,90,16,9,6,1108.8,0.9742
+2025-12-04,Paid Search,google,cpc,KSA Growth,desktop,173,150,135,32,18,12,2477.95,0.9708
+2025-12-04,Paid Social,instagram,paid_social,Creator Offers,tablet,96,68,60,13,7,5,1434.24,0.9619
+2025-12-04,Affiliates,partners,affiliate,Partner Network,mobile,150,123,115,27,16,11,2331.84,0.9759
+2025-12-05,Direct,direct,none,Unassigned,tablet,144,123,112,28,16,9,1820.26,0.9855
+2025-12-05,Email,newsletter,email,Lifecycle,mobile,160,144,108,19,9,6,1231.68,0.9803
+2025-12-05,Organic Search,google,organic,Always-on SEO,desktop,146,128,92,24,12,7,1598.59,0.9689
+2025-12-06,Paid Social,instagram,paid_social,Creator Offers,mobile,144,105,93,21,14,9,2724.67,0.9705
+2025-12-06,Affiliates,partners,affiliate,Partner Network,desktop,119,96,84,23,13,8,1798.27,0.9607
+2025-12-06,Paid Search,google,cpc,KSA Growth,tablet,98,74,64,16,9,6,1339.3,0.9815
+2025-12-07,Email,newsletter,email,Lifecycle,desktop,147,130,111,25,14,11,2582.5,0.9805
+2025-12-07,Organic Search,google,organic,Always-on SEO,tablet,133,107,104,22,13,10,2120.35,0.9883
+2025-12-07,Direct,direct,none,Unassigned,mobile,113,97,78,21,10,7,1495.87,0.983
+2025-12-08,Affiliates,partners,affiliate,Partner Network,tablet,117,105,82,17,9,6,1180.99,0.9672
+2025-12-08,Paid Search,google,cpc,KSA Growth,mobile,141,121,100,21,11,8,1757.95,0.9767
+2025-12-08,Paid Social,instagram,paid_social,Creator Offers,desktop,144,124,111,24,12,9,1998.05,0.961
+2025-12-09,Organic Search,google,organic,Always-on SEO,mobile,82,63,61,11,7,5,1405.54,0.9935
+2025-12-09,Direct,direct,none,Unassigned,desktop,106,95,86,22,14,10,2800.32,0.9816
+2025-12-09,Email,newsletter,email,Lifecycle,tablet,130,96,89,19,9,7,1652.16,0.9741
+2025-12-10,Paid Search,google,cpc,KSA Growth,desktop,72,56,49,9,4,3,717.12,0.9718
+2025-12-10,Paid Social,instagram,paid_social,Creator Offers,tablet,128,115,102,22,12,8,1893.22,0.9798
+2025-12-10,Affiliates,partners,affiliate,Partner Network,mobile,121,96,93,17,8,6,1349.95,0.9668
+2025-12-11,Direct,direct,none,Unassigned,tablet,148,115,111,30,19,12,2710.46,0.9749
+2025-12-11,Email,newsletter,email,Lifecycle,mobile,96,82,77,17,8,6,1684.03,0.9932
+2025-12-11,Organic Search,google,organic,Always-on SEO,desktop,164,139,124,25,15,10,2110.27,0.963
+2025-12-12,Paid Social,instagram,paid_social,Creator Offers,mobile,129,95,84,24,15,9,2046.14,0.9835
+2025-12-12,Affiliates,partners,affiliate,Partner Network,desktop,104,77,72,13,8,5,964.9,0.9842
+2025-12-12,Paid Search,google,cpc,KSA Growth,tablet,100,73,64,15,7,4,764.16,0.9865
+2025-12-13,Email,newsletter,email,Lifecycle,desktop,76,59,50,13,7,5,922.66,0.9758
+2025-12-13,Organic Search,google,organic,Always-on SEO,tablet,133,109,96,26,18,13,2759.14,0.9884
+2025-12-13,Direct,direct,none,Unassigned,mobile,117,100,83,17,10,8,1991.42,0.9608
+2025-12-14,Affiliates,partners,affiliate,Partner Network,tablet,94,71,61,10,6,3,694.27,0.9673
+2025-12-14,Paid Search,google,cpc,KSA Growth,mobile,153,124,114,31,16,9,2054.59,0.9708
+2025-12-14,Paid Social,instagram,paid_social,Creator Offers,desktop,91,78,65,18,12,9,1740.58,0.9725
+2025-12-15,Organic Search,google,organic,Always-on SEO,mobile,93,75,66,11,7,5,993.6,0.9843
+2025-12-15,Direct,direct,none,Unassigned,desktop,84,74,53,14,9,6,1214.5,0.9873
+2025-12-15,Email,newsletter,email,Lifecycle,tablet,141,113,92,20,13,8,1944.19,0.9883
+2025-12-16,Paid Search,google,cpc,KSA Growth,desktop,97,85,62,12,7,6,1386.43,0.9919
+2025-12-16,Paid Social,instagram,paid_social,Creator Offers,tablet,157,141,104,18,10,7,1485.22,0.971
+2025-12-16,Affiliates,partners,affiliate,Partner Network,mobile,126,100,88,24,16,12,2756.45,0.9809
+2025-12-17,Direct,direct,none,Unassigned,tablet,140,106,98,20,10,7,1562.11,0.9731
+2025-12-17,Email,newsletter,email,Lifecycle,mobile,97,69,63,15,9,7,1320.1,0.9854
+2025-12-17,Organic Search,google,organic,Always-on SEO,desktop,84,71,60,15,9,7,1404.58,0.9798
+2025-12-18,Paid Social,instagram,paid_social,Creator Offers,mobile,110,98,85,24,12,7,1500.48,0.983
+2025-12-18,Affiliates,partners,affiliate,Partner Network,desktop,143,126,94,18,11,8,2230.37,0.9699
+2025-12-18,Paid Search,google,cpc,KSA Growth,tablet,147,109,111,20,10,8,1746.43,0.9659
+2025-12-19,Email,newsletter,email,Lifecycle,desktop,134,101,108,30,19,12,2782.46,0.9785
+2025-12-19,Organic Search,google,organic,Always-on SEO,tablet,109,82,80,17,10,7,1471.68,0.9674
+2025-12-19,Direct,direct,none,Unassigned,mobile,101,76,78,21,12,7,1127.04,0.9875
+2025-12-20,Affiliates,partners,affiliate,Partner Network,tablet,147,126,107,24,15,10,2214.91,0.9825
+2025-12-20,Paid Search,google,cpc,KSA Growth,mobile,164,142,117,34,23,17,4256.54,0.9759
+2025-12-20,Paid Social,instagram,paid_social,Creator Offers,desktop,148,129,120,23,12,7,1586.11,0.9753
+2025-12-21,Organic Search,google,organic,Always-on SEO,mobile,89,74,57,14,8,6,1615.78,0.9726
+2025-12-21,Direct,direct,none,Unassigned,desktop,144,123,114,24,13,8,1770.34,0.9678
+2025-12-21,Email,newsletter,email,Lifecycle,tablet,116,102,75,21,11,8,2130.24,0.9726
+2025-12-22,Paid Search,google,cpc,KSA Growth,desktop,139,110,88,18,10,6,1453.44,0.9793
+2025-12-22,Paid Social,instagram,paid_social,Creator Offers,tablet,105,81,83,15,9,6,1203.07,0.9906
+2025-12-22,Affiliates,partners,affiliate,Partner Network,mobile,113,87,83,17,9,7,1586.88,0.9917
+2025-12-23,Direct,direct,none,Unassigned,tablet,116,87,80,19,12,8,2128.42,0.9726
+2025-12-23,Email,newsletter,email,Lifecycle,mobile,75,60,52,11,5,4,868.99,0.961
+2025-12-23,Organic Search,google,organic,Always-on SEO,desktop,78,69,60,11,7,5,735.36,0.9836
+2025-12-24,Paid Social,instagram,paid_social,Creator Offers,mobile,157,119,124,28,19,12,2548.03,0.9767
+2025-12-24,Affiliates,partners,affiliate,Partner Network,desktop,95,81,69,14,9,7,1234.85,0.9719
+2025-12-24,Paid Search,google,cpc,KSA Growth,tablet,99,80,64,12,6,4,945.6,0.9686
+2025-12-25,Email,newsletter,email,Lifecycle,desktop,106,80,71,18,10,8,1628.35,0.9696
+2025-12-25,Organic Search,google,organic,Always-on SEO,tablet,136,109,95,27,15,9,2079.65,0.989
+2025-12-25,Direct,direct,none,Unassigned,mobile,154,111,107,30,19,11,2242.75,0.9838
+2025-12-26,Affiliates,partners,affiliate,Partner Network,tablet,113,100,81,16,10,8,1775.33,0.9617
+2025-12-26,Paid Search,google,cpc,KSA Growth,mobile,173,137,139,28,19,12,2368.8,0.9923
+2025-12-26,Paid Social,instagram,paid_social,Creator Offers,desktop,125,92,90,18,10,8,1443.17,0.9878
+2025-12-27,Organic Search,google,organic,Always-on SEO,mobile,137,109,95,23,13,7,1277.95,0.989
+2025-12-27,Direct,direct,none,Unassigned,desktop,123,94,79,18,9,5,1481.47,0.9758
+2025-12-27,Email,newsletter,email,Lifecycle,tablet,162,139,129,24,14,9,2083.2,0.9901
+2025-12-28,Paid Search,google,cpc,KSA Growth,desktop,76,63,61,14,8,5,1232.64,0.9692
+2025-12-28,Paid Social,instagram,paid_social,Creator Offers,tablet,88,64,66,11,5,4,879.65,0.9921
+2025-12-28,Affiliates,partners,affiliate,Partner Network,mobile,93,69,61,16,11,7,1232.64,0.9921
+2025-12-29,Direct,direct,none,Unassigned,tablet,156,128,122,29,16,10,2035.2,0.9748
+2025-12-29,Email,newsletter,email,Lifecycle,mobile,105,91,66,13,8,6,1008.1,0.981
+2025-12-29,Organic Search,google,organic,Always-on SEO,desktop,113,87,87,23,15,11,2310.91,0.9665
+2025-12-30,Paid Social,instagram,paid_social,Creator Offers,mobile,145,112,99,19,13,9,2009.38,0.9657
+2025-12-30,Affiliates,partners,affiliate,Partner Network,desktop,121,98,77,17,8,6,1426.66,0.99
+2025-12-30,Paid Search,google,cpc,KSA Growth,tablet,149,125,109,25,17,12,2896.61,0.9602
+2025-12-31,Email,newsletter,email,Lifecycle,desktop,138,118,101,22,11,7,1434.24,0.984
+2025-12-31,Organic Search,google,organic,Always-on SEO,tablet,89,64,61,15,8,6,1309.54,0.9601
+2025-12-31,Direct,direct,none,Unassigned,mobile,135,98,97,21,10,8,1657.25,0.9653

@@ -1,0 +1,31 @@
+{
+  "audited_at": "2026-08-28T17:37:16.2889427+02:00",
+  "scope": "Passive public-page inspection only; no login, cart, checkout, order, form submission, or configuration change",
+  "pages": [
+    {
+      "url_class": "Arabic storefront home",
+      "html_lang": "ar",
+      "html_dir": "rtl",
+      "gtm_script_count": 2,
+      "ga_script_count_observed": 0,
+      "clarity_script_count_observed": 0,
+      "data_layer_observed": false,
+      "inline_consent_default_observed": false,
+      "inline_consent_update_observed": false,
+      "visible_cookie_or_consent_text_observed": false
+    },
+    {
+      "url_class": "Representative public product page",
+      "html_dir": "rtl",
+      "gtm_script_count": 2,
+      "data_layer_observed": false,
+      "inline_consent_default_observed": false,
+      "visible_cookie_or_consent_text_observed": false,
+      "canonical_observed": true,
+      "product_price_meta_observed": true,
+      "schema_types": ["Organization", "WebPage", "Product", "BreadcrumbList"]
+    }
+  ],
+  "interpretation": "These are point-in-time passive observations, not proof that analytics or consent behavior is absent. GTM may load tags conditionally, server-side, after interaction, or through mechanisms not exposed by the inspected DOM. No live tracking configuration was changed.",
+  "privacy_review": "PASS"
+}

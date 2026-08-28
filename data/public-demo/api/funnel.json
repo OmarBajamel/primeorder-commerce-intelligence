@@ -1,0 +1,40 @@
+{
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "steps": [
+    {
+      "step": "sessions",
+      "count": 139766,
+      "step_conversion_rate": 1.0,
+      "overall_conversion_rate": 1.0,
+      "abandonment_rate": 0.0
+    },
+    {
+      "step": "product_views",
+      "count": 102363,
+      "step_conversion_rate": 0.732388,
+      "overall_conversion_rate": 0.732388,
+      "abandonment_rate": 0.267612
+    },
+    {
+      "step": "add_to_carts",
+      "count": 24086,
+      "step_conversion_rate": 0.2353,
+      "overall_conversion_rate": 0.172331,
+      "abandonment_rate": 0.7647
+    },
+    {
+      "step": "begin_checkouts",
+      "count": 14382,
+      "step_conversion_rate": 0.59711,
+      "overall_conversion_rate": 0.102901,
+      "abandonment_rate": 0.40289
+    },
+    {
+      "step": "purchases",
+      "count": 9075,
+      "step_conversion_rate": 0.630997,
+      "overall_conversion_rate": 0.06493,
+      "abandonment_rate": 0.369003
+    }
+  ]
+}

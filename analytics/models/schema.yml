@@ -1,0 +1,199 @@
+version: 2
+
+models:
+  - name: stg_products
+    description: Synthetic product dimension; names and prices are wholly invented.
+    columns:
+      - name: product_id
+        tests: [not_null, unique]
+      - name: category
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [Productivity, Education, Design, AI, Security, Cloud]
+
+  - name: stg_commerce_daily
+    description: Salla-like commerce aggregates at date, acquisition, device, city, payment, and customer-type grain.
+    columns:
+      - name: activity_date
+        tests: [not_null]
+      - name: device
+        tests:
+          - accepted_values:
+              arguments:
+                values: [mobile, desktop, tablet]
+      - name: customer_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: [new, returning]
+
+  - name: stg_orders
+    description: Privacy-safe synthetic orders with anonymous identifiers only.
+    columns:
+      - name: order_id
+        tests: [not_null, unique]
+      - name: tracking_transaction_id
+        description: Intentionally contains one documented duplicate; it is not a primary key.
+        tests: [not_null]
+      - name: anonymous_customer_id
+        tests: [not_null]
+      - name: order_status
+        tests:
+          - accepted_values:
+              arguments:
+                values: [completed, refunded]
+
+  - name: stg_order_items
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders')
+                field: order_id
+      - name: product_id
+        description: One row intentionally uses UNMAPPED-001 to validate mapping monitoring.
+        tests: [not_null]
+
+  - name: stg_ga4_daily
+    columns:
+      - name: activity_date
+        tests: [not_null]
+      - name: consent_state_coverage
+        tests: [not_null]
+
+  - name: stg_events
+    columns:
+      - name: event_date
+        tests: [not_null]
+      - name: event_name
+        tests:
+          - accepted_values:
+              arguments:
+                values: [view_item_list, select_item, view_item, add_to_cart, remove_from_cart, view_cart, begin_checkout, add_shipping_info, add_payment_info, purchase, refund]
+
+  - name: stg_search_console
+    columns:
+      - name: search_date
+        tests: [not_null]
+      - name: clicks
+        tests: [not_null]
+      - name: impressions
+        tests: [not_null]
+
+  - name: stg_merchant_diagnostics
+    columns:
+      - name: product_id
+        tests:
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: [approved, disapproved]
+
+  - name: stg_clarity_daily
+    columns:
+      - name: activity_date
+        tests: [not_null, unique]
+
+  - name: mart_executive_daily
+    description: Daily commercial KPI source of truth; Salla-like orders take precedence for revenue.
+    columns:
+      - name: activity_date
+        tests: [not_null, unique]
+      - name: sessions
+        tests: [not_null]
+      - name: net_revenue_sar
+        tests: [not_null]
+
+  - name: mart_funnel_daily
+    description: Funnel metrics by date, device, and channel.
+    columns:
+      - name: funnel_key
+        tests: [not_null, unique]
+      - name: purchases
+        tests: [not_null]
+
+  - name: mart_product_performance
+    columns:
+      - name: product_id
+        tests: [not_null, unique]
+      - name: units_sold
+        tests: [not_null]
+
+  - name: mart_category_performance
+    columns:
+      - name: category
+        tests: [not_null, unique]
+
+  - name: mart_acquisition_performance
+    columns:
+      - name: acquisition_key
+        tests: [not_null, unique]
+
+  - name: mart_campaign_performance
+    columns:
+      - name: campaign_key
+        tests: [not_null, unique]
+
+  - name: mart_search_performance
+    columns:
+      - name: search_key
+        tests: [not_null, unique]
+      - name: ctr
+        tests: [not_null]
+
+  - name: mart_customer_mix
+    columns:
+      - name: customer_type
+        tests:
+          - unique
+          - accepted_values:
+              arguments:
+                values: [new, returning]
+
+  - name: mart_payment_performance
+    columns:
+      - name: payment_method
+        tests:
+          - unique
+          - accepted_values:
+              arguments:
+                values: [mada, apple_pay, visa, mastercard, stc_pay]
+
+  - name: mart_data_quality
+    description: Observability results; documented synthetic anomalies appear as warnings, not suppressed tests.
+    columns:
+      - name: check_id
+        tests: [not_null, unique]
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: [pass, warning, fail]
+
+  - name: mart_source_reconciliation
+    description: Daily Salla-like versus GA4 purchase and revenue comparison with ten-percent tolerance.
+    columns:
+      - name: activity_date
+        tests: [not_null, unique]
+      - name: transaction_variance_rate
+        tests: [not_null]
+
+  - name: mart_prioritized_insights
+    columns:
+      - name: insight_id
+        tests: [not_null, unique]
+      - name: priority
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3]

@@ -1,0 +1,202 @@
+{
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "items": [
+    {
+      "id": "salla_mcp",
+      "display_name": "PrimeOrder / Salla MCP",
+      "status": "FIXTURE_MODE",
+      "live_status": "READY_NOT_AUTHENTICATED",
+      "read_only": true,
+      "fallback_formats": [
+        "json"
+      ],
+      "fixture_fresh_through": "2025-12-31",
+      "source_timezone": "Asia/Riyadh",
+      "report_range": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "currency": "SAR",
+      "evidence_ref": "artifacts/evidence/connector-status.json#salla_mcp",
+      "schema_validation": "enabled",
+      "max_retries": 2,
+      "retry_policy": {
+        "on": [
+          "timeout",
+          "connection",
+          "transient_os_error"
+        ],
+        "backoff_seconds": [
+          0.25,
+          0.5
+        ]
+      },
+      "payloads_persisted": false
+    },
+    {
+      "id": "ga4",
+      "display_name": "Google Analytics 4",
+      "status": "FIXTURE_MODE",
+      "live_status": "READY_NOT_AUTHENTICATED",
+      "read_only": true,
+      "fallback_formats": [
+        "csv",
+        "json"
+      ],
+      "fixture_fresh_through": "2025-12-31",
+      "source_timezone": "Asia/Riyadh",
+      "report_range": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "currency": "SAR",
+      "evidence_ref": "artifacts/evidence/connector-status.json#ga4",
+      "schema_validation": "enabled",
+      "max_retries": 2,
+      "retry_policy": {
+        "on": [
+          "timeout",
+          "connection",
+          "transient_os_error"
+        ],
+        "backoff_seconds": [
+          0.25,
+          0.5
+        ]
+      },
+      "payloads_persisted": false
+    },
+    {
+      "id": "search_console",
+      "display_name": "Google Search Console",
+      "status": "FIXTURE_MODE",
+      "live_status": "READY_NOT_AUTHENTICATED",
+      "read_only": true,
+      "fallback_formats": [
+        "csv",
+        "json"
+      ],
+      "fixture_fresh_through": "2025-12-20",
+      "source_timezone": "Asia/Riyadh",
+      "report_range": {
+        "start": "2025-01-01",
+        "end": "2025-12-20"
+      },
+      "currency": "SAR",
+      "evidence_ref": "artifacts/evidence/connector-status.json#search_console",
+      "schema_validation": "enabled",
+      "max_retries": 2,
+      "retry_policy": {
+        "on": [
+          "timeout",
+          "connection",
+          "transient_os_error"
+        ],
+        "backoff_seconds": [
+          0.25,
+          0.5
+        ]
+      },
+      "payloads_persisted": false
+    },
+    {
+      "id": "merchant",
+      "display_name": "Google Merchant Center",
+      "status": "FIXTURE_MODE",
+      "live_status": "READY_NOT_AUTHENTICATED",
+      "read_only": true,
+      "fallback_formats": [
+        "csv",
+        "json"
+      ],
+      "fixture_fresh_through": "2025-12-31",
+      "source_timezone": "Asia/Riyadh",
+      "report_range": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "currency": "SAR",
+      "evidence_ref": "artifacts/evidence/connector-status.json#merchant",
+      "schema_validation": "enabled",
+      "max_retries": 2,
+      "retry_policy": {
+        "on": [
+          "timeout",
+          "connection",
+          "transient_os_error"
+        ],
+        "backoff_seconds": [
+          0.25,
+          0.5
+        ]
+      },
+      "payloads_persisted": false
+    },
+    {
+      "id": "clarity",
+      "display_name": "Microsoft Clarity",
+      "status": "FIXTURE_MODE",
+      "live_status": "READY_NOT_AUTHENTICATED",
+      "read_only": true,
+      "fallback_formats": [
+        "csv",
+        "json"
+      ],
+      "fixture_fresh_through": "2025-12-31",
+      "source_timezone": "Asia/Riyadh",
+      "report_range": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "currency": "SAR",
+      "evidence_ref": "artifacts/evidence/connector-status.json#clarity",
+      "schema_validation": "enabled",
+      "max_retries": 2,
+      "retry_policy": {
+        "on": [
+          "timeout",
+          "connection",
+          "transient_os_error"
+        ],
+        "backoff_seconds": [
+          0.25,
+          0.5
+        ]
+      },
+      "payloads_persisted": false
+    },
+    {
+      "id": "google_ads",
+      "display_name": "Google Ads",
+      "status": "FIXTURE_MODE",
+      "live_status": "READY_NOT_AUTHENTICATED",
+      "read_only": true,
+      "fallback_formats": [
+        "csv",
+        "json"
+      ],
+      "fixture_fresh_through": "2025-12-31",
+      "source_timezone": "Asia/Riyadh",
+      "report_range": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "currency": "SAR",
+      "evidence_ref": "artifacts/evidence/connector-status.json#google_ads",
+      "schema_validation": "enabled",
+      "max_retries": 2,
+      "retry_policy": {
+        "on": [
+          "timeout",
+          "connection",
+          "transient_os_error"
+        ],
+        "backoff_seconds": [
+          0.25,
+          0.5
+        ]
+      },
+      "payloads_persisted": false
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "seed": 20250301,
+  "start_date": "2025-01-01",
+  "end_date": "2025-12-31",
+  "day_count": 365,
+  "data_mode": "public-demo",
+  "disclosure": "Synthetic portfolio demo data — no real customer or revenue information",
+  "derived_from_real_merchant_data": false,
+  "anomalies": [
+    {
+      "id": "DQ-001",
+      "kind": "duplicate_transaction_id",
+      "date": "2025-06-15",
+      "severity": "high",
+      "expected_detection": "mart_data_quality duplicate_transaction_rate > 0",
+      "description": "Two synthetic orders share a GA4 tracking transaction ID; order IDs remain unique."
+    },
+    {
+      "id": "DQ-002",
+      "kind": "missing_event_parameters",
+      "date": "2025-05-08",
+      "severity": "medium",
+      "expected_detection": "event parameter completeness below 100 percent",
+      "description": "A purchase aggregate has missing currency and item_id parameters."
+    },
+    {
+      "id": "DQ-003",
+      "kind": "stale_source",
+      "date": "2025-12-21",
+      "severity": "medium",
+      "expected_detection": "Search Console freshness exceeds seven days at dataset end",
+      "description": "Search Console fixtures intentionally stop eleven days before commerce data."
+    },
+    {
+      "id": "DQ-004",
+      "kind": "unmapped_product",
+      "date": "2025-07-11",
+      "severity": "high",
+      "expected_detection": "unknown_product_mapping_rate > 0",
+      "description": "One order item uses synthetic product key UNMAPPED-001."
+    },
+    {
+      "id": "DQ-005",
+      "kind": "tracking_variance",
+      "date": "2025-09-20",
+      "severity": "medium",
+      "expected_detection": "Salla versus GA4 purchase variance exceeds tolerance",
+      "description": "GA4 purchases are intentionally under-reported during a five-day window."
+    },
+    {
+      "id": "DQ-006",
+      "kind": "consent_coverage",
+      "date": "2025-11-03",
+      "severity": "low",
+      "expected_detection": "consent_state_coverage below 95 percent",
+      "description": "Consent state is absent for a small synthetic event cohort."
+    }
+  ],
+  "parameter_coverage_semantics": "1 means present and valid when applicable, or explicitly not applicable for that event; values below 1 mean applicable records are incomplete.",
+  "row_counts": {
+    "products": 12,
+    "commerce_daily": 1095,
+    "orders": 9075,
+    "order_items": 9075,
+    "ga4_daily": 1095,
+    "events": 12045,
+    "search_console": 708,
+    "merchant_diagnostics": 636,
+    "clarity_daily": 365
+  },
+  "sha256": {
+    "api/acquisition.json": "1def0d3faf6e9cd8fb1da5d66ffab4c3fd05d1d44fedf54c4988c066643213f7",
+    "api/connectors.json": "be782e783ccf4aa532a46cafd3138896b2771c542a16dd221ed62409ad4d1abd",
+    "api/customers.json": "845e641e44b3444232809ea47106220e7a28a917cc1d71b537d622237a359525",
+    "api/funnel.json": "18846944becaf18cbe7478f192218d88dce046a0d60b17b709b5f1d203f18f07",
+    "api/insights.json": "a0948db8cc20827d083c378f4965267b7a72e953a624e957e597fc1eeab4ef95",
+    "api/products.json": "f6b84e4fd7d52c82417b1e6d9ce5132f2d31fc68d1c31cc7e9ee84d520147161",
+    "api/quality.json": "1cffcc8c3ba9d0e45e849f6a8611970249755a5534c5e40b10cce82b72fa9e3d",
+    "api/seo.json": "4fe334870dc9bdd5e3c885e7fe97b6077791025b10a58cd766d519a1909679bc",
+    "api/summary.json": "19f6755d16e6d15c797d063aa0858380c0eda8996f5f45ea4ac0e52cdb4a0931",
+    "clarity_daily.csv": "2ca0f4dfed827af7424e54a0230238148d05e30efdae0a40f3a5b133c6d63a12",
+    "commerce_daily.csv": "f91a9b1d94d9f5eb1818d1a427575768730968b93fb2cd40d537f425a015ed35",
+    "events.csv": "12816d9db5cddf093b4ab4b7ae1d0de03d65dd241d2f2a0d100fb5514aeed2ec",
+    "ga4_daily.csv": "2e928952d99ded06d9e67dc4cb503bba20b4d66f99a9724d8e4b089238f1de53",
+    "merchant_diagnostics.csv": "77434079564b20b6f0f6eb2ebf9b6b1dc80f69a18f67c55732f644aefe8ed101",
+    "metadata.json": "7b00fd622c601d597e3ffdb66751f48bc96df1bcc24b6a1e3593a01367d38560",
+    "order_items.csv": "dc989c912dcea395fcffcd056d50cd034e779874a5b90c491371809193251fc2",
+    "orders.csv": "3f76a232cb45c6e33728897cb171d1bb3eb1b792523cc12d6d20026c41e6298b",
+    "products.csv": "55592214cd7d13533a63e85daf8a0ac8703d72b41c45432211a6505539f7b627",
+    "search_console.csv": "4bbdcf28ddc4b7ef6f3b03d1929769865c4abcbcbadadea50cc7c533c12007a1"
+  }
+}

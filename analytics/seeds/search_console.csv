@@ -1,0 +1,709 @@
+date,query,page,country,device,clicks,impressions,ctr,average_position,is_branded
+2025-01-01,primeorder software,/,SA,mobile,6,134,0.044776,3.85,True
+2025-01-01,digital subscriptions saudi,/collections/productivity,SA,desktop,12,370,0.032432,17.77,False
+2025-01-02,office software ksa,/,SA,desktop,14,295,0.047458,17.38,False
+2025-01-02,office software ksa,/collections/productivity,SA,tablet,32,430,0.074419,3.88,False
+2025-01-03,ai tools arabic,/,SA,tablet,12,469,0.025586,9.32,False
+2025-01-03,ai tools arabic,/collections/productivity,SA,mobile,28,397,0.070529,3.83,False
+2025-01-04,primeorder software,/,SA,mobile,8,215,0.037209,15.52,True
+2025-01-04,digital subscriptions saudi,/collections/productivity,SA,desktop,51,469,0.108742,8.04,False
+2025-01-05,office software ksa,/,SA,desktop,4,166,0.024096,14.92,False
+2025-01-05,office software ksa,/collections/productivity,SA,tablet,3,117,0.025641,4.13,False
+2025-01-06,ai tools arabic,/,SA,tablet,11,193,0.056995,4.48,False
+2025-01-06,ai tools arabic,/collections/productivity,SA,mobile,30,397,0.075567,17.89,False
+2025-01-07,primeorder software,/,SA,mobile,26,361,0.072022,14.91,True
+2025-01-07,digital subscriptions saudi,/collections/productivity,SA,desktop,7,95,0.073684,14.05,False
+2025-01-08,office software ksa,/,SA,desktop,11,372,0.02957,6.58,False
+2025-01-08,office software ksa,/collections/productivity,SA,tablet,8,189,0.042328,15.74,False
+2025-01-09,ai tools arabic,/,SA,tablet,6,180,0.033333,13.92,False
+2025-01-09,ai tools arabic,/collections/productivity,SA,mobile,9,134,0.067164,3.45,False
+2025-01-10,primeorder software,/,SA,mobile,23,234,0.098291,14.07,True
+2025-01-10,digital subscriptions saudi,/collections/productivity,SA,desktop,7,168,0.041667,13.44,False
+2025-01-11,office software ksa,/,SA,desktop,12,190,0.063158,3.99,False
+2025-01-11,office software ksa,/collections/productivity,SA,tablet,25,437,0.057208,12.14,False
+2025-01-12,ai tools arabic,/,SA,tablet,27,288,0.09375,16.25,False
+2025-01-12,ai tools arabic,/collections/productivity,SA,mobile,10,377,0.026525,8.47,False
+2025-01-13,primeorder software,/,SA,mobile,22,287,0.076655,5.38,True
+2025-01-13,digital subscriptions saudi,/collections/productivity,SA,desktop,12,365,0.032877,3.57,False
+2025-01-14,office software ksa,/,SA,desktop,6,101,0.059406,17.96,False
+2025-01-14,office software ksa,/collections/productivity,SA,tablet,15,408,0.036765,14.65,False
+2025-01-15,ai tools arabic,/,SA,tablet,26,446,0.058296,9.65,False
+2025-01-15,ai tools arabic,/collections/productivity,SA,mobile,31,451,0.068736,12.51,False
+2025-01-16,primeorder software,/,SA,mobile,17,201,0.084577,6.08,True
+2025-01-16,digital subscriptions saudi,/collections/productivity,SA,desktop,7,213,0.032864,11.08,False
+2025-01-17,office software ksa,/,SA,desktop,9,262,0.034351,11.08,False
+2025-01-17,office software ksa,/collections/productivity,SA,tablet,12,211,0.056872,10.36,False
+2025-01-18,ai tools arabic,/,SA,tablet,31,324,0.095679,7.8,False
+2025-01-18,ai tools arabic,/collections/productivity,SA,mobile,36,383,0.093995,13.38,False
+2025-01-19,primeorder software,/,SA,mobile,41,401,0.102244,4.03,True
+2025-01-19,digital subscriptions saudi,/collections/productivity,SA,desktop,37,335,0.110448,7.33,False
+2025-01-20,office software ksa,/,SA,desktop,12,220,0.054545,12.42,False
+2025-01-20,office software ksa,/collections/productivity,SA,tablet,16,228,0.070175,16.4,False
+2025-01-21,ai tools arabic,/,SA,tablet,17,160,0.10625,8.63,False
+2025-01-21,ai tools arabic,/collections/productivity,SA,mobile,28,297,0.094276,6.69,False
+2025-01-22,primeorder software,/,SA,mobile,28,296,0.094595,9.58,True
+2025-01-22,digital subscriptions saudi,/collections/productivity,SA,desktop,9,144,0.0625,12.7,False
+2025-01-23,office software ksa,/,SA,desktop,33,402,0.08209,17.53,False
+2025-01-23,office software ksa,/collections/productivity,SA,tablet,19,490,0.038776,11.41,False
+2025-01-24,ai tools arabic,/,SA,tablet,7,270,0.025926,3.97,False
+2025-01-24,ai tools arabic,/collections/productivity,SA,mobile,48,440,0.109091,12.22,False
+2025-01-25,primeorder software,/,SA,mobile,44,398,0.110553,16.0,True
+2025-01-25,digital subscriptions saudi,/collections/productivity,SA,desktop,11,336,0.032738,4.94,False
+2025-01-26,office software ksa,/,SA,desktop,25,364,0.068681,11.45,False
+2025-01-26,office software ksa,/collections/productivity,SA,tablet,9,152,0.059211,12.97,False
+2025-01-27,ai tools arabic,/,SA,tablet,14,226,0.061947,11.25,False
+2025-01-27,ai tools arabic,/collections/productivity,SA,mobile,37,444,0.083333,5.88,False
+2025-01-28,primeorder software,/,SA,mobile,9,134,0.067164,8.45,True
+2025-01-28,digital subscriptions saudi,/collections/productivity,SA,desktop,12,161,0.074534,10.24,False
+2025-01-29,office software ksa,/,SA,desktop,23,252,0.09127,13.6,False
+2025-01-29,office software ksa,/collections/productivity,SA,tablet,24,228,0.105263,12.7,False
+2025-01-30,ai tools arabic,/,SA,tablet,4,125,0.032,9.43,False
+2025-01-30,ai tools arabic,/collections/productivity,SA,mobile,11,182,0.06044,7.95,False
+2025-01-31,primeorder software,/,SA,mobile,19,261,0.072797,9.11,True
+2025-01-31,digital subscriptions saudi,/collections/productivity,SA,desktop,13,189,0.068783,10.17,False
+2025-02-01,office software ksa,/,SA,desktop,9,376,0.023936,18.02,False
+2025-02-01,office software ksa,/collections/productivity,SA,tablet,36,392,0.091837,12.63,False
+2025-02-02,ai tools arabic,/,SA,tablet,12,133,0.090226,12.28,False
+2025-02-02,ai tools arabic,/collections/productivity,SA,mobile,9,100,0.09,6.76,False
+2025-02-03,primeorder software,/,SA,mobile,21,459,0.045752,8.52,True
+2025-02-03,digital subscriptions saudi,/collections/productivity,SA,desktop,15,268,0.05597,16.28,False
+2025-02-04,office software ksa,/,SA,desktop,5,158,0.031646,16.33,False
+2025-02-04,office software ksa,/collections/productivity,SA,tablet,12,244,0.04918,9.99,False
+2025-02-05,ai tools arabic,/,SA,tablet,34,438,0.077626,5.0,False
+2025-02-05,ai tools arabic,/collections/productivity,SA,mobile,15,479,0.031315,7.48,False
+2025-02-06,primeorder software,/,SA,mobile,38,437,0.086957,17.41,True
+2025-02-06,digital subscriptions saudi,/collections/productivity,SA,desktop,30,313,0.095847,16.55,False
+2025-02-07,office software ksa,/,SA,desktop,20,247,0.080972,4.31,False
+2025-02-07,office software ksa,/collections/productivity,SA,tablet,26,368,0.070652,13.5,False
+2025-02-08,ai tools arabic,/,SA,tablet,9,118,0.076271,12.04,False
+2025-02-08,ai tools arabic,/collections/productivity,SA,mobile,37,384,0.096354,12.04,False
+2025-02-09,primeorder software,/,SA,mobile,20,316,0.063291,16.21,True
+2025-02-09,digital subscriptions saudi,/collections/productivity,SA,desktop,12,187,0.064171,11.02,False
+2025-02-10,office software ksa,/,SA,desktop,15,256,0.058594,3.48,False
+2025-02-10,office software ksa,/collections/productivity,SA,tablet,18,456,0.039474,15.92,False
+2025-02-11,ai tools arabic,/,SA,tablet,40,434,0.092166,17.56,False
+2025-02-11,ai tools arabic,/collections/productivity,SA,mobile,15,174,0.086207,10.28,False
+2025-02-12,primeorder software,/,SA,mobile,26,424,0.061321,16.01,True
+2025-02-12,digital subscriptions saudi,/collections/productivity,SA,desktop,23,425,0.054118,10.55,False
+2025-02-13,office software ksa,/,SA,desktop,41,452,0.090708,11.38,False
+2025-02-13,office software ksa,/collections/productivity,SA,tablet,15,507,0.029586,17.57,False
+2025-02-14,ai tools arabic,/,SA,tablet,24,245,0.097959,5.2,False
+2025-02-14,ai tools arabic,/collections/productivity,SA,mobile,9,228,0.039474,4.47,False
+2025-02-15,primeorder software,/,SA,mobile,52,466,0.111588,16.12,True
+2025-02-15,digital subscriptions saudi,/collections/productivity,SA,desktop,24,243,0.098765,10.1,False
+2025-02-16,office software ksa,/,SA,desktop,7,132,0.05303,9.44,False
+2025-02-16,office software ksa,/collections/productivity,SA,tablet,13,359,0.036212,16.8,False
+2025-02-17,ai tools arabic,/,SA,tablet,25,243,0.102881,11.26,False
+2025-02-17,ai tools arabic,/collections/productivity,SA,mobile,10,121,0.082645,12.09,False
+2025-02-18,primeorder software,/,SA,mobile,10,138,0.072464,12.71,True
+2025-02-18,digital subscriptions saudi,/collections/productivity,SA,desktop,36,346,0.104046,15.97,False
+2025-02-19,office software ksa,/,SA,desktop,9,308,0.029221,11.95,False
+2025-02-19,office software ksa,/collections/productivity,SA,tablet,26,247,0.105263,10.7,False
+2025-02-20,ai tools arabic,/,SA,tablet,19,441,0.043084,16.57,False
+2025-02-20,ai tools arabic,/collections/productivity,SA,mobile,16,461,0.034707,13.09,False
+2025-02-21,primeorder software,/,SA,mobile,7,112,0.0625,8.15,True
+2025-02-21,digital subscriptions saudi,/collections/productivity,SA,desktop,18,311,0.057878,12.0,False
+2025-02-22,office software ksa,/,SA,desktop,18,178,0.101124,11.28,False
+2025-02-22,office software ksa,/collections/productivity,SA,tablet,10,419,0.023866,13.86,False
+2025-02-23,ai tools arabic,/,SA,tablet,25,452,0.05531,14.08,False
+2025-02-23,ai tools arabic,/collections/productivity,SA,mobile,16,449,0.035635,8.96,False
+2025-02-24,primeorder software,/,SA,mobile,32,291,0.109966,7.18,True
+2025-02-24,digital subscriptions saudi,/collections/productivity,SA,desktop,5,199,0.025126,16.31,False
+2025-02-25,office software ksa,/,SA,desktop,8,173,0.046243,7.61,False
+2025-02-25,office software ksa,/collections/productivity,SA,tablet,12,392,0.030612,9.37,False
+2025-02-26,ai tools arabic,/,SA,tablet,11,139,0.079137,11.21,False
+2025-02-26,ai tools arabic,/collections/productivity,SA,mobile,35,346,0.101156,9.16,False
+2025-02-27,primeorder software,/,SA,mobile,19,246,0.077236,5.66,True
+2025-02-27,digital subscriptions saudi,/collections/productivity,SA,desktop,48,455,0.105495,14.08,False
+2025-02-28,office software ksa,/,SA,desktop,5,153,0.03268,14.24,False
+2025-02-28,office software ksa,/collections/productivity,SA,tablet,14,345,0.04058,4.79,False
+2025-03-01,ai tools arabic,/,SA,tablet,25,339,0.073746,13.65,False
+2025-03-01,ai tools arabic,/collections/productivity,SA,mobile,29,601,0.048253,11.54,False
+2025-03-02,primeorder software,/,SA,mobile,8,221,0.036199,3.5,True
+2025-03-02,digital subscriptions saudi,/collections/productivity,SA,desktop,43,458,0.093886,3.47,False
+2025-03-03,office software ksa,/,SA,desktop,27,323,0.083591,17.18,False
+2025-03-03,office software ksa,/collections/productivity,SA,tablet,27,432,0.0625,7.42,False
+2025-03-04,ai tools arabic,/,SA,tablet,64,630,0.101587,8.45,False
+2025-03-04,ai tools arabic,/collections/productivity,SA,mobile,32,506,0.063241,3.85,False
+2025-03-05,primeorder software,/,SA,mobile,13,291,0.044674,12.58,True
+2025-03-05,digital subscriptions saudi,/collections/productivity,SA,desktop,51,510,0.1,15.47,False
+2025-03-06,office software ksa,/,SA,desktop,5,148,0.033784,10.92,False
+2025-03-06,office software ksa,/collections/productivity,SA,tablet,23,549,0.041894,16.44,False
+2025-03-07,ai tools arabic,/,SA,tablet,21,225,0.093333,11.43,False
+2025-03-07,ai tools arabic,/collections/productivity,SA,mobile,47,512,0.091797,13.35,False
+2025-03-08,primeorder software,/,SA,mobile,40,427,0.093677,3.78,True
+2025-03-08,digital subscriptions saudi,/collections/productivity,SA,desktop,54,487,0.110883,10.78,False
+2025-03-09,office software ksa,/,SA,desktop,6,145,0.041379,6.0,False
+2025-03-09,office software ksa,/collections/productivity,SA,tablet,25,355,0.070423,13.49,False
+2025-03-10,ai tools arabic,/,SA,tablet,18,634,0.028391,14.39,False
+2025-03-10,ai tools arabic,/collections/productivity,SA,mobile,30,514,0.058366,7.42,False
+2025-03-11,primeorder software,/,SA,mobile,52,570,0.091228,17.27,True
+2025-03-11,digital subscriptions saudi,/collections/productivity,SA,desktop,37,429,0.086247,8.08,False
+2025-03-12,office software ksa,/,SA,desktop,14,468,0.029915,4.28,False
+2025-03-12,office software ksa,/collections/productivity,SA,tablet,43,381,0.112861,4.14,False
+2025-03-13,ai tools arabic,/,SA,tablet,26,660,0.039394,5.09,False
+2025-03-13,ai tools arabic,/collections/productivity,SA,mobile,69,657,0.105023,8.92,False
+2025-03-14,primeorder software,/,SA,mobile,34,684,0.049708,5.33,True
+2025-03-14,digital subscriptions saudi,/collections/productivity,SA,desktop,49,542,0.090406,16.63,False
+2025-03-15,office software ksa,/,SA,desktop,5,174,0.028736,5.14,False
+2025-03-15,office software ksa,/collections/productivity,SA,tablet,12,339,0.035398,7.87,False
+2025-03-16,ai tools arabic,/,SA,tablet,8,128,0.0625,17.85,False
+2025-03-16,ai tools arabic,/collections/productivity,SA,mobile,5,190,0.026316,8.11,False
+2025-03-17,primeorder software,/,SA,mobile,18,426,0.042254,15.37,True
+2025-03-17,digital subscriptions saudi,/collections/productivity,SA,desktop,33,561,0.058824,4.89,False
+2025-03-18,office software ksa,/,SA,desktop,21,568,0.036972,8.49,False
+2025-03-18,office software ksa,/collections/productivity,SA,tablet,21,509,0.041257,4.88,False
+2025-03-19,ai tools arabic,/,SA,tablet,23,374,0.061497,9.96,False
+2025-03-19,ai tools arabic,/collections/productivity,SA,mobile,19,266,0.071429,14.41,False
+2025-03-20,primeorder software,/,SA,mobile,70,623,0.11236,5.67,True
+2025-03-20,digital subscriptions saudi,/collections/productivity,SA,desktop,13,273,0.047619,3.29,False
+2025-03-21,office software ksa,/,SA,desktop,46,446,0.103139,14.4,False
+2025-03-21,office software ksa,/collections/productivity,SA,tablet,18,624,0.028846,18.37,False
+2025-03-22,ai tools arabic,/,SA,tablet,27,475,0.056842,7.38,False
+2025-03-22,ai tools arabic,/collections/productivity,SA,mobile,19,178,0.106742,12.06,False
+2025-03-23,primeorder software,/,SA,mobile,40,558,0.071685,12.76,True
+2025-03-23,digital subscriptions saudi,/collections/productivity,SA,desktop,23,340,0.067647,12.9,False
+2025-03-24,office software ksa,/,SA,desktop,57,574,0.099303,6.96,False
+2025-03-24,office software ksa,/collections/productivity,SA,tablet,17,576,0.029514,10.27,False
+2025-03-25,ai tools arabic,/,SA,tablet,38,381,0.099738,15.38,False
+2025-03-25,ai tools arabic,/collections/productivity,SA,mobile,18,430,0.04186,10.25,False
+2025-03-26,primeorder software,/,SA,mobile,39,348,0.112069,16.52,True
+2025-03-26,digital subscriptions saudi,/collections/productivity,SA,desktop,34,528,0.064394,5.63,False
+2025-03-27,office software ksa,/,SA,desktop,63,680,0.092647,10.06,False
+2025-03-27,office software ksa,/collections/productivity,SA,tablet,59,540,0.109259,8.07,False
+2025-03-28,ai tools arabic,/,SA,tablet,23,306,0.075163,16.92,False
+2025-03-28,ai tools arabic,/collections/productivity,SA,mobile,47,510,0.092157,7.74,False
+2025-03-29,primeorder software,/,SA,mobile,26,330,0.078788,6.48,True
+2025-03-29,digital subscriptions saudi,/collections/productivity,SA,desktop,32,415,0.077108,12.61,False
+2025-03-30,office software ksa,/,SA,desktop,28,360,0.077778,7.67,False
+2025-03-30,office software ksa,/collections/productivity,SA,tablet,26,277,0.093863,6.68,False
+2025-03-31,ai tools arabic,/,SA,tablet,13,409,0.031785,7.62,False
+2025-03-31,ai tools arabic,/collections/productivity,SA,mobile,23,249,0.092369,11.88,False
+2025-04-01,primeorder software,/,SA,mobile,40,437,0.091533,6.22,True
+2025-04-01,digital subscriptions saudi,/collections/productivity,SA,desktop,15,144,0.104167,5.12,False
+2025-04-02,office software ksa,/,SA,desktop,52,480,0.108333,17.2,False
+2025-04-02,office software ksa,/collections/productivity,SA,tablet,20,406,0.049261,13.58,False
+2025-04-03,ai tools arabic,/,SA,tablet,26,301,0.086379,16.95,False
+2025-04-03,ai tools arabic,/collections/productivity,SA,mobile,39,398,0.09799,3.57,False
+2025-04-04,primeorder software,/,SA,mobile,36,401,0.089776,13.01,True
+2025-04-04,digital subscriptions saudi,/collections/productivity,SA,desktop,51,509,0.100196,9.7,False
+2025-04-05,office software ksa,/,SA,desktop,9,264,0.034091,10.87,False
+2025-04-05,office software ksa,/collections/productivity,SA,tablet,13,192,0.067708,8.9,False
+2025-04-06,ai tools arabic,/,SA,tablet,3,111,0.027027,12.36,False
+2025-04-06,ai tools arabic,/collections/productivity,SA,mobile,43,440,0.097727,12.99,False
+2025-04-07,primeorder software,/,SA,mobile,31,421,0.073634,18.28,True
+2025-04-07,digital subscriptions saudi,/collections/productivity,SA,desktop,11,314,0.035032,16.46,False
+2025-04-08,office software ksa,/,SA,desktop,24,320,0.075,12.57,False
+2025-04-08,office software ksa,/collections/productivity,SA,tablet,8,278,0.028777,7.45,False
+2025-04-09,ai tools arabic,/,SA,tablet,26,408,0.063725,14.89,False
+2025-04-09,ai tools arabic,/collections/productivity,SA,mobile,27,427,0.063232,14.68,False
+2025-04-10,primeorder software,/,SA,mobile,15,174,0.086207,5.09,True
+2025-04-10,digital subscriptions saudi,/collections/productivity,SA,desktop,3,138,0.021739,7.48,False
+2025-04-11,office software ksa,/,SA,desktop,11,270,0.040741,17.06,False
+2025-04-11,office software ksa,/collections/productivity,SA,tablet,11,153,0.071895,11.55,False
+2025-04-12,ai tools arabic,/,SA,tablet,9,216,0.041667,4.91,False
+2025-04-12,ai tools arabic,/collections/productivity,SA,mobile,8,174,0.045977,16.86,False
+2025-04-13,primeorder software,/,SA,mobile,11,122,0.090164,15.41,True
+2025-04-13,digital subscriptions saudi,/collections/productivity,SA,desktop,13,134,0.097015,16.87,False
+2025-04-14,office software ksa,/,SA,desktop,16,235,0.068085,7.58,False
+2025-04-14,office software ksa,/collections/productivity,SA,tablet,15,169,0.088757,15.97,False
+2025-04-15,ai tools arabic,/,SA,tablet,7,247,0.02834,3.51,False
+2025-04-15,ai tools arabic,/collections/productivity,SA,mobile,50,461,0.10846,6.81,False
+2025-04-16,primeorder software,/,SA,mobile,7,185,0.037838,9.95,True
+2025-04-16,digital subscriptions saudi,/collections/productivity,SA,desktop,15,362,0.041436,7.74,False
+2025-04-17,office software ksa,/,SA,desktop,18,333,0.054054,4.81,False
+2025-04-17,office software ksa,/collections/productivity,SA,tablet,20,237,0.084388,16.3,False
+2025-04-18,ai tools arabic,/,SA,tablet,33,471,0.070064,3.46,False
+2025-04-18,ai tools arabic,/collections/productivity,SA,mobile,8,222,0.036036,7.35,False
+2025-04-19,primeorder software,/,SA,mobile,25,228,0.109649,17.25,True
+2025-04-19,digital subscriptions saudi,/collections/productivity,SA,desktop,3,127,0.023622,13.17,False
+2025-04-20,office software ksa,/,SA,desktop,42,394,0.106599,13.0,False
+2025-04-20,office software ksa,/collections/productivity,SA,tablet,19,442,0.042986,17.7,False
+2025-04-21,ai tools arabic,/,SA,tablet,26,381,0.068241,8.28,False
+2025-04-21,ai tools arabic,/collections/productivity,SA,mobile,34,457,0.074398,7.02,False
+2025-04-22,primeorder software,/,SA,mobile,41,377,0.108753,6.51,True
+2025-04-22,digital subscriptions saudi,/collections/productivity,SA,desktop,6,161,0.037267,3.81,False
+2025-04-23,office software ksa,/,SA,desktop,24,475,0.050526,9.28,False
+2025-04-23,office software ksa,/collections/productivity,SA,tablet,27,295,0.091525,10.36,False
+2025-04-24,ai tools arabic,/,SA,tablet,9,354,0.025424,7.42,False
+2025-04-24,ai tools arabic,/collections/productivity,SA,mobile,13,154,0.084416,12.43,False
+2025-04-25,primeorder software,/,SA,mobile,28,253,0.110672,4.83,True
+2025-04-25,digital subscriptions saudi,/collections/productivity,SA,desktop,14,333,0.042042,3.79,False
+2025-04-26,office software ksa,/,SA,desktop,23,395,0.058228,10.73,False
+2025-04-26,office software ksa,/collections/productivity,SA,tablet,13,389,0.033419,12.75,False
+2025-04-27,ai tools arabic,/,SA,tablet,14,169,0.08284,3.89,False
+2025-04-27,ai tools arabic,/collections/productivity,SA,mobile,22,387,0.056848,16.83,False
+2025-04-28,primeorder software,/,SA,mobile,33,324,0.101852,5.43,True
+2025-04-28,digital subscriptions saudi,/collections/productivity,SA,desktop,29,272,0.106618,8.25,False
+2025-04-29,office software ksa,/,SA,desktop,16,440,0.036364,5.59,False
+2025-04-29,office software ksa,/collections/productivity,SA,tablet,20,189,0.10582,11.36,False
+2025-04-30,ai tools arabic,/,SA,tablet,9,333,0.027027,10.74,False
+2025-04-30,ai tools arabic,/collections/productivity,SA,mobile,9,249,0.036145,12.95,False
+2025-05-01,primeorder software,/,SA,mobile,7,149,0.04698,7.64,True
+2025-05-01,digital subscriptions saudi,/collections/productivity,SA,desktop,7,174,0.04023,5.48,False
+2025-05-02,office software ksa,/,SA,desktop,30,447,0.067114,4.3,False
+2025-05-02,office software ksa,/collections/productivity,SA,tablet,37,402,0.09204,8.76,False
+2025-05-03,ai tools arabic,/,SA,tablet,7,123,0.056911,5.18,False
+2025-05-03,ai tools arabic,/collections/productivity,SA,mobile,12,339,0.035398,3.28,False
+2025-05-04,primeorder software,/,SA,mobile,18,349,0.051576,6.01,True
+2025-05-04,digital subscriptions saudi,/collections/productivity,SA,desktop,4,98,0.040816,8.47,False
+2025-05-05,office software ksa,/,SA,desktop,31,411,0.075426,8.48,False
+2025-05-05,office software ksa,/collections/productivity,SA,tablet,13,396,0.032828,8.76,False
+2025-05-06,ai tools arabic,/,SA,tablet,11,359,0.030641,8.96,False
+2025-05-06,ai tools arabic,/collections/productivity,SA,mobile,8,237,0.033755,16.47,False
+2025-05-07,primeorder software,/,SA,mobile,38,481,0.079002,6.2,True
+2025-05-07,digital subscriptions saudi,/collections/productivity,SA,desktop,35,332,0.105422,6.48,False
+2025-05-08,office software ksa,/,SA,desktop,27,250,0.108,13.46,False
+2025-05-08,office software ksa,/collections/productivity,SA,tablet,17,329,0.051672,10.89,False
+2025-05-09,ai tools arabic,/,SA,tablet,6,122,0.04918,8.57,False
+2025-05-09,ai tools arabic,/collections/productivity,SA,mobile,3,111,0.027027,4.55,False
+2025-05-10,primeorder software,/,SA,mobile,13,216,0.060185,16.87,True
+2025-05-10,digital subscriptions saudi,/collections/productivity,SA,desktop,15,160,0.09375,16.07,False
+2025-05-11,office software ksa,/,SA,desktop,24,238,0.10084,6.74,False
+2025-05-11,office software ksa,/collections/productivity,SA,tablet,6,256,0.023438,13.88,False
+2025-05-12,ai tools arabic,/,SA,tablet,43,398,0.10804,13.81,False
+2025-05-12,ai tools arabic,/collections/productivity,SA,mobile,14,273,0.051282,16.69,False
+2025-05-13,primeorder software,/,SA,mobile,5,143,0.034965,13.19,True
+2025-05-13,digital subscriptions saudi,/collections/productivity,SA,desktop,33,304,0.108553,7.33,False
+2025-05-14,office software ksa,/,SA,desktop,24,267,0.089888,4.22,False
+2025-05-14,office software ksa,/collections/productivity,SA,tablet,9,194,0.046392,9.46,False
+2025-05-15,ai tools arabic,/,SA,tablet,17,258,0.065891,14.36,False
+2025-05-15,ai tools arabic,/collections/productivity,SA,mobile,32,454,0.070485,4.73,False
+2025-05-16,primeorder software,/,SA,mobile,15,316,0.047468,15.27,True
+2025-05-16,digital subscriptions saudi,/collections/productivity,SA,desktop,18,234,0.076923,15.03,False
+2025-05-17,office software ksa,/,SA,desktop,11,300,0.036667,14.98,False
+2025-05-17,office software ksa,/collections/productivity,SA,tablet,23,210,0.109524,15.43,False
+2025-05-18,ai tools arabic,/,SA,tablet,9,277,0.032491,17.7,False
+2025-05-18,ai tools arabic,/collections/productivity,SA,mobile,15,446,0.033632,4.19,False
+2025-05-19,primeorder software,/,SA,mobile,25,450,0.055556,10.78,True
+2025-05-19,digital subscriptions saudi,/collections/productivity,SA,desktop,38,349,0.108883,17.72,False
+2025-05-20,office software ksa,/,SA,desktop,40,466,0.085837,15.3,False
+2025-05-20,office software ksa,/collections/productivity,SA,tablet,17,322,0.052795,5.23,False
+2025-05-21,ai tools arabic,/,SA,tablet,44,442,0.099548,16.68,False
+2025-05-21,ai tools arabic,/collections/productivity,SA,mobile,13,175,0.074286,5.09,False
+2025-05-22,primeorder software,/,SA,mobile,9,146,0.061644,15.11,True
+2025-05-22,digital subscriptions saudi,/collections/productivity,SA,desktop,27,487,0.055441,5.56,False
+2025-05-23,office software ksa,/,SA,desktop,17,196,0.086735,14.55,False
+2025-05-23,office software ksa,/collections/productivity,SA,tablet,10,253,0.039526,17.34,False
+2025-05-24,ai tools arabic,/,SA,tablet,11,113,0.097345,17.68,False
+2025-05-24,ai tools arabic,/collections/productivity,SA,mobile,3,128,0.023438,3.84,False
+2025-05-25,primeorder software,/,SA,mobile,4,143,0.027972,10.14,True
+2025-05-25,digital subscriptions saudi,/collections/productivity,SA,desktop,16,424,0.037736,6.04,False
+2025-05-26,office software ksa,/,SA,desktop,8,102,0.078431,17.08,False
+2025-05-26,office software ksa,/collections/productivity,SA,tablet,27,247,0.109312,18.11,False
+2025-05-27,ai tools arabic,/,SA,tablet,14,410,0.034146,6.77,False
+2025-05-27,ai tools arabic,/collections/productivity,SA,mobile,31,275,0.112727,7.59,False
+2025-05-28,primeorder software,/,SA,mobile,24,410,0.058537,14.0,True
+2025-05-28,digital subscriptions saudi,/collections/productivity,SA,desktop,5,209,0.023923,11.14,False
+2025-05-29,office software ksa,/,SA,desktop,21,403,0.052109,7.7,False
+2025-05-29,office software ksa,/collections/productivity,SA,tablet,4,103,0.038835,17.79,False
+2025-05-30,ai tools arabic,/,SA,tablet,24,439,0.05467,8.8,False
+2025-05-30,ai tools arabic,/collections/productivity,SA,mobile,32,356,0.089888,14.62,False
+2025-05-31,primeorder software,/,SA,mobile,14,370,0.037838,15.81,True
+2025-05-31,digital subscriptions saudi,/collections/productivity,SA,desktop,15,320,0.046875,18.1,False
+2025-06-01,office software ksa,/,SA,desktop,20,237,0.084388,5.1,False
+2025-06-01,office software ksa,/collections/productivity,SA,tablet,16,429,0.037296,8.57,False
+2025-06-02,ai tools arabic,/,SA,tablet,11,231,0.047619,16.9,False
+2025-06-02,ai tools arabic,/collections/productivity,SA,mobile,18,206,0.087379,7.73,False
+2025-06-03,primeorder software,/,SA,mobile,19,420,0.045238,14.51,True
+2025-06-03,digital subscriptions saudi,/collections/productivity,SA,desktop,11,123,0.089431,10.74,False
+2025-06-04,office software ksa,/,SA,desktop,21,264,0.079545,10.54,False
+2025-06-04,office software ksa,/collections/productivity,SA,tablet,6,155,0.03871,18.33,False
+2025-06-05,ai tools arabic,/,SA,tablet,15,439,0.034169,6.8,False
+2025-06-05,ai tools arabic,/collections/productivity,SA,mobile,14,304,0.046053,6.38,False
+2025-06-06,primeorder software,/,SA,mobile,35,401,0.087282,8.33,True
+2025-06-06,digital subscriptions saudi,/collections/productivity,SA,desktop,16,406,0.039409,9.31,False
+2025-06-07,office software ksa,/,SA,desktop,10,258,0.03876,13.58,False
+2025-06-07,office software ksa,/collections/productivity,SA,tablet,30,340,0.088235,12.44,False
+2025-06-08,ai tools arabic,/,SA,tablet,19,286,0.066434,3.96,False
+2025-06-08,ai tools arabic,/collections/productivity,SA,mobile,7,286,0.024476,4.98,False
+2025-06-09,primeorder software,/,SA,mobile,40,367,0.108992,13.91,True
+2025-06-09,digital subscriptions saudi,/collections/productivity,SA,desktop,9,130,0.069231,7.4,False
+2025-06-10,office software ksa,/,SA,desktop,7,223,0.03139,14.35,False
+2025-06-10,office software ksa,/collections/productivity,SA,tablet,50,459,0.108932,14.97,False
+2025-06-11,ai tools arabic,/,SA,tablet,6,137,0.043796,7.66,False
+2025-06-11,ai tools arabic,/collections/productivity,SA,mobile,3,149,0.020134,16.68,False
+2025-06-12,primeorder software,/,SA,mobile,25,480,0.052083,18.44,True
+2025-06-12,digital subscriptions saudi,/collections/productivity,SA,desktop,5,199,0.025126,15.58,False
+2025-06-13,office software ksa,/,SA,desktop,10,165,0.060606,12.8,False
+2025-06-13,office software ksa,/collections/productivity,SA,tablet,5,163,0.030675,5.16,False
+2025-06-14,ai tools arabic,/,SA,tablet,36,428,0.084112,8.25,False
+2025-06-14,ai tools arabic,/collections/productivity,SA,mobile,9,287,0.031359,10.18,False
+2025-06-15,primeorder software,/,SA,mobile,16,479,0.033403,9.47,True
+2025-06-15,digital subscriptions saudi,/collections/productivity,SA,desktop,20,188,0.106383,11.76,False
+2025-06-16,office software ksa,/,SA,desktop,46,446,0.103139,4.74,False
+2025-06-16,office software ksa,/collections/productivity,SA,tablet,39,388,0.100515,9.91,False
+2025-06-17,ai tools arabic,/,SA,tablet,19,222,0.085586,7.58,False
+2025-06-17,ai tools arabic,/collections/productivity,SA,mobile,24,247,0.097166,9.87,False
+2025-06-18,primeorder software,/,SA,mobile,18,183,0.098361,10.06,True
+2025-06-18,digital subscriptions saudi,/collections/productivity,SA,desktop,30,295,0.101695,6.16,False
+2025-06-19,office software ksa,/,SA,desktop,24,398,0.060302,13.76,False
+2025-06-19,office software ksa,/collections/productivity,SA,tablet,16,195,0.082051,7.52,False
+2025-06-20,ai tools arabic,/,SA,tablet,25,526,0.047529,7.2,False
+2025-06-20,ai tools arabic,/collections/productivity,SA,mobile,37,382,0.096859,11.82,False
+2025-06-21,primeorder software,/,SA,mobile,42,440,0.095455,5.51,True
+2025-06-21,digital subscriptions saudi,/collections/productivity,SA,desktop,30,476,0.063025,6.73,False
+2025-06-22,office software ksa,/,SA,desktop,12,180,0.066667,8.81,False
+2025-06-22,office software ksa,/collections/productivity,SA,tablet,26,322,0.080745,12.14,False
+2025-06-23,ai tools arabic,/,SA,tablet,20,480,0.041667,12.31,False
+2025-06-23,ai tools arabic,/collections/productivity,SA,mobile,7,107,0.065421,7.26,False
+2025-06-24,primeorder software,/,SA,mobile,25,483,0.05176,4.68,True
+2025-06-24,digital subscriptions saudi,/collections/productivity,SA,desktop,19,207,0.091787,4.59,False
+2025-06-25,office software ksa,/,SA,desktop,17,229,0.074236,17.01,False
+2025-06-25,office software ksa,/collections/productivity,SA,tablet,17,399,0.042607,10.13,False
+2025-06-26,ai tools arabic,/,SA,tablet,32,479,0.066806,6.69,False
+2025-06-26,ai tools arabic,/collections/productivity,SA,mobile,9,114,0.078947,3.33,False
+2025-06-27,primeorder software,/,SA,mobile,26,257,0.101167,10.15,True
+2025-06-27,digital subscriptions saudi,/collections/productivity,SA,desktop,34,510,0.066667,10.86,False
+2025-06-28,office software ksa,/,SA,desktop,3,124,0.024194,12.08,False
+2025-06-28,office software ksa,/collections/productivity,SA,tablet,21,344,0.061047,15.82,False
+2025-06-29,ai tools arabic,/,SA,tablet,6,233,0.025751,6.2,False
+2025-06-29,ai tools arabic,/collections/productivity,SA,mobile,33,437,0.075515,13.82,False
+2025-06-30,primeorder software,/,SA,mobile,16,293,0.054608,5.34,True
+2025-06-30,digital subscriptions saudi,/collections/productivity,SA,desktop,15,300,0.05,14.4,False
+2025-07-01,office software ksa,/,SA,desktop,9,125,0.072,17.07,False
+2025-07-01,office software ksa,/collections/productivity,SA,tablet,30,389,0.077121,18.44,False
+2025-07-02,ai tools arabic,/,SA,tablet,7,173,0.040462,14.7,False
+2025-07-02,ai tools arabic,/collections/productivity,SA,mobile,4,120,0.033333,13.65,False
+2025-07-03,primeorder software,/,SA,mobile,23,214,0.107477,7.73,True
+2025-07-03,digital subscriptions saudi,/collections/productivity,SA,desktop,8,147,0.054422,12.3,False
+2025-07-04,office software ksa,/,SA,desktop,32,515,0.062136,3.32,False
+2025-07-04,office software ksa,/collections/productivity,SA,tablet,29,347,0.083573,16.42,False
+2025-07-05,ai tools arabic,/,SA,tablet,9,293,0.030717,17.49,False
+2025-07-05,ai tools arabic,/collections/productivity,SA,mobile,14,147,0.095238,11.05,False
+2025-07-06,primeorder software,/,SA,mobile,21,451,0.046563,7.7,True
+2025-07-06,digital subscriptions saudi,/collections/productivity,SA,desktop,34,387,0.087855,5.12,False
+2025-07-07,office software ksa,/,SA,desktop,10,129,0.077519,18.41,False
+2025-07-07,office software ksa,/collections/productivity,SA,tablet,7,132,0.05303,3.5,False
+2025-07-08,ai tools arabic,/,SA,tablet,20,282,0.070922,15.89,False
+2025-07-08,ai tools arabic,/collections/productivity,SA,mobile,22,307,0.071661,16.02,False
+2025-07-09,primeorder software,/,SA,mobile,9,371,0.024259,16.11,True
+2025-07-09,digital subscriptions saudi,/collections/productivity,SA,desktop,8,319,0.025078,10.2,False
+2025-07-10,office software ksa,/,SA,desktop,41,369,0.111111,4.75,False
+2025-07-10,office software ksa,/collections/productivity,SA,tablet,17,359,0.047354,10.9,False
+2025-07-11,ai tools arabic,/,SA,tablet,7,228,0.030702,10.87,False
+2025-07-11,ai tools arabic,/collections/productivity,SA,mobile,28,349,0.080229,3.61,False
+2025-07-12,primeorder software,/,SA,mobile,36,330,0.109091,5.32,True
+2025-07-12,digital subscriptions saudi,/collections/productivity,SA,desktop,42,410,0.102439,11.01,False
+2025-07-13,office software ksa,/,SA,desktop,27,247,0.109312,10.08,False
+2025-07-13,office software ksa,/collections/productivity,SA,tablet,10,279,0.035842,15.45,False
+2025-07-14,ai tools arabic,/,SA,tablet,37,434,0.085253,10.42,False
+2025-07-14,ai tools arabic,/collections/productivity,SA,mobile,22,217,0.101382,10.74,False
+2025-07-15,primeorder software,/,SA,mobile,25,241,0.103734,10.82,True
+2025-07-15,digital subscriptions saudi,/collections/productivity,SA,desktop,5,142,0.035211,8.89,False
+2025-07-16,office software ksa,/,SA,desktop,15,461,0.032538,8.84,False
+2025-07-16,office software ksa,/collections/productivity,SA,tablet,26,470,0.055319,13.13,False
+2025-07-17,ai tools arabic,/,SA,tablet,26,244,0.106557,13.82,False
+2025-07-17,ai tools arabic,/collections/productivity,SA,mobile,38,391,0.097187,13.56,False
+2025-07-18,primeorder software,/,SA,mobile,30,447,0.067114,3.31,True
+2025-07-18,digital subscriptions saudi,/collections/productivity,SA,desktop,5,127,0.03937,6.63,False
+2025-07-19,office software ksa,/,SA,desktop,24,477,0.050314,5.72,False
+2025-07-19,office software ksa,/collections/productivity,SA,tablet,14,475,0.029474,3.22,False
+2025-07-20,ai tools arabic,/,SA,tablet,38,375,0.101333,15.31,False
+2025-07-20,ai tools arabic,/collections/productivity,SA,mobile,31,331,0.093656,7.42,False
+2025-07-21,primeorder software,/,SA,mobile,7,261,0.02682,7.58,True
+2025-07-21,digital subscriptions saudi,/collections/productivity,SA,desktop,46,453,0.101545,16.74,False
+2025-07-22,office software ksa,/,SA,desktop,20,446,0.044843,15.62,False
+2025-07-22,office software ksa,/collections/productivity,SA,tablet,43,400,0.1075,3.47,False
+2025-07-23,ai tools arabic,/,SA,tablet,47,437,0.107551,14.93,False
+2025-07-23,ai tools arabic,/collections/productivity,SA,mobile,6,204,0.029412,7.6,False
+2025-07-24,primeorder software,/,SA,mobile,38,486,0.078189,4.9,True
+2025-07-24,digital subscriptions saudi,/collections/productivity,SA,desktop,34,404,0.084158,3.89,False
+2025-07-25,office software ksa,/,SA,desktop,29,282,0.102837,15.48,False
+2025-07-25,office software ksa,/collections/productivity,SA,tablet,13,221,0.058824,17.45,False
+2025-07-26,ai tools arabic,/,SA,tablet,6,231,0.025974,12.04,False
+2025-07-26,ai tools arabic,/collections/productivity,SA,mobile,5,157,0.031847,8.35,False
+2025-07-27,primeorder software,/,SA,mobile,11,126,0.087302,17.57,True
+2025-07-27,digital subscriptions saudi,/collections/productivity,SA,desktop,29,337,0.086053,7.53,False
+2025-07-28,office software ksa,/,SA,desktop,20,207,0.096618,12.9,False
+2025-07-28,office software ksa,/collections/productivity,SA,tablet,6,213,0.028169,15.74,False
+2025-07-29,ai tools arabic,/,SA,tablet,36,469,0.076759,8.32,False
+2025-07-29,ai tools arabic,/collections/productivity,SA,mobile,38,390,0.097436,14.75,False
+2025-07-30,primeorder software,/,SA,mobile,18,419,0.042959,16.35,True
+2025-07-30,digital subscriptions saudi,/collections/productivity,SA,desktop,22,357,0.061625,11.51,False
+2025-07-31,office software ksa,/,SA,desktop,49,514,0.095331,15.74,False
+2025-07-31,office software ksa,/collections/productivity,SA,tablet,39,348,0.112069,7.34,False
+2025-08-01,ai tools arabic,/,SA,tablet,11,137,0.080292,6.08,False
+2025-08-01,ai tools arabic,/collections/productivity,SA,mobile,25,471,0.053079,3.51,False
+2025-08-02,primeorder software,/,SA,mobile,6,154,0.038961,11.25,True
+2025-08-02,digital subscriptions saudi,/collections/productivity,SA,desktop,13,127,0.102362,6.29,False
+2025-08-03,office software ksa,/,SA,desktop,29,478,0.060669,17.34,False
+2025-08-03,office software ksa,/collections/productivity,SA,tablet,11,100,0.11,8.28,False
+2025-08-04,ai tools arabic,/,SA,tablet,21,269,0.078067,12.08,False
+2025-08-04,ai tools arabic,/collections/productivity,SA,mobile,15,177,0.084746,4.0,False
+2025-08-05,primeorder software,/,SA,mobile,41,480,0.085417,15.07,True
+2025-08-05,digital subscriptions saudi,/collections/productivity,SA,desktop,30,423,0.070922,17.63,False
+2025-08-06,office software ksa,/,SA,desktop,15,167,0.08982,5.44,False
+2025-08-06,office software ksa,/collections/productivity,SA,tablet,11,149,0.073826,10.67,False
+2025-08-07,ai tools arabic,/,SA,tablet,22,345,0.063768,4.07,False
+2025-08-07,ai tools arabic,/collections/productivity,SA,mobile,19,482,0.039419,13.06,False
+2025-08-08,primeorder software,/,SA,mobile,29,281,0.103203,13.2,True
+2025-08-08,digital subscriptions saudi,/collections/productivity,SA,desktop,31,364,0.085165,7.08,False
+2025-08-09,office software ksa,/,SA,desktop,33,357,0.092437,18.08,False
+2025-08-09,office software ksa,/collections/productivity,SA,tablet,12,448,0.026786,15.19,False
+2025-08-10,ai tools arabic,/,SA,tablet,39,388,0.100515,3.57,False
+2025-08-10,ai tools arabic,/collections/productivity,SA,mobile,11,214,0.051402,17.36,False
+2025-08-11,primeorder software,/,SA,mobile,43,544,0.079044,17.3,True
+2025-08-11,digital subscriptions saudi,/collections/productivity,SA,desktop,7,140,0.05,9.98,False
+2025-08-12,office software ksa,/,SA,desktop,40,435,0.091954,17.59,False
+2025-08-12,office software ksa,/collections/productivity,SA,tablet,10,431,0.023202,13.2,False
+2025-08-13,ai tools arabic,/,SA,tablet,20,372,0.053763,8.1,False
+2025-08-13,ai tools arabic,/collections/productivity,SA,mobile,6,184,0.032609,9.18,False
+2025-08-14,primeorder software,/,SA,mobile,67,591,0.113367,14.45,True
+2025-08-14,digital subscriptions saudi,/collections/productivity,SA,desktop,28,256,0.109375,8.59,False
+2025-08-15,office software ksa,/,SA,desktop,9,304,0.029605,4.04,False
+2025-08-15,office software ksa,/collections/productivity,SA,tablet,21,223,0.09417,16.78,False
+2025-08-16,ai tools arabic,/,SA,tablet,12,161,0.074534,3.34,False
+2025-08-16,ai tools arabic,/collections/productivity,SA,mobile,48,431,0.111369,15.74,False
+2025-08-17,primeorder software,/,SA,mobile,29,504,0.05754,7.34,True
+2025-08-17,digital subscriptions saudi,/collections/productivity,SA,desktop,18,224,0.080357,13.26,False
+2025-08-18,office software ksa,/,SA,desktop,25,549,0.045537,6.53,False
+2025-08-18,office software ksa,/collections/productivity,SA,tablet,15,354,0.042373,10.69,False
+2025-08-19,ai tools arabic,/,SA,tablet,15,439,0.034169,10.78,False
+2025-08-19,ai tools arabic,/collections/productivity,SA,mobile,4,167,0.023952,8.94,False
+2025-08-20,primeorder software,/,SA,mobile,26,249,0.104418,17.18,True
+2025-08-20,digital subscriptions saudi,/collections/productivity,SA,desktop,35,423,0.082742,6.36,False
+2025-08-21,office software ksa,/,SA,desktop,41,427,0.096019,4.09,False
+2025-08-21,office software ksa,/collections/productivity,SA,tablet,18,540,0.033333,6.28,False
+2025-08-22,ai tools arabic,/,SA,tablet,18,215,0.083721,17.22,False
+2025-08-22,ai tools arabic,/collections/productivity,SA,mobile,13,153,0.084967,8.72,False
+2025-08-23,primeorder software,/,SA,mobile,47,496,0.094758,13.48,True
+2025-08-23,digital subscriptions saudi,/collections/productivity,SA,desktop,18,567,0.031746,8.1,False
+2025-08-24,office software ksa,/,SA,desktop,7,121,0.057851,13.44,False
+2025-08-24,office software ksa,/collections/productivity,SA,tablet,17,277,0.061372,5.58,False
+2025-08-25,ai tools arabic,/,SA,tablet,14,355,0.039437,9.13,False
+2025-08-25,ai tools arabic,/collections/productivity,SA,mobile,15,353,0.042493,11.41,False
+2025-08-26,primeorder software,/,SA,mobile,18,303,0.059406,6.13,True
+2025-08-26,digital subscriptions saudi,/collections/productivity,SA,desktop,58,562,0.103203,6.13,False
+2025-08-27,office software ksa,/,SA,desktop,13,159,0.081761,6.63,False
+2025-08-27,office software ksa,/collections/productivity,SA,tablet,11,287,0.038328,17.22,False
+2025-08-28,ai tools arabic,/,SA,tablet,43,474,0.090717,16.99,False
+2025-08-28,ai tools arabic,/collections/productivity,SA,mobile,14,147,0.095238,9.98,False
+2025-08-29,primeorder software,/,SA,mobile,24,223,0.107623,10.2,True
+2025-08-29,digital subscriptions saudi,/collections/productivity,SA,desktop,28,470,0.059574,13.11,False
+2025-08-30,office software ksa,/,SA,desktop,15,293,0.051195,10.66,False
+2025-08-30,office software ksa,/collections/productivity,SA,tablet,19,498,0.038153,7.26,False
+2025-08-31,ai tools arabic,/,SA,tablet,31,428,0.07243,5.38,False
+2025-08-31,ai tools arabic,/collections/productivity,SA,mobile,29,413,0.070218,7.37,False
+2025-09-01,primeorder software,/,SA,mobile,13,528,0.024621,6.89,True
+2025-09-01,digital subscriptions saudi,/collections/productivity,SA,desktop,10,346,0.028902,17.17,False
+2025-09-02,office software ksa,/,SA,desktop,13,420,0.030952,14.92,False
+2025-09-02,office software ksa,/collections/productivity,SA,tablet,14,179,0.078212,13.22,False
+2025-09-03,ai tools arabic,/,SA,tablet,18,253,0.071146,14.16,False
+2025-09-03,ai tools arabic,/collections/productivity,SA,mobile,19,414,0.045894,16.86,False
+2025-09-04,primeorder software,/,SA,mobile,56,559,0.100179,15.69,True
+2025-09-04,digital subscriptions saudi,/collections/productivity,SA,desktop,19,554,0.034296,9.64,False
+2025-09-05,office software ksa,/,SA,desktop,44,550,0.08,8.72,False
+2025-09-05,office software ksa,/collections/productivity,SA,tablet,29,433,0.066975,18.31,False
+2025-09-06,ai tools arabic,/,SA,tablet,18,426,0.042254,11.01,False
+2025-09-06,ai tools arabic,/collections/productivity,SA,mobile,27,298,0.090604,15.47,False
+2025-09-07,primeorder software,/,SA,mobile,21,450,0.046667,9.12,True
+2025-09-07,digital subscriptions saudi,/collections/productivity,SA,desktop,39,396,0.098485,6.53,False
+2025-09-08,office software ksa,/,SA,desktop,8,114,0.070175,17.01,False
+2025-09-08,office software ksa,/collections/productivity,SA,tablet,30,445,0.067416,10.64,False
+2025-09-09,ai tools arabic,/,SA,tablet,5,193,0.025907,14.28,False
+2025-09-09,ai tools arabic,/collections/productivity,SA,mobile,45,408,0.110294,5.91,False
+2025-09-10,primeorder software,/,SA,mobile,40,452,0.088496,17.62,True
+2025-09-10,digital subscriptions saudi,/collections/productivity,SA,desktop,12,370,0.032432,3.21,False
+2025-09-11,office software ksa,/,SA,desktop,5,124,0.040323,16.2,False
+2025-09-11,office software ksa,/collections/productivity,SA,tablet,25,371,0.067385,16.85,False
+2025-09-12,ai tools arabic,/,SA,tablet,14,164,0.085366,10.12,False
+2025-09-12,ai tools arabic,/collections/productivity,SA,mobile,17,280,0.060714,18.3,False
+2025-09-13,primeorder software,/,SA,mobile,17,159,0.106918,8.87,True
+2025-09-13,digital subscriptions saudi,/collections/productivity,SA,desktop,32,378,0.084656,17.8,False
+2025-09-14,office software ksa,/,SA,desktop,35,352,0.099432,14.16,False
+2025-09-14,office software ksa,/collections/productivity,SA,tablet,24,354,0.067797,14.22,False
+2025-09-15,ai tools arabic,/,SA,tablet,14,331,0.042296,15.88,False
+2025-09-15,ai tools arabic,/collections/productivity,SA,mobile,13,411,0.03163,17.99,False
+2025-09-16,primeorder software,/,SA,mobile,30,377,0.079576,11.68,True
+2025-09-16,digital subscriptions saudi,/collections/productivity,SA,desktop,11,425,0.025882,5.5,False
+2025-09-17,office software ksa,/,SA,desktop,19,355,0.053521,5.94,False
+2025-09-17,office software ksa,/collections/productivity,SA,tablet,7,112,0.0625,15.09,False
+2025-09-18,ai tools arabic,/,SA,tablet,15,167,0.08982,9.05,False
+2025-09-18,ai tools arabic,/collections/productivity,SA,mobile,19,309,0.061489,5.72,False
+2025-09-19,primeorder software,/,SA,mobile,37,417,0.088729,5.34,True
+2025-09-19,digital subscriptions saudi,/collections/productivity,SA,desktop,26,274,0.094891,11.24,False
+2025-09-20,office software ksa,/,SA,desktop,23,645,0.035659,17.77,False
+2025-09-20,office software ksa,/collections/productivity,SA,tablet,40,630,0.063492,17.65,False
+2025-09-21,ai tools arabic,/,SA,tablet,12,174,0.068966,5.96,False
+2025-09-21,ai tools arabic,/collections/productivity,SA,mobile,8,290,0.027586,16.29,False
+2025-09-22,primeorder software,/,SA,mobile,15,211,0.07109,7.77,True
+2025-09-22,digital subscriptions saudi,/collections/productivity,SA,desktop,14,163,0.08589,3.94,False
+2025-09-23,office software ksa,/,SA,desktop,18,673,0.026746,17.49,False
+2025-09-23,office software ksa,/collections/productivity,SA,tablet,14,355,0.039437,6.14,False
+2025-09-24,ai tools arabic,/,SA,tablet,31,555,0.055856,10.89,False
+2025-09-24,ai tools arabic,/collections/productivity,SA,mobile,29,630,0.046032,10.81,False
+2025-09-25,primeorder software,/,SA,mobile,20,444,0.045045,13.76,True
+2025-09-25,digital subscriptions saudi,/collections/productivity,SA,desktop,70,620,0.112903,4.91,False
+2025-09-26,office software ksa,/,SA,desktop,32,424,0.075472,8.36,False
+2025-09-26,office software ksa,/collections/productivity,SA,tablet,4,131,0.030534,17.7,False
+2025-09-27,ai tools arabic,/,SA,tablet,17,164,0.103659,7.64,False
+2025-09-27,ai tools arabic,/collections/productivity,SA,mobile,4,176,0.022727,17.18,False
+2025-09-28,primeorder software,/,SA,mobile,28,339,0.082596,15.16,True
+2025-09-28,digital subscriptions saudi,/collections/productivity,SA,desktop,8,215,0.037209,9.38,False
+2025-09-29,office software ksa,/,SA,desktop,24,464,0.051724,14.18,False
+2025-09-29,office software ksa,/collections/productivity,SA,tablet,9,305,0.029508,7.49,False
+2025-09-30,ai tools arabic,/,SA,tablet,35,366,0.095628,15.76,False
+2025-09-30,ai tools arabic,/collections/productivity,SA,mobile,15,230,0.065217,9.91,False
+2025-10-01,primeorder software,/,SA,mobile,13,216,0.060185,13.1,True
+2025-10-01,digital subscriptions saudi,/collections/productivity,SA,desktop,15,224,0.066964,11.84,False
+2025-10-02,office software ksa,/,SA,desktop,18,521,0.034549,5.71,False
+2025-10-02,office software ksa,/collections/productivity,SA,tablet,13,127,0.102362,9.26,False
+2025-10-03,ai tools arabic,/,SA,tablet,13,389,0.033419,11.52,False
+2025-10-03,ai tools arabic,/collections/productivity,SA,mobile,22,195,0.112821,3.47,False
+2025-10-04,primeorder software,/,SA,mobile,14,382,0.036649,14.34,True
+2025-10-04,digital subscriptions saudi,/collections/productivity,SA,desktop,5,131,0.038168,14.74,False
+2025-10-05,office software ksa,/,SA,desktop,5,199,0.025126,9.8,False
+2025-10-05,office software ksa,/collections/productivity,SA,tablet,29,375,0.077333,8.47,False
+2025-10-06,ai tools arabic,/,SA,tablet,14,153,0.091503,8.74,False
+2025-10-06,ai tools arabic,/collections/productivity,SA,mobile,17,239,0.07113,8.95,False
+2025-10-07,primeorder software,/,SA,mobile,16,194,0.082474,11.01,True
+2025-10-07,digital subscriptions saudi,/collections/productivity,SA,desktop,41,482,0.085062,15.63,False
+2025-10-08,office software ksa,/,SA,desktop,28,278,0.100719,17.15,False
+2025-10-08,office software ksa,/collections/productivity,SA,tablet,13,159,0.081761,10.59,False
+2025-10-09,ai tools arabic,/,SA,tablet,26,409,0.06357,3.89,False
+2025-10-09,ai tools arabic,/collections/productivity,SA,mobile,16,328,0.04878,14.68,False
+2025-10-10,primeorder software,/,SA,mobile,13,476,0.027311,9.93,True
+2025-10-10,digital subscriptions saudi,/collections/productivity,SA,desktop,11,172,0.063953,7.95,False
+2025-10-11,office software ksa,/,SA,desktop,38,421,0.090261,16.49,False
+2025-10-11,office software ksa,/collections/productivity,SA,tablet,45,461,0.097614,3.44,False
+2025-10-12,ai tools arabic,/,SA,tablet,46,431,0.106729,8.67,False
+2025-10-12,ai tools arabic,/collections/productivity,SA,mobile,9,286,0.031469,7.56,False
+2025-10-13,primeorder software,/,SA,mobile,17,302,0.056291,6.33,True
+2025-10-13,digital subscriptions saudi,/collections/productivity,SA,desktop,31,381,0.081365,4.37,False
+2025-10-14,office software ksa,/,SA,desktop,23,219,0.105023,5.82,False
+2025-10-14,office software ksa,/collections/productivity,SA,tablet,10,400,0.025,17.73,False
+2025-10-15,ai tools arabic,/,SA,tablet,15,212,0.070755,6.06,False
+2025-10-15,ai tools arabic,/collections/productivity,SA,mobile,13,130,0.1,9.62,False
+2025-10-16,primeorder software,/,SA,mobile,23,464,0.049569,3.54,True
+2025-10-16,digital subscriptions saudi,/collections/productivity,SA,desktop,12,250,0.048,4.8,False
+2025-10-17,office software ksa,/,SA,desktop,13,130,0.1,5.9,False
+2025-10-17,office software ksa,/collections/productivity,SA,tablet,13,153,0.084967,15.04,False
+2025-10-18,ai tools arabic,/,SA,tablet,5,159,0.031447,8.07,False
+2025-10-18,ai tools arabic,/collections/productivity,SA,mobile,8,261,0.030651,15.34,False
+2025-10-19,primeorder software,/,SA,mobile,25,257,0.097276,11.31,True
+2025-10-19,digital subscriptions saudi,/collections/productivity,SA,desktop,30,457,0.065646,14.89,False
+2025-10-20,office software ksa,/,SA,desktop,13,353,0.036827,13.38,False
+2025-10-20,office software ksa,/collections/productivity,SA,tablet,10,422,0.023697,7.48,False
+2025-10-21,ai tools arabic,/,SA,tablet,13,151,0.086093,3.85,False
+2025-10-21,ai tools arabic,/collections/productivity,SA,mobile,13,452,0.028761,16.59,False
+2025-10-22,primeorder software,/,SA,mobile,15,279,0.053763,3.24,True
+2025-10-22,digital subscriptions saudi,/collections/productivity,SA,desktop,25,328,0.07622,7.05,False
+2025-10-23,office software ksa,/,SA,desktop,33,327,0.100917,8.65,False
+2025-10-23,office software ksa,/collections/productivity,SA,tablet,13,479,0.02714,8.74,False
+2025-10-24,ai tools arabic,/,SA,tablet,53,498,0.106426,13.12,False
+2025-10-24,ai tools arabic,/collections/productivity,SA,mobile,33,353,0.093484,9.48,False
+2025-10-25,primeorder software,/,SA,mobile,30,274,0.109489,12.99,True
+2025-10-25,digital subscriptions saudi,/collections/productivity,SA,desktop,7,148,0.047297,14.91,False
+2025-10-26,office software ksa,/,SA,desktop,8,165,0.048485,10.46,False
+2025-10-26,office software ksa,/collections/productivity,SA,tablet,20,326,0.06135,14.64,False
+2025-10-27,ai tools arabic,/,SA,tablet,4,131,0.030534,17.45,False
+2025-10-27,ai tools arabic,/collections/productivity,SA,mobile,21,483,0.043478,3.88,False
+2025-10-28,primeorder software,/,SA,mobile,28,329,0.085106,18.27,True
+2025-10-28,digital subscriptions saudi,/collections/productivity,SA,desktop,39,460,0.084783,9.42,False
+2025-10-29,office software ksa,/,SA,desktop,19,307,0.061889,3.82,False
+2025-10-29,office software ksa,/collections/productivity,SA,tablet,31,272,0.113971,8.57,False
+2025-10-30,ai tools arabic,/,SA,tablet,9,118,0.076271,14.61,False
+2025-10-30,ai tools arabic,/collections/productivity,SA,mobile,12,209,0.057416,8.83,False
+2025-10-31,primeorder software,/,SA,mobile,16,294,0.054422,11.33,True
+2025-10-31,digital subscriptions saudi,/collections/productivity,SA,desktop,27,332,0.081325,6.5,False
+2025-11-01,office software ksa,/,SA,desktop,7,224,0.03125,18.31,False
+2025-11-01,office software ksa,/collections/productivity,SA,tablet,25,286,0.087413,14.83,False
+2025-11-02,ai tools arabic,/,SA,tablet,31,310,0.1,5.12,False
+2025-11-02,ai tools arabic,/collections/productivity,SA,mobile,10,241,0.041494,5.37,False
+2025-11-03,primeorder software,/,SA,mobile,11,355,0.030986,11.19,True
+2025-11-03,digital subscriptions saudi,/collections/productivity,SA,desktop,37,434,0.085253,3.32,False
+2025-11-04,office software ksa,/,SA,desktop,25,342,0.073099,5.79,False
+2025-11-04,office software ksa,/collections/productivity,SA,tablet,32,285,0.112281,7.98,False
+2025-11-05,ai tools arabic,/,SA,tablet,6,252,0.02381,10.33,False
+2025-11-05,ai tools arabic,/collections/productivity,SA,mobile,25,291,0.085911,10.23,False
+2025-11-06,primeorder software,/,SA,mobile,19,317,0.059937,10.79,True
+2025-11-06,digital subscriptions saudi,/collections/productivity,SA,desktop,30,328,0.091463,9.03,False
+2025-11-07,office software ksa,/,SA,desktop,20,497,0.040241,17.24,False
+2025-11-07,office software ksa,/collections/productivity,SA,tablet,20,370,0.054054,11.32,False
+2025-11-08,ai tools arabic,/,SA,tablet,12,226,0.053097,4.62,False
+2025-11-08,ai tools arabic,/collections/productivity,SA,mobile,28,308,0.090909,14.51,False
+2025-11-09,primeorder software,/,SA,mobile,3,124,0.024194,3.56,True
+2025-11-09,digital subscriptions saudi,/collections/productivity,SA,desktop,10,362,0.027624,7.58,False
+2025-11-10,office software ksa,/,SA,desktop,12,131,0.091603,9.73,False
+2025-11-10,office software ksa,/collections/productivity,SA,tablet,23,453,0.050773,4.02,False
+2025-11-11,ai tools arabic,/,SA,tablet,16,245,0.065306,4.91,False
+2025-11-11,ai tools arabic,/collections/productivity,SA,mobile,11,360,0.030556,4.89,False
+2025-11-12,primeorder software,/,SA,mobile,20,337,0.059347,9.69,True
+2025-11-12,digital subscriptions saudi,/collections/productivity,SA,desktop,26,305,0.085246,14.85,False
+2025-11-13,office software ksa,/,SA,desktop,35,396,0.088384,14.83,False
+2025-11-13,office software ksa,/collections/productivity,SA,tablet,13,146,0.089041,4.76,False
+2025-11-14,ai tools arabic,/,SA,tablet,15,151,0.099338,4.37,False
+2025-11-14,ai tools arabic,/collections/productivity,SA,mobile,33,352,0.09375,10.58,False
+2025-11-15,primeorder software,/,SA,mobile,37,474,0.078059,11.12,True
+2025-11-15,digital subscriptions saudi,/collections/productivity,SA,desktop,23,219,0.105023,7.68,False
+2025-11-16,office software ksa,/,SA,desktop,21,242,0.086777,10.91,False
+2025-11-16,office software ksa,/collections/productivity,SA,tablet,47,413,0.113801,5.75,False
+2025-11-17,ai tools arabic,/,SA,tablet,4,99,0.040404,7.72,False
+2025-11-17,ai tools arabic,/collections/productivity,SA,mobile,36,389,0.092545,13.68,False
+2025-11-18,primeorder software,/,SA,mobile,42,408,0.102941,8.89,True
+2025-11-18,digital subscriptions saudi,/collections/productivity,SA,desktop,35,425,0.082353,14.92,False
+2025-11-19,office software ksa,/,SA,desktop,5,98,0.05102,9.06,False
+2025-11-19,office software ksa,/collections/productivity,SA,tablet,40,432,0.092593,11.85,False
+2025-11-20,ai tools arabic,/,SA,tablet,24,262,0.091603,5.75,False
+2025-11-20,ai tools arabic,/collections/productivity,SA,mobile,26,283,0.091873,12.16,False
+2025-11-21,primeorder software,/,SA,mobile,41,368,0.111413,3.82,True
+2025-11-21,digital subscriptions saudi,/collections/productivity,SA,desktop,16,179,0.089385,7.74,False
+2025-11-22,office software ksa,/,SA,desktop,11,387,0.028424,15.8,False
+2025-11-22,office software ksa,/collections/productivity,SA,tablet,10,153,0.065359,12.3,False
+2025-11-23,ai tools arabic,/,SA,tablet,29,326,0.088957,9.99,False
+2025-11-23,ai tools arabic,/collections/productivity,SA,mobile,7,275,0.025455,10.11,False
+2025-11-24,primeorder software,/,SA,mobile,32,350,0.091429,14.15,True
+2025-11-24,digital subscriptions saudi,/collections/productivity,SA,desktop,13,441,0.029478,12.87,False
+2025-11-25,office software ksa,/,SA,desktop,54,471,0.11465,6.13,False
+2025-11-25,office software ksa,/collections/productivity,SA,tablet,16,272,0.058824,9.46,False
+2025-11-26,ai tools arabic,/,SA,tablet,16,260,0.061538,7.03,False
+2025-11-26,ai tools arabic,/collections/productivity,SA,mobile,28,384,0.072917,16.96,False
+2025-11-27,primeorder software,/,SA,mobile,23,488,0.047131,18.5,True
+2025-11-27,digital subscriptions saudi,/collections/productivity,SA,desktop,39,429,0.090909,6.58,False
+2025-11-28,office software ksa,/,SA,desktop,8,221,0.036199,12.17,False
+2025-11-28,office software ksa,/collections/productivity,SA,tablet,42,486,0.08642,7.46,False
+2025-11-29,ai tools arabic,/,SA,tablet,13,147,0.088435,5.7,False
+2025-11-29,ai tools arabic,/collections/productivity,SA,mobile,18,238,0.07563,11.87,False
+2025-11-30,primeorder software,/,SA,mobile,19,272,0.069853,17.13,True
+2025-11-30,digital subscriptions saudi,/collections/productivity,SA,desktop,39,402,0.097015,5.56,False
+2025-12-01,office software ksa,/,SA,desktop,47,446,0.105381,6.03,False
+2025-12-01,office software ksa,/collections/productivity,SA,tablet,9,291,0.030928,8.68,False
+2025-12-02,ai tools arabic,/,SA,tablet,10,264,0.037879,11.48,False
+2025-12-02,ai tools arabic,/collections/productivity,SA,mobile,9,293,0.030717,16.25,False
+2025-12-03,primeorder software,/,SA,mobile,7,137,0.051095,14.98,True
+2025-12-03,digital subscriptions saudi,/collections/productivity,SA,desktop,4,100,0.04,18.46,False
+2025-12-04,office software ksa,/,SA,desktop,15,171,0.087719,15.67,False
+2025-12-04,office software ksa,/collections/productivity,SA,tablet,22,404,0.054455,18.0,False
+2025-12-05,ai tools arabic,/,SA,tablet,31,493,0.06288,7.81,False
+2025-12-05,ai tools arabic,/collections/productivity,SA,mobile,57,511,0.111546,17.4,False
+2025-12-06,primeorder software,/,SA,mobile,12,417,0.028777,9.39,True
+2025-12-06,digital subscriptions saudi,/collections/productivity,SA,desktop,10,115,0.086957,5.59,False
+2025-12-07,office software ksa,/,SA,desktop,19,204,0.093137,13.79,False
+2025-12-07,office software ksa,/collections/productivity,SA,tablet,5,123,0.04065,12.0,False
+2025-12-08,ai tools arabic,/,SA,tablet,25,424,0.058962,6.52,False
+2025-12-08,ai tools arabic,/collections/productivity,SA,mobile,16,437,0.036613,3.89,False
+2025-12-09,primeorder software,/,SA,mobile,24,391,0.061381,6.8,True
+2025-12-09,digital subscriptions saudi,/collections/productivity,SA,desktop,11,417,0.026379,6.94,False
+2025-12-10,office software ksa,/,SA,desktop,17,221,0.076923,17.78,False
+2025-12-10,office software ksa,/collections/productivity,SA,tablet,5,170,0.029412,8.51,False
+2025-12-11,ai tools arabic,/,SA,tablet,18,210,0.085714,3.49,False
+2025-12-11,ai tools arabic,/collections/productivity,SA,mobile,39,421,0.092637,14.74,False
+2025-12-12,primeorder software,/,SA,mobile,34,342,0.099415,12.59,True
+2025-12-12,digital subscriptions saudi,/collections/productivity,SA,desktop,23,256,0.089844,12.84,False
+2025-12-13,office software ksa,/,SA,desktop,27,245,0.110204,7.58,False
+2025-12-13,office software ksa,/collections/productivity,SA,tablet,14,154,0.090909,11.71,False
+2025-12-14,ai tools arabic,/,SA,tablet,10,110,0.090909,11.63,False
+2025-12-14,ai tools arabic,/collections/productivity,SA,mobile,12,339,0.035398,14.05,False
+2025-12-15,primeorder software,/,SA,mobile,11,226,0.048673,11.1,True
+2025-12-15,digital subscriptions saudi,/collections/productivity,SA,desktop,17,306,0.055556,9.1,False
+2025-12-16,office software ksa,/,SA,desktop,37,354,0.10452,15.2,False
+2025-12-16,office software ksa,/collections/productivity,SA,tablet,21,198,0.106061,7.08,False
+2025-12-17,ai tools arabic,/,SA,tablet,21,435,0.048276,14.25,False
+2025-12-17,ai tools arabic,/collections/productivity,SA,mobile,22,310,0.070968,13.2,False
+2025-12-18,primeorder software,/,SA,mobile,49,521,0.09405,6.47,True
+2025-12-18,digital subscriptions saudi,/collections/productivity,SA,desktop,56,526,0.106464,7.36,False
+2025-12-19,office software ksa,/,SA,desktop,19,247,0.076923,18.11,False
+2025-12-19,office software ksa,/collections/productivity,SA,tablet,49,450,0.108889,4.98,False
+2025-12-20,ai tools arabic,/,SA,tablet,5,182,0.027473,8.26,False
+2025-12-20,ai tools arabic,/collections/productivity,SA,mobile,45,403,0.111663,10.02,False
