@@ -11,6 +11,7 @@ export default defineConfig({
   reporter: [["line"], ["html", { open: "never" }]],
   use: {
     baseURL: "http://127.0.0.1:3000",
+    reducedMotion: "reduce",
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
     video: "retain-on-failure",
