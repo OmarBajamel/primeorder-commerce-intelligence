@@ -41,3 +41,8 @@ tmp/
 
 # Generated release scratch
 artifacts/release/*.tmp
+
+# Local visual QA intermediates
+artifacts/linkedin/carousel-montage.webp
+artifacts/linkedin/**/*.layout.json
+artifacts/linkedin/*.inspect.ndjson
