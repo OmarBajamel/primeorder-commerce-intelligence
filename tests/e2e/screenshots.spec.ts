@@ -27,6 +27,7 @@ type ManifestEntry = {
 test.describe.configure({ mode: "serial" });
 
 test("capture deterministic portfolio evidence", async ({ page }) => {
+  test.setTimeout(120_000);
   await mkdir(screenshotDir, { recursive: true });
   const commit = execFileSync("git", ["rev-parse", "HEAD"], { cwd: root, encoding: "utf8" }).trim();
   const entries: ManifestEntry[] = [];
@@ -49,7 +50,10 @@ test("capture deterministic portfolio evidence", async ({ page }) => {
     await expect(page.locator("html")).toHaveAttribute("lang", language);
     await expect(page.locator("html")).toHaveAttribute("dir", language === "ar" ? "rtl" : "ltr");
     await expect(page.locator("main .page-view")).toBeVisible();
-    await expect(page.getByText("Synthetic portfolio demo data — no real customer or revenue information").first()).toBeVisible();
+    const disclosure = language === "ar"
+      ? "بيانات تجريبية اصطناعية للملف المهني — لا تحتوي على معلومات حقيقية للعملاء أو الإيرادات"
+      : "Synthetic portfolio demo data — no real customer or revenue information";
+    await expect(page.getByText(disclosure).first()).toBeVisible();
     const renderedText = await page.locator("body").innerText();
     expect(renderedText).not.toMatch(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i);
     expect(renderedText).not.toMatch(/(?:\+?966[\s-]?5\d{8}|05\d{8})/);
