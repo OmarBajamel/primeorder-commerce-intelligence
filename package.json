@@ -25,8 +25,8 @@
     "clean": "node scripts/clean.mjs"
   },
   "devDependencies": {
-    "@axe-core/playwright": "^4.10.2",
-    "@playwright/test": "^1.55.0",
-    "sharp": "^0.35.4"
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "sharp": "^0.35.5"
   }
 }
